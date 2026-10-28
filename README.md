@@ -1,5 +1,8 @@
 # Software design writing
 
+[![Checks against reader-ergonomics](https://github.com/Tewf/software-design-writing/actions/workflows/checks.yml/badge.svg)](https://github.com/Tewf/software-design-writing/actions/workflows/checks.yml)
+[![Site](https://github.com/Tewf/software-design-writing/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/software-design-writing/)
+
 How to write about software (architecture descriptions, decision records, design documents, pseudocode and diagrams
 of a system) so that it costs the reader as little as possible.
 
@@ -40,7 +43,10 @@ git clone https://github.com/Tewf/reader-ergonomics
 python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 
-CI runs the same checks on every push; see [.github/workflows/checks.yml](.github/workflows/checks.yml).
+CI runs the same checks on every push, and a run fails on any error ([checks.yml](.github/workflows/checks.yml)). The
+badge at the top is its last result: the proof that this repository obeys the standard it extends.
+Every push to master also renders the site, [tewf.github.io/software-design-writing](https://tewf.github.io/software-design-writing/)
+([pages.yml](.github/workflows/pages.yml)).
 
 ## Licence
 
