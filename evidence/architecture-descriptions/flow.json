@@ -1,0 +1,33 @@
+{
+  "title": "Architecture descriptions: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      "not recorded",
+      "not recorded"
+    ],
+    [
+      "Screened",
+      211,
+      416
+    ],
+    [
+      "Included as new",
+      24,
+      32
+    ],
+    [
+      "Carried from the earlier pass",
+      "not recorded",
+      9
+    ]
+  ],
+  "total": [
+    "In the review",
+    93
+  ]
+}

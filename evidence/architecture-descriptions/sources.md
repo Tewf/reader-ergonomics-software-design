@@ -2,6 +2,34 @@
 
 This file lists how many records each search found, screened and added. It then lists every source in the review: its kind, how it was found, its quality and where it is used. Method: [protocol](protocol.md). Full citations: the bibliography.
 
+## Flow: summary
+
+| Stage | Formal | Grey |
+|---|---|---|
+| Returned by the strings | not recorded | not recorded |
+| Screened | 211 | 416 |
+| Included as new | 24 | 32 |
+| Carried from the earlier pass | not recorded | 9 |
+| In the review | 52 | 41 |
+
+- Formal:
+  - The engine's hit counts are given per string below, with no total.
+  - Screened is the 211 titles read for the strings F1 to A2.
+  - Snowballing and lookups screened further records (558 forward, 45 backward, 18 for the web queries W1 and W2, 9 for the title lookups, 5 for O1).
+  - Included is 24 sources: 16 reviews and 8 studies.
+  - The earlier pass is recorded only as a pool of 36 sources before this search, with no split by kind.
+- Grey:
+  - The web queries returned about 10 results each, with no total.
+  - Screened is 105 web results (10 read in full) and 311 Q/A records, which were returned and screened alike.
+  - Included as new is 11 from the web search and 21 Q/A threads.
+  - The earlier pass held 9 grey sources.
+
+In the review: the architecture descriptions source rows of each kind, counted by script. The 52 formal rows include the method paper Garousi 2019, which the totals at the end of this file count apart.
+
+The figure draws the stages of the table for architecture descriptions.
+
+![Formal hits are not recorded as a total. 211 formal titles were screened and 24 formal sources added. 416 grey results were screened, 32 grey sources added and 9 carried, for 52 formal and 41 grey sources in the review, 93 in all.](flow.svg)
+
 ## Flow: formal strings
 
 Hit counts are the engine's on 2026-10-28. The engine is the Semantic Scholar bulk search, or arXiv for A1 and A2. "Screened" counts titles read, in order of citations. "Added" is the number of new sources that entered the pool.

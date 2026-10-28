@@ -46,10 +46,29 @@ Flow summary:
 
 | Stage | Formal | Grey |
 |---|---|---|
-| Strings run | 17 | 12 web, 8 Q/A (PS1 to PS8) |
-| Hits reported | 607 (F1 to F9) | web results only |
-| Records screened | 24 (OpenAlex) + 16 (arXiv) + 73 (web) + 363 snowball titles | 404 (163 web, 241 Q/A) |
-| New sources included | 14 | 37 (11 web, 26 Q/A threads) |
+| Returned by the strings | 607 | not recorded |
+| Screened | not recorded | 404 |
+| Included as new | 14 | 37 |
+| Carried from the earlier pass | not recorded | not recorded |
+| In the review | 54 | 47 |
+
+- Formal:
+  - 17 strings were run.
+  - The hits reported are 607 (F1 to F9), split below.
+  - Screened is recorded in parts only: 24 OpenAlex records, 16 arXiv records, 73 web results and 363 snowball titles.
+  - 14 sources were included as new.
+- Grey:
+  - 12 web strings and 8 Q/A strings (PS1 to PS8) were run.
+  - The web results returned are not recorded; the Q/A strings returned and screened 241.
+  - Screened is 404 (163 web, 241 Q/A).
+  - 37 were included as new (11 web, 26 Q/A threads).
+  - The file does not give the size of the earlier pass.
+
+In the review: the pseudocode source rows of each kind, counted by script. The 54 formal rows include the method paper Garousi 2019.
+
+The figure draws the stages of the table for pseudocode.
+
+![607 formal hits were reported and 14 formal sources added. 404 grey results were screened and 37 grey sources added. The pool has 54 formal and 47 grey sources, 101 in all.](flow.svg)
 
 - Hits reported: 317 (OpenAlex F1 to F3) and 290 (arXiv F4 to F9).
 - Ulate-Caballero 2021 was found by both F1 and R1 and is counted once in the included total.

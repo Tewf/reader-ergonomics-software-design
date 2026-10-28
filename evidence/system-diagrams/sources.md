@@ -4,16 +4,30 @@ This file lists how many sources each search found, screened and included, and g
 
 ## Flow
 
-| Step | Formal | Grey |
+| Stage | Formal | Grey |
 |---|---|---|
-| Strings run | 17 (Semantic Scholar), 8 of them also in OpenAlex | 10 web, 12 Q/A (SD1 to SD12) |
-| Hits or results | 600 | 333 (113 web, 220 Q/A) |
+| Returned by the strings | 600 | 333 |
 | Screened | 188 | 333 |
-| Included from strings | 16 | 8 |
-| Included from web search, snowballing or arXiv check | 13 | 2 |
-| Included from Q/A sites | 0 | 30 (29 first met in an SD string, 1 in an AD string) |
-| Carried from the earlier narrative pass | 31 | 11 |
-| In the pool | 60 | 51 |
+| Included as new | 29 | 40 |
+| Carried from the earlier pass | 31 | 11 |
+| In the review | 60 | 51 |
+
+- Formal:
+  - 17 strings were run in Semantic Scholar, 8 of them also in OpenAlex.
+  - 600 hits were returned and 188 screened.
+  - Included as new is 29: 16 from the strings and 13 from the web search, snowballing or the arXiv check.
+  - 31 were carried from the earlier narrative pass.
+- Grey:
+  - 10 web strings and 12 Q/A strings (SD1 to SD12) were run.
+  - 333 results were returned and screened (113 web, 220 Q/A).
+  - Included as new is 40: 8 from the web strings, 2 from the web search or snowballing, and 30 Q/A threads (29 first met in an SD string, 1 in an AD string).
+  - 11 were carried from the earlier narrative pass.
+
+In the review: the system diagrams source rows of each kind, counted by script.
+
+The figure draws the stages of the table for system diagrams.
+
+![600 formal hits were returned and 188 screened. 29 formal and 40 grey sources were added, and 31 formal and 11 grey carried, for 60 formal and 51 grey sources in the review, 111 in all.](flow.svg)
 
 - The 16 reviews of review.md strand 0 are inside the formal 60.
 - Excluded, by main reason (not tallied per hit):

@@ -1,0 +1,33 @@
+{
+  "title": "System diagrams: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      600,
+      333
+    ],
+    [
+      "Screened",
+      188,
+      333
+    ],
+    [
+      "Included as new",
+      29,
+      40
+    ],
+    [
+      "Carried from the earlier pass",
+      31,
+      11
+    ]
+  ],
+  "total": [
+    "In the review",
+    111
+  ]
+}

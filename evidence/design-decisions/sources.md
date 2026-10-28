@@ -6,11 +6,30 @@ This file lists every source in the design-decisions review: how the pool narrow
 
 | Stage | Formal | Grey |
 |---|---|---|
-| Records returned by the strings | 2,267 (Semantic Scholar 2,092; arXiv 175) | about 75 results, plus 5 producer visits, plus 320 Q/A records (repeats across strings included) |
-| Screened by title or snippet | 231 (with repeats across strings) | 400 (80 web, 320 Q/A) |
-| Already in the narrative review | about 14 | 19 |
-| New and included | 15, plus 1 thesis counted as grey | 26 (11 web, 15 Q/A threads) |
-| Excluded | about 200, reasons below | about 374, reasons below |
+| Returned by the strings | 2,267 | not recorded |
+| Screened | 231 | 400 |
+| Included as new | 15 | 26 |
+| Carried from the earlier pass | 14 | 19 |
+| In the review | 48 | 46 |
+
+- Formal:
+  - 2,267 records were returned (Semantic Scholar 2,092; arXiv 175).
+  - 231 were screened by title, with repeats across strings.
+  - 15 were included as new, plus 1 thesis counted as grey.
+  - About 14 were already in the narrative review.
+  - About 200 were excluded, for the reasons below.
+- Grey:
+  - The web search returned about 75 results, the producer visits 5 and the Q/A strings 320 records, with repeats across strings; no total is recorded.
+  - 400 were screened (80 web, 320 Q/A).
+  - 26 were included as new (11 web, 15 Q/A threads).
+  - 19 were already in the narrative review.
+  - About 374 were excluded, for the reasons below.
+
+In the review: the design decisions source rows of each kind, counted by script.
+
+The figure draws the stages of the table for design decisions.
+
+![2,267 formal records were returned and 231 screened. 15 formal and 26 grey sources were added, and 14 formal and 19 grey were carried, for 48 formal and 46 grey sources in the review, 94 in all.](flow.svg)
 
 - Formal exclusions, counted by title and rounded to tens:
   - repeats across strings: 40;

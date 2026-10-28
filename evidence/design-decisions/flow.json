@@ -1,0 +1,33 @@
+{
+  "title": "Design decisions: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      2267,
+      "not recorded"
+    ],
+    [
+      "Screened",
+      231,
+      400
+    ],
+    [
+      "Included as new",
+      15,
+      26
+    ],
+    [
+      "Carried from the earlier pass",
+      14,
+      19
+    ]
+  ],
+  "total": [
+    "In the review",
+    94
+  ]
+}
