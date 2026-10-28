@@ -1,0 +1,5 @@
+---
+title: "System diagrams: how to draw a software system so the reader gets the structure"
+---
+
+{{< include README.md >}}

@@ -1,0 +1,5 @@
+---
+title: "Pseudocode: how to present an algorithm to a reader"
+---
+
+{{< include README.md >}}

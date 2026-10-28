@@ -1,0 +1,54 @@
+# Frame: the problem and its names
+
+This file states, in one sentence, the problem of proposing and recording decisions, then the names research and practice give to it.
+
+## The problem in one sentence
+
+Decide how the document that proposes a design decision, and the document that records it, should be written. A reviewer must be able to judge the proposal before adoption; a later maintainer must be able to recover why the system is as it is.
+
+## What the field calls it
+
+- **Design rationale (DR)**: the reasons behind design decisions (Lee 1997; Dutoit 2006).
+- **Design rationale systems**: tools and notations that capture DR, such as IBIS and QOC (Regli 2000; MacLean 1991).
+- **Rationale management**: the software-engineering name for capture, storage and use of DR (Dutoit 2006).
+- **Architectural design decision (ADD, AD)**: a decision treated as a first-class entity (Jansen 2005; Tyree 2005).
+- **Knowledge vaporization**: decisions disappearing into the architecture because they are not recorded (Jansen 2005).
+- **Architectural knowledge management (AKM)**: the research programme that absorbed DR (Capilla 2016).
+- **Decision documentation** and **decision viewpoint**: the architecture-description view of the same thing (van Heesch 2012).
+- **Design space analysis**: questions, options and criteria laid out as a space (MacLean 1991).
+
+## What practitioners call it
+
+- **ADR**: architecture decision record, from Nygard 2011; also **decision log** for the collection.
+- **Design doc**: the pre-implementation document at Google (Ubl 2020).
+- **RFC**: request for comments, from the IETF (IETF 2014), reused by Rust, HashiCorp 2026, Uber and others.
+- **RFD**: request for discussion (Oxide RFD 1, Frazelle 2026).
+- **PEP** and **KEP**: Python and Kubernetes enhancement proposals (PEP 1, Warsaw 2000; KEP template, Kubernetes 2026).
+- **PR/FAQ** and **six-pager**: Amazon's narrative formats (Amazon 2021).
+- **Y-statement**: a one-sentence decision record (Zdun 2013).
+- The words differ more than the content: most of these have context, a decision, alternatives and consequences.
+
+## Two moments, two readers
+
+| Moment | Reader | Reader task | Document, in practice |
+|---|---|---|---|
+| Before adoption | reviewer, approver | judge: is the problem real, is the design sound, were alternatives weighed | design doc, RFC, proposal, enhancement proposal |
+| After adoption | maintainer, newcomer, later architect | recover: why this, what else was considered, what changes if a constraint moves | decision record, accepted RFC, log of decisions |
+
+- One decision often appears in both documents; the first is a proposal, the second a record.
+- Some processes merge them: a proposal is merged and then kept as the record (Rust RFCs, PEPs).
+- Others keep them apart: an ADR is written once the team has decided, or moves from Proposed to Accepted (AWS 2026c).
+
+## Search terms tried, three ways
+
+- Academic: design rationale, rationale management, architectural knowledge management, architecture decision documentation, design space analysis.
+- Acronym: DR, AKM, ADD, ADR, IBIS, QOC, MADR, PEP, KEP, RFC, RFD.
+- Author: Lee, Kunz, Rittel, MacLean, Conklin, Dutoit, Burge, Tyree, Jansen, Tang, Falessi, Zimmermann, Zdun, Weinreich, Buchgeher, Nygard.
+- Zero-result queries (for example "Rust RFC empirical study") meant the words were wrong; the process-mining studies are filed under PEP and Go proposals.
+
+## Not reviewed here
+
+- Whether a decision was good (a design-quality question, out of scope for this repository).
+- The architecture description as a whole and its views ([architecture-descriptions](../architecture-descriptions/frame.md), where the term and architectural knowledge are defined).
+- Diagram notation (review "system-diagrams").
+- Findings that are general reading principles are linked, not reviewed again: [overview first](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/overview-first.md), [one mode per document](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/one-mode-per-document.md), [define before use](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/define-before-use.md), [given before new](https://github.com/Tewf/reader-ergonomics/blob/master/principles/sentence/given-before-new.md).

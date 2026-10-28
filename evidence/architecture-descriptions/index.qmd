@@ -1,0 +1,5 @@
+---
+title: "Architecture descriptions: how to organise the description of a system's architecture for its reader"
+---
+
+{{< include README.md >}}

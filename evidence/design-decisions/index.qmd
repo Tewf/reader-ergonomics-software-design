@@ -1,0 +1,5 @@
+---
+title: "Design decisions: how to write the document that proposes or records a design decision"
+---
+
+{{< include README.md >}}
