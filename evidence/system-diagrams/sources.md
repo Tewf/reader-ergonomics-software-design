@@ -6,13 +6,14 @@ This file lists how many sources each search found, screened and included, and g
 
 | Step | Formal | Grey |
 |---|---|---|
-| Strings run | 17 (Semantic Scholar), 8 of them also in OpenAlex | 10 |
-| Hits or results | 600 | 113 |
-| Screened | 188 | 113 |
+| Strings run | 17 (Semantic Scholar), 8 of them also in OpenAlex | 10 web, 12 Q/A (SD1 to SD12) |
+| Hits or results | 600 | 333 (113 web, 220 Q/A) |
+| Screened | 188 | 333 |
 | Included from strings | 16 | 8 |
 | Included from web search, snowballing or arXiv check | 13 | 2 |
+| Included from Q/A sites | 0 | 30 (29 first met in an SD string, 1 in an AD string) |
 | Carried from the earlier narrative pass | 31 | 11 |
-| In the pool | 60 | 21 |
+| In the pool | 60 | 51 |
 
 - The 16 reviews of review.md strand 0 are inside the formal 60.
 - Excluded, by main reason (not tallied per hit):
@@ -21,7 +22,9 @@ This file lists how many sources each search found, screened and included, and g
   - for grey, vendor articles with no author or date.
 - Grey sources not used because the text could not be read: Google Cloud icon library page, a Leanpub book page, a vendor modelling guide.
 - Formal sources found and not read are listed below with "not read"; none supports a claim.
-- The 21 grey sources were scored; 9 fall below 10 of 20 and stay only as examples of practice.
+- The 51 grey sources were scored (21 from the web and the narrative pass, 30 Q/A threads); 11 fall below 10 of 20 and stay only as examples of practice. Two of the 11 are Q/A threads, SESE 2017f and SO 2014c; SO 2012a, SO 2012b and SESE 2020a sit at exactly 10 and stay in.
+- The Q/A threads mostly repeat the practice strands. SESE 2012j restates that UML is used selectively. The Q/A volume on the C4 model, diagrams as code and PlantUML was tiny (`title=PlantUML` found 1 thread, `title=diagram code` none), so these sites say little about the adoption of the newer tools.
+- SESE 2022a, SESE 2012h, SESE 2011h, SESE 2017f and SO 2016a are cited only in the table below.
 
 ## Column keys
 
@@ -113,3 +116,33 @@ This file lists how many sources each search found, screened and included, and g
 | OWASP 2026 | grey tier 2 | G7 | 11.5/20 (3.5/2.5/2.5/0/0.5/1/1/0.5) | review 5 |
 | Fuchsia 2025 | grey tier 2 | G5 | 9/20 (1.5/3.5/1.5/1/0/0.5/0.5/0.5) **below 10: example of practice only** | review 5 |
 | GitLab 2026 | grey tier 2 | G5 | 8/20 (1.5/3.5/1.5/0/0/0.5/0.5/0.5) **below 10: example of practice only** | review 5 |
+| SESE 2011g | grey tier 2 | SD1 | 13/20 (1.5/4/4/1/0/1/1/0.5) | review 4 |
+| SESE 2012g | grey tier 2 | SD3 | 13/20 (1.5/4/4/1/0/1.5/0.5/0.5) | review 5 |
+| SESE 2017d | grey tier 2 | SD6 | 15/20 (2/5/4/1/0/2/0.5/0.5) | review 5 |
+| SESE 2020a | grey tier 2 | SD8 | 10/20 (0.5/2/4/1/0/2/0/0.5) | review 5 |
+| SESE 2017e | grey tier 2 | SD3 | 12.5/20 (1/5/3/1/0/2/0/0.5) | review 5 |
+| SESE 2019b | grey tier 2 | SD3 | 14.5/20 (2/5/4/1/0/2/0/0.5) | review 5 |
+| SESE 2017f | grey tier 2 | SD3 | 9.5/20 (1.5/1/4/1/0/1/0.5/0.5) **below 10: example of practice only** | sources only |
+| SESE 2015d | grey tier 2 | SD2 | 15/20 (2.5/4/4/1/0.5/2/0.5/0.5) | review 4, against |
+| SESE 2012h | grey tier 2 | SD2 | 15.5/20 (2.5/4.5/3.5/1/0.5/2/1/0.5) | sources only |
+| SESE 2015e | grey tier 2 | SD2 | 16/20 (2.5/4.5/4/1/0.5/2/1/0.5) | review 4, against |
+| SESE 2015f | grey tier 2 | SD2 | 16/20 (2.5/5/4/1/1/1.5/0.5/0.5) | review 5 |
+| SESE 2022a | grey tier 2 | SD2 | 15/20 (1/5/4/1/0.5/2/1/0.5) | sources only |
+| SESE 2012i | grey tier 2 | SD2 | 15/20 (2/5/4/1/0/1.5/1/0.5) | review 4, against |
+| SESE 2017g | grey tier 2 | SD2 | 13.5/20 (1.5/4/4/1/0/2/0.5/0.5) | review 4, against |
+| SESE 2012j | grey tier 2 | SD2 | 14/20 (1.5/4.5/4/1/0/2/0.5/0.5) | sources only |
+| SESE 2011h | grey tier 2 | SD2 | 13/20 (1.5/4.5/4/1/0/1/0.5/0.5) | sources only |
+| SESE 2010g | grey tier 2 | SD2 | 14.5/20 (1/5/4/1/0/2/1/0.5) | review 4, against |
+| SESE 2011i | grey tier 2 | SD2 | 15.5/20 (2/5/4/1/0/2/1/0.5) | review 4 |
+| SESE 2013c | grey tier 2 | SD2 | 14/20 (2/3.5/4/1/0.5/2/0.5/0.5) | review 4 |
+| SESE 2023a | grey tier 2 | SD3 | 12/20 (1/4/4/1/0/1.5/0/0.5) | review 4, against |
+| SESE 2024a | grey tier 2 | SD5 | 13.5/20 (2/4/4/1/0/2/0/0.5) | position |
+| SESE 2011j | grey tier 2 | SD2 | 13.5/20 (1.5/3.5/4/1/0.5/2/0.5/0.5) | review 4 |
+| SO 2021b | grey tier 2 | SD1 | 11.5/20 (0.5/3/4/1/0/2/0.5/0.5) | position |
+| SO 2014c | grey tier 2 | SD1 | 9/20 (0.5/2.5/3/1/0/1/0.5/0.5) **below 10: example of practice only** | position |
+| SO 2012a | grey tier 2 | SD1 | 10/20 (2/2/3/1/0/1/0.5/0.5) | position |
+| SO 2016a | grey tier 2 | AD7 (other topic's string) | 11.5/20 (2/3.5/3/1/0/1/0.5/0.5) | sources only |
+| SO 2012b | grey tier 2 | SD4 | 10/20 (1.5/2.5/3.5/1/0/1/0/0.5) | review 5 |
+| SO 2009d | grey tier 2 | SD5 | 14/20 (2/3/4/1/0.5/2/1/0.5) | position |
+| SO 2011c | grey tier 2 | SD5 | 16.5/20 (1.5/5.5/4/1/1/2/1/0.5) | position |
+| SO 2010b | grey tier 2 | SD5 | 14.5/20 (1.5/4.5/3.5/1/0.5/2/1/0.5) | position |

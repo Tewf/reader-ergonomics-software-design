@@ -51,10 +51,16 @@ This file gathers the evidence against the rules on design documents and decisio
 - Harhio 2022 is a master's thesis with one database (Web of Science) and one engine (Google); its author notes that Google results change between runs.
 - Tofan 2014 stops at 2012-01, before ADRs spread; it cannot speak to them.
 - Bhat 2020 is a getting-started guide by its own account, not a test of any form.
-- Eight of 31 scored grey sources fall below 10 of 20 (sources.md); all eight are used only as examples of practice.
+- Eight of 46 scored grey sources fall below 10 of 20 (sources.md); all eight are used only as examples of practice.
 - Perkins 2020 (GitHub's blog) offers no measurement, and Runde 2018 reports two years of use with no metrics: both are experience, not evidence of effect.
 - Practitioner advice agrees across sources (one decision per record, record alternatives); agreement among blogs that copy one another is not independent confirmation.
-- This search could not reach Stack Overflow or Reddit, so practitioner disagreement on Q/A sites is unseen.
+- Reddit was not reached. Software Engineering Stack Exchange and Stack Overflow were searched on 2026-10-28; their threads are opinion with no data (next section).
+
+## What the Q/A threads add against
+
+- Detailed design documents are rarely read and out of date at delivery (SESE 2010d). Keep a short summary of the high-level decisions (SO 2009b), stay at high level and let tests guide the detail (SO 2009a), and document at a coarse grain so the text rarely changes (SESE 2012d). These agree with the cost caveats above; they are practitioners' opinions.
+- An ADR is written when a technology or procedure is introduced after assessment, and revised each quarter (SO 2022a; one answer, 2 votes).
+- Whether records are proposals: SESE 2015c separates the proposal (future tense) from the design document that replaces it (present tense), which bears on the 63% of ADRs opened already accepted.
 
 ## Failed or missing replications
 

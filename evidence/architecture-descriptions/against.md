@@ -35,6 +35,18 @@ This file gathers the evidence against the rules on architecture descriptions: n
 - Design documents helped correctness on complex tasks but did not save time, and the update effort cancelled simple tasks (Arisholm 2006, Dzidek 2008; secondary).
 - Oral explanation is the working route when documents are incomplete (Rukmono 2026); the document competes with a person.
 
+## What the Q/A threads add against
+
+- Against documentation as the answer:
+  - SESE 2010b: formal architecture documents fall by the wayside, and an openly communicating team beats them.
+  - SESE 2011a: large open-source projects ship no architecture document and readers go to the code (the two top answers have 19 and 12 votes).
+  - SESE 2017c: tests and code carry part of the design, and design before code was never the ideal.
+  - They agree with the practice caveats below and with Ernst 2023 being a single experiment. They are opinions with no data.
+- Against the view model for developers: SESE 2017a (second answer) says UML is a poor fit for real architectures and proposes data-flow diagrams. SESE 2014b: for the structure of a program, show many code examples. Both are single answers.
+- C4 and arc42 limits:
+  - SO 2021a: C4 is a simple abstraction for early work and team talk, not for process or infrastructure; its supplementary diagrams or other notations cover those.
+  - SO 2014a and SO 2014b: arc42 users disagree on where a database schema goes and on how to keep the target architecture apart from the current one (decisions and constraints chapters). A template of twelve sections still leaves placement open (Q5, how a reader finds information).
+
 ## Against the practice evidence
 
 - arc42's claim to be proven in practice since 2005 and Spotify's claim that its documentation plugin's popularity shows success are owners' statements about themselves.
@@ -42,7 +54,7 @@ This file gathers the evidence against the rules on architecture descriptions: n
 - Jongeling 2025 is one company's report on its own change, with no control group.
 - The ten-times claim in matklad 2021 is an anecdote by a maintainer, not a measurement.
 - No adoption count for ARCHITECTURE.md or arc42 was found; a platform search count was unstable and is not used. The arc42 authors say they know no statistically relevant numbers (Starke 2026b); repository stars are a weak signal.
-- Five of the 20 grey sources score below 10 of 20 and are examples of practice only: the arc42 site, Backstage 2020, IcePanel 2024, the C4 FAQ and a vendor blog (sources.md).
+- Eight of the 41 grey sources score below 10 of 20 (sources.md). They are examples of practice only: the arc42 site, Backstage 2020, IcePanel 2024, the C4 FAQ, a vendor blog and three Q/A threads.
 - IcePanel 2024 and 2025 disagree on the 2024 shares. The page of 2025 restates the 2024 wiki share as 29%; the 2024 page gave 30%. Year-on-year figures are read only where the vendor tested them.
 - The reviews and the Helsinki thesis were read through abstracts; findings drawn from them are marked secondary.
 

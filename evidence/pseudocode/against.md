@@ -55,9 +55,26 @@ This file gathers the evidence against the rules on presenting algorithms: null 
 - Sun 2024 argues the reverse, from opinion and no controlled study.
 - Ince 2012 argues that computed results need released code (page synopsis only).
 
+## What the Q/A threads add against
+
+Software Engineering, Computer Science, Computer Science Educators and Stack Overflow, searched 2026-10-28 (26 threads, scores in [sources](sources.md)). Opinion and anecdote, no data.
+
+- No standard, stated by the field:
+  - CS 2023a (31 and 26 votes on the two answers): no universal standard exists; copy a well-regarded textbook; pseudocode is for human readers and is not meant to be formal.
+  - SESE 2011f: := means what the author defines, so be consistent. CS 2015a: state the index base and the limits. CS 2020a: define any non-standard construct. CS 2018a: use whichever loop form is clearest.
+  - This agrees with TeX FAQ 2026 and Wikipedia 2026a, and gives the practitioners' answer: define your symbols and be consistent.
+- Anecdotes of misreading, single cases and unmeasured:
+  - CS 2013a: a published sorting pseudocode mixed := and the arrow for assignment, and a reader took it for two operations; the answer calls it a slip.
+  - CS 2019a (41 votes on the question): the pseudocode of a classic data-structures book uses its own operators and needs a long decoder before a reader who knows C or Java can follow it.
+  - They are the nearest thing to the reader trouble that no study has counted. They support a short key of symbols; they do not measure it.
+- Against executable specifications:
+  - SESE 2016c (accepted answer, 17 votes): textbooks use pseudocode because it need not compile, and executable languages add distracting detail. This is a practitioner counter to Helwer 2023 and Davis 2023, with the same weight and one answer.
+  - SESE 2010e: the accepted answer calls pseudocode before code far from best practice next to test-first design and use cases. SO 2008c: a team mixes the Pseudocode Programming Process with tests. SO 2008b uses pseudocode to explain a design decision to non-technical staff and across platforms. This is the McConnell 2004 line seen in use, and it shows a split.
+  - SESE 2014c (13.5): asking for pseudocode is a symptom of ambiguous requirements; it forces precision at the cost of formality.
+
 ## Against the grey sources
 
-- Six of 21 grey sources scored under 10 of 20 and are examples only (sources.md).
+- Seven of 47 grey sources scored under 10 of 20 and are examples only (sources.md).
 - Board documents score high on authority and objectivity because they are specifications; they contain no method, so a high score is not evidence that their rules help readers.
 
 ## Against executable specifications

@@ -64,3 +64,4 @@ Two records are kept apart: **most adopted** (what people use) and **best eviden
 - No evidence was found that Nygard's or MADR's shape helps a maintainer recover why, as opposed to helping the writer write.
 - No study of the effect of the "rejected alternatives" section on repeated debate was found.
 - Bratthall 2000 and Karsenty 1996 may hold relevant results; their text was not read.
+- Q/A sites (searched 2026-10-28) hold no report of how a proposal is judged (Q4) or whether a team keeps ADRs (Q5).

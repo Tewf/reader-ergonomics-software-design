@@ -43,6 +43,6 @@ This file says what is known about presenting algorithms, what is not, and what 
 
 ## What this repository adds
 
-- It joins the old documentation-format experiments to current practice sources in one place, with 21 grey sources scored and 6 kept as examples only.
+- It joins the old documentation-format experiments to current practice sources in one place, with 47 grey sources scored (21 from the web and books, 26 Q/A threads) and 7 kept as examples only.
 - It states a named baseline and the tasks and instruments needed to compare against it (baseline.md).
 - It claims nothing the cited studies did not measure, and says "this search did not find it" for the gaps.

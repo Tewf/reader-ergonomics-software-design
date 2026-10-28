@@ -80,6 +80,16 @@ How this review differs:
 - Koning 2002: guidelines for IT-architecture diagrams, tested with three groups of architects (secondary).
 - Nicacio 2022: 5 architecture diagrams from company blogs shown to 34 respondents (132 invited); their descriptions matched the author text poorly; 41% disagreed that all expected elements were present. Five guidelines follow: identify elements, define notation, give detail, mark start and end of reading, use technology symbols.
 
+Q/A sites (Software Engineering Stack Exchange and Stack Overflow, searched 2026-10-28; 30 threads, scores in [sources](sources.md)). Opinion, no measurement with readers.
+
+- How practitioners use UML:
+  - SESE 2010g: formal UML is never used, "just enough" is. SESE 2012i: a practitioner with a UML certification stopped using it except for sequence diagrams.
+  - SESE 2017g: class, sequence and state diagrams are still used on whiteboards, selectively. SESE 2023a: diagrams do not run, diff or show in pull requests.
+  - SESE 2015e: free software rarely uses UML; Fowler's four modes of use (notes, sketch, blueprint, programming language) explain it. SESE 2015d: UML as blueprint belongs to a building analogy that fails, and diagrams without code to validate them mislead.
+  - They agree with Baltes 2014, Petre 2013 and Arisholm 2006 as reported above. The finding that practice does not draw the UML baseline now rests on consistent sources of several kinds. They are opinions, not counts.
+- Abstraction against generation (a new framing): SESE 2011i (70 votes on the answer). A diagram easy to read lacks the detail for code generation, and one usable for generation helps no more than the code.
+- Audience: SESE 2011j gives diagram types by audience; SESE 2013c says a slide of boxes is "marketecture", not UML, with no rule; SESE 2011g says a diagram for executives depends on the audience. The marketecture picture against the technical diagram is new to the pool and supports a rule that names the audience of a diagram.
+
 ## 5. Practice: standards, notations, tools and guides
 
 - OMG 2017 (UML 2.5.1), Annex A: a diagram is a graphical representation of part of a model; frame and heading are optional. This reading found no layout rule there. OMG 2024 (SysML v2) is the systems successor; only its landing page was read.
@@ -98,3 +108,8 @@ How this review differs:
 - Cloud icons: AWS 2026 publishes icon sets; its icon page gives no drawing rules.
 - Diagrams as code: GitHub renders Mermaid since 2022-02-14 (GitHub 2022). Brown 2021 names drift as the main failure.
 - On 2026-10-28 Mermaid had 90,911 stars, PlantUML 13,383 and D2 25,750 (Mermaid 2026, PlantUML 2026, D2 2026), and 69.4 million npm downloads in a month (npm 2026): adoption counts, not reader benefit.
+
+Q/A sites (searched 2026-10-28), diagrams as code and drift. Opinion, no figure.
+
+- SESE 2017e, SESE 2019b, SESE 2020a, SESE 2017d and SESE 2012g: diagrams go stale. Generate them where possible, put the update in the scope of the work, and keep the diagram source in version control with a header block. A model fits on a whiteboard where code does not. SO 2012b: text-defined component diagrams exist (PlantUML, yUML). These agree with Brown 2021 on drift and with Jongeling 2025.
+- SESE 2015f: functional programmers design with type signatures instead of UML (one answer of 27 votes; example of practice).

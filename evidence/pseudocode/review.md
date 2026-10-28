@@ -51,6 +51,13 @@ Forward citations:
 - Ensmenger 2016: a history of the flowchart as a negotiated design document.
 - Curtis 1989: a documentation-format study; no abstract was found and it was not read.
 
+Q/A sites (searched 2026-10-28), pseudocode against flowchart; opinion, no test:
+
+- SESE 2012f: pseudocode is linear and a flowchart is not; flowcharts suit non-technical readers and show the main line of execution.
+- CSEd 2017a: neither is always better; flowcharts keep students succinct. CSEd 2021a: a flowchart adds a layer of abstraction that may hinder young learners, while another answer says a structured flowchart and its pseudocode correspond line by line.
+- SESE 2010f: Nassi-Shneiderman diagrams are rarely used, and the replies prefer plain flow diagrams (example of practice).
+- This repeats the contested picture above and adds no test.
+
 ## 2. Notation theory, layout and the shape of the evidence
 
 - Green 1996: the cognitive dimensions framework (title and framing only).
@@ -66,6 +73,11 @@ Forward citations:
 - Caine 1975: PDL, a design language for describing a program before coding.
 - Wirth 1971: stepwise refinement.
 - Boehm-Davis 1983 and Ramsey 1983 test the PDL idea.
+
+Q/A sites (searched 2026-10-28), pseudocode before code; opinion, no data:
+
+- SESE 2010e: the accepted answer calls it far from best practice next to test-first design and use cases. SO 2008c: the Pseudocode Programming Process of Code Complete, mixed with tests by one team. SO 2008b: it explains a design decision to non-technical staff and across platforms. A split, not a consensus.
+- SESE 2014c: asking for pseudocode is a symptom of ambiguous requirements.
 
 ## 4. Education and exam boards
 
@@ -90,6 +102,10 @@ Exam boards, read in the primary documents (the boards decide what candidates mu
 
 - AQA 2023 (A-level) requires pseudo-code but its specification defines no syntax.
 - Cambridge 2024 also fixes monospaced font and upper-case keywords, and usually indents by three spaces.
+
+Q/A sites (searched 2026-10-28), teaching; teachers' opinion, no data:
+
+- CSEd 2019a, CSEd 2020a, CSEd 2017b and CSEd 2017c: teachers split on starting with pseudocode or with running code. Most say to use both, and to keep pseudocode as the place to refine an idea before syntax. This agrees with the exam-board findings above.
 
 ## 5. Pseudocode in papers, reproducibility and datasets
 
@@ -117,6 +133,11 @@ Exam boards, read in the primary documents (the boards decide what candidates mu
 - Helwer 2023, Davis 2023: executable code is better than pseudocode (practitioner blogs; one case in the first).
 - Sun 2024: pseudocode is more accessible than code (an opinion post).
 - Rosetta Code 2026: 1,362 tasks in 1,016 languages (example only).
+
+Q/A sites (searched 2026-10-28; 26 threads; one, SO 2009c, scores under 10 of 20 and is an example of practice only). Opinion and anecdote, no data.
+
+- No standard, and the field says so: CS 2023a, SESE 2011f, CS 2015a, CS 2020a and CS 2018a (details in against.md). Misreading anecdotes: CS 2013a and CS 2019a, single cases.
+- Parallel algorithms: SESE 2011e and SO 2011b find no standard pseudocode; plain words suffice, one pseudolanguage (Peril-L) is named, and higher levels use diagrams.
 
 ## 7. Literate programs and notebooks
 

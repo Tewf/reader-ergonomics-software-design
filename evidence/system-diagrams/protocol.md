@@ -66,7 +66,7 @@ This file records every search, count, rule and limit of this multivocal literat
   - threat-modelling guidance (OWASP, Microsoft Learn), because data-flow diagrams are standard there;
   - project style guides (Fuchsia, GitLab), as public internal practice;
   - conference talks and company blogs.
-- Books and Q/A threads were sought and not obtained (see limits).
+- Books were sought and not obtained (see limits). Q/A sites were read through the Stack Exchange API on 2026-10-28 (subsection Q/A sites, below).
 
 | Id | String (general web search engine) | Results | Screened | Included |
 |---|---|---|---|---|
@@ -83,11 +83,48 @@ This file records every search, count, rule and limit of this multivocal literat
 
 - Also included: eleven sources cited by the earlier narrative pass (nine pages and the PlantUML and D2 star counts; re-read and scored) and two found by following links (the C4 checklist, the Mermaid introduction).
 
+### Q/A sites
+
+SD1 to SD12 are grey tier 2, run by one reviewer on 2026-10-28. Everything the four Q/A searches have in common (stopping rule, parameters, scoring, limits) is stated in the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites).
+
+**Strings as run, system-diagrams**
+
+| Id (system-diagrams) | String as run | Site | Returned = screened | Included | New |
+|---|---|---|---|---|---|
+| SD1 | `title=architecture diagram` | Software Engineering Stack Exchange; Stack Overflow | 31 | 4 | 4 |
+| SD2 | `title=UML` | Software Engineering Stack Exchange | 30 | 13 | 13 |
+| SD3 | `title=diagrams` | Software Engineering Stack Exchange | 30 | 10 | 5 |
+| SD4 | `title=component diagram` | Software Engineering Stack Exchange; Stack Overflow | 44 | 1 | 1 |
+| SD5 | `title=data flow diagram` | Software Engineering Stack Exchange; Stack Overflow | 31 | 4 | 4 |
+| SD6 | `q=diagrams as code` | Software Engineering Stack Exchange | 30 | 4 | 1 |
+| SD7 | `title=diagram code` | Software Engineering Stack Exchange | 0 | 0 | 0 |
+| SD8 | `title=PlantUML` | Software Engineering Stack Exchange | 1 | 1 | 1 |
+| SD9 | `q=diagram readable` | Software Engineering Stack Exchange | 15 | 0 | 0 |
+| SD10 | `title=whiteboard` | Software Engineering Stack Exchange | 7 | 0 | 0 |
+| SD11 | `title=diagrams as code` | Stack Overflow | 1 | 0 | 0 |
+| SD12 | `tagged=diagram` | Software Engineering Stack Exchange | 0 | 0 | 0 |
+| Total | 12 strings | | 220 | 30 (distinct) | 29 |
+
+**Selection and scoring**
+
+- Opening, inclusion, exclusion and scoring rules: as in the shared rules.
+- Included: 30. Scored on the 20 criteria of Garousi 2019 Table 7 (section 8), threshold 10 of 20. Below the threshold: 2; they stay as examples of practice only.
+
+**Stopping point**
+
+- The run ended after string SD12. The last string that added a new included thread was SD8 (1 new).
+
+**Limits specific to this search**
+
+- Limits common to all four searches: as in the shared rules.
+- Thread 38270258 was found by the architecture-descriptions strings AD7 and AD9.
+
 ## 6. Stopping rule, stated before searching
 
 - **Effort bounded:** the top 10 results of each grey string (the engine returns about 10).
 - **Saturation:** stop after 5 consecutive screened results that add no new concept.
 - Applied: the concepts (title, key, labelled arrows, icon rules, trust boundary, drift, alt text) were all seen by G7; G8 to G10 (37 results) added none, so the grey search stopped.
+- Q/A sites: see the subsection Q/A sites; the search stopped after string SD12.
 - Formal search used evidence exhaustion for strings with 20 hits or fewer, and the cap above otherwise.
 
 ## 7. Selection
@@ -113,4 +150,5 @@ This file records every search, count, rule and limit of this multivocal literat
 - A second rater re-scored 5 of this topic's grey sources blind ([method](../README.md#method)): 4 of 5 decisions agree. The GitLab style guide scores 8 and 13.5, partly because the second rater read the whole guide; it stays an example of practice. Brown 2021 and D2 2026 sit at exactly 10 for both.
 - Search engines personalise and change; every date is 2026-10-28.
 - Several abstracts and full texts were behind paywalls (Springer, IEEE); they are marked.
-- Books, conference talk recordings and Q/A threads were not read; a talk is represented by its abstract page.
+- Books and conference talk recordings were not read; a talk is represented by its abstract page.
+- Q/A threads of system-diagrams: one scorer, no second rater.

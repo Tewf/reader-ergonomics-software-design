@@ -48,10 +48,44 @@ Types and producers chosen, with the reason:
 | Textbooks and their sites | Cormen, Sedgewick, Knuth, McConnell | they set the baseline most authors copy |
 | Course handouts | universities | they state rules for writing pseudocode |
 | Blogs and newsletters | educators and practitioners | they carry the executable-code debate |
-| Wiki and Q/A | Wikipedia, Rosetta Code | they state what is commonly believed |
+| Wiki | Wikipedia, Rosetta Code | they state what is commonly believed |
+| Q/A sites | Software Engineering, Computer Science, Computer Science Educators and Stack Overflow | practitioners and teachers state what they do and why; searched through the Stack Exchange API, see the subsection Q/A sites below |
 
 - Engine: a general web search, standard mode, 2026-10-28. Strings G1 to G12 are in sources.md.
 - Not searched: videos, tweets, e-mail lists (low tier, no way to apply the criteria).
+
+### Q/A sites
+
+One reviewer ran PS1 to PS8 on 2026-10-28 as grey tier 2. For N and k, the fixed API parameters, the scoring rules and the general limits of the search, see the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites).
+
+**Strings as run, pseudocode**
+
+| Id (pseudocode) | String as run | Site | Returned = screened | Included | New |
+|---|---|---|---|---|---|
+| PS1 | `q=pseudocode` | Software Engineering Stack Exchange; Computer Science Stack Exchange; Computer Science Educators Stack Exchange | 69 | 10 | 10 |
+| PS2 | `title=pseudocode` | Software Engineering Stack Exchange; Computer Science Stack Exchange; Computer Science Educators Stack Exchange; Stack Overflow | 77 | 17 | 9 |
+| PS3 | `title=flowchart` | Software Engineering Stack Exchange; Computer Science Stack Exchange; Computer Science Educators Stack Exchange | 24 | 2 | 1 |
+| PS4 | `q=pseudocode flowchart` | Software Engineering Stack Exchange; Computer Science Stack Exchange; Computer Science Educators Stack Exchange; Stack Overflow | 37 | 3 | 1 |
+| PS5 | `title=pseudo code` | Software Engineering Stack Exchange; Computer Science Stack Exchange; Computer Science Educators Stack Exchange | 30 | 5 | 4 |
+| PS6 | `title=describe algorithm` | Software Engineering Stack Exchange; Computer Science Stack Exchange; Computer Science Educators Stack Exchange | 0 | 0 | 0 |
+| PS7 | `title=algorithm notation` | Computer Science Stack Exchange; Software Engineering Stack Exchange; Computer Science Educators Stack Exchange | 2 | 0 | 0 |
+| PS8 | `q=pseudocode conventions style` | Computer Science Stack Exchange; Computer Science Educators Stack Exchange; Software Engineering Stack Exchange | 2 | 1 | 0 |
+| Total | 8 strings | | 241 | 26 (distinct) | 25 |
+
+**Selection and scoring**
+
+- Opening, inclusion, exclusion and scoring rules: as in the shared rules.
+- Included: 26. Scored on the 20 criteria of Garousi 2019 Table 7 (section 8), threshold 10 of 20. Below the threshold: 1; they stay as examples of practice only.
+
+**Stopping point**
+
+- The run ended after string PS8. The last string that added a new included thread was PS5 (4 new).
+
+**Limits specific to this search**
+
+- Limits common to all four searches: as in the shared rules.
+- Thread 3884 (Nassi-Shneiderman diagrams) was found by the system-diagrams string SD3 and fits here as a flowchart variant.
+- String PS1 was not run on Stack Overflow; PS2 and PS4 were.
 
 ## 6. Stopping rule
 
@@ -61,6 +95,7 @@ Stated before searching:
 - Saturation: a string family stops after k = 3 consecutive results that add no concept not already in the list C1 to C7.
 - Concepts: C1 reference language per board; C2 no common standard; C3 typesetting packages; C4 executable code against pseudocode; C5 pseudocode as a design step; C6 handout rules; C7 textbook conventions.
 - Applied: strings G8, G11 and G12 added no new concept, so the grey search stopped there.
+- Q/A sites: see the subsection Q/A sites; the search stopped after string PS8.
 
 ## 7. Selection
 
@@ -99,3 +134,4 @@ Garousi Table 7, 20 criteria, each 1, 0.5 or 0:
 - OpenAlex counts exist for three strings only.
 - Several papers were read at abstract level; each is marked "(abstract; secondary)".
 - Printed Knuth and the printed conventions of Cormen et al. were not read.
+- Q/A threads of pseudocode: one scorer, no second rater.

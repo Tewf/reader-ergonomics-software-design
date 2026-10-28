@@ -6,11 +6,11 @@ This file lists every source in the design-decisions review: how the pool narrow
 
 | Stage | Formal | Grey |
 |---|---|---|
-| Records returned by the strings | 2,267 (Semantic Scholar 2,092; arXiv 175) | about 75 results, plus 5 producer visits |
-| Screened by title or snippet | 231 (with repeats across strings) | 80 |
+| Records returned by the strings | 2,267 (Semantic Scholar 2,092; arXiv 175) | about 75 results, plus 5 producer visits, plus 320 Q/A records (repeats across strings included) |
+| Screened by title or snippet | 231 (with repeats across strings) | 400 (80 web, 320 Q/A) |
 | Already in the narrative review | about 14 | 19 |
-| New and included | 15, plus 1 thesis counted as grey | 11 |
-| Excluded | about 200, reasons below | about 69, reasons below |
+| New and included | 15, plus 1 thesis counted as grey | 26 (11 web, 15 Q/A threads) |
+| Excluded | about 200, reasons below | about 374, reasons below |
 
 - Formal exclusions, counted by title and rounded to tens:
   - repeats across strings: 40;
@@ -25,7 +25,9 @@ This file lists every source in the design-decisions review: how the pool narrow
   - vendors of documentation products: 8;
   - project ADR pages that are examples of use, not accounts: 20;
   - pages found but not read: 15;
-  - books not read: 2.
+  - books not read: 2;
+  - Q/A records not included after reading the title or the thread: 305 (repeats across the 18 strings of the Q/A search included).
+- The Q/A search (strings DD1 to DD18, Software Engineering Stack Exchange and Stack Overflow) is described in [protocol](protocol.md), subsection Q/A sites. Its 15 threads are scored below with the other grey sources, as tier 2.
 - Added by snowballing: none beyond those found by the strings; forward snowballing was one page.
 - Existing reviews found: 9, listed in review.md strand 0.
 
@@ -121,11 +123,32 @@ Subtotals in order: authority (4), methodology (6), objectivity (4), date (1), p
 | Polishchuk 2026 | grey tier 3 | G1 | 6 of 20 (1 / 2 / 1.5 / 1 / 0 / 0.5 / 0 / 0) | against (example only) |
 | Taylor 2025 | grey tier 1 | G1 | 9 of 20 (2 / 2.5 / 1.5 / 1 / 0.5 / 0 / 0.5 / 1) | review 7 (example only) |
 | Kashitsyn 2024 | grey tier 3 | G2 | 10.5 of 20 (1.5 / 4 / 2.5 / 1 / 1 / 0.5 / 0 / 0) | review 7; state-of-the-art |
+| SESE 2016a | grey tier 2 | DD4 | 14.5 of 20 (2 / 4.5 / 4 / 1 / 0 / 2 / 0.5 / 0.5) | review 7 |
+| SESE 2011c | grey tier 2 | DD4 | 16 of 20 (2.5 / 5 / 4 / 1 / 0.5 / 2 / 0.5 / 0.5) | review 7 |
+| SESE 2018a | grey tier 2 | DD5 | 15.5 of 20 (2.5 / 5 / 4 / 1 / 0.5 / 1.5 / 0.5 / 0.5) | review 7 |
+| SESE 2012c | grey tier 2 | DD3 | 11 of 20 (1 / 2.5 / 3.5 / 1 / 0 / 1.5 / 1 / 0.5) | review 7 |
+| SESE 2018b | grey tier 2 | DD9 | 13.5 of 20 (1 / 4.5 / 4 / 1 / 0 / 2 / 0.5 / 0.5) | review 7 |
+| SESE 2013b | grey tier 2 | DD18 | 14 of 20 (1.5 / 5 / 4 / 1 / 0 / 2 / 0 / 0.5) | review 7 |
+| SESE 2016b | grey tier 2 | DD18 | 11.5 of 20 (1 / 3 / 3.5 / 1 / 0 / 1.5 / 1 / 0.5) | review 7 |
+| SESE 2012d | grey tier 2 | DD16 | 12.5 of 20 (0.5 / 4.5 / 4 / 1 / 0 / 2 / 0 / 0.5) | against |
+| SESE 2015b | grey tier 2 | DD5 | 15.5 of 20 (2 / 5 / 4 / 1 / 0.5 / 2 / 0.5 / 0.5) | review 7 |
+| SESE 2010d | grey tier 2 | DD5 | 12.5 of 20 (1 / 4.5 / 4 / 1 / 0 / 1 / 0.5 / 0.5) | against |
+| SESE 2015c | grey tier 2 | DD16 | 16.5 of 20 (3 / 5 / 4 / 1 / 1 / 1.5 / 0.5 / 0.5) | review 7; against |
+| SO 2009a | grey tier 2 | DD5 | 11.5 of 20 (1.5 / 3.5 / 4 / 1 / 0 / 1 / 0 / 0.5) | against |
+| SO 2009b | grey tier 2 | DD5 | 12 of 20 (1.5 / 4 / 4 / 1 / 0 / 1 / 0 / 0.5) | against |
+| SO 2010a | grey tier 2 | DD9 | 12.5 of 20 (1 / 5 / 4 / 1 / 0 / 1 / 0 / 0.5) | sources only |
+| SO 2022a | grey tier 2 | DD1 | 11.5 of 20 (2 / 3 / 3 / 1 / 0.5 / 1.5 / 0 / 0.5) | against |
 
 ## Result of the scoring
 
-- 31 grey sources scored; 8 fall below 10 of 20: AWS 2026c, Frazelle 2026, HashiCorp 2026, Attentive 2026, Bitwarden 2026, Google Cloud 2024, Polishchuk 2026, Taylor 2025.
+- 46 grey sources scored: 31 from the web search and 15 Q/A threads. 8 fall below 10 of 20, all from the web search: AWS 2026c, Frazelle 2026, HashiCorp 2026, Attentive 2026, Bitwarden 2026, Google Cloud 2024, Polishchuk 2026, Taylor 2025.
 - Those 8 appear in the text only as examples of practice.
 - Microsoft 2026 and Rust 2026b sit exactly at 10 and stay in.
 - GitHub 2026 is the reviewer's own count of public listings, not a source, so it is not scored.
+- No Q/A thread falls below 10; the lowest is SESE 2012c at 11.
+- On three points the Q/A threads only repeat the pool, so they add no line elsewhere.
+  - Write rationale beside the work.
+  - Keep documents short.
+  - Separate a proposal from its record (Polishchuk 2026, Taylor 2025, Perkins 2020).
+- SO 2010a (explain a decision with hand-drawn diagrams) is cited only in this table. For Q4 and Q5 the threads add nothing.
 - The highest scores go to a standards document (IETF 2014), a thesis (Harhio 2022) and the Python process (Warsaw 2000).

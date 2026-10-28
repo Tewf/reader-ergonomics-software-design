@@ -62,7 +62,14 @@ F5, F5b and F8 are the strings whose hits were mostly unrelated work; F15 found 
 | G11 | 9 | 1 | 1 |
 | Total | 105 | 10 | 9 |
 
-Two more grey sources, Harhio 2022 and Manai 2019, came through the existing-review search; the review itself holds 20 scored grey sources, 9 from before the search and 11 added.
+Two more grey sources, Harhio 2022 and Manai 2019, came through the existing-review search; the review holds 20 scored grey sources from the web search, 9 from before the search and 11 added.
+
+Q/A sites were searched separately on 2026-10-28 (strings AD1 to AD15, [protocol](protocol.md) section 5).
+
+- 311 records were returned and screened, with repeats across strings.
+- 21 threads were included: 20 first met in an AD string and 1 in a system-diagrams string.
+- They are scored with the grey sources below, tier 2.
+- The review now holds 41 scored grey sources.
 
 ## Excluded, by reason (named cases only)
 
@@ -73,7 +80,7 @@ Two more grey sources, Harhio 2022 and Manai 2019, came through the existing-rev
 | E3 enterprise architecture documentation | four papers (4) |
 | E4 marketing | an incident-management vendor page (1) |
 | E5 untraceable figure | a survey share of 12% for accurate design documents (1) |
-| E6 could not be read | three SEI technical reports, one textbook, the Q/A site pages (5) |
+| E6 could not be read | three SEI technical reports, one textbook, the Q/A site pages as the web engine returned them (5); the sites were then read through their API, see protocol section 5 |
 | E7 documentation in general | Diátaxis, an API-documentation paper, a popularity study (3) |
 | E8 tools without reader evaluation | six papers on generating or recovering documentation |
 | E9 reviews of other architecture topics | evolution, evaluation, analysis, text analysis, systems of systems (5) |
@@ -106,8 +113,33 @@ Kind: formal, or grey with its tier. Quality: for formal sources the evidence gr
 | Brown 2026c | grey tier 2 | G6 | A3 M3 O1 D0 P0.5 N0.5 I0.5 T0.5 = 9, below 10 | review 6 |
 | Backstage 2020 | grey tier 3 | prior | A2.5 M2.5 O0.5 D1 P0 N1 I1 T0 = 8.5, below 10 | review 6 |
 | Gliffy 2023 | grey tier 3 | G2 | A0.5 M2 O1 D1 P0 N0 I0 T0 = 4.5, below 10 | review 6 |
+| SESE 2017a | grey tier 2 | AD7 | A2.5 M4 O4 D1 P0.5 N1.5 I0.5 T0.5 = 14.5 | review 6, against |
+| SESE 2010a | grey tier 2 | AD7 | A1.5 M3 O4 D1 P0.5 N2 I0.5 T0.5 = 13 | position |
+| SESE 2017b | grey tier 2 | AD7 | A1 M3.5 O3.5 D1 P0.5 N0.5 I0.5 T0.5 = 11 | review 6 |
+| SESE 2010b | grey tier 2 | AD7 | A1.5 M5 O4 D1 P0.5 N1.5 I0 T0.5 = 14 | against |
+| SESE 2013a | grey tier 2 | AD7 | A3 M5 O4 D1 P0.5 N1.5 I0 T0.5 = 15.5 | review 6 |
+| SESE 2012a | grey tier 2 | AD7 | A2 M4 O4 D1 P0.5 N1.5 I0.5 T0.5 = 14 | review 6 |
+| SESE 2014a | grey tier 2 | AD13 | A2.5 M4 O4 D1 P1 N2 I1 T0.5 = 16 | review 6 |
+| SESE 2015a | grey tier 2 | AD1 | A2 M4.5 O4 D1 P0.5 N2 I0.5 T0.5 = 15 | review 6 |
+| SESE 2010c | grey tier 2 | AD1 | A1 M4.5 O3.5 D1 P0 N1 I0.5 T0.5 = 12 | sources only |
+| SESE 2011a | grey tier 2 | AD15 | A1.5 M4 O3.5 D1 P0.5 N2 I0.5 T0.5 = 13.5 | against |
+| SESE 2014b | grey tier 2 | SD6 (other topic's string) | A1.5 M4 O4 D1 P0 N2 I0.5 T0.5 = 13.5 | against |
+| SESE 2017c | grey tier 2 | AD1 | A2 M4.5 O4 D1 P1 N1.5 I0 T0.5 = 14.5 | against |
+| SESE 2011b | grey tier 2 | AD6 | A0.5 M2.5 O4 D1 P0 N1 I0 T0.5 = 9.5, below 10 | review 6 (example only) |
+| SESE 2012b | grey tier 2 | AD1 | A0.5 M5 O4 D1 P0 N1 I0.5 T0.5 = 12.5 | position |
+| SESE 2019a | grey tier 2 | AD7 | A2 M5 O3.5 D1 P0 N1 I0 T0.5 = 13 | position |
+| SO 2014a | grey tier 2 | AD4 | A1 M3.5 O3.5 D1 P0 N1.5 I0 T0.5 = 11 | against |
+| SO 2014b | grey tier 2 | AD4 | A1.5 M3 O2.5 D1 P0 N1.5 I0 T0.5 = 10 | against |
+| SO 2021a | grey tier 2 | AD5 | A1.5 M4.5 O4 D1 P1 N2 I0.5 T0.5 = 15 | against |
+| SO 2018a | grey tier 2 | AD7 | A1.5 M4 O3 D1 P1 N1.5 I0.5 T0.5 = 13 | review 6 |
+| SO 2011a | grey tier 2 | AD6 | A1 M2 O2.5 D1 P0 N0.5 I0.5 T0.5 = 8, below 10 | sources only (example only) |
+| SO 2008a | grey tier 2 | AD7 | A1 M4 O2.5 D1 P0 N0.5 I0 T0.5 = 9.5, below 10 | sources only (example only) |
 
-Five of the 20 grey sources fall below 10. Starke 2026 (the arc42 site), Backstage 2020, IcePanel 2024, Brown 2026c (the C4 FAQ) and Gliffy 2023 stay only as examples of practice. The shift from 67% to 81% in context-diagram use rests on IcePanel 2025, which passes.
+Eight of the 41 grey sources fall below 10 and stay only as examples of practice.
+
+- Five come from the web search: Starke 2026 (the arc42 site), Backstage 2020, IcePanel 2024, Brown 2026c (the C4 FAQ) and Gliffy 2023.
+- Three are Q/A threads: SESE 2011b, SO 2011a and SO 2008a.
+- The shift from 67% to 81% in context-diagram use rests on IcePanel 2025, which passes.
 
 ### Formal sources: reviews (strand 0)
 
@@ -173,6 +205,7 @@ Five of the 20 grey sources fall below 10. Starke 2026 (the arc42 site), Backsta
 
 ### Totals
 
-- Pool: 71 sources in the review (36 before this search, 35 added), plus the method paper Garousi 2019 in the protocol.
-- Grey: 20 scored, 5 below 10. Formal and preprint: 51 in the review.
-- Added: 24 formal (16 reviews, 8 studies) and 11 grey.
+- Pool: 92 sources in the review (36 before this search, 35 added, 21 Q/A threads added), plus the method paper Garousi 2019 in the protocol.
+- Grey: 41 scored (20 from the web search, 21 Q/A threads), 8 below 10. Formal and preprint: 51 in the review.
+- Added: 24 formal (16 reviews, 8 studies) and 11 grey from the web search, then 21 grey Q/A threads.
+- The Q/A threads mostly repeat the pool (4+1 views, IEEE 1471, C4, arc42, stale documents, the panel advice of Penchikala 2009). SESE 2010c is cited only in the table above. No thread reports a measurement or a test with readers.

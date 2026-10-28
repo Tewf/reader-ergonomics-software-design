@@ -22,5 +22,6 @@ General principles are not reviewed again here: [draw relations](https://github.
 | C4 asks for a title, a key, element types, technologies and labelled one-way arrows; five other producers give similar rules | convention, untested; sources mostly below the quality threshold | review.md 5 |
 | In one company, 48 engineers mostly judged C4 with text-defined diagrams successful and missed layout control | measured, descriptive | review.md 5 |
 | Diagrams as code is the growing form: Mermaid renders natively on GitHub since 2022 | measured, descriptive | review.md 5 |
+| Readers ask what an arrow means, in questions on data-flow, component and flowchart diagrams (about 18,000 and 136,000 views on two of the threads); no study counts the confusion | convention, untested (practitioner questions, SO 2021b, SO 2009d, SESE 2024a) | position.md |
 | No controlled study found compares C4 with UML, icon sets with plain boxes, or a key with none | gap (this search did not find one) | position.md |
 | Sixteen existing reviews cover UML, notation or visualisation; none isolates reader outcomes of system diagrams or includes grey literature | gap (this search did not find one) | review.md 0 |

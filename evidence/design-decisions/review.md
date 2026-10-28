@@ -110,3 +110,17 @@ This file reads the literature on documents that propose or record design decisi
 
 - Practitioner articles repeat the same advice: one decision per record, never edit an accepted record, write while the reasoning is fresh, record the alternatives.
 - Sources: Polishchuk 2026 and Taylor 2025 (both example only), Kashitsyn 2024 for design docs. None reports data.
+
+Q/A sites (Software Engineering Stack Exchange and Stack Overflow, searched 2026-10-28; 15 threads, none under 10 of 20; strings in [protocol](protocol.md)). Practitioner opinion, no data.
+
+- The vocabulary is almost absent. `architecture decision record` returned 9 results on Software Engineering Stack Exchange, none about decision records, and 30 on Stack Overflow, one about ADRs (SO 2022a). The problem is asked in other words, as forgetting why a decision was taken.
+- Q4 (how a proposal is judged) and Q5 (whether teams keep ADRs): no thread reports either, so these sites add nothing.
+- Q6, why rationale is not captured:
+  - SESE 2016a (top answer 26 votes): a team of three forgot why decisions were taken; write the rationale next to the item it concerns. An agile answer notes that one does not know which rationales matter until later. This is the pain of the interview studies above (strand 3), told first hand and without the ADR name.
+  - SESE 2013b: decisions come back again and again; major ones go in design documents, trivial ones in a comment, and the middle kind stays communal knowledge. Wikis for it had little success. It is a rule by size, close to the "architecturally significant" filter of the ADR templates, stated independently.
+  - SESE 2018b: place a decision by its scope (method comment, class, own file) so it is found where the reader looks. SESE 2016b: notes taken while coding help when the code is revisited.
+- Q1 and Q3, what a document holds and how a proposal is structured:
+  - SESE 2011c: keep one or two sentences of pros and cons in the design document. Put big decisions in a separate decisions document with the problem, a table of options with pros and cons, and the choice. It is the options table of MADR, described by a practitioner.
+  - SESE 2015c: the future tense for a proposal, the present tense for a design document kept over the life of the software. This separates a proposal from the document that replaces it.
+  - SESE 2012c: a design document holds goals, static structure, dynamic behaviour, data and deployment at an abstract level (184,827 views on the day). SESE 2018a: the IEEE 1016 text allows a design document for an existing system, and an answer adds that writing it first helps to fail fast.
+  - SESE 2015b: technical design documents written before development were an educated guess, revised often. SO 2010a: explain a decision to colleagues with simple hand-drawn diagrams.

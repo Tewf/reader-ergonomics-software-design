@@ -65,7 +65,7 @@ Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv
   - vendor and government guidance (AWS, Microsoft, Google Cloud, GOV.UK);
   - talks, practitioner articles and magazines.
 - Engine: a general web search engine, first result page per string (about 10 results). Results personalise and change.
-- Not reached: Stack Overflow and Reddit were blocked for the search tool, so Q/A sites are uncovered.
+- Q/A sites: Software Engineering Stack Exchange and Stack Overflow, searched through their public API on 2026-10-28 (subsection Q/A sites, below). Reddit was blocked for the search tool and is not covered.
 
 | Id | String as run (abridged) | Screened | Included |
 |---|---|---|---|
@@ -79,11 +79,53 @@ Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv
 | G8 | Keeling OR Richards and Ford books, architecture decision records chapter | 9 | 0 (books not read) |
 | P | direct visits to named producers: Go, Swift, arc42, Google Cloud, Kafka | 5 | 4 (Kafka page unreadable) |
 
+### Q/A sites
+
+Strings DD1 to DD18 ran on 2026-10-28, one reviewer, grey tier 2. The stopping parameters, the API call, how threads are read and scored, and the shared limits are in the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites).
+
+**Strings as run, design-decisions**
+
+| Id (design-decisions) | String as run | Site | Returned = screened | Included | New |
+|---|---|---|---|---|---|
+| DD1 | `q=architecture decision record` | Software Engineering Stack Exchange; Stack Overflow | 39 | 1 | 1 |
+| DD2 | `title=decision record` | Software Engineering Stack Exchange; Stack Overflow | 2 | 1 | 0 |
+| DD3 | `q=design document` | Software Engineering Stack Exchange | 30 | 1 | 1 |
+| DD4 | `q=document design decisions rationale` | Software Engineering Stack Exchange; Stack Overflow | 14 | 2 | 2 |
+| DD5 | `title=design document` | Software Engineering Stack Exchange; Stack Overflow | 43 | 6 | 5 |
+| DD6 | `title=design doc` | Software Engineering Stack Exchange | 0 | 0 | 0 |
+| DD7 | `title=rationale` | Software Engineering Stack Exchange | 24 | 1 | 0 |
+| DD8 | `title=RFC` | Software Engineering Stack Exchange | 10 | 0 | 0 |
+| DD9 | `title=design decisions` | Software Engineering Stack Exchange; Stack Overflow | 44 | 3 | 2 |
+| DD10 | `title=design review` | Software Engineering Stack Exchange | 13 | 0 | 0 |
+| DD11 | `title=architecture decisions` | Software Engineering Stack Exchange; Stack Overflow | 9 | 0 | 0 |
+| DD12 | `title=document decisions` | Software Engineering Stack Exchange; Stack Overflow | 0 | 0 | 0 |
+| DD13 | `title=technical specification` | Software Engineering Stack Exchange | 3 | 0 | 0 |
+| DD14 | `title=design proposal` | Software Engineering Stack Exchange | 0 | 0 | 0 |
+| DD15 | `title=ADR` | Software Engineering Stack Exchange; Stack Overflow | 30 | 1 | 0 |
+| DD16 | `tagged=documentation&q=decisions` | Software Engineering Stack Exchange | 19 | 5 | 2 |
+| DD17 | `tagged=architecture&q=rationale` | Software Engineering Stack Exchange | 10 | 0 | 0 |
+| DD18 | `title=decisions` | Software Engineering Stack Exchange | 30 | 4 | 2 |
+| Total | 18 strings | | 320 | 15 (distinct) | 15 |
+
+**Selection and scoring**
+
+- Opening, inclusion, exclusion and scoring rules: as in the shared rules.
+- Included: 15. Scored on the 20 criteria of Garousi 2019 Table 7 (section 8), threshold 10 of 20. Below the threshold: 0; they stay as examples of practice only.
+
+**Stopping point**
+
+- The run ended after string DD18. The last string that added a new included thread was DD18 (2 new).
+
+**Limits specific to this search**
+
+- Limits common to all four searches: as in the shared rules.
+
 ## 6. Stopping rule
 
 - Stated before searching: effort bounded, N = 10 results per string, with saturation, k = 5.
 - Saturation means: stop a string after 5 consecutive results that add no new concept. G3, G5 and G7 stopped this way, since they returned only known sources or off-topic pages.
 - Formal: evidence exhaustion for F2, F3, F6 (small sets); effort bounded (top 15) for the rest.
+- Q/A sites: see the subsection Q/A sites; the search stopped after string DD18.
 
 ## 7. Selection
 
@@ -116,3 +158,4 @@ Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv
 - Forward snowballing was one page; backward snowballing covered two works.
 - Many formal sources were read by abstract only; sources.md says which.
 - This search did not find a study that measures reviewers reading proposals; that is not proof none exists.
+- Q/A threads of design-decisions: one scorer, no second rater.

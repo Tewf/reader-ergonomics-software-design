@@ -4,7 +4,7 @@ Question: how should a description of a software system's architecture be organi
 
 Steps: [frame](frame.md) · [protocol](protocol.md) · [review](review.md) · [sources](sources.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
 
-Method: a multivocal literature review (Garousi 2019), 71 sources: 51 formal, 20 grey of which 5 score below 10 of 20 (examples of practice only).
+Method: a multivocal literature review (Garousi 2019), 92 sources: 51 formal, 41 grey of which 8 score below 10 of 20 (examples of practice only). The grey sources include 21 threads from Q/A sites.
 
 ## Scope
 

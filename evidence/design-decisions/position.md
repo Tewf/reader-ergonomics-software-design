@@ -25,6 +25,7 @@ Each "not known" below is a statement about this search, not about the world.
 
 ## Not known
 
+- Whether practitioners use the decision-record vocabulary at all. On Software Engineering Stack Exchange and Stack Overflow it is almost absent (9 and 30 results for `architecture decision record`, one about ADRs). The problem appears as forgetting why (SESE 2016a). This is a statement about two sites searched on 2026-10-28.
 - Whether any proposal template helps a reviewer find flaws: this search found no such experiment.
 - Whether any decision record helps a maintainer recover why, measured on the maintainer.
 - Whether length matters: Nygard 2011 asks for one or two pages, Ubl 2020 for 10 to 20 for large designs, with no comparison.

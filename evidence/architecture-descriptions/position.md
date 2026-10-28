@@ -35,7 +35,7 @@ This file says what is known about architecture descriptions, what is not, and w
 ## Where practice runs ahead of the evidence
 
 - arc42, C4 and ARCHITECTURE.md are used and taught widely, with no comparative trial found.
-- arc42's authors say they know no adoption numbers (Starke 2026b). Five of the 20 grey sources scored below 10 of 20 (sources.md).
+- arc42's authors say they know no adoption numbers (Starke 2026b). Eight of the 41 grey sources scored below 10 of 20 (sources.md).
 - 42010 defines what conformance is; its own authors do not claim better systems from it, and no study of readers was found.
 - Docs as code is credited by its owners for use, not shown to improve understanding.
 - Agent context files carry architecture sections in about 70% of cases while two test settings find overviews unhelpful.
@@ -49,6 +49,8 @@ This file says what is known about architecture descriptions, what is not, and w
 ## Where practice and research agree without citing each other
 
 - Lethbridge 2003 advises simple, powerful formats that hold what stays valid; matklad 2021 advises recording only what rarely changes. This review found no citation between them.
+- One place per fact has a boundary that practice states on its own. SESE 2010a asks whether an architecture description breaks the DRY principle. The answers: it is a different level of description that the code cannot give, and DRY is a reason to weigh. Duplicating the same fact at the same level is the cost; a description at another level is not. The repository's own rule should read "same fact, same level".
+- Keeping a description true (Q6), experience only: SESE 2012b (a champion who grows a shared document organically) and SESE 2019a (modelling a built distributed system in full is almost impossible).
 
 ## What this repository adds
 

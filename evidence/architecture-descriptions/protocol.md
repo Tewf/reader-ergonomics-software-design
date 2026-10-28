@@ -83,7 +83,7 @@ Grey types chosen, with the reason:
 | Practitioner panels and magazine articles | 2 | InfoQ, Technology Radar |
 | Vendor surveys | 2 | the only adoption data in practice |
 | Company and consultancy blogs | 3 | how teams say they work |
-| Q/A sites | 2 | not reachable by the engines used here |
+| Q/A sites | 2 | read through the Stack Exchange API, see the subsection Q/A sites below |
 
 Web queries as run (about 10 results each, one web search engine):
 
@@ -106,7 +106,73 @@ O1  architecture documentation methods scientific and grey sources Helsinki   (t
 
 Besides the strings, nine title lookups were run to read the abstract of a review already found; they are counted in [sources](sources.md).
 
-A Q/A query restricted to stackoverflow.com was refused by the engine, and the Software Engineering Stack Exchange pages could not be fetched. No Q/A source is in the pool.
+A Q/A query restricted to stackoverflow.com was refused by the web engine, and the Software Engineering Stack Exchange pages could not be fetched that way. The two sites were therefore searched through their public API on 2026-10-28; the subsection Q/A sites states the strings, the stopping rule and the scoring.
+
+### Q/A sites
+
+The search ran on 2026-10-28. Grey type: question-and-answer sites, tier 2 (outlet score 0.5). One reviewer. The stopping parameters, the reading and scoring rules and the limits below are shared by the four reviews of this repository; the other three protocols link here for them.
+
+**Stopping rule, stated before searching**
+
+- Effort bounded: the top N = 30 results by votes per string per site.
+- Saturation: stop a string after k = 10 consecutive results that add no new concept.
+- Fixed parameters of every call: `order=desc&sort=votes&pagesize=30&filter=withbody` on the Stack Exchange API, version 2.3, endpoint `search/advanced`, no key and no login.
+
+**Strings as run**
+
+Date of every call: 2026-10-28.
+
+- "Returned" is what the API sent (at most 30 per site).
+- "Screened" equals returned, since every title was read.
+- "Included" is the number of this topic's included threads among them.
+- "New" is the number first met in that string.
+
+| Id | String as run | Site | Returned = screened | Included | New |
+|---|---|---|---|---|---|
+| AD1 | `q=architecture documentation` | Software Engineering Stack Exchange; Stack Overflow | 60 | 4 | 4 |
+| AD2 | `q="architecture documentation" (quoted)` | Software Engineering Stack Exchange; Stack Overflow | 29 | 0 | 0 |
+| AD3 | `title=document software architecture` | Software Engineering Stack Exchange; Stack Overflow | 0 | 0 | 0 |
+| AD4 | `q=arc42` | Software Engineering Stack Exchange; Stack Overflow | 11 | 2 | 2 |
+| AD5 | `q=C4 model` | Software Engineering Stack Exchange; Stack Overflow | 36 | 1 | 1 |
+| AD6 | `title=software architecture document` | Software Engineering Stack Exchange; Stack Overflow | 4 | 2 | 2 |
+| AD7 | `tagged=documentation&q=architecture` | Software Engineering Stack Exchange; Stack Overflow | 48 | 10 | 9 |
+| AD8 | `q=how to document software architecture` | Software Engineering Stack Exchange | 30 | 2 | 0 |
+| AD9 | `tagged=architecture;documentation` | Software Engineering Stack Exchange; Stack Overflow | 43 | 10 | 0 |
+| AD10 | `q=architectural views viewpoints 4+1` | Software Engineering Stack Exchange | 1 | 0 | 0 |
+| AD11 | `q=onboarding new developers architecture overview` | Software Engineering Stack Exchange | 0 | 0 | 0 |
+| AD12 | `q=architecture documentation C4 arc42` | Software Engineering Stack Exchange | 0 | 0 | 0 |
+| AD13 | `q=architectural views` | Software Engineering Stack Exchange | 30 | 1 | 1 |
+| AD14 | `q=onboarding architecture` | Software Engineering Stack Exchange | 6 | 0 | 0 |
+| AD15 | `q=UML architecture documentation` | Software Engineering Stack Exchange | 13 | 2 | 1 |
+| Total | 15 strings | | 311 | 21 (distinct) | 20 |
+
+**Selection and scoring**
+
+- Opened: every thread whose title bore on a question of the topic, with the question and its top answers read. Included: the thread answers one of the topic's questions with an argument or an experience, not only a how-to or a lookup. Excluded after reading: how-to questions, product-specific questions, threads about documentation in general (the topic's exclusion E7), and threads that belong to another topic.
+- Included: 21. Scored on the 20 criteria of Garousi 2019 Table 7 (see the protocol of the topic), threshold 10 of 20. Below the threshold: 3; they stay as examples of practice only.
+- Rules used to score a Q/A thread:
+  - A1 is 0.5 for a moderated, peer-voted site.
+  - A3 is 1 when the top answerer's reputation is at least 20,000 and 0.5 at 5,000. The reputation is read on the day, as a proxy for public work.
+  - A2 and A4 come from a role, or a cited standard or book, in the answer.
+  - M2 is 0.5 when the answer says it rests on the answerer's experience, and 1 when it describes cases.
+  - I is 1 for at least 20,000 views or a top answer of at least 30 votes, and 0.5 for 3,000 views or 10 votes.
+  - T is 0.5 (tier 2). D is 1, since every thread is dated.
+
+**Stopping point**
+
+- The run ended after string AD15, when each term of the field named in the brief had been run in at least one form. The last string that added a new included thread was AD15 (1 new); the strings after it, if any, added none. Saturation was applied in this way across strings; inside a string all returned titles were read, so the k = 10 rule never cut a list short.
+- Strings that returned 0 to 6 results (phrase or multi-word queries) were read as weak queries, not as absence; they were followed by a title or tag form of the same words.
+
+**Limits specific to this search**
+
+- The `q` parameter matches words anywhere in a question and ranks by votes, so broad words return unrelated popular threads (a list of 30 may hold two relevant ones). The `title` and `tagged` parameters were added for precision; they miss threads whose title uses other words.
+- Votes, views and answer counts are those of 2026-10-28 and change. Reputation is the top answerer's on that day.
+- Stack Overflow was searched only with the strings that name the topic; cs and cseducators only for pseudocode, as asked.
+- The service refused calls for a while on the day (HTTP 429 with a wait of 145 seconds) after a burst; no result was lost, since the data already read was kept.
+- Display names are not recorded; threads are cited by title and number.
+
+- Strings AD10 to AD12 were multi-word and returned 1, 0 and 0 results; only the counts were kept.
+- Thread 233099 was found by the system-diagrams string SD6, not by a string of this topic.
 
 ## 6. Stopping rule
 
@@ -114,6 +180,7 @@ Stated before searching.
 
 - **Formal:** effort bounded. The first 25 results of the review string (F6) and the first 8 to 14 of every other string, sorted by citations; snowballing stops after one pass that adds no new work on the questions.
 - **Grey:** effort bounded at N = 10 results per query, with saturation at k = 3. A query stops being read after 3 consecutive results that add no new concept; vendor blogs repeat each other.
+- Q/A sites: effort bounded at N = 30 results by votes per string and site, with saturation at k = 10; stated in the subsection Q/A sites, where the search stopped after string AD15.
 - Named producers (arc42, C4, the SEI books) are read to exhaustion, since the pool is small.
 
 ## 7. Selection
@@ -172,3 +239,4 @@ Twenty criteria, each scored 1, 0.5 or 0, in eight groups:
 - The Helsinki thesis and the Gothenburg essay were read through their abstracts only (bot protection blocked the full text).
 - Some reviews were read through abstracts or search summaries and are marked (secondary).
 - Recorded talks were not watched.
+- Q/A threads of architecture-descriptions: one scorer, no second rater.

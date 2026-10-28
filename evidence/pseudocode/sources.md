@@ -46,10 +46,10 @@ Flow summary:
 
 | Stage | Formal | Grey |
 |---|---|---|
-| Strings run | 17 | 12 |
+| Strings run | 17 | 12 web, 8 Q/A (PS1 to PS8) |
 | Hits reported | 607 (F1 to F9) | web results only |
-| Records screened | 24 (OpenAlex) + 16 (arXiv) + 73 (web) + 363 snowball titles | 163 |
-| New sources included | 14 | 11 |
+| Records screened | 24 (OpenAlex) + 16 (arXiv) + 73 (web) + 363 snowball titles | 404 (163 web, 241 Q/A) |
+| New sources included | 14 | 37 (11 web, 26 Q/A threads) |
 
 - Hits reported: 317 (OpenAlex F1 to F3) and 290 (arXiv F4 to F9).
 - Ulate-Caballero 2021 was found by both F1 and R1 and is counted once in the included total.
@@ -82,7 +82,7 @@ Excluded or not followed, by reason:
 | G11 | Knuth Art of Computer Programming "1.1 Algorithms" Algorithm E Euclid's algorithm steps assignment arrow | 18 | 1 |
 | G12 | CLRS "Pseudocode conventions" indentation block structure comment third edition text | 10 | 0 |
 
-- No Stack Exchange or Stack Overflow thread on pseudocode standards was found (G4, G5); Q/A sites are therefore a type searched but empty.
+- The web engine found no Stack Exchange or Stack Overflow thread on pseudocode standards (G4, G5). The sites were then searched through their public API on 2026-10-28 (strings PS1 to PS8, [protocol](protocol.md), subsection Q/A sites). 241 records were returned and screened, and 26 threads were included, scored below with the grey sources as tier 2.
 - Excluded from G1 and G5: two university handouts behind a login, generic tutorials with no author, student-made copies of board documents, and unnamed course notes that adapt Cormen et al.
 - G8, G11 and G12 added no new concept; the grey search stopped there (protocol, section 6).
 
@@ -115,8 +115,36 @@ Quality for grey sources: A authority (of 4), M methodology (6), O objectivity (
 | McConnell 2004 | grey tier 1 | G9, snowball (Ramsey 1983) | 4 / 2.5 / 2 / 1 / 0.5 / 1.5 / 0.5 / 1 = 13 | review 6 |
 | Sedgewick 2026 | grey tier 2 | G10 | 4 / 2 / 1.5 / 0.5 / 0 / 0.5 / 0.5 / 0.5 = 9.5 (example only) | review 6 |
 | Forum 2026 | grey tier 3 | G11 | 0 / 1 / 2 / 1 / 0 / 0 / 0 / 0 = 4 (example only) | review 6 |
+| SESE 2010e | grey tier 2 | PS1 | 0.5 / 3.5 / 4 / 1 / 0.5 / 2 / 1 / 0.5 = 13 | review 3, against |
+| SESE 2012e | grey tier 2 | PS1 | 0.5 / 2.5 / 4 / 1 / 0 / 1.5 / 0.5 / 0.5 = 10.5 | sources only |
+| SESE 2012f | grey tier 2 | PS2 | 1 / 4.5 / 4 / 1 / 0 / 2 / 1 / 0.5 = 14 | review 1 |
+| SESE 2016c | grey tier 2 | PS2 | 1.5 / 2.5 / 4 / 1 / 0 / 2 / 0.5 / 0.5 = 12 | against |
+| SESE 2011d | grey tier 2 | PS1 | 1.5 / 2 / 3 / 1 / 0.5 / 0.5 / 1 / 0.5 = 10 | sources only |
+| SESE 2011e | grey tier 2 | PS2 | 0.5 / 3 / 4 / 1 / 0 / 1.5 / 0 / 0.5 = 10.5 | review 6 |
+| SESE 2011f | grey tier 2 | PS5 | 1 / 4 / 4 / 1 / 1 / 2 / 1 / 0.5 = 14.5 | review 6, against |
+| SESE 2014c | grey tier 2 | PS5 | 2 / 4.5 / 4 / 1 / 0 / 1.5 / 0 / 0.5 = 13.5 | review 3, against |
+| SESE 2010f | grey tier 2 | SD3 (other topic's string) | 1 / 4 / 3 / 1 / 1 / 1 / 0.5 / 0.5 = 12 | review 1 |
+| SESE 2018c | grey tier 2 | PS4 | 1.5 / 4 / 4 / 1 / 0 / 0.5 / 0 / 0.5 = 11.5 | sources only |
+| CS 2023a | grey tier 2 | PS1 | 2 / 3.5 / 4 / 1 / 1 / 2 / 1 / 0.5 = 15 | review 6, against |
+| CS 2015a | grey tier 2 | PS1 | 1.5 / 3 / 4 / 1 / 0 / 2 / 1 / 0.5 = 13 | review 6, against |
+| CS 2013a | grey tier 2 | PS1 | 0.5 / 4 / 3 / 1 / 1 / 1.5 / 0.5 / 0.5 = 12 | review 6, against |
+| CS 2020a | grey tier 2 | PS2 | 1 / 4 / 3 / 1 / 0 / 2 / 0 / 0.5 = 11.5 | review 6, against |
+| CS 2018a | grey tier 2 | PS2 | 1.5 / 3 / 4 / 1 / 0 / 1.5 / 0.5 / 0.5 = 12 | review 6, against |
+| CS 2019a | grey tier 2 | PS1 | 1.5 / 4 / 4 / 1 / 1 / 2 / 1 / 0.5 = 15 | review 6, against |
+| CSEd 2019a | grey tier 2 | PS1 | 0.5 / 4.5 / 4 / 1 / 0.5 / 2 / 1 / 0.5 = 14 | review 4 |
+| CSEd 2017a | grey tier 2 | PS1 | 1.5 / 5 / 4 / 1 / 0 / 2 / 0.5 / 0.5 = 14.5 | review 1, 4 |
+| CSEd 2020a | grey tier 2 | PS1 | 1 / 4.5 / 4 / 1 / 0 / 1 / 0 / 0.5 = 12 | review 4 |
+| CSEd 2017b | grey tier 2 | PS5 | 2 / 5 / 4 / 1 / 0 / 2 / 0.5 / 0.5 = 15 | review 4 |
+| CSEd 2017c | grey tier 2 | PS5 | 2.5 / 5 / 4 / 1 / 0 / 2 / 0 / 0.5 = 15 | review 4 |
+| CSEd 2021a | grey tier 2 | PS3 | 1.5 / 5 / 4 / 1 / 0 / 2 / 0 / 0.5 = 14 | review 1, 4 |
+| SO 2009c | grey tier 2 | PS2 | 0.5 / 2 / 2.5 / 1 / 0 / 1 / 0.5 / 0.5 = 8 (example only) | sources only |
+| SO 2008b | grey tier 2 | PS2 | 1.5 / 5 / 4 / 1 / 0 / 2 / 0.5 / 0.5 = 14.5 | review 3, against |
+| SO 2008c | grey tier 2 | PS2 | 1 / 5.5 / 4 / 1 / 1 / 1.5 / 0.5 / 0.5 = 15 | review 3, against |
+| SO 2011b | grey tier 2 | PS2 | 1.5 / 3 / 4 / 1 / 0 / 1.5 / 1 / 0.5 = 12.5 | review 6 |
 
-Scored 21 grey sources; 6 fall below 10 of 20 and stay as examples of practice only: Wikipedia 2026a, Rosetta Code 2026, UW 2023, UH 2026, Sedgewick 2026, Forum 2026.
+Scored 47 grey sources: 21 from the web and books, 26 Q/A threads. 7 fall below 10 of 20 and stay as examples of practice only: Wikipedia 2026a, Rosetta Code 2026, UW 2023, UH 2026, Sedgewick 2026, Forum 2026 and SO 2009c.
+
+The Q/A threads mostly repeat the pool. Definitions (SESE 2012e, SESE 2011d), symbol meanings and teaching opinions add nothing new, and SESE 2018c is cited only here. No thread concerns typesetting or layout (Q2), and none compares reader outcomes; for those the Q/A sites add nothing. `title=describe algorithm` returned nothing, and `title=algorithm notation` two weak Computer Science threads.
 
 ### Formal
 

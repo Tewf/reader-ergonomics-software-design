@@ -7,7 +7,7 @@ Steps: [protocol](protocol.md) · [sources](sources.md) · [frame](frame.md) · 
 This is a multivocal literature review (Garousi 2019) by one reviewer, searched on 2026-10-28.
 
 - It covers published research and public practice.
-- It scores 31 grey sources out of 20; 8 fall below the threshold of 10 and are used as examples only.
+- It scores 46 grey sources out of 20 (31 from the web, 15 threads from Q/A sites); 8 fall below the threshold of 10 and are used as examples only.
 - It is not a standard, a new result, or a claim to the state of the art.
 - A number read only in an abstract or summary is marked "(secondary)".
 

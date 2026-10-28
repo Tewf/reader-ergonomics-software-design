@@ -118,3 +118,17 @@ Owners' claims about themselves unless stated; grade convention, untested; an ad
   - De Luca 2026 generates a description from a repository, by a template taken from 42010, Views and Beyond and C4. 22 developers judged it valuable and broadly accurate; diagrams, context and deployment views were weak (abstract).
   - Larsen 2026 extends arc42 and C4 for AI systems; six practitioners rated coverage of one regulation, not reader outcomes (abstract). Elberzhager 2026 found model and architect ratings of documents agreed more when the document was better (abstract).
 - Forward citations: Rost 2013 is cited by the OSS and view studies above and by de Graaf 2016. this search (sources.md, forward snowballing) found no citing paper that replicates Ernst 2023.
+
+Q/A sites (Software Engineering Stack Exchange and Stack Overflow, searched 2026-10-28; 21 threads, scores in [sources](sources.md)). Opinion and experience, no data. Three threads score under 10 of 20 (SESE 2011b, SO 2011a, SO 2008a): examples of practice only.
+
+- The threads mostly repeat what the pool holds from the owners: the 4+1 views, IEEE 1471, arc42, C4 and the stale-document warning. Four points are new.
+- Which views practitioners name:
+  - Two threads send a newcomer to the 4+1 views (SESE 2017a, SESE 2017b) and one to the IEEE 1471 chain of stakeholder, concern and viewpoint (SESE 2012a).
+  - SESE 2014a (42,890 views on the day): the model fixes who needs which information, and no one-to-one mapping to UML diagrams exists. This agrees with the reading of the views as independent of notation; it adds no measurement.
+- As-built, not as-intended (new):
+  - SESE 2015a: a description of a system that exists states what the code does, calls out where it departs from the intended architecture and, where known, why.
+  - Nothing in the pool states this. It bears on how a description is kept true (Q6).
+- What belongs in a description (Q1):
+  - SESE 2013a (top answer by a very high reputation answerer): technologies belong when they are hard to change, on the definition of architecture as what is hardest to change.
+  - SESE 2011b says the same by level of document (solution architecture yes, enterprise architecture no), at 9.5 of 20: example of practice only.
+- Event-driven systems (new, one thread): SO 2018a lists the events, says per component which it produces and consumes, and draws sequence diagrams only for the hard flows. One answer with 9 votes: an example of a form, not evidence.

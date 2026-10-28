@@ -17,6 +17,13 @@ This file says what is known about system diagrams, what is not, where this revi
 - Practitioners draw informally and short-lived (Cherubini 2007, Baltes 2014).
 - A theory of notations exists and is applied without much verification (van der Linden 2019); its principles are hard to apply objectively (Störrle 2013).
 - Respondents found published architecture diagrams missing expected elements (Nicacio 2022, 34 respondents).
+- The meaning of an arrow is the recurring confusion in practitioner questions:
+  - SO 2021b (20 votes, 18,334 views on the day): there is no rule for the direction of an arrow; show the data flow in an overview and the dependency in a detail view.
+  - SESE 2024a: arrows in a data-flow diagram are not dependency arrows. SO 2009d (136,074 views) and SO 2010b: flowchart arrows carry control, data-flow arrows carry data.
+  - SO 2014c (example only): one two-way arrow and two arrows are said to mean the same.
+  - The guides in the pool (C4: labelled one-way arrows; IcePanel 2023: label every line) already say to label lines. The threads show readers asking what an arrow means, in several forms, so a rule "say what an arrow means in a key" has demand behind it. No study counts the confusion.
+- No accepted standard for component types exists (SO 2012a, borderline at 10 of 20); the 4+1 model is offered instead.
+- Data-flow diagrams are still used for a high-level view because they de-emphasise control flow and link data stores to the object model (SO 2011c, SO 2010b, SESE 2024a). This agrees with the threat-modelling use in the pool (OWASP 2026, Microsoft 2023) and with Schneider 2024; it adds no evidence on readers.
 
 ## Not known (this search did not find it)
 

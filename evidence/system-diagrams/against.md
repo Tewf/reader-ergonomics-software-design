@@ -25,15 +25,20 @@ This file gathers the evidence against the rules on system diagrams: null result
 - Practitioners rarely draw to the standard (Baltes 2014, Petre 2013).
 - The C4 owner advises keeping UML if it works (Brown 2026c).
 
+## What the Q/A threads add against UML as the baseline
+
+- SESE 2010g, SESE 2012i, SESE 2017g, SESE 2023a, SESE 2015e and SESE 2015d (details in review.md 4) agree that practitioners draw UML selectively or not at all. They are opinions, not counts.
+
 ## Against counting adoption
 
 - Stars and downloads measure installation, not understanding (Mermaid 2026, npm 2026).
 - Hebig 2016 found most UML diagrams created once at project start, which suggests drift.
 - Engineers in a C4 adoption name limited control over layout and expect maintenance trouble (Jongeling 2025).
+- Diagrams go stale and are generated where possible (SESE 2019b, SESE 2017e); Q/A sites hold little on the newer tools, so they add no adoption count.
 
 ## Against the evidence on this page
 
 - Several results here were read only in abstracts and are marked (secondary); eleven formal sources were not read at all (sources.md).
-- Vendor and C4 pages are their owners' claims about their own method; nine of 21 grey sources score below 10 of 20.
+- Vendor and C4 pages are their owners' claims about their own method; eleven of 51 grey sources score below 10 of 20.
 - AWS 2026b admits its default grey falls below the contrast it cites, so a guide can break its own rule.
 - One reviewer scored the grey sources; no second rater checked them.
