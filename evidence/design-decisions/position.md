@@ -5,7 +5,7 @@ Each "not known" below is a statement about this search, not about the world.
 ## Against the existing reviews
 
 - Tofan 2014 and Bhat 2020 map research on architectural decisions.
-- Tofan 2014 (read in full) counts documentation approaches: 83% of 144 papers. Bhat 2020 was read by abstract only.
+- Tofan 2014 (abstract read) counts documentation approaches: 83% of 144 papers (count not checked against the paper). Bhat 2020 was read by abstract only.
 - This search found no comparison of document forms or readers in either.
 - Harhio 2022 is the nearest: a multivocal review of documentation methods since 2016. It finds practice centred on ADR templates and research centred on tools.
 - This review adds: proposals before adoption beside records after; reader-task evidence kept apart from writer-side evidence; adoption counts; sources from 2022 to 2026; a 20-criterion score for every grey source.
@@ -20,7 +20,7 @@ Each "not known" below is a statement about this search, not about the world.
 - The value of the same rationale depends on its intended use (Falessi 2008).
 - ADRs are tried more than kept: about half of repositories with ADRs hold one to five (Buchgeher 2023).
 - Proposal templates in Python, Rust, Kubernetes, Google (Ubl 2020) and, as an example only, HashiCorp 2026 share a core: motivation, design, alternatives, drawbacks (state-of-the-art.md).
-- Go proposals are declined mostly for feasibility, use cases and principles, not for document form (Kondo 2025).
+- Go proposals are declined most often for feasibility, obsolescence, use cases and principles, not for document form (Kondo 2025).
 - A first controlled comparison of two ADR templates exists, on the writer's side (Nogueira 2026).
 
 ## Not known
@@ -35,7 +35,7 @@ Each "not known" below is a statement about this search, not about the world.
 ## Where practice runs ahead of the evidence
 
 - ADRs reached Adopt on the ThoughtWorks Radar in 2017 (ThoughtWorks 2018); the one controlled comparison appeared in 2026 and is a preprint.
-- Nygard's template is the default in open source (Buchgeher 2023, secondary) and is suggested in GDS internal guidance (GOV.UK 2025, secondary); its evidence is its author's report of three months of use.
+- Nygard's template is the default in open source (Buchgeher 2023, secondary) and is suggested in GDS internal guidance (GOV.UK 2025, secondary); its evidence is its author's report of use since 2011-08.
 - Sections added by process owners, such as prior art (Rust RFC template, Rust 2026b) or a production readiness review (KEP template, Kubernetes 2026), have no measured effect on review.
 - Alternatives considered is called one of the most important sections (Ubl 2020), untested.
 - Silent reading before a review meeting (Amazon 2021, secondary) is untested.
@@ -44,7 +44,7 @@ Each "not known" below is a statement about this search, not about the world.
 ## Where evidence is ignored by practice
 
 - Rationale should be tailored to its use (Falessi 2008); practice ships one template for every reader.
-- Tofan 2014 found experiments are rare in this field (4% of 144 papers); practice did not wait for them.
+- Tofan 2014 found experiments are rare in this field (4% of 144 papers, count not checked); practice did not wait for them.
 - Records are written after the fact: about 63% of 5,800 ADRs were opened already accepted (Santana 2026, secondary), so the Proposed state that GDS 2026 describes is often skipped (an inference).
 - Enacted proposal processes differ from advertised ones (Keertipati 2016; Sharma 2022), yet templates describe the advertised one.
 

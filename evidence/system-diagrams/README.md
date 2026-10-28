@@ -12,7 +12,7 @@ General principles are not reviewed again here: [draw relations](https://github.
 |---|---|---|
 | Good layout (many heuristics together) raises clarity ratings and speeds correct answers; accuracy gains are small | measured, one research group | review.md 2 |
 | Diagram size and layout flaws correlate negatively with performance; flaws weigh more (r = -0.419 against -0.270); novices suffer more | measured, one research group, re-analysed data | review.md 2 |
-| The suggested size limit is a range, 44 to 65 elements, not a threshold | measured, one research group | review.md 2 |
+| The centre size differs by data set (44, 49 and 65 elements in three sets), so the size limit is not a threshold | measured, one research group | review.md 2 |
 | Single graph-drawing aesthetics (crossings, bends) carry less weight on UML than on abstract graphs | supported with caveat | review.md 3 |
 | UML documentation helps complex maintenance tasks, with no time saving | measured | review.md 2 |
 | Design-level UML models help code comprehension; analysis-level ones may hurt | measured (secondary) | review.md 2 |

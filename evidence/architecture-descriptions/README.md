@@ -27,7 +27,7 @@ Grades: **measured**, **supported with caveat**, **convention, untested**; an ad
 | Open-source projects rarely document architecture (108 of 2,000); the views found are informal, single and mostly never updated | measured, descriptive | review.md 5 |
 | Nineteen reviews of the field exist; none takes the organisation of a description for its reader as its subject | supported with caveat (abstracts read) | review.md 0 |
 | Splitting a description by concern may serve developers with one task badly; a task excerpt was proposed and later validated | convention, with a later validation (secondary) | review.md 4 |
-| Text against diagram descriptions: no difference in accuracy in an earlier experiment, as with structured against essay | measured, two experiments (one secondary) | review.md 4 |
+| Text against diagram descriptions: no overall difference in an earlier experiment (those who mostly used text scored better), as with structured against essay | measured, two experiments (one secondary) | review.md 4 |
 | Standards organise a description by stakeholder concerns, viewpoints and views | convention, untested | review.md 2 |
 | arc42 (12 sections, Starke 2026), C4 (4 levels) and ARCHITECTURE.md (a map of the code) are the practice templates; this search found no comparative trial of them; the arc42 site scores 9.5 of 20 and is an example of practice | convention, untested | review.md 6, sources.md |
-| About 7 in 10 agent context files carry an architecture section; one benchmark found repository overviews did not help coding agents | measured, descriptive; measured (one benchmark) | review.md 6 |
+| About 7 in 10 agent context files carry an architecture section; two test settings found repository overviews did not help coding agents | measured, descriptive; measured (two settings) | review.md 6 |

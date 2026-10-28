@@ -5,15 +5,15 @@ This file reads the literature on documents that propose or record design decisi
 
 ## 0. Existing reviews
 
-- Tofan 2014 (read in full): systematic mapping of architectural decisions, 2002-01 to 2012-01; six databases, 28,895 first hits, 144 papers.
-  - 83% (120) propose some form of documentation approach; 52 include tool support.
-  - Experiments are the least used method: 4% of papers, six in all, one with fourteen architects.
+- Tofan 2014 (abstract read): systematic mapping of architectural decisions, 2002-01 to 2012-01; six databases, 28,895 first hits, 144 papers.
+  - 83% (120) propose some form of documentation approach; 52 include tool support (counts not checked: the paper was not reached).
+  - Experiments are the least used method: 4% of papers, six in all, one with fourteen architects (counts not checked; the abstract says few papers use experiments).
   - It asks for evidence on the real-world benefit of documenting, and for the right amount of documentation.
 - Bhat 2020: semi-systematic review of 218 papers over four decades on architectural design decisions; tool support, human aspects and group decision making; a getting-started guide (abstract only).
 - Razavian 2019: classifies empirical studies of architecture decision making by logic, purpose, method and process; asks for social-science methods (abstract partly read).
 - Hyun 2023: systematic mapping on tracing decisions to artifacts; the knowledge is rarely documented explicitly and no standard for documenting exists (journal page only).
 - Harhio 2022 (read in full): the closest, a multivocal review by a master's student.
-  - Web of Science and Google; from 2016; 36 scientific papers and 19 grey sources; method after Garousi 2019.
+  - Web of Science and Google; from 2016; 36 papers, 17 scientific and 19 grey; method after Garousi 2019.
   - Scientific papers mostly propose tools, extraction tools above all; 12 of 19 grey sources concern ADR templates, which the scientific papers do not mention.
   - Benefits are low cost and concise content; drawbacks are high effort and badly organised content.
 - Located by title only: Tang 2017, Weinreich 2014, Alexeeva 2016, Li 2013.
@@ -59,7 +59,7 @@ This file reads the literature on documents that propose or record design decisi
   - With rationale documented (the DGA method), effectiveness rose for individuals and teams; efficiency did not change.
   - The authors say only one earlier study measured performance in a controlled setting.
 - Falessi 2008: the value of the same information depends on its purpose (secondary).
-- van Heesch 2013: four student teams over seven weeks, two documenting with decision viewpoints (secondary, abstract in a search summary).
+- van Heesch 2013: four student teams over seven weeks, two documenting with decision viewpoints (abstract).
   - The documenting teams explored and evaluated options more systematically.
   - The viewpoints did not help with requirements or complexity.
 - Nogueira 2026: crossover, 33 undergraduates documenting one decision per template, Nygard against MADR 2024.
@@ -72,7 +72,7 @@ This file reads the literature on documents that propose or record design decisi
 - Santana 2026: 921 repositories, 5,800 ADRs; about 63% were opened already accepted (secondary, conference page).
 - Ahmeti 2024: action research at one company; ADRs helped culture and knowledge transfer, not distributed-system documentation.
 - Keertipati 2016 and Sharma 2022: process mining of PEPs; the enacted process is richer than the advertised one (secondary).
-- Kondo 2025: 1,095 Go proposals; 448 declined, 337 accepted; reasons are feasibility, use cases and principles, not document form.
+- Kondo 2025: 1,095 classic Go proposals (the abstract says 1,091); 448 declined, 337 accepted; reasons are feasibility, use cases and principles, not document form.
 - Nakashima 2026: links declined Go proposals to source code, on the premise that their discussions hold design rationale; abstract only.
 - Viviani 2021: a classifier finds design discussion in pull requests (AUC 0.87), because design documents are often missing (secondary).
 - Adjacent: Gupta 2026 tests LLM generation of ADRs from 750 repositories; three to five prior records worked best as context (abstract only). Whether such records help a reader is not tested there.
@@ -89,7 +89,7 @@ This file reads the literature on documents that propose or record design decisi
 
 | Who | Since | Form | Evidence of use |
 |---|---|---|---|
-| Nygard 2011 | 2011 | five-part ADR | own report: 3 months, 6-10 developers |
+| Nygard 2011 | 2011 | five-part ADR | own report: since 2011-08 (under four months), 6-10 developers |
 | ThoughtWorks Radar | 2016 | lightweight ADRs: Trial, then Adopt in 2017 | the owner's assessment |
 | MADR, adr.github.io | 2018 | ADR template family | repository counts (state-of-the-art.md) |
 | Arc42 2026b | undated | decision section, Nygard-style, significant decisions only | project documentation |

@@ -14,8 +14,8 @@ This file gathers the evidence against the rules on system diagrams: null result
 - Earlier experiments found little effect of layout; Eichelberger 2009 is quoted as finding none (Störrle 2014).
 - Störrle 2011 found small accuracy gains (+6.5%) beside large preference gains (+28.2%). A rating is not a reading outcome.
 - Sharif 2010 found a helpful layout that broke general aesthetics.
-- The Störrle studies come from one group, with students, on paper or screen exercises; Störrle 2014 and 2016 re-analyse the same data, so they do not confirm one another.
-- The size limit moves with the counting rule and the data set (44 to 65 elements, Störrle 2016b), so one fixed number overstates the finding.
+- The Störrle studies come from one group, with students, on paper or screen exercises; Störrle 2014 and 2016 re-analyse the same 2012 data. Störrle 2016b pools them with the 2011 data, so they do not confirm one another.
+- The size limit moves with the counting rule and the data set (a centre of 44, 49 or 65 elements in three data sets, Störrle 2016b), so one fixed number overstates the finding.
 - The size correlation is medium (r = -0.270) and shrinks for experts and for the "elite" group (Störrle 2016b).
 
 ## Against UML as the baseline

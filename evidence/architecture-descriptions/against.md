@@ -15,14 +15,14 @@ This file gathers the evidence against the rules on architecture descriptions: n
 
 ## Against structure as the lever
 
-- The controlled comparison found (Ernst 2023) saw no significant effect of structured against essay format. Prior familiarity with the code mattered more. An earlier experiment found no difference in accuracy between text and diagram descriptions (Heijstek 2011, secondary).
+- The controlled comparison found (Ernst 2023) saw no significant effect of structured against essay format. Prior familiarity with the code mattered more. An earlier experiment found no overall difference between text and diagram descriptions; those who mostly used text scored better (Heijstek 2011, secondary).
 - Participants rated the structured format easier to navigate (80% against 55%) and more useful for coding (83% agreeing), but the difference was not significant.
 - The authors suggest the essay may suit overviews and the structured format coding tasks: format and task interact, which one reader style cannot satisfy.
 
 ## Limits of the one experiment
 
 - Students, not professionals, with 18% non-participation.
-- One system of 10 kSLOC and about 1,000 words per document.
+- One system of 10 kSLOC and about 800 words (Views and Beyond) or about 1,000 (essay) per document.
 - The two universities differed in familiarity with the system and in training in the structured format, so site and familiarity are partly confounded.
 - Participants knew a comparison was being made (observer expectancy).
 - Only Views and Beyond was tested, not arc42 (Starke 2026), C4 or a codemap.
@@ -30,7 +30,7 @@ This file gathers the evidence against the rules on architecture descriptions: n
 
 ## Against documentation as the answer
 
-- Engineers consulted documentation in 3% of logged events, much below their own report (Lethbridge 2003).
+- Engineers consulted documentation in 3% of logged events, much below their own report (Lethbridge 2003; figure not checked).
 - A document added to a live project had mixed effects (Kazman 2016); the issue tracker already served core members.
 - Design documents helped correctness on complex tasks but did not save time, and the update effort cancelled simple tasks (Arisholm 2006, Dzidek 2008; secondary).
 - Oral explanation is the working route when documents are incomplete (Rukmono 2026); the document competes with a person.
@@ -48,7 +48,7 @@ This file gathers the evidence against the rules on architecture descriptions: n
 
 ## Against overviews for machine readers
 
-- Gloaguen 2026 found repository overviews unhelpful to coding agents on one benchmark, while Zarzycki 2026 finds them in many files. The reader is a model, and the finding may not transfer to people or to other tasks.
+- Gloaguen 2026 found repository overviews unhelpful to coding agents in two settings (SWE-bench and a new set of repositories with developer files), while Zarzycki 2026 finds them in many files. The reader is a model, and the finding may not transfer to people or to other tasks.
 
 ## Open controversies
 

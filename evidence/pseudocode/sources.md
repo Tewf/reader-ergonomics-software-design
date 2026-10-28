@@ -131,7 +131,7 @@ Scored 21 grey sources; 6 fall below 10 of 20 and stay as examples of practice o
 | Tiwari 2023 | formal | R3 | titled review; read second-hand | review 0 |
 | Shneiderman 1977 | formal | prior pass | measured; abstract (secondary) | review 1 |
 | Brooke 1980 | formal | prior pass | measured; abstract (secondary) | review 1 |
-| Ramsey 1983 | formal | prior pass, snowball | measured; abstract (secondary) | review 1 |
+| Ramsey 1983 | formal | prior pass, snowball | measured; abstract | review 1 |
 | Scanlan 1989 | formal | prior pass, snowball | measured, contested; abstract (secondary) | review 1 |
 | Scanlan 1988 | formal | prior pass | measured; abstract (secondary) | review 1 |
 | Glorfeld 1988 | formal | prior pass, snowball | measured; abstract (secondary) | review 1 |
@@ -150,7 +150,7 @@ Scored 21 grey sources; 6 fall below 10 of 20 and stay as examples of practice o
 | Larkin 1987 | formal | prior pass | theory; linked only | review 2 |
 | Bauer 2019 | formal | prior pass | measured, 22 participants | review 2 |
 | Hanenberg 2024 | formal | prior pass | measured, 27 participants | review 2 |
-| Neumüller 2025 | formal | snowball (Wyrich 2023) | measured; abstract (secondary) | review 2 |
+| Neumüller 2025 | formal | snowball (Wyrich 2023) | measured; abstract | review 2 |
 | Caine 1975 | formal | prior pass | convention | review 3 |
 | Wirth 1971 | formal | prior pass | convention | review 3 |
 | Julaihi 2026 | formal | R2 | perception survey; abstract read | review 4 |
@@ -158,8 +158,8 @@ Scored 21 grey sources; 6 fall below 10 of 20 and stay as examples of practice o
 | Coffman 2026 | formal | snowball (Shneiderman 1977, Scanlan 1989) | cluster-randomised; abstract read | review 4 |
 | López-García 2025 | formal | F2 | survey-based design; abstract read in part | review 4 |
 | Chida 2024 | formal | F2 | work in progress; abstract read | review 4 |
-| Rheault 2023 | formal | prior pass | measured; abstract (secondary) | review 4 |
-| Obaidellah 2020 | formal | prior pass, F2 | measured; abstract (secondary) | review 4 |
+| Rheault 2023 | formal | prior pass | measured; abstract | review 4 |
+| Obaidellah 2020 | formal | prior pass, F2 | measured; abstract | review 4 |
 | Toksoz 2024 | formal | prior pass | measured, descriptive | review 5 |
 | Gundersen 2018 | formal | prior pass | measured, descriptive | review 5 |
 | Ince 2012 | formal | R7 | argument; synopsis only | review 5 |

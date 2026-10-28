@@ -7,14 +7,14 @@ Two records are kept apart: **best evidence** (a research record) and **most ado
 | Sub-question | Record holder | Measured how |
 |---|---|---|
 | Prose, constrained language or diagram for professionals tracing, coding and debugging | Boehm-Davis 1983 | 72, 36 and 36 professionals; time and errors |
-| PDL or flowchart for design quality and comprehension | Ramsey 1983 | one experiment; design quality, comprehension, implementation (abstract; secondary) |
+| PDL or flowchart for design quality and comprehension | Ramsey 1983 | one experiment; design quality, comprehension, implementation (abstract) |
 | Does a flowchart help with a program | Shneiderman 1977, Brooke 1980 | controlled experiments; no reliable gain (abstracts; secondary) |
 | Flowchart or pseudocode for comprehending an algorithm | Andrzejewska 2022 (largest), Scanlan 1989 | 114 participants, eye tracking, time, errors, confidence; Scanlan: three algorithms, five measures, students |
 | Flowchart or pseudocode for composing an algorithm | Glorfeld 1988 | novices; share with a working algorithm |
 | Diagram added to real code | Hendrix 2002 | students; time and correctness on one module |
 | Pseudocode against compile-and-run for assessment | Rheault 2023 | 226 students; performance and preference |
 | Flowchart environment against Python as first language | Coffman 2026 | 1,083 students, cluster-randomised; achievement, later courses (abstract) |
-| Naming the implemented algorithm next to code | Neumüller 2025 | 56 participants; comprehension score, time (abstract; secondary) |
+| Naming the implemented algorithm next to code | Neumüller 2025 | 56 participants; comprehension score, time (abstract) |
 | How comprehension experiments are built | Wyrich 2023 | mapping study of 95 experiments |
 | Indentation effect | Hanenberg 2024 (large), Bauer 2019 (none) | 27 and 22 participants; reading time, accuracy |
 | Pseudocode to code at line level | Kulal 2019 | 18,356 programs; test-case pass rate |
@@ -32,7 +32,7 @@ Two records are kept apart: **best evidence** (a research record) and **most ado
 
 ## Upper bounds (achieved)
 
-- Flowcharts were read faster, with fewer errors, at all three complexity levels in 114 participants (Andrzejewska 2022; abstract).
+- Flowcharts were read faster, with fewer errors, at all three complexity levels, with few exceptions, in 114 participants (Andrzejewska 2022; abstract).
 - Professionals coded 31% faster from PDL than from prose in one setting (29.7 against 20.5 minutes; Boehm-Davis 1983).
 - A pseudocode line corresponds to one or two code lines in a human-written corpus (Kulal 2019).
 - Over 320 thousand algorithm blocks have been extracted from arXiv sources (Toksoz 2024).

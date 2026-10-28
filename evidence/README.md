@@ -31,5 +31,7 @@ where a study measured its effect.
 
 ## Audit
 
-Not audited yet. Every DOI was resolved against Crossref when the reviews were written; the numbers are checked
-against their primary sources before this branch is merged, as in reader-ergonomics.
+Every DOI was resolved against Crossref when the reviews were written. On 2026-10-28 every numeric line of the four
+reviews was checked against its primary source (173 lines: 124 correct, 21 imprecise, 17 unverifiable, 8 repeats, 3
+wrong). Every wrong, imprecise or unverifiable line was corrected, narrowed or marked. Claims without a number
+were not audited this way.

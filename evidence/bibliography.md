@@ -66,7 +66,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Cormen 2003 | Cormen (2003). Using the clrscode package in LaTeX 2e. Guide to typesetting the pseudocode of Introduction to Algorithms, 2nd edition | https://www.cs.dartmouth.edu/~thc/clrscode/clrscode.pdf |
 | CTAN 2026 | CTAN (read 2026). Comprehensive TeX Archive Network: packages algorithm2e, algorithmicx, clrscode | https://ctan.org/pkg/algorithm2e |
 | Curtis 1989 | Curtis, Sheppard, Kruesi-Bailey, Bailey, Boehm-Davis (1989). Experimental evaluation of software documentation formats. Journal of Systems and Software (abstract not found; paper not read) | https://doi.org/10.1016/0164-1212%2889%2990019-8 |
-| D2 2026 | D2 repository, GitHub (stars read 2026-10-28) | https://github.com/terrastruct/d2 |
+| D2 2026 | D2 repository, GitHub (stars read 2026-10-28) | https://github.com/d2lang/d2 |
 | Dagenais 2010 | Dagenais, Ossher, Bellamy, Robillard, de Vries (2010). Moving into a new software project landscape. ICSE | https://doi.org/10.1145/1806799.1806842 |
 | Davis 2023 | Davis (2023). Pseudocode is not durable. Personal blog | https://emptysqua.re/blog/write-python-not-pseudocode/ |
 | de Dieu 2022 | de Dieu, Liang, Shahin (2022). How do developers search for architectural information? An industrial survey. ICSA | https://doi.org/10.1109/ICSA53651.2022.00014 , arXiv:2112.10920 |
@@ -119,10 +119,10 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Guo 2017 | Guo, Zhang, Wang (2017). What is the further evidence about UML? A systematic literature review. APSEC Workshops | https://doi.org/10.1109/APSECW.2017.28 |
 | Gupta 2026 | Gupta, Dhar, Feitosa (2026). Context matters: evaluating context strategies for automated ADR generation using LLMs. Preprint. Abstract only | arXiv:2604.03826 |
 | Hanenberg 2024 | Hanenberg, Morzeck, Gruhn (2024). Indentation and reading time: a randomized control trial on the differences between generated indented and non-indented if-statements. Empirical Software Engineering | https://doi.org/10.1007/s10664-024-10531-y |
-| Harhio 2022 | Harhio (2022). Documenting software architecture design decisions in continuous software development: a multivocal literature review. Master's thesis, University of Helsinki. Read through its abstract | http://hdl.handle.net/10138/352074 |
+| Harhio 2022 | Harhio (2022). Documenting software architecture design decisions in continuous software development: a multivocal literature review. Master's thesis, University of Helsinki. Read in full | http://hdl.handle.net/10138/352074 |
 | HashiCorp 2026 | HashiCorp (undated, read 2026). RFC template | https://web.archive.org/web/20250121005611/https://www.hashicorp.com/how-hashicorp-works/articles/rfc-template |
 | Hebig 2016 | Hebig et al. (2016). The quest for open source projects that use UML. MODELS | https://doi.org/10.1145/2976767.2976778 |
-| Heijstek 2011 | Heijstek, Kühne, Chaudron (2011). Experimental analysis of textual and graphical representations for software architecture design. ESEM, 167-176. Result read in a secondary summary | https://doi.org/10.1109/ESEM.2011.25 |
+| Heijstek 2011 | Heijstek, Kühne, Chaudron (2011). Experimental analysis of textual and graphical representations for software architecture design. ESEM, 167-176. Result read in its abstract (secondary) | https://doi.org/10.1109/ESEM.2011.25 |
 | Helwer 2023 | Helwer (2023). Pseudocode showdown. Personal blog (a practitioner's account) | https://ahelwer.ca/post/2023-03-30-pseudocode/ |
 | Hendrix 2002 | Hendrix, Cross, Maghsoodloo (2002). The effectiveness of control structure diagrams in source code comprehension activities. IEEE Transactions on Software Engineering | https://doi.org/10.1109/TSE.2002.1000450 |
 | Ho-Quang 2017 | Ho-Quang et al. (2017). Practices and perceptions of UML use in open source projects. ICSE-SEIP | https://doi.org/10.1109/ICSE-SEIP.2017.28 |
@@ -273,7 +273,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | ThoughtWorks 2018 | ThoughtWorks Technology Radar: lightweight architecture decision records (Trial 2016 and 2017, Adopt 2017 and 2018) | https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records |
 | Thoughtworks 2020 | Thoughtworks (2020). Diagrams as code. Technology Radar, October 2020, ring Trial | https://www.thoughtworks.com/radar/techniques/diagrams-as-code |
 | Tiwari 2023 | Tiwari et al. (2023). Machine learning for translating pseudocode to Python: a comprehensive review. ICICCS (title says review; the abstract read second-hand describes a proposed model) | https://doi.org/10.1109/iciccs56967.2023.10142254 |
-| Tofan 2014 | Tofan, Galster, Avgeriou, Schuitema (2014). Past and future of software architectural decisions: a systematic mapping study. Information and Software Technology 56, 850-872. Read in full | https://doi.org/10.1016/j.infsof.2014.03.009 |
+| Tofan 2014 | Tofan, Galster, Avgeriou, Schuitema (2014). Past and future of software architectural decisions: a systematic mapping study. Information and Software Technology 56, 850-872. Abstract read | https://doi.org/10.1016/j.infsof.2014.03.009 |
 | Toksoz 2024 | Toksoz, Tan, Giles (2024). Scaling automatic extraction of pseudocode. arXiv | https://arxiv.org/abs/2406.04635 |
 | Tyree 2005 | Tyree, Akerman (2005). Architecture decisions: demystifying architecture. IEEE Software | https://doi.org/10.1109/ms.2005.27 |
 | Ubl 2020 | Ubl (2020). Design docs at Google. Personal account of company practice | https://www.industrialempathy.com/posts/design-docs-at-google/ |
@@ -284,7 +284,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | van der Linden 2019 | van der Linden, Hadar (2019). A systematic literature review of applications of the Physics of Notations. IEEE TSE | https://doi.org/10.1109/TSE.2018.2802910 |
 | van Heesch 2012 | van Heesch, Avgeriou, Hilliard (2012). Forces on architecture decisions: a viewpoint. WICSA/ECSA | https://doi.org/10.1109/wicsa-ecsa.212.18 |
 | van Heesch 2012b | van Heesch, Avgeriou, Hilliard (2012). A documentation framework for architecture decisions. Journal of Systems and Software. Title and venue only | https://doi.org/10.1016/j.jss.2011.10.017 |
-| van Heesch 2013 | van Heesch, Avgeriou, Tang (2013). Does decision documentation help junior designers rationalize their decisions? A comparative multiple-case study. Journal of Systems and Software 86(6), 1545-1565. Abstract read in a search summary (secondary) | https://doi.org/10.1016/j.jss.2013.01.057 |
+| van Heesch 2013 | van Heesch, Avgeriou, Tang (2013). Does decision documentation help junior designers rationalize their decisions? A comparative multiple-case study. Journal of Systems and Software 86(6), 1545-1565. Abstract read | https://doi.org/10.1016/j.jss.2013.01.057 |
 | Viglioni 2024 | Viglioni, Batista, Cavalcante, Oquendo (2024). The execution perspective in software architecture descriptions: a systematic mapping. ECSA, LNCS, 379-395 | https://doi.org/10.1007/978-3-031-70797-1_26 |
 | Viviani 2021 | Viviani, Famelis, Xia, Janik-Jones, Murphy (2021). Locating latent design information in developer discussions: a study on pull requests. IEEE Transactions on Software Engineering | https://doi.org/10.1109/tse.2019.2924006 |
 | Waddel 1988 | Waddel, Cross (1988). Survey of empirical studies of graphical representations for algorithms. ACM CSC | https://doi.org/10.1145/322609.323161 |

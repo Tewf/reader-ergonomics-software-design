@@ -4,16 +4,16 @@ Two records are kept apart. **Best evidence** is a research record: what was mea
 
 | Sub-question | Best evidence | Most adopted | Measured how |
 |---|---|---|---|
-| How to divide a description | Ernst 2023: structured against essay, no significant effect; Heijstek 2011: text against diagram, no difference in accuracy (secondary) | 42010 viewpoints and views; Views and Beyond; arc42 twelve sections (Starke 2026, example of practice; template repository 1,315 stars) | two experiments, 65 students in the first; standards untested; star count |
-| What to read first | Dagenais 2010 (newcomers seek the broad view); Lethbridge 2003 (46% found documentation effective for big-picture information) | ARCHITECTURE.md bird's-eye overview (matklad 2021); C4 context diagram first (used by 81%, IcePanel 2025) | interviews, surveys; vendor survey |
+| How to divide a description | Ernst 2023: structured against essay, no significant effect; Heijstek 2011: text against diagram, no difference overall; those who mostly used text scored better (secondary) | 42010 viewpoints and views; Views and Beyond; arc42 twelve sections (Starke 2026, example of practice; template repository 1,315 stars) | two experiments, 65 students in the first; standards untested; star count |
+| What to read first | Dagenais 2010 (newcomers seek the broad view); Lethbridge 2003 (46% found documentation effective for big-picture information; figure not checked) | ARCHITECTURE.md bird's-eye overview (matklad 2021); C4 context diagram first (used by 81%, IcePanel 2025) | interviews, surveys; vendor survey |
 | How many levels of abstraction | Lethbridge 2003: more abstract, more trusted | C4 four levels; components used by 41% against 81% for context | survey correlation; vendor survey |
 | One document or one per task | Rost 2013: 14 mentions of a wish for stakeholder- or task-specific content, and "one-size-fits-all" criticised; Rost 2016 argues for a task excerpt, later validated (secondary) | arc42 offers lean and thorough tips; Backstage docs per component | open-answer counts; owner's claim |
-| Finding information in it | de Graaf 2016 (organisation by readers' questions correlates with retrieval); Rost 2013 (unclear structure is the top complaint, 13 of 42) | search and portals (Backstage 2020, example of practice) | two case studies; coded open answers |
-| Keeping it true | Lethbridge 2003, Rost 2013, Manai 2019 (abstract), Migliorini 2024 (75% of views never updated) | docs as code; stable-facts-only rule (matklad 2021); keeping current is the top challenge (IcePanel 2025) | survey; repository mining; vendor survey |
+| Finding information in it | de Graaf 2016 (organisation by readers' questions correlates with retrieval); Rost 2013 (unclear structure is the top problem in finding information, 13 answers; outdated documentation is the top problem overall, 25) | search and portals (Backstage 2020, example of practice) | two case studies; coded open answers |
+| Keeping it true | Lethbridge 2003, Rost 2013, Manai 2019 (abstract), Migliorini 2024 (75% of views never updated; figure not checked) | docs as code; stable-facts-only rule (matklad 2021); keeping current is the top challenge (IcePanel 2025) | survey; repository mining; vendor survey |
 | Effect on understanding | Ernst 2023 (code familiarity dominates); Kazman 2016 (mixed); Dzidek 2008 (design documents, maintenance) | no practice measure found | experiment; case study |
-| What projects have | Ding 2014b (108 of 2,000 projects); Migliorini 2024 (15k views, 12.2k repositories) | none | repository mining |
+| What projects have | Ding 2014b (108 of 2,000 projects); Migliorini 2024 (15k views; 12.2k repositories, not checked) | none | repository mining |
 | Reviews of the field | Ding 2014a (60 studies) and Weinreich 2016 (115 studies); none on organisation for the reader | none | systematic reviews, abstracts read |
-| Overviews for machine readers | Gloaguen 2026 (overviews not helpful for coding agents) | architecture in about 70% of agent context files (Zarzycki 2026) | benchmark; census |
+| Overviews for machine readers | Gloaguen 2026 (overviews not helpful for coding agents) | architecture in about 70% of agent context files (Zarzycki 2026) | two benchmark settings; census |
 
 ## Upper bounds (achieved)
 

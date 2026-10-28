@@ -166,7 +166,7 @@ Five of the 20 grey sources fall below 10. Starke 2026 (the arc42 site), Backsta
 | Jongeling 2025 | formal | prior | supported with caveat (secondary) | review 6 |
 | Chatlatanagulchai 2025 | formal, preprint | prior | measured, descriptive | review 6 |
 | Zarzycki 2026 | formal, preprint | prior | measured, descriptive | review 6 |
-| Gloaguen 2026 | formal, preprint | prior | measured, one benchmark | review 6 |
+| Gloaguen 2026 | formal, preprint | prior | measured, two settings | review 6 |
 | De Luca 2026 | formal | F12, A1 | supported with caveat (abstract; 22 developers) | review 6 |
 | Larsen 2026 | formal | F12, A1 | convention (abstract; 6 practitioners) | review 6 |
 | Elberzhager 2026 | formal, preprint | A1, A2 | supported with caveat (abstract) | review 6 |

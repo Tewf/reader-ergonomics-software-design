@@ -38,13 +38,13 @@ This file says what is known about architecture descriptions, what is not, and w
 - arc42's authors say they know no adoption numbers (Starke 2026b). Five of the 20 grey sources scored below 10 of 20 (sources.md).
 - 42010 defines what conformance is; its own authors do not claim better systems from it, and no study of readers was found.
 - Docs as code is credited by its owners for use, not shown to improve understanding.
-- Agent context files carry architecture sections in about 70% of cases while one benchmark finds overviews unhelpful.
+- Agent context files carry architecture sections in about 70% of cases while two test settings find overviews unhelpful.
 
 ## Where evidence is ignored by practice
 
 - Readers ask for task-specific content (Rost 2013); arc42 is one template for all readers, with lean and thorough paths as its only tailoring found here.
 - The format may matter little in one setting (Ernst 2023); arc42 and C4 are taught and tooled as formats.
-- Staleness is the first wish or challenge in two surveys (Rost 2013, IcePanel 2025), and 75% of mined views are never updated (Migliorini 2024).
+- Staleness is the first wish or challenge in two surveys (Rost 2013, IcePanel 2025), and 75% of mined views are never updated (Migliorini 2024; figure not checked).
 
 ## Where practice and research agree without citing each other
 

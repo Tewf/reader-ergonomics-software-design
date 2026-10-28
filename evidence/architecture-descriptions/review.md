@@ -11,7 +11,7 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
   - Ding 2014a: 60 studies on knowledge-based approaches in software documentation, with an emphasis on architecture documentation (secondary). Architecture understanding is the top benefit found; the cost of retrieving information is the main concern.
   - Weinreich 2016: 56 approaches to architecture knowledge management in 115 studies, 2004 to 2015 (secondary). Most approaches serve using captured knowledge, which is also the best validated activity; capture and maintenance are weak.
   - Júnior 2019 maps descriptions based on 42010 (title only). Guessi 2012 and Guessi 2015 review descriptions of embedded systems and of systems of systems (title only).
-  - Viglioni 2024 maps the execution perspective in descriptions, 45 studies (secondary).
+  - Viglioni 2024 maps executable architecture descriptions, 45 studies (secondary).
   - Li 2013, Nakagawa 2010 and Farenhorst 2009 map knowledge-based approaches and the state of architecture knowledge management (titles only). Capilla 2016 looks back over ten years of the field (title only).
 - **Documentation in general:**
   - Zhi 2015: 69 papers on the cost, benefits and quality of development documentation (secondary).
@@ -24,7 +24,7 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
   - Steinmacher 2015: 20 studies of barriers faced by newcomers to open-source projects, 15 barriers in five categories, one of them documentation (secondary).
   - Santos 2025: 32 studies of software solutions for onboarding (secondary).
   - Ribeiro 2026 is a multivocal review of onboarding (title only).
-- **Grey and formal together:** Harhio 2022 (a thesis) reviews 36 scientific and 19 grey sources on documenting architecture design decisions (secondary). Twelve of the 19 grey sources concern decision records; it finds no single method best, since suitability depends on the project.
+- **Grey and formal together:** Harhio 2022 (a thesis) reviews 36 sources on documenting architecture design decisions, 17 scientific and 19 grey. Twelve of the 19 grey sources concern decision records; it finds no single method best, since suitability depends on the project.
 - **How this review differs:**
   - Their subjects are notations, knowledge tools, documentation in general or mined information. This review asks how the written account is divided and entered for a reader.
   - It scores the grey sources and reads practice beside research.
@@ -51,19 +51,19 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
 
 ## 3. Readers and their needs
 
-- Lethbridge 2003 (three studies, one a survey of 48 engineers at a telecom company, 25 answering the timing question):
+- Lethbridge 2003 (three studies, one a survey of 48 engineers at a telecom company, 25 answering the timing question; only the abstract was reached, so the figures below were not checked against the paper):
   - Documentation is often not updated; stale documentation is still useful (81% agreed, 45 respondents).
   - The more abstract a document, the more engineers trusted it; accuracy and consultation correlated at 0.41 for architectural documents (p < .05).
   - 61% rated documentation effective for learning a system, 46% for big-picture information, 35% for maintaining one.
   - In observation they consulted documentation in 12 of 357 logged events (3%), far below self-report.
 - Rost 2013: survey of 147 industrial participants (46% developers, 23% architects, 20% managers).
   - Overall quality rated average by 48%, good by 29%, poor by 18% (N=106).
-  - Most frequent complaint in open answers: unclear structure (13 of 42 answers).
+  - Top problem in finding information, in open answers: unclear structure (13 answers; the table's N and percentage disagree). The top problem overall was outdated documentation (25).
   - Wishes: up to date (19 mentions), in sync with code (18), specific to stakeholder and task (14), a system overview (11), rationale (10).
   - Natural language and UML dominate; formal languages are rare; information is usually scattered across documents.
   - Lima Neto 2015 reports the 31 Brazilian respondents of the same 147 (abstract): they need updated documents with the right information, and want automation. It is the same survey, not a second sample.
 - Dagenais 2010: grounded theory from 18 newcomers in 18 projects (secondary). Newcomers sought the architecture mostly for a broader view and to see where their task fitted (quoted in Ernst 2023).
-- de Dieu 2022: survey of 103 developers on searching for architectural information (secondary). The top difficulties were dispersion and abundance of sources.
+- de Dieu 2022: survey of 103 developers on searching for architectural information (secondary). The top challenges were dispersion and abundance of sources.
 - Wan 2023: interviews with 32 practitioners from 21 organisations; the challenges of architecture work centre on management, documentation, tooling and process (abstract, secondary).
 - Manai 2019 (a student essay, two companies, 24 survey respondents; abstract only): documents complement conversation; outdated and incomplete documents are the main complaint.
 - Rukmono 2026: interviews with 17 professionals (9 explainers, 8 explainees) show that written documentation is incomplete, so teams explain orally; a good explanation fits the explainee's role, experience and goal.
@@ -71,12 +71,12 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
 
 ## 4. Experiments and field trials
 
-- Ernst 2023: 65 students at two universities read about 1,000 words on a 10 kSLOC system, in 75 minutes, in one of two formats, then answered four questions from Bloom level I to VI.
+- Ernst 2023: 65 students at two universities read about 800 words (Views and Beyond) or about 1,000 (essay) on a 10 kSLOC system, in 75 minutes. They then answered four questions from Bloom level I to VI.
   - Formats: Views and Beyond (9 headers, 13 list items, 6 links) against an essay (no headers); same content, three diagrams each.
   - Result: no significant association between format and score. Prior exposure to the code was the dominant factor (+0.95 points, 95% credible interval 0.28 to 1.68, on a four-point scale).
   - Navigability was rated favourable by 80% with the structured format and 55% with the essay; not significant.
   - Authors' reading: the essay may suit overviews and the structured format coding tasks.
-- Heijstek 2011 compared text-dominant and diagram-dominant architecture descriptions in an experiment: no difference in accuracy, and more experienced subjects mostly preferred text (a slide deck citing it, secondary). Schoonewille 2011 observed developers thinking aloud over a design as text and as UML: over 60% of answers used one medium only (secondary).
+- Heijstek 2011 compared text-dominant and diagram-dominant architecture descriptions in an experiment: 47 participants, no difference in efficiency between the media overall, and those who mostly used text scored better (abstract, secondary). Schoonewille 2011 observed developers thinking aloud over a design as text and as UML: over 60% of answers used one medium only (secondary).
 - de Graaf 2016: two industrial case studies compared file and directory organisation with an ontology and wiki organisation. Better organisation correlated with retrieval efficiency and effectiveness (secondary).
 - Rost 2016 argues that splitting a description by concerns makes it harder for a developer with one task, and proposes an excerpt generated for each task. A later thesis reports better efficiency and accuracy of retrieval (search summary, secondary).
 - Kazman 2016: the authors wrote and publicised an architecture document for the Hadoop file system and tracked its effects. Results were mixed by measure; the issue tracker already held architectural discussion; newcomers and adopters still needed explicit documentation (secondary).
@@ -87,7 +87,7 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
 
 - Ding 2014b: of 2,000 open-source projects, 108 had some architecture documentation (secondary); natural language was the usual form.
 - Muszynski 2022: six open-source systems; mostly natural language on websites and wikis; most stayed at the first maturity level (secondary).
-- Migliorini 2024: 15 thousand architecture views from 12.2 thousand repositories.
+- Migliorini 2024: 15 thousand architecture views from 12.2 thousand repositories (abstract only; the figures in this block other than 15 thousand and 373 were not checked against the paper).
   - Most projects keep one view; 96% of 373 sampled views are informal, 7% of the views with colour carry a legend.
   - 75% of views are never updated; over 92% have one contributor.
   - 53% show the whole system and 53% are at a coarse granularity; deployment and control flow are the common viewpoints.
@@ -114,7 +114,7 @@ Owners' claims about themselves unless stated; grade convention, untested; an ad
 - **Docs as code:** Backstage 2020 (8.5, example of practice) says its documentation plugin accounts for about 20% of Spotify's portal traffic, an owner's claim. Thoughtworks 2020 (10.5) put diagrams as code at Trial.
 - **A vendor how-to** (Gliffy 2023, 4.5, example of practice) lists common mistakes with no data.
 - **Agent context files:** Chatlatanagulchai 2025 (2,303 files, 1,925 repositories) found architecture content in 68.1%. Zarzycki 2026 found such files in 26.3% of 22,854 popular repositories; architecture in about 70% of instruction sets and a system overview in about 48% (corrected estimates).
-  - Gloaguen 2026 tested context files on coding agents: no general gain in task success, over 20% more cost; repository overviews were not helpful.
+  - Gloaguen 2026 tested context files on coding agents: no general gain in task success, over 20% more cost on average. Repository overviews were not helpful in two settings (SWE-bench and a new set of repositories with developer files).
   - De Luca 2026 generates a description from a repository, by a template taken from 42010, Views and Beyond and C4. 22 developers judged it valuable and broadly accurate; diagrams, context and deployment views were weak (abstract).
   - Larsen 2026 extends arc42 and C4 for AI systems; six practitioners rated coverage of one regulation, not reader outcomes (abstract). Elberzhager 2026 found model and architect ratings of documents agreed more when the document was better (abstract).
-- Forward citations: Rost 2013 is cited by the OSS and view studies above and by de Graaf 2016. Ernst 2023 has 16 citing papers in a citation index, and this search found none that replicates it.
+- Forward citations: Rost 2013 is cited by the OSS and view studies above and by de Graaf 2016. this search (sources.md, forward snowballing) found no citing paper that replicates Ernst 2023.

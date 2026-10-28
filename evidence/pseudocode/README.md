@@ -19,10 +19,10 @@ Related general principles (not reviewed again here):
 | Claim | Grade | Where |
 |---|---|---|
 | Detailed flowcharts gave no reliable gain over text for writing, reading, debugging or changing programs | measured, old and small tasks | review.md 1 |
-| Code-like constrained text (PDL) beat plain English prose for tracing, coding and debugging by professionals; part of the gap was variable naming | measured | review.md 1 |
-| PDL designs were more detailed than flowchart designs; comprehension of equivalent designs did not differ | measured, abstract read only (secondary) | review.md 1 |
+| Code-like constrained text (PDL) beat plain English prose for coding and debugging time in two experiments of professionals, with a trend in a third; part of the gap was variable naming | measured | review.md 1 |
+| PDL designs were more detailed than flowchart designs; comprehension of equivalent designs did not differ | measured, abstract read only | review.md 1 |
 | Structured flowcharts beat pseudocode for comprehension in two independent groups (Scanlan 1989; Andrzejewska 2022, 114 participants); the first one's stimuli were disputed | measured, contested | review.md 1, against.md |
-| A flowchart environment and Python gave similar results as a first language in a 1,083-student cluster-randomised study; students preferred Python | measured | review.md 4 |
+| A flowchart environment and Python gave similar overall results as a first language in a 1,083-student cluster-randomised study (one demographic group did worse with Python); students judged Python more valuable | measured | review.md 4 |
 | No systematic review of how an algorithm is presented to a human reader was found; seven neighbouring reviews cover other questions | measured, descriptive (this search) | review.md 0 |
 | Visual against textual is the wrong contrast: the notation must match the conventions readers expect | supported with caveat | review.md 2 |
 | The comparison literature is thin: 95 code comprehension experiments in 40 years, over half with students only, one replication | measured, descriptive | review.md 2 |

@@ -61,14 +61,14 @@ Grade vocabulary as in the README. "narrative" means found by the earlier readin
 | Ahmeti 2024 | formal | narrative | action research, one company | review 5 |
 | Keertipati 2016 | formal | narrative | process mining, secondary | review 5 |
 | Sharma 2022 | formal | narrative | process mining, secondary | review 5 |
-| Kondo 2025 | formal | narrative | 1,095 proposals, preprint | review 5 |
+| Kondo 2025 | formal | narrative | 1,095 classic proposals, preprint | review 5 |
 | Viviani 2021 | formal | narrative | classifier, secondary | review 5 |
 | Parnas 1987 | formal | narrative | title and venue only | review 6 |
 | Basili 1996 | formal | narrative | abstract not read | review 6 |
 | Aurum 2002 | formal | narrative | review of inspections | review 6 |
 | Zanaty 2018 | formal | narrative | abstract only | review 6 |
 | van Heesch 2012 | formal | narrative | viewpoint, title only | frame |
-| Tofan 2014 | formal | R1 | systematic mapping, 144 papers, read in full | review 0 |
+| Tofan 2014 | formal | R1 | systematic mapping, 144 papers, abstract read | review 0 |
 | Bhat 2020 | formal | R1 | semi-systematic review, 218 papers, abstract only | review 0 |
 | Razavian 2019 | formal | R1 | review of empirical methods, abstract partly read | review 0 |
 | Hyun 2023 | formal | R2 | systematic mapping, journal page only | review 0 |
@@ -78,7 +78,7 @@ Grade vocabulary as in the README. "narrative" means found by the earlier readin
 | Li 2013 | formal | F5 | systematic mapping, title and venue only | review 0 |
 | Buckingham Shum 1994 | formal | F1 | title and venue only | review 1 |
 | van Heesch 2012b | formal | F6 | framework, title and venue only | review 4 |
-| van Heesch 2013 | formal | F6 | measured, multiple-case, 4 student teams, secondary | review 4 |
+| van Heesch 2013 | formal | F6 | measured, multiple-case, 4 student teams, abstract read | review 4 |
 | Manteuffel 2014 | formal | F6 | industrial implementation, title and venue only | review 5 |
 | Gebreweld 2023 | formal | F2 | descriptive survey, 45 architects, preprint, abstract only | review 3 |
 | Nakashima 2026 | formal | F1 | exploratory, preprint, abstract only | review 5 |

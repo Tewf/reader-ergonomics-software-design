@@ -56,4 +56,4 @@ Caveat: the printed conventions section of Cormen et al. was still not read, and
 5. Say what is left informal, so the reader knows what to decide.
 6. Where a mistake is costly and an executable form exists, ship it beside the text.
 
-Items 1 to 5 are conventions, untested as a set; naming what an algorithm implements helped comprehension of code in one experiment (Neumüller 2025; abstract; secondary). Item 6 rests on one company report and one practitioner case.
+Items 1 to 5 are conventions, untested as a set; naming what an algorithm implements helped comprehension of code in one experiment (Neumüller 2025; abstract). Item 6 rests on one company report and one practitioner case.

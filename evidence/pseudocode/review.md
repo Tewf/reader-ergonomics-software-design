@@ -10,7 +10,7 @@ Pool and method: [protocol](protocol.md), [sources](sources.md). A grey source s
 |---|---|---|---|---|
 | Waddel 1988 | graphical representations of algorithms | survey of empirical studies | flowchart evidence questionable, in places a hindrance (abstract; secondary) | old; no practice sources |
 | Wyrich 2023 | code comprehension experiments, 1979-2019 | mapping study, 95 experiments | design options and their deficiencies; pseudocode is a stimulus language once | maps how experiments are built, not which notation wins |
-| Noone 2018 | visual against textual languages for learning to program | SLR; 5,106 hits, 661 after titles, 124 after abstracts, 54 accepted (the text also says 53) | visual or hybrid languages help interest and retention (authors' conclusion) | its text never names pseudocode or flowcharts (searched); outcome is learning, not reading an algorithm |
+| Noone 2018 | visual against textual languages for learning to program | SLR; 5,106 hits, 661 after titles, 124 after abstracts, 54 accepted (the text also says 53) | visual or hybrid languages help interest and retention (authors' conclusion) | its text mentions flowchart languages and a pseudo-code course only in passing; outcome is learning, not reading an algorithm |
 | Ulate-Caballero 2021 | notations and tools for testing concurrent and distributed pseudocode | SLR | few publications; 5 tools interpret such pseudocode, 2 verify it | asks how to test pseudocode, not how readers fare |
 | Dehaerne 2022 | machine-learning code generation | SLR, 37 publications | three paradigms, one of them description-to-code | machines write code; no human reader |
 | Alharbi 2025 | automatic code generation techniques | SLR, 76 primary studies (secondary) | techniques grouped by input and intermediate form | same |
@@ -37,10 +37,10 @@ Seminal experiments:
 - Experiment 1 found no difference on input-output questions.
 - Experiment 4 gave prose the code's variable names; the prose penalty shrank, so part of it was naming.
 - PDL was the most preferred symbology; branching the most preferred arrangement.
-- Ramsey 1983: PDL designs were more detailed; with equivalent designs, comprehension did not differ (abstract; secondary).
+- Ramsey 1983: PDL designs were more detailed; with equivalent designs, comprehension did not differ (abstract).
 - Scanlan 1989: structured flowcharts beat pseudocode on three algorithms and five measures (abstract; secondary).
 - Scanlan 1988: six replications, 193 students, 75.1% to 89.1% preferred flowcharts (abstract; secondary).
-- Andrzejewska 2022: 114 participants, eye tracking; flowcharts were read faster, with fewer errors and higher confidence, at all three complexity levels (abstract). It comes from a group independent of Scanlan's and agrees with his direction.
+- Andrzejewska 2022: 114 participants, eye tracking; flowcharts were read faster, with fewer errors and higher confidence, at all three complexity levels, with few exceptions (abstract). It comes from a group independent of Scanlan's and agrees with his direction.
 
 Forward citations:
 
@@ -59,7 +59,7 @@ Forward citations:
 - Soloway 1984 (not read; secondary), Shaft 2006 (title only), Larkin 1987 (linked in the README).
 - Wyrich 2023: 53.7% of 95 experiments used only students; one replication met its inclusion rule; pseudocode appears once.
 - Bauer 2019: 22 participants, no indentation effect. Hanenberg 2024: 27 participants, non-indented if-statements took 2.13 times as long.
-- Neumüller 2025: labelling the algorithm that a piece of code implements raised comprehension (56 participants, p=0.040, median gain about 23%, no change in time; abstract; secondary).
+- Neumüller 2025: labelling the algorithm that a piece of code implements raised comprehension (56 participants, p=0.040, median gain about 23%, no change in time; abstract).
 
 ## 3. Design languages and refinement
 
@@ -71,12 +71,12 @@ Forward citations:
 
 - Julaihi 2026: 95 first-year students, a perception survey; no significant difference between flowcharts and pseudocode (abstract).
 - Cabo 2018: skill with flowcharts predicted skill in Python (r-squared 0.68, correlational); 63% found flowcharting easier (abstract).
-- Coffman 2026: 1,083 students, cluster-randomised; a flowchart environment and Python gave similar performance, and students judged Python more valuable (abstract).
+- Coffman 2026: 1,083 students, cluster-randomised; a flowchart environment and Python gave similar overall performance (one demographic group did worse with Python), and students judged Python more valuable (abstract).
 - Andrzejewska 2020: over six months the dominant form students analysed shifted from flowchart to code (abstract).
 - López-García 2025: 405 first-year students; a pseudocode with keywords in their own language was designed from a survey (abstract read in part).
 - Chida 2024: a work-in-progress study of pseudocode reading and writing in an algorithms course.
-- Rheault 2023: 226 students did better with, and preferred, compile-and-run prompts to pseudocode prompts (abstract; secondary).
-- Obaidellah 2020: 51 students ordering pseudocode statements regressed more as difficulty grew (abstract; secondary).
+- Rheault 2023: 226 students did better with, and preferred, compile-and-run prompts to pseudocode prompts (abstract).
+- Obaidellah 2020: 51 students ordering pseudocode statements regressed more as difficulty grew (abstract).
 
 Exam boards, read in the primary documents (the boards decide what candidates must write):
 
@@ -89,7 +89,7 @@ Exam boards, read in the primary documents (the boards decide what candidates mu
 | Pearson 2018 (IGCSE) | no, any valid method | SET ... TO | # | 0 |
 
 - AQA 2023 (A-level) requires pseudo-code but its specification defines no syntax.
-- Cambridge 2024 also fixes monospaced font, three-space indentation and upper-case keywords.
+- Cambridge 2024 also fixes monospaced font and upper-case keywords, and usually indents by three spaces.
 
 ## 5. Pseudocode in papers, reproducibility and datasets
 
@@ -124,5 +124,5 @@ Exam boards, read in the primary documents (the boards decide what candidates mu
 - Shum 1994: a course using literate programming produced more documentation, not shown to be better comprehended.
 - Rule 2018: of over one million notebooks, one in four had no explanatory text.
 - Wang 2020: 73% of 936 notebooks would not be reproducible straightforwardly.
-- Pimentel 2021: 1.4 million notebooks studied.
+- Pimentel 2021: a large study of notebooks (the 1.4 million figure was not checked against this paper).
 - Bertholf 2000, a thesis on literate-program comprehension, was not read.

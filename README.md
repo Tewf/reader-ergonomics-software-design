@@ -11,7 +11,7 @@ live there and are not repeated here. This repository will add only what is part
 evidence, and the shapes of its documents.
 
 > **Status:** work in progress. Four literature reviews are written in [evidence/](evidence/), each a multivocal review of
-> research and practice; their numbers are not audited yet, and the shapes and principles are not started. It is an
+> research and practice; their numbers were audited on 2026-10-28 against the primary sources, and the shapes and principles are not started. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the
 > state of the art.
 >

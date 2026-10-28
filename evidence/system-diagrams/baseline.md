@@ -32,7 +32,7 @@ The comparison is B against A and C on the same system.
 1. A title with type and scope; a key (Brown 2026b, Brown 2026d; IcePanel 2023).
 2. Each element has a type; each container a technology (Brown 2026b).
 3. One-way arrows, each labelled with intent and protocol (Brown 2026b; Microsoft 2023 for data flows).
-4. Layout flaws few (at most 15 to 20) and flaw rate at most 0.5; about 40 to 65 elements as a centre, fewer for novices (Störrle 2016b, measured).
+4. Layout flaws few (at most 15 to 20) and flaw rate at most 0.5; a centre of about 44 to 65 elements, depending on the data set, fewer for novices (Störrle 2016b, measured).
 5. Compound layout: group related elements, keep paths straight, few crossings (Störrle 2011, Ware 2002).
 6. Colour used for kind, consistent, legible in grayscale, never the only signal (Brown 2026b; Fuchsia 2025; GitLab 2026).
 7. Source as text next to the picture so the two change together; accept limited layout control (GitHub 2022, Jongeling 2025; adoption only).

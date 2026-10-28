@@ -35,25 +35,25 @@ This file lists how many sources each search found, screened and included, and g
 | Moody 2009a | formal | narrative pass | convention (theory); abstract read | review 1 |
 | Moody 2009b | formal | narrative pass | convention; analysis without participants | review 1 |
 | Moody 2010 | formal | narrative pass | convention; analysis without participants (abstract read) | review 1 |
-| van der Linden 2019 | formal | narrative pass | review of 70 applications; secondary | review 0, 1 |
+| van der Linden 2019 | formal | narrative pass | review of 70 applications; abstract read | review 0, 1 |
 | Störrle 2013 | formal | narrative pass | supported with caveat; abstract read | review 1 |
 | Green 1996 | formal | narrative pass | convention | review 1 |
 | Blackwell 2003 | formal | narrative pass | convention | review 1 |
 | Budgen 2011 | formal | narrative pass | review of 49 publications; secondary | review 0 |
-| Arisholm 2006 | formal | narrative pass | measured; secondary | review 2 |
+| Arisholm 2006 | formal | narrative pass | measured; abstract read | review 2 |
 | Scanniello 2018 | formal | narrative pass | measured, meta-analysis of 12 experiments; secondary (abstract) | review 2 |
 | Fernández-Sáez 2014 | formal | narrative pass | not read; supports no claim | review 2 |
 | Störrle 2011 | formal | narrative pass | measured; students, one group; primary | review 2, baseline |
-| Störrle 2014 | formal | narrative pass | measured; re-analysis of the same data; primary | review 2, baseline |
-| Störrle 2016 | formal | narrative pass | measured; re-analysis of the same data; primary | review 2 |
+| Störrle 2014 | formal | narrative pass | measured; re-analysis of the 2012 data; primary | review 2, baseline |
+| Störrle 2016 | formal | narrative pass | measured; re-analysis of the 2012 data; primary | review 2 |
 | Purchase 2002 | formal | narrative pass | supported with caveat; secondary | review 3 |
 | Eichelberger 2009 | formal | narrative pass | not read; quoted in Störrle 2014 | review 3 |
 | Ware 2002 | formal | narrative pass | measured; secondary | review 3, baseline |
 | Yusuf 2007 | formal | narrative pass | measured, small; secondary | review 3 |
-| Sharif 2010 | formal | narrative pass | measured, 15 participants; secondary | review 3, baseline |
+| Sharif 2010 | formal | narrative pass | measured, 15 participants; abstract read | review 3, baseline |
 | Cepeda Porras 2010 | formal | narrative pass | not read; supports no claim | review 3 |
 | Cherubini 2007 | formal | narrative pass | measured, descriptive; secondary | review 4 |
-| Baltes 2014 | formal | narrative pass | measured, descriptive; secondary | review 4 |
+| Baltes 2014 | formal | narrative pass | measured, descriptive; abstract read | review 4 |
 | Petre 2013 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Dobing 2006 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Störrle 2017 | formal | narrative pass | measured, descriptive; secondary | review 4 |
@@ -61,7 +61,7 @@ This file lists how many sources each search found, screened and included, and g
 | Hebig 2016 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Ho-Quang 2017 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Koning 2002 | formal | narrative pass | supported with caveat; guidelines tested on three groups; secondary | review 4 |
-| Schneider 2024 | formal | narrative pass | measured, 24 participants; secondary | review 5 |
+| Schneider 2024 | formal | narrative pass | measured, 24 participants; abstract read | review 5 |
 | Sion 2018 | formal | narrative pass | convention; secondary | review 5 |
 | Pretorius 2008 | formal | string 1, 3 | review of 33 papers; abstract read | review 0 |
 | Fernández-Sáez 2013 | formal | string 3, forward snowball | review of 38 papers; abstract read | review 0 |
@@ -69,7 +69,7 @@ This file lists how many sources each search found, screened and included, and g
 | Koç 2021 | formal | string 2, web search | review of 128 papers; abstract read | review 0 |
 | Baldassarre 2019 | formal | forward snowball (Budgen 2011) | review; abstract read | review 0 |
 | Alhazmi 2026 | formal | forward snowball (Störrle 2011, Budgen 2011) | review of 26 studies; abstract read | review 0 |
-| Dikici 2018 | formal | forward snowball (Störrle 2011), web search | review of 45 studies; primary | review 0, 2 |
+| Dikici 2018 | formal | forward snowball (Störrle 2011), web search | review of 45 studies; text not reached | review 0, 2 |
 | Houy 2012 | formal | web search | review; summary read (secondary) | review 0 |
 | Shahin 2014 | formal | web search | review of 53 papers; abstract read | review 0 |
 | Chotisarn 2020 | formal | web search | review of 105 papers; abstract read | review 0 |
@@ -77,8 +77,8 @@ This file lists how many sources each search found, screened and included, and g
 | Filho 2019 | formal | string 4, web search | mapping study; abstract not available, not read | review 0 |
 | Obaidellah 2018 | formal | string 3, 10 | review of 63 studies, programming; abstract read | review 0 |
 | Rahmanian 2026 | formal | web search | review of 64 studies; abstract and introduction read | review 0 |
-| Störrle 2012 | formal | forward snowball (Störrle 2011) | measured; not read, described in Dikici 2018 | review 2 |
-| Störrle 2016b | formal | web search, forward snowball | measured; re-analysis, 156 participants; primary | review 2, baseline |
+| Störrle 2012 | formal | forward snowball (Störrle 2011) | measured; not read, described in Störrle 2014 and 2016b | review 2 |
+| Störrle 2016b | formal | web search, forward snowball | measured; pools the 2011 and 2012 data, 156 participants; primary | review 2, baseline |
 | Santos 2018 | formal | forward snowball (Moody 2009a, Störrle 2011), web search | measured, quasi-experiment, 57 novices; primary (preprint) | review 1 |
 | van der Linden 2018 | formal | string 5 | descriptive survey, 104 responses; secondary | review 1 |
 | Guerreiro 2023 | formal | arXiv check (physics of notations) | convention; used for the nine principles | review 1 |

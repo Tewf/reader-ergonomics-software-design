@@ -7,7 +7,7 @@ This file records who holds the best result on each sub-question of system diagr
 | Notation for architecture sketches | informal boxes and lines, some UML (Baltes 2014) | none comparing notations on architecture diagrams found |
 | Notation standard | UML 2.5.1, SysML (OMG 2017) | Budgen 2011, 49 studies; Koç 2021, 128 papers on use |
 | Architecture views for readers | C4 (Brown 2026b); owner's adoption claims not verified | Jongeling 2025: 48 engineers, perceptions only; Koning 2002 guidelines |
-| Layout | auto-layout in tools; engineers note limited control (Jongeling 2025) | Störrle 2011: 77 students; later work re-analyses their data |
+| Layout | auto-layout in tools; engineers note limited control (Jongeling 2025) | Störrle 2011: 77 students; Störrle 2016b pools them with the 2012 data (156 participants) |
 | Size and flaws | no tool limit found | Störrle 2016b: 156 participants, 60 diagrams; flaws weigh more than size |
 | Aesthetics | graph-drawing rules (crossings, bends) | Ware 2002, Purchase 2002: partial transfer |
 | Eye tracking | none | Yusuf 2007, Sharif 2010 (15 participants) |
@@ -20,7 +20,7 @@ This file records who holds the best result on each sub-question of system diagr
 
 ## Upper bounds (achieved)
 
-- Layout and size effects are measured on one group's data: 77 participants (Störrle 2011), 156 in the largest set (Störrle 2016b). The 78 of Störrle 2014 and 2016 are a re-analysis, not new subjects.
+- Layout and size effects are measured on one group's data: 77 participants (Störrle 2011), 156 in the largest set (Störrle 2016b). The 78 of Störrle 2014 and 2016 are a re-analysis of the 2012 data, not new subjects.
 - Effect at 60 diagrams: layout flaws r = -0.419, size r = -0.270 against mean score.
 - Meta-analysis exists for UML and code comprehension: 12 experiments (Scanniello 2018).
 

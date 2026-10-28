@@ -33,14 +33,14 @@ This file gathers the evidence against the rules on design documents and decisio
 
 ## Whether the document is the lever
 
-- Go proposals are declined mostly for feasibility (22.8%), deprecation (18.1%), limited use cases (13.2%) and conflict with principles (11.4%) (Kondo 2025).
+- Go proposals are declined most often for poor feasibility (22.8% of declined proposals), obsolescence (18.1%), limited use cases (13.2%) and conflict with principles (11.4%) (Kondo 2025).
 - None of these is a writing defect, and the paper does not examine proposal structure or text quality.
 - This suggests substance may dominate form in what gets accepted; it is a reading of one project's data, not a result.
 - Enacted processes differ from the advertised ones (Keertipati 2016), so a template may describe a process nobody follows.
 
 ## Limits of the practice evidence
 
-- Company pages report their owners' own success: Amazon 2021 calls its method central to its success; Nygard 2011 reports his own three months.
+- Company pages report their owners' own success: Amazon 2021 calls its method central to its success; Nygard 2011 reports his own use since 2011-08.
 - Vendor pages (AWS 2026c, Microsoft 2026, Google Cloud 2024) give guidance, not outcomes; AWS 2026c and Google Cloud 2024 score under 10.
 - Pragmatic Engineer 2022 lists companies from reader replies; its author notes that the documents are mostly internal and the list rests on public posts and anecdote.
 - Repository stars and tag counts measure interest, not reading (GitHub 2026).

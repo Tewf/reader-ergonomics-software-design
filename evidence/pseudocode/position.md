@@ -6,13 +6,13 @@ This file says what is known about presenting algorithms, what is not, and what 
 
 - Seven secondary studies were found (review.md strand 0). None compares how an algorithm is presented to a human reader.
 - Wyrich 2023 maps how comprehension experiments are built; Waddel 1988 is the only survey of graphical algorithm forms and is old.
-- Noone 2018 reviews visual and textual languages for learning, and its text does not name pseudocode or flowcharts.
+- Noone 2018 reviews visual and textual languages for learning, and its text mentions flowchart languages and a pseudo-code course only in passing.
 - Ulate-Caballero 2021 reviews tools for testing concurrent pseudocode; the code-generation reviews treat machines as readers.
 - This review adds the reader's task as outcome, the five formats side by side, and scored practice sources.
 
 ## Known
 
-- Constrained, code-like text beat plain English prose for professionals in four experiments (Boehm-Davis 1983).
+- Constrained, code-like text beat plain English prose for professionals on coding and debugging time in two experiments of 36 each, with a trend in a third (Boehm-Davis 1983).
 - Two independent groups found flowcharts ahead of pseudocode for comprehending an algorithm (Scanlan 1989; Andrzejewska 2022, 114 participants); the first was disputed over its stimuli (Wet 1990).
 - As a first language, a flowchart environment and Python gave similar results in a 1,083-student cluster-randomised study (Coffman 2026).
 - Detailed flowcharts gave no reliable help with debugging or changing programs (Shneiderman 1977, Brooke 1980).
