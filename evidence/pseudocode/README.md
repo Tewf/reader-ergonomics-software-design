@@ -2,7 +2,7 @@
 
 Question: how should an algorithm be presented (pseudocode, flowchart, structured English, program design language, literate program, executable specification, real code) so the reader understands it and can implement or verify it.
 
-Steps: [frame](frame.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+Steps: [frame](frame.md) · [protocol](protocol.md) · [sources](sources.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
 
 Related general principles (not reviewed again here):
 
@@ -21,10 +21,13 @@ Related general principles (not reviewed again here):
 | Detailed flowcharts gave no reliable gain over text for writing, reading, debugging or changing programs | measured, old and small tasks | review.md 1 |
 | Code-like constrained text (PDL) beat plain English prose for tracing, coding and debugging by professionals; part of the gap was variable naming | measured | review.md 1 |
 | PDL designs were more detailed than flowchart designs; comprehension of equivalent designs did not differ | measured, abstract read only (secondary) | review.md 1 |
-| Structured flowcharts beat pseudocode in one author's comprehension and preference experiments; the stimuli were disputed | measured, contested | review.md 1, against.md |
+| Structured flowcharts beat pseudocode for comprehension in two independent groups (Scanlan 1989; Andrzejewska 2022, 114 participants); the first one's stimuli were disputed | measured, contested | review.md 1, against.md |
+| A flowchart environment and Python gave similar results as a first language in a 1,083-student cluster-randomised study; students preferred Python | measured | review.md 4 |
+| No systematic review of how an algorithm is presented to a human reader was found; seven neighbouring reviews cover other questions | measured, descriptive (this search) | review.md 0 |
 | Visual against textual is the wrong contrast: the notation must match the conventions readers expect | supported with caveat | review.md 2 |
 | The comparison literature is thin: 95 code comprehension experiments in 40 years, over half with students only, one replication | measured, descriptive | review.md 2 |
-| Three of the four exam boards checked define their own reference language; pseudocode has no common standard | measured, descriptive | review.md 4 |
+| Five exam boards each publish their own reference language and differ on assignment symbol and index base; only OCR withholds marks outside its own | measured, descriptive | review.md 4 |
+| Practitioners split on executable code against pseudocode; no study tests either side | convention, untested | review.md 6, against.md |
 | About one arXiv paper in ten has pseudocode (1991-2023 sample) | measured, descriptive | review.md 5 |
 | Reproducibility guidance asks for pseudocode to reduce ambiguity; no study tested that it does | convention, untested | review.md 5 |
 | An executable specification found bugs that prose and pseudocode designs hid (one company, self-reported) | convention, untested | review.md 6 |

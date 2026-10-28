@@ -7,12 +7,14 @@ This file names the baseline a proposed rule on presenting algorithms must beat,
 | Setting | Baseline | Source |
 |---|---|---|
 | Algorithm in a text or paper | Cormen et al. pseudocode conventions (CLRS) | Cormen 2003, from the authors' guide to their typesetting package; second edition read, printed conventions section and fourth edition not read |
-| Exam or teaching | The board's reference language (OCR Exam Reference Language, Cambridge 9618 guide, College Board sheet) | OCR 2026, Cambridge 2024, College Board 2025 |
+| Exam or teaching | The board's reference language (OCR Exam Reference Language, Cambridge 9618 guide, College Board sheet, AQA GCSE guide, Pearson Edexcel command set); name the board, since the five differ | OCR 2026, Cambridge 2024, College Board 2025, AQA 2024, Pearson 2018 |
 | Design before code | PDL, as tested against prose | Boehm-Davis 1983, Ramsey 1983 |
 | Real code arm | A short program in the reader's own language | any; fix it in advance |
 | Verification arm | PlusCal or TLA+ specification | Newcombe 2015 |
 
 The main baseline is CLRS-style pseudocode: numbered lines, indentation for blocks, an assignment arrow, named procedures, comments marked.
+
+Caveat: the printed conventions section of Cormen et al. was still not read, and second-hand course notes give different comment symbols (a triangle in one, slashes in another). A comparison must name the edition. Knuth's printed text was not read; Sedgewick's 4th edition ships Java, so it is a code arm, not a pseudocode arm (Sedgewick 2026, example only).
 
 ## What the CLRS style fixes (from Cormen 2003)
 
@@ -30,7 +32,7 @@ The main baseline is CLRS-style pseudocode: numbered lines, indentation for bloc
 | Reader task: trace | forward and backward tracing questions, plus input-output questions | Boehm-Davis 1983 |
 | Reader task: implement | complete about fifteen missing lines | Boehm-Davis 1983 |
 | Reader task: find a bug | three seeded errors per program, time to fix | Boehm-Davis 1983 |
-| Reader task: comprehend | questions on time, errors, confidence, answer time, looks | Scanlan 1989 |
+| Reader task: comprehend | questions on time, errors, confidence, answer time, looks | Scanlan 1989, Andrzejewska 2022 (114 participants, three complexity levels) |
 | Reader task: compose | share of algorithms that work | Glorfeld 1988 |
 | Reader task: reimplement from a paper | tests that pass, as in a code-synthesis benchmark | Kulal 2019 |
 | Effort | fixations, regressions, pupil size | Katona 2022, Obaidellah 2020 |
@@ -43,6 +45,7 @@ The main baseline is CLRS-style pseudocode: numbered lines, indentation for bloc
 3. Reader expertise recorded; professionals and students reported apart (Wyrich 2023).
 4. Task length and domain reported; the algorithm is not a toy by default.
 5. Layout fixed: indentation, line numbers, font (Hanenberg 2024, Bauer 2019, Cambridge 2024).
+6. Symbols fixed and reported: assignment, comment marker, index base, since boards disagree (AQA 2024, Pearson 2018, OCR 2026).
 
 ## A compare-against checklist for a document that presents an algorithm
 
@@ -53,4 +56,4 @@ The main baseline is CLRS-style pseudocode: numbered lines, indentation for bloc
 5. Say what is left informal, so the reader knows what to decide.
 6. Where a mistake is costly and an executable form exists, ship it beside the text.
 
-Items 1 to 5 are conventions, untested as a set. Item 6 rests on one company report and one practitioner case.
+Items 1 to 5 are conventions, untested as a set; naming what an algorithm implements helped comprehension of code in one experiment (Neumüller 2025; abstract; secondary). Item 6 rests on one company report and one practitioner case.

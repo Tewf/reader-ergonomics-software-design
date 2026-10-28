@@ -9,9 +9,13 @@ This file gathers the evidence against the rules on architecture descriptions: n
 - Rozanski 2011 argues that one overloaded model fails every reader. This is an argument from experience, graded convention, untested.
 - Open-source projects mostly keep a single, informal view with no legend (Migliorini 2024), so the multi-view ideal is rarely met in practice.
 
+## Against the view model for developers
+
+- Rost 2016 argues in its title that splitting a description by concerns is counterproductive for developers with a task; a later thesis reports better retrieval with a generated task excerpt (search summary, secondary). The full conference text was not read.
+
 ## Against structure as the lever
 
-- The only controlled comparison found (Ernst 2023) saw no significant effect of structured against essay format. Prior familiarity with the code mattered more.
+- The controlled comparison found (Ernst 2023) saw no significant effect of structured against essay format. Prior familiarity with the code mattered more. An earlier experiment found no difference in accuracy between text and diagram descriptions (Heijstek 2011, secondary).
 - Participants rated the structured format easier to navigate (80% against 55%) and more useful for coding (83% agreeing), but the difference was not significant.
 - The authors suggest the essay may suit overviews and the structured format coding tasks: format and task interact, which one reader style cannot satisfy.
 
@@ -37,7 +41,10 @@ This file gathers the evidence against the rules on architecture descriptions: n
 - IcePanel 2025 comes from a vendor of C4 tooling, with 75 respondents, 57% of them architects; its year-on-year differences were mostly not significant.
 - Jongeling 2025 is one company's report on its own change, with no control group.
 - The ten-times claim in matklad 2021 is an anecdote by a maintainer, not a measurement.
-- No adoption count for ARCHITECTURE.md or arc42 was found; a platform search count was unstable and is not used.
+- No adoption count for ARCHITECTURE.md or arc42 was found; a platform search count was unstable and is not used. The arc42 authors say they know no statistically relevant numbers (Starke 2026b); repository stars are a weak signal.
+- Five of the 20 grey sources score below 10 of 20 and are examples of practice only: the arc42 site, Backstage 2020, IcePanel 2024, the C4 FAQ and a vendor blog (sources.md).
+- IcePanel 2024 and 2025 disagree on the 2024 shares. The page of 2025 restates the 2024 wiki share as 29%; the 2024 page gave 30%. Year-on-year figures are read only where the vendor tested them.
+- The reviews and the Helsinki thesis were read through abstracts; findings drawn from them are marked secondary.
 
 ## Against overviews for machine readers
 

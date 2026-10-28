@@ -13,7 +13,7 @@ This file gathers the evidence against the rules on design documents and decisio
 
 - Falessi 2008 found the utility of the same information changes with its purpose (secondary).
 - Nogueira 2026 concludes template choice should not be one-size-fits-all.
-- Attentive 2026, a company account of its own experience, says RFC processes decay when documents grow heavy and reviews turn performative.
+- Attentive 2026 (example only, 9 of 20), a company account of its own experience, says RFC processes decay when documents grow heavy and reviews turn performative.
 - Nygard 2011 asks for one or two pages; Ubl 2020 asks for 10 to 20 pages for large designs; both are practitioners' judgment.
 
 ## Weaknesses of the strongest study
@@ -29,7 +29,7 @@ This file gathers the evidence against the rules on design documents and decisio
 
 - About 63% of 5,800 ADRs were opened already accepted (Santana 2026, secondary).
 - A record written after the decision cannot help anyone judge it first.
-- AWS 2026c and Microsoft 2026 describe both roles; the research above measures neither.
+- AWS 2026c (example only) and Microsoft 2026 describe both roles; the research above measures neither.
 
 ## Whether the document is the lever
 
@@ -41,10 +41,20 @@ This file gathers the evidence against the rules on design documents and decisio
 ## Limits of the practice evidence
 
 - Company pages report their owners' own success: Amazon 2021 calls its method central to its success; Nygard 2011 reports his own three months.
-- Vendor pages (AWS, Microsoft 2026) give guidance, not outcomes.
+- Vendor pages (AWS 2026c, Microsoft 2026, Google Cloud 2024) give guidance, not outcomes; AWS 2026c and Google Cloud 2024 score under 10.
 - Pragmatic Engineer 2022 lists companies from reader replies; its author notes that the documents are mostly internal and the list rests on public posts and anecdote.
 - Repository stars and tag counts measure interest, not reading (GitHub 2026).
 - Buchgeher 2023 and Santana 2026 were read in abstract form only.
+
+## Limits of the reviews and of the grey evidence
+
+- Harhio 2022 is a master's thesis with one database (Web of Science) and one engine (Google); its author notes that Google results change between runs.
+- Tofan 2014 stops at 2012-01, before ADRs spread; it cannot speak to them.
+- Bhat 2020 is a getting-started guide by its own account, not a test of any form.
+- Eight of 31 scored grey sources fall below 10 of 20 (sources.md); all eight are used only as examples of practice.
+- Perkins 2020 (GitHub's blog) offers no measurement, and Runde 2018 reports two years of use with no metrics: both are experience, not evidence of effect.
+- Practitioner advice agrees across sources (one decision per record, record alternatives); agreement among blogs that copy one another is not independent confirmation.
+- This search could not reach Stack Overflow or Reddit, so practitioner disagreement on Q/A sites is unseen.
 
 ## Failed or missing replications
 

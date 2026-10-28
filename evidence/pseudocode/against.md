@@ -5,6 +5,7 @@ This file gathers the evidence against the rules on presenting algorithms: null 
 ## Against "text beats pictures"
 
 - Scanlan 1989 found structured flowcharts ahead of pseudocode on five measures, and 75.1% to 89.1% of students preferred them across six replications (Scanlan 1988; abstracts, secondary).
+- Andrzejewska 2022 (114 participants, eye tracking) found flowcharts read faster, with fewer errors and more confidence, at every complexity level (abstract); it is the strongest recent result for pictures.
 - Katona 2022 found a Nassi-Shneiderman diagram cheaper to read than a flowchart, so the form of the picture matters.
 - Hendrix 2002 found a diagram added to source code helped comprehension.
 - A commenter on Scanlan 1989 proposed splitting subjects into visual and verbal types; Scanlan 1988 itself suggests two types of learner (abstracts; secondary).
@@ -15,9 +16,12 @@ This file gathers the evidence against the rules on presenting algorithms: null 
 - Glorfeld 1988 found novices composed a working algorithm more often with pseudocode.
 - Boehm-Davis 1983 found PDL close to or better than ideograms in experiments 2 and 3, and the most preferred symbology.
 - Andrzejewska 2015 found formal notation hard in both variants for simple tasks.
+- Coffman 2026 (1,083 students, cluster-randomised) found a flowchart environment and Python gave similar performance, and students judged Python more valuable (abstract).
+- Julaihi 2026 (95 students) found no difference in perception of flowcharts and pseudocode; it measured opinion only (abstract).
 
 ## Against the Scanlan result
 
+- Andrzejewska 2022 points the same way as Scanlan 1989 from another group, which weakens the stimulus objection but leaves the student samples.
 - A published comment argued the title was misleading, because the pseudocode in the experiment's figures was an unusual form; the reply defended the choice of algorithms (Wet 1990; abstract, secondary).
 - A stimulus that is badly written pseudocode tests the stimulus, not the format (Ramsey 1983 used equivalent, highly readable designs for this reason).
 - All of these used students and short algorithms.
@@ -36,13 +40,25 @@ This file gathers the evidence against the rules on presenting algorithms: null 
 
 ## Against "pseudocode has no standard, so it is ambiguous"
 
-- Wikipedia 2026a says there is no broad standard; exam boards show that a local standard is easy to write (College Board 2025, Cambridge 2024).
+- TeX FAQ 2026 and Wikipedia 2026a (example only, 9.5 of 20) say there is no broad standard; exam boards show that a local standard is easy to write (College Board 2025, Cambridge 2024).
+- But five local standards disagree on assignment symbol and index base (AQA 2024, Pearson 2018, OCR 2026, Cambridge 2024), which is a source of confusion no study has measured.
 - No measurement shows how often a reader misreads a published algorithm because of notation; see position.md.
 
 ## Against pseudocode for assessment
 
 - Rheault 2023: students performed better and preferred compile-and-run to pseudocode prompts (abstract; secondary).
 - OCR 2026 awards no marks to pseudocode where a code answer is required, while allowing it for design questions.
+
+## Against pseudocode itself
+
+- Helwer 2023 and Davis 2023 argue that only executable code avoids ambiguity; both are practitioner blogs, and Helwer's rests on one case.
+- Sun 2024 argues the reverse, from opinion and no controlled study.
+- Ince 2012 argues that computed results need released code (page synopsis only).
+
+## Against the grey sources
+
+- Six of 21 grey sources scored under 10 of 20 and are examples only (sources.md).
+- Board documents score high on authority and objectivity because they are specifications; they contain no method, so a high score is not evidence that their rules help readers.
 
 ## Against executable specifications
 

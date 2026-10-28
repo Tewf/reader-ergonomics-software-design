@@ -1,6 +1,6 @@
 # Frame: the problem and its names
 
-This file states, in one sentence, the problem of describing an architecture, then lists what research and practice call its parts.
+This file states, in one sentence, the problem of describing an architecture, then lists what research and practice call its parts. The review is a **multivocal literature review** (MLR, Garousi 2019): formal and grey literature together, see [protocol](protocol.md). The grey sources (defined in the [design-decisions frame](../design-decisions/frame.md)) fall in three tiers by outlet control: books and standards, then project sites and panels, then blogs.
 
 ## The problem in one sentence
 
@@ -45,6 +45,7 @@ Decide how the written account of a system's architecture is divided (views, lev
 ## Search terms tried, three ways
 
 - Academic: architecture documentation, architectural views, architecture knowledge retrieval, newcomer onboarding.
-- Acronym: AD, SAD, AK, AKM, V&B, ESD, ADL, SLR, MSR.
+- Acronym: AD, SAD, AK, AKM, V&B, ESD, ADL, SLR, MSR, SMS, MLR.
+- For existing reviews: systematic literature review, systematic mapping study, multivocal literature review, tertiary study, each with architecture documentation, architecture description, architectural knowledge, docs as code, onboarding.
 - Author: Clements, Kruchten, Rozanski, Hilliard, Rost, Malavolta, de Graaf, Ernst, Robillard, Kazman, Dagenais, Lethbridge, Brown, Starke.
 - A search for a count of repositories with an ARCHITECTURE.md found no study; a platform code-search count was not stable, so none is reported.

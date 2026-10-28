@@ -9,6 +9,8 @@ This file names the baseline a proposed rule on architecture descriptions must b
 - Why this one: it is the only structured format with a published controlled comparison and a public replication package.
 - It is also 42010 shaped: views, a roadmap, mappings between views, rationale.
 - Practice comparators, not baselines for measurement: the arc42 (Starke 2026) twelve sections, the C4 four levels, the ARCHITECTURE.md codemap (matklad 2021).
+- The multivocal search (protocol.md) found no controlled comparison of any of these, so the baseline is unchanged.
+- A candidate second arm: a task excerpt cut from the full description (Rost 2016), since Rost 2013 found task-specific content the readers' wish.
 
 ## How a comparison would be measured
 
