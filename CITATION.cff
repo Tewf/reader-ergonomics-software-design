@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: >-
+  If this repository helps you, you may cite it as below. It is an informal,
+  work-in-progress synthesis of published research, written with Claude, an AI
+  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  and not a new result.
+title: "software-design-writing (work in progress)"
+abstract: >-
+  How to write architecture descriptions, decision records, design
+  documents, pseudocode and system diagrams so that they are cheap to read.
+  An extension of reader-ergonomics: the evidence and document shapes
+  particular to writing about software.
+  Use it as a reading list and a starting point, not as an authority.
+type: software
+authors:
+  - name: "Tewf"
+repository-code: "https://github.com/Tewf/software-design-writing"
+license:
+  - Apache-2.0
+  - CC-BY-4.0
+keywords:
+  - software architecture
+  - design documents
+  - pseudocode
+  - documentation
+  - literature review
