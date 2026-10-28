@@ -170,7 +170,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Larkin 1987 | Larkin, Simon (1987). Why a diagram is (sometimes) worth ten thousand words. Cognitive Science | https://doi.org/10.1111/j.1551-6708.1987.tb00863.x |
 | Larsen 2026 | Larsen, Moghaddam (2026). RAD-AI: rethinking architecture documentation for AI-augmented ecosystems. ICSA companion, 229-236 | https://doi.org/10.1109/ICSA-C68850.2026.00054 , arXiv:2603.28735 |
 | Lee 1997 | Lee (1997). Design rationale systems: understanding the issues. IEEE Expert | https://doi.org/10.1109/64.592267 |
-| Lethbridge 2003 | Lethbridge, Singer, Forward (2003). How software engineers use documentation: the state of the practice. IEEE Software | https://doi.org/10.1109/MS.2003.1241364 |
+| Lethbridge 2003 | Lethbridge, Singer, Forward (2003). How software engineers use documentation: the state of the practice. IEEE Software 20(6), 35-39. Full text read | https://doi.org/10.1109/MS.2003.1241364 |
 | Li 2013 | Li, Liang, Avgeriou (2013). Application of knowledge-based approaches in software architecture: a systematic mapping study. Information and Software Technology 55, 777-794 | https://doi.org/10.1016/j.infsof.2012.11.005 |
 | Lima Neto 2015 | Lima Neto, von Flach Garcia Chavez, de Almeida, Rost, Naab (2015). Unveiling architecture documentation: Brazilian stakeholders in perspective. Preprint | arXiv:1510.06229 |
 | López-García 2025 | López-García et al. (2025). Improving university students' learning of programming using customised pseudocode. Computer Applications in Engineering Education | https://doi.org/10.1002/cae.70061 |

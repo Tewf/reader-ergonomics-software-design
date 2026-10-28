@@ -51,11 +51,11 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
 
 ## 3. Readers and their needs
 
-- Lethbridge 2003 (three studies, one a survey of 48 engineers at a telecom company, 25 answering the timing question; only the abstract was reached, so the figures below were not checked against the paper):
-  - Documentation is often not updated; stale documentation is still useful (81% agreed, 45 respondents).
+- Lethbridge 2003 (three studies, one a survey of 48 engineers at a telecom company, 25 answering the timing question; full text read, figures checked against the paper):
+  - Documentation is often not updated; stale documentation is still useful (81% of 45 respondents agreed: 53% somewhat, 28% strongly).
   - The more abstract a document, the more engineers trusted it; accuracy and consultation correlated at 0.41 for architectural documents (p < .05).
   - 61% rated documentation effective for learning a system, 46% for big-picture information, 35% for maintaining one.
-  - In observation they consulted documentation in 12 of 357 logged events (3%), far below self-report.
+  - In observation they consulted documentation in 12 of 357 logged events (3%), which the authors read as use even lower than the survey reported.
 - Rost 2013: survey of 147 industrial participants (46% developers, 23% architects, 20% managers).
   - Overall quality rated average by 48%, good by 29%, poor by 18% (N=106).
   - Top problem in finding information, in open answers: unclear structure (13 answers; the table's N and percentage disagree). The top problem overall was outdated documentation (25).

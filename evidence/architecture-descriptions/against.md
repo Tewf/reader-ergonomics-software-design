@@ -30,7 +30,7 @@ This file gathers the evidence against the rules on architecture descriptions: n
 
 ## Against documentation as the answer
 
-- Engineers consulted documentation in 3% of logged events, much below their own report (Lethbridge 2003; figure not checked).
+- Engineers consulted documentation in 3% of logged events (12 of 357), which the authors read as use even lower than the survey reported (Lethbridge 2003).
 - A document added to a live project had mixed effects (Kazman 2016); the issue tracker already served core members.
 - Design documents helped correctness on complex tasks but did not save time, and the update effort cancelled simple tasks (Arisholm 2006, Dzidek 2008; secondary).
 - Oral explanation is the working route when documents are incomplete (Rukmono 2026); the document competes with a person.
