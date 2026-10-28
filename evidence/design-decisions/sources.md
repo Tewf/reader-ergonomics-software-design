@@ -89,7 +89,7 @@ Grade vocabulary as in the README. "narrative" means found by the earlier readin
 | Aurum 2002 | formal | narrative | review of inspections | review 6 |
 | Zanaty 2018 | formal | narrative | abstract only | review 6 |
 | van Heesch 2012 | formal | narrative | viewpoint, title only | frame |
-| Tofan 2014 | formal | R1 | systematic mapping, 144 papers, abstract read | review 0 |
+| Tofan 2014 | formal | R1 | systematic mapping, 144 papers, full text read | review 0 |
 | Bhat 2020 | formal | R1 | semi-systematic review, 218 papers, abstract only | review 0 |
 | Razavian 2019 | formal | R1 | review of empirical methods, abstract partly read | review 0 |
 | Hyun 2023 | formal | R2 | systematic mapping, journal page only | review 0 |

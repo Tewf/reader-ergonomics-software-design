@@ -174,7 +174,7 @@ Eight of the 41 grey sources fall below 10 and stay only as examples of practice
 | Key | Kind | Found via | Quality | Used in |
 |---|---|---|---|---|
 | Ding 2014a | formal, systematic review | prior | supported with caveat (abstract) | review 0 |
-| Steinmacher 2015 | formal, systematic review | prior | supported with caveat (abstract) | review 0 |
+| Steinmacher 2015 | formal, systematic review | prior | supported with caveat (full text read) | review 0 |
 | Weinreich 2016 | formal, systematic review | F6 | supported with caveat (abstract summary) | review 0 |
 | Li 2013 | formal, mapping study | F6 | not graded, title only | review 0 |
 | Júnior 2019 | formal, mapping study | F6 | not graded, title only | review 0 |
@@ -184,7 +184,7 @@ Eight of the 41 grey sources fall below 10 and stay only as examples of practice
 | de Dieu 2024 | formal, mapping study | title lookup | supported with caveat (abstract) | review 0 |
 | Soliman 2025 | formal, mapping study | fwd de Graaf 2016 | not graded, title only | review 0 |
 | Theunissen 2022 | formal, mapping study | O1 | supported with caveat (abstract) | review 0 |
-| Zhi 2015 | formal, mapping study | W1 | supported with caveat (search summary) | review 0 |
+| Zhi 2015 | formal, mapping study | W1 | supported with caveat (full text read) | review 0 |
 | Islam 2023 | formal, systematic review | W1 | supported with caveat (abstract) | review 0 |
 | Santos 2025 | formal, systematic review | title lookup | supported with caveat (abstract) | review 0 |
 | Ribeiro 2026 | formal, multivocal review | fwd Dagenais 2010 | not graded, title only | review 0 |
@@ -223,7 +223,7 @@ Eight of the 41 grey sources fall below 10 and stay only as examples of practice
 | Ding 2014b | formal | prior | measured, descriptive (secondary) | review 5 |
 | Muszynski 2022 | formal | prior | measured, descriptive (secondary) | review 5 |
 | Migliorini 2024 | formal | prior | measured, descriptive | review 5 |
-| Jongeling 2025 | formal | prior | supported with caveat (secondary) | review 6 |
+| Jongeling 2025 | formal | prior | supported with caveat (abstract only) | review 6 |
 | Chatlatanagulchai 2025 | formal, preprint | prior | measured, descriptive | review 6 |
 | Zarzycki 2026 | formal, preprint | prior | measured, descriptive | review 6 |
 | Gloaguen 2026 | formal, preprint | prior | measured, two settings | review 6 |

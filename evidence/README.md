@@ -43,4 +43,6 @@ and its sibling (38 of 175):
 Every DOI was resolved against Crossref when the reviews were written. On 2026-10-28 every numeric line of the four
 reviews was checked against its primary source (173 lines: 124 correct, 21 imprecise, 17 unverifiable, 8 repeats, 3
 wrong). Every wrong, imprecise or unverifiable line was corrected, narrowed or marked. Claims without a number
-were not audited this way.
+were not audited this way. 
+
+On 2026-10-28, the claims the audit could not verify were checked against the full texts through the university's access (17 claims: 11 correct, 2 imprecise, 2 partly confirmed, 2 still unverifiable).

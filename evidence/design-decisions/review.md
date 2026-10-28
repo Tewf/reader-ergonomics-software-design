@@ -5,9 +5,9 @@ This file reads the literature on documents that propose or record design decisi
 
 ## 0. Existing reviews
 
-- Tofan 2014 (abstract read): systematic mapping of architectural decisions, 2002-01 to 2012-01; six databases, 28,895 first hits, 144 papers.
-  - 83% (120) propose some form of documentation approach; 52 include tool support (counts not checked: the paper was not reached).
-  - Experiments are the least used method: 4% of papers, six in all, one with fourteen architects (counts not checked; the abstract says few papers use experiments).
+- Tofan 2014 (full text read): systematic mapping of architectural decisions, 2002-01 to 2012-01; six databases, 28,895 first hits, 144 papers.
+  - 83% (120) propose some form of documentation approach; 52 include tool support (Fig. 5 of the paper).
+  - Experiments are the least used method: 4% of papers, six in all, one with fourteen architects (P106; checked against the full text).
   - It asks for evidence on the real-world benefit of documenting, and for the right amount of documentation.
 - Bhat 2020: semi-systematic review of 218 papers over four decades on architectural design decisions; tool support, human aspects and group decision making; a getting-started guide (abstract only).
 - Razavian 2019: classifies empirical studies of architecture decision making by logic, purpose, method and process; asks for social-science methods (abstract partly read).

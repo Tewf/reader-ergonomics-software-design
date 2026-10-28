@@ -58,7 +58,7 @@ The figure draws the stages of the table for system diagrams.
 | Blackwell 2003 | formal | narrative pass | convention | review 1 |
 | Budgen 2011 | formal | narrative pass | review of 49 publications; secondary | review 0 |
 | Arisholm 2006 | formal | narrative pass | measured; abstract read | review 2 |
-| Scanniello 2018 | formal | narrative pass | measured, meta-analysis of 12 experiments; secondary (abstract) | review 2 |
+| Scanniello 2018 | formal | narrative pass | measured, meta-analysis of 12 experiments; full text read | review 2 |
 | Fernández-Sáez 2014 | formal | narrative pass | not read; supports no claim | review 2 |
 | Störrle 2011 | formal | narrative pass | measured; students, one group; primary | review 2, baseline |
 | Störrle 2014 | formal | narrative pass | measured; re-analysis of the 2012 data; primary | review 2, baseline |
@@ -74,21 +74,21 @@ The figure draws the stages of the table for system diagrams.
 | Petre 2013 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Dobing 2006 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Störrle 2017 | formal | narrative pass | measured, descriptive; secondary | review 4 |
-| Ozkaya 2020 | formal | narrative pass | measured, descriptive; secondary | review 4 |
+| Ozkaya 2020 | formal | narrative pass | measured, descriptive; full text read | review 4 |
 | Hebig 2016 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Ho-Quang 2017 | formal | narrative pass | measured, descriptive; secondary | review 4 |
 | Koning 2002 | formal | narrative pass | supported with caveat; guidelines tested on three groups; secondary | review 4 |
 | Schneider 2024 | formal | narrative pass | measured, 24 participants; abstract read | review 5 |
 | Sion 2018 | formal | narrative pass | convention; secondary | review 5 |
 | Pretorius 2008 | formal | string 1, 3 | review of 33 papers; abstract read | review 0 |
-| Fernández-Sáez 2013 | formal | string 3, forward snowball | review of 38 papers; abstract read | review 0 |
+| Fernández-Sáez 2013 | formal | string 3, forward snowball | review of 38 papers; full text read | review 0 |
 | Guo 2017 | formal | string 1, 2 | review; abstract not available, not read | review 0 |
 | Koç 2021 | formal | string 2, web search | review of 128 papers; abstract read | review 0 |
 | Baldassarre 2019 | formal | forward snowball (Budgen 2011) | review; abstract read | review 0 |
 | Alhazmi 2026 | formal | forward snowball (Störrle 2011, Budgen 2011) | review of 26 studies; abstract read | review 0 |
-| Dikici 2018 | formal | forward snowball (Störrle 2011), web search | review of 45 studies; text not reached | review 0, 2 |
+| Dikici 2018 | formal | forward snowball (Störrle 2011), web search | review of 45 studies; full text read | review 0, 2 |
 | Houy 2012 | formal | web search | review; summary read (secondary) | review 0 |
-| Shahin 2014 | formal | web search | review of 53 papers; abstract read | review 0 |
+| Shahin 2014 | formal | web search | review of 53 papers; full text read | review 0 |
 | Chotisarn 2020 | formal | web search | review of 105 papers; abstract read | review 0 |
 | Merino 2018 | formal | web search | review of 181 papers; abstract read | review 0 |
 | Filho 2019 | formal | string 4, web search | mapping study; abstract not available, not read | review 0 |

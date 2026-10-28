@@ -10,7 +10,7 @@ Two records are kept apart: **most adopted** (what people use) and **best eviden
 | How a proposal is judged | Rust final comment period (Rust 2026a), Steering Council (Warsaw 2000), SIG approvers (KEP template), Go weekly review group (Go 2026), Swift review manager and workgroup (Swift 2026) | Kondo 2025 (Go) | 1,095 classic proposals, coded decline reasons |
 | Whether people adopt ADRs | Nygard's template in open source | Buchgeher 2023 | repository mining |
 | Why rationale is not captured | cost, effort | Lee 1997; Tang 2006; Ahmeti 2024; Tofan 2014 asks for the right amount | argument, survey of 81, one action study |
-| How much research exists on documenting decisions | n/a (a research record) | Tofan 2014: 83% of 144 papers propose documentation; 4% use experiments (counts not checked) | systematic mapping, 2002-2012 |
+| How much research exists on documenting decisions | n/a (a research record) | Tofan 2014: 83% of 144 papers propose documentation; 4% use experiments | systematic mapping, 2002-2012 |
 | Which rationales drive decisions | decision drivers in MADR 2024 | Weinreich 2015; Borowa 2023 | 25 interviews; 63 answers and 13 interviews |
 | Which documentation practice practitioners write about | ADR templates: 12 of 19 grey sources (Harhio 2022) | none found | review of grey sources, 2016 onward |
 

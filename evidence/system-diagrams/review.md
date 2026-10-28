@@ -9,7 +9,7 @@ Sixteen reviews were found. None includes grey literature and none is about read
 On UML evidence:
 - Pretorius 2008: mapping study of 33 papers; the largest group studies comprehension.
 - Budgen 2011: 49 publications to end 2008; researchers take the UML as given (secondary).
-- Fernández-Sáez 2013: mapping of 38 papers (63 experiments, 3 case studies) on UML in maintenance; only 3 papers test help for code; generalisation doubtful (secondary; figures not checked).
+- Fernández-Sáez 2013: mapping of 38 papers (63 experiments, 3 case studies; 66 empirical studies in all) on UML in maintenance. The abstract says only 3 papers test help for code, but the body names two (P5, P8). Generalisation doubtful (full text read).
 - Guo 2017: a further-evidence review on UML; found, not read.
 - Koç 2021: 128 papers, 2000-2019; UML used mostly for design, class diagrams most (secondary).
 - Baldassarre 2019: belief that models help maintenance is scarcely tested, mostly UML (secondary).
@@ -17,11 +17,13 @@ On UML evidence:
 
 On notation and understanding:
 - van der Linden 2019: 70 applications of the **Physics of Notations** (a design theory for visual notations, strand 1); new notations adopted it with few verifiable details.
-- Dikici 2018: 1066 retrieved, 45 analysed, process-model understandability; findings inconsistent; thresholds for size unknown (secondary; the text was not reached, so these figures and its description of the Störrle experiments were not checked).
+- Dikici 2018: 1066 retrieved, 45 analysed, process-model understandability; findings inconsistent; thresholds for size unknown (full text read: 1066 retrieved, 480 duplicates, 45 analysed).
+  - Dikici describes Störrle 2011, 2012 and 2014 (S40 to S42) as a series of experiments with 78 participants.
+  - The Störrle papers report separate groups (see the Störrle lines below), so that description is Dikici's, not a fact about the data.
 - Houy 2012: no consensus on what model understandability means (secondary).
 
 On visualisation:
-- Shahin 2014: 53 of 23,056 papers, 1999-2011; graph, notation, matrix and metaphor techniques; few adopted in industry (secondary; figures not checked).
+- Shahin 2014: 53 of 23,056 papers, 1999-02-01 to 2011-07-01; graph, notation, matrix and metaphor techniques; few adopted in industry (full text read).
 - Chotisarn 2020: 105 of 1440 entries, 2013-2019, sorted by structure, behaviour, evolution.
 - Merino 2018: 387 SOFTVIS/VISSOFT papers, 181 studied; 62 of them lack a strong evaluation (abstract; secondary).
 - Filho 2019: mapping of visual solutions for architecture evolution; found, not read.
@@ -47,7 +49,7 @@ How this review differs:
 ## 2. Controlled studies of UML and layout
 
 - Arisholm 2006: for complex maintenance tasks, UML documentation improved correctness and design quality, with no time saving.
-- Scanniello 2018: a meta-analysis of 12 experiments (the observation count was not checked); design-phase models help source-code comprehension, analysis-phase models hurt (secondary: abstract).
+- Scanniello 2018: a meta-analysis of 12 experiments (333 observations, in Italy and Spain; full text read); design-phase models help source-code comprehension, analysis-phase models hurt.
 - Fernández-Sáez 2014: a family of experiments on level of detail; result not read.
 - Störrle 2011: 77 BSc and MSc students in three experiments (78 took part, 77 completed); each participant saw a given model in one layout only.
   - Right answers 6.35 versus 6.76 of ten, +6.5%; time per right answer 38.37 s versus 31.68 s, 17.4% faster; clarity 5.61 versus 7.81, +28.2%.
@@ -75,7 +77,7 @@ How this review differs:
 - Baltes 2014: 394 respondents; most recent sketches had some UML elements but were informal, and over half were on paper or whiteboard.
 - Petre 2013: 50 interviews, 5 patterns of UML use (secondary). Mangano 2015 studies sketching at the whiteboard (found, not read).
 - Dobing 2006 and Störrle 2017 survey industrial use of UML, and how widespread it is stays contested.
-- Ozkaya 2020: 109 practitioners; class diagrams lead for structure, deployment diagrams for physical structure (secondary; figures not checked).
+- Ozkaya 2020: 109 practitioners from 34 countries, 35 questions; class diagrams lead for structure, deployment diagrams for physical structure (full text read).
 - Hebig 2016: 21,316 UML diagrams in 3,295 of the 1.24 million projects scanned (10% of GitHub), mostly made at project start (secondary). Ho-Quang 2017: collaboration is the main motive (secondary).
 - Koning 2002: guidelines for IT-architecture diagrams, tested with three groups of architects (secondary).
 - Nicacio 2022: 5 architecture diagrams from company blogs shown to 34 respondents (132 invited); their descriptions matched the author text poorly; 41% disagreed that all expected elements were present. Five guidelines follow: identify elements, define notation, give detail, mark start and end of reading, use technology symbols.
@@ -104,7 +106,7 @@ Q/A sites (Software Engineering Stack Exchange and Stack Overflow, searched 2026
   - Text contrast of 4.5:1 (AWS 2026b).
 - Data-flow diagrams: symbol sets (Wikipedia 2026b, secondary); trust boundaries drawn as lines or boxes and flows labelled with protocol (Microsoft 2023); high-level overview plus detail (OWASP 2026).
   - Schneider 2024: 24 participants; a DFD traced to code raised correctness of security answers by 41%. Mbaka 2024 is a planned experiment with no results.
-- Industrial use of C4: Jongeling 2025, 48 respondents (about 30% response) after two years of C4 in PlantUML beside code; most felt successful; 7 named limited layout control. The figures were not checked: the text was not reached. Mavrogiorgou 2025 and Jokste 2024 describe use without measuring readers.
+- Industrial use of C4: Jongeling 2025, 48 respondents (about 30% response) after two years of C4 in PlantUML beside code; most felt successful; 7 named limited layout control. The figures were not checked: the chapter was not reached, because the university has no access; the abstract confirms the 48 respondents, not the 30% or the 7. Mavrogiorgou 2025 and Jokste 2024 describe use without measuring readers.
 - Cloud icons: AWS 2026 publishes icon sets; its icon page gives no drawing rules.
 - Diagrams as code: GitHub renders Mermaid since 2022-02-14 (GitHub 2022). Brown 2021 names drift as the main failure.
 - On 2026-10-28 Mermaid had 90,911 stars, PlantUML 13,383 and D2 25,750 (Mermaid 2026, PlantUML 2026, D2 2026), and 69.4 million npm downloads in a month (npm 2026): adoption counts, not reader benefit.

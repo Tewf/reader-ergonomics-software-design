@@ -14,14 +14,14 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
   - Viglioni 2024 maps executable architecture descriptions, 45 studies (secondary).
   - Li 2013, Nakagawa 2010 and Farenhorst 2009 map knowledge-based approaches and the state of architecture knowledge management (titles only). Capilla 2016 looks back over ten years of the field (title only).
 - **Documentation in general:**
-  - Zhi 2015: 69 papers on the cost, benefits and quality of development documentation (secondary).
+  - Zhi 2015: 69 papers from 1971 to 2011 on the cost, benefits and quality of development documentation (full text read).
   - Theunissen 2022: 63 studies on documentation in continuous development; the practices found include architecture frameworks, and it recommends minimal documentation upfront (secondary).
   - Islam 2023: 74 studies on agile documentation (secondary).
 - **Architecture information:**
   - de Dieu 2024: 104 studies on mining architectural information. Architectural description is the most mined kind, and architecture understanding the most supported activity (secondary).
   - Soliman 2025 maps mining repositories for architecture (title only).
 - **Readers who are newcomers:**
-  - Steinmacher 2015: 20 studies of barriers faced by newcomers to open-source projects, 15 barriers in five categories, one of them documentation (secondary).
+  - Steinmacher 2015: 20 studies of barriers faced by newcomers to open-source projects, 15 barriers in five categories, one of them documentation (full text read; 291 studies retrieved from 4 libraries).
   - Santos 2025: 32 studies of software solutions for onboarding (secondary).
   - Ribeiro 2026 is a multivocal review of onboarding (title only).
 - **Grey and formal together:** Harhio 2022 (a thesis) reviews 36 sources on documenting architecture design decisions, 17 scientific and 19 grey. Twelve of the 19 grey sources concern decision records; it finds no single method best, since suitability depends on the project.
@@ -65,7 +65,7 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
 - Dagenais 2010: grounded theory from 18 newcomers in 18 projects (secondary). Newcomers sought the architecture mostly for a broader view and to see where their task fitted (quoted in Ernst 2023).
 - de Dieu 2022: survey of 103 developers on searching for architectural information (secondary). The top challenges were dispersion and abundance of sources.
 - Wan 2023: interviews with 32 practitioners from 21 organisations; the challenges of architecture work centre on management, documentation, tooling and process (abstract, secondary).
-- Manai 2019 (a student essay, two companies, 24 survey respondents; abstract only): documents complement conversation; outdated and incomplete documents are the main complaint.
+- Manai 2019 (a student essay, two companies, 24 survey respondents, two interviews, two work diaries; abstract only): documents complement conversation; outdated and incomplete documents are the main complaint.
 - Rukmono 2026: interviews with 17 professionals (9 explainers, 8 explainees) show that written documentation is incomplete, so teams explain orally; a good explanation fits the explainee's role, experience and goal.
 - Grade: supported with caveat; all are perceptions, and the one behavioural number (3%) is below the stated use.
 
@@ -87,7 +87,7 @@ Nineteen secondary studies were found; none was read in full. The abstract (or a
 
 - Ding 2014b: of 2,000 open-source projects, 108 had some architecture documentation (secondary); natural language was the usual form.
 - Muszynski 2022: six open-source systems; mostly natural language on websites and wikis; most stayed at the first maturity level (secondary).
-- Migliorini 2024: 15 thousand architecture views from 12.2 thousand repositories (abstract only; the figures in this block other than 15 thousand and 373 were not checked against the paper).
+- Migliorini 2024: 15 thousand architecture views from 12.2 thousand repositories (abstract only: no access to the chapter. The abstract confirms 15 thousand views and a sample of 373; the other figures here were not checked).
   - Most projects keep one view; 96% of 373 sampled views are informal, 7% of the views with colour carry a legend.
   - 75% of views are never updated; over 92% have one contributor.
   - 53% show the whole system and 53% are at a coarse granularity; deployment and control flow are the common viewpoints.
@@ -107,7 +107,7 @@ Owners' claims about themselves unless stated; grade convention, untested; an ad
   - IcePanel 2025 (10.5, vendor survey, 75 respondents): 70% moderately or very confident with C4. Context diagrams were used by 81%, containers 79%, components 41%.
   - The rise in context use since 2024 was significant by the vendor's test. Keeping documentation current was the top challenge.
   - IcePanel 2024 (9, example of practice) had 96 respondents and no stated method.
-  - Jongeling 2025: one embedded-software company, C4 in text diagrams beside the code; most of 48 respondents were positive two years on (secondary).
+  - Jongeling 2025: one embedded-software company, C4 in text diagrams beside the code; most of 48 respondents were positive two years on (abstract only).
 - **ARCHITECTURE.md** (matklad 2021, 13.5): for projects of 10 to 200 thousand lines. A bird's-eye overview, a codemap that answers where the thing that does X lives, named invariants, boundaries, cross-cutting concerns; keep it short and to stable facts. The claim that finding the place to change costs ten times more for an outsider is the author's anecdote.
   - rust-analyzer's architecture page (Rust 2026c, score 11) follows that pattern: Bird's Eye View, Entry Points, Code Map, Cross-Cutting Concerns, with marked invariants.
 - **Panels and books:** Penchikala 2009 (11, a panel of SEI and other authors) advises a defined purpose and audience, module, runtime and deployment views, a notation key, and short wikis over a weighty tome. Its speakers point to their own books.

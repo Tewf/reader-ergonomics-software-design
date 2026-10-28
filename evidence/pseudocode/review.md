@@ -13,7 +13,7 @@ Pool and method: [protocol](protocol.md), [sources](sources.md). A grey source s
 | Noone 2018 | visual against textual languages for learning to program | SLR; 5,106 hits, 661 after titles, 124 after abstracts, 54 accepted (the text also says 53) | visual or hybrid languages help interest and retention (authors' conclusion) | its text mentions flowchart languages and a pseudo-code course only in passing; outcome is learning, not reading an algorithm |
 | Ulate-Caballero 2021 | notations and tools for testing concurrent and distributed pseudocode | SLR | few publications; 5 tools interpret such pseudocode, 2 verify it | asks how to test pseudocode, not how readers fare |
 | Dehaerne 2022 | machine-learning code generation | SLR, 37 publications | three paradigms, one of them description-to-code | machines write code; no human reader |
-| Alharbi 2025 | automatic code generation techniques | SLR, 76 primary studies (secondary) | techniques grouped by input and intermediate form | same |
+| Alharbi 2025 | automatic code generation techniques | SLR, 76 primary studies up to 2024-01 (full text read) | techniques grouped by input and intermediate form | same |
 | Tiwari 2023 | titled a review of pseudocode-to-Python models | abstract (second-hand) describes one proposed model | not a review by its abstract | same |
 
 - This search did not find a systematic review, mapping study or MLR of how an algorithm is presented to a human reader.
@@ -145,5 +145,5 @@ Q/A sites (searched 2026-10-28; 26 threads; one, SO 2009c, scores under 10 of 20
 - Shum 1994: a course using literate programming produced more documentation, not shown to be better comprehended.
 - Rule 2018: of over one million notebooks, one in four had no explanatory text.
 - Wang 2020: 73% of 936 notebooks would not be reproducible straightforwardly.
-- Pimentel 2021: a large study of notebooks (the 1.4 million figure was not checked against this paper).
+- Pimentel 2021: a large study of notebooks; it extends the authors' earlier study of 1.4 million GitHub notebooks (this paper collected 1,450,071 notebooks from 265,888 repositories, created from 2013-01-01 to 2018-04-16).
 - Bertholf 2000, a thesis on literate-program comprehension, was not read.

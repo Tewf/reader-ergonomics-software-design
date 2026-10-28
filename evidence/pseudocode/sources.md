@@ -174,7 +174,7 @@ The Q/A threads mostly repeat the pool. Definitions (SESE 2012e, SESE 2011d), sy
 | Noone 2018 | formal | R5 | SLR; preprint text read, counts checked | review 0 |
 | Ulate-Caballero 2021 | formal | F1, R1 | SLR; abstract read | review 0 |
 | Dehaerne 2022 | formal | R3 | SLR; abstract read | review 0 |
-| Alharbi 2025 | formal | R3 | SLR; read second-hand | review 0 |
+| Alharbi 2025 | formal | R3 | SLR; full text read | review 0 |
 | Tiwari 2023 | formal | R3 | titled review; read second-hand | review 0 |
 | Shneiderman 1977 | formal | prior pass | measured; abstract (secondary) | review 1 |
 | Brooke 1980 | formal | prior pass | measured; abstract (secondary) | review 1 |

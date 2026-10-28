@@ -5,7 +5,7 @@ Each "not known" below is a statement about this search, not about the world.
 ## Against the existing reviews
 
 - Tofan 2014 and Bhat 2020 map research on architectural decisions.
-- Tofan 2014 (abstract read) counts documentation approaches: 83% of 144 papers (count not checked against the paper). Bhat 2020 was read by abstract only.
+- Tofan 2014 (full text read) counts documentation approaches: 83% of 144 papers. Bhat 2020 was read by abstract only.
 - This search found no comparison of document forms or readers in either.
 - Harhio 2022 is the nearest: a multivocal review of documentation methods since 2016. It finds practice centred on ADR templates and research centred on tools.
 - This review adds: proposals before adoption beside records after; reader-task evidence kept apart from writer-side evidence; adoption counts; sources from 2022 to 2026; a 20-criterion score for every grey source.
@@ -45,7 +45,7 @@ Each "not known" below is a statement about this search, not about the world.
 ## Where evidence is ignored by practice
 
 - Rationale should be tailored to its use (Falessi 2008); practice ships one template for every reader.
-- Tofan 2014 found experiments are rare in this field (4% of 144 papers, count not checked); practice did not wait for them.
+- Tofan 2014 found experiments are rare in this field (4% of 144 papers); practice did not wait for them.
 - Records are written after the fact: about 63% of 5,800 ADRs were opened already accepted (Santana 2026, secondary), so the Proposed state that GDS 2026 describes is often skipped (an inference).
 - Enacted proposal processes differ from advertised ones (Keertipati 2016; Sharma 2022), yet templates describe the advertised one.
 
