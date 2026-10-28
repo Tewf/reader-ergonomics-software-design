@@ -110,7 +110,7 @@ Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv
 
 ## 10. Limits
 
-- One reviewer, no inter-rater agreement; scores are one person's judgement.
+- A second rater re-scored 7 of this topic's grey sources blind ([method](../README.md#method)): all 7 decisions agree. The second scores were equal or higher, so the scores of exactly 10 (Microsoft 2026, Rust 2026b) sit near the threshold on one side only.
 - Search engines personalise and change; counts will differ on a repeat.
 - OpenAlex counts are missing; Semantic Scholar and arXiv counts are not phrase-exact.
 - Forward snowballing was one page; backward snowballing covered two works.

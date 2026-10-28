@@ -166,7 +166,7 @@ Twenty criteria, each scored 1, 0.5 or 0, in eight groups:
 
 ## 10. Limits
 
-- One reviewer; no agreement with a second rater.
+- A second rater re-scored 4 of this topic's grey sources blind ([method](../README.md#method)): 3 of 4 decisions agree; the arc42 site (Starke 2026) scores 9.5 and 12 and stays an example of practice.
 - Search engines rank and personalise results and change over time; the dates above are the only anchor.
 - The formal engine matched loosely and the counts are not those of a curated database.
 - The Helsinki thesis and the Gothenburg essay were read through their abstracts only (bot protection blocked the full text).

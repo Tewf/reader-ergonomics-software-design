@@ -94,7 +94,7 @@ Garousi Table 7, 20 criteria, each 1, 0.5 or 0:
 
 ## 10. Limits
 
-- One reviewer; no inter-rater agreement.
+- A second rater re-scored 5 of this topic's grey sources blind ([method](../README.md#method)): all 5 decisions agree, the forum post kept as an example included (4 and 6 of 20).
 - Search engines personalise and change; all searches were run on one day.
 - OpenAlex counts exist for three strings only.
 - Several papers were read at abstract level; each is marked "(abstract; secondary)".

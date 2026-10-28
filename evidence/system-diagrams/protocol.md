@@ -110,7 +110,7 @@ This file records every search, count, rule and limit of this multivocal literat
 
 ## 10. Limits
 
-- One reviewer, no inter-rater agreement; the grey scores are one person's judgment.
+- A second rater re-scored 5 of this topic's grey sources blind ([method](../README.md#method)): 4 of 5 decisions agree. The GitLab style guide scores 8 and 13.5, partly because the second rater read the whole guide; it stays an example of practice. Brown 2021 and D2 2026 sit at exactly 10 for both.
 - Search engines personalise and change; every date is 2026-10-28.
 - Several abstracts and full texts were behind paywalls (Springer, IEEE); they are marked.
 - Books, conference talk recordings and Q/A threads were not read; a talk is represented by its abstract page.
