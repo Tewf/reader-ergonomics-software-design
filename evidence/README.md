@@ -1,7 +1,7 @@
 # Evidence
 
 One literature review per topic, in the steps reader-ergonomics uses for its own
-[evidence](https://github.com/Tewf/reader-ergonomics/tree/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/evidence): frame, review, state of the art, position, the
+[evidence](https://github.com/Tewf/reader-ergonomics/tree/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/evidence): frame, review, state of the art, position, the
 case against, baseline. Every work cited is listed once in the [bibliography](bibliography.md).
 
 | Topic | Question |

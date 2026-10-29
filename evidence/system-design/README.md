@@ -45,9 +45,9 @@ Method: after Garousi 2019, a multivocal literature review by one reviewer; the 
 
 ## General principles linked, not reviewed again
 
-- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/principles/document/overview-first.md)
-- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/principles/document/define-before-use.md)
-- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/principles/document/worked-examples-with-subgoals.md)
+- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/principles/document/overview-first.md)
+- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/principles/document/define-before-use.md)
+- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/principles/document/worked-examples-with-subgoals.md)
 
 ## Neighbouring topics
 

@@ -14,3 +14,4 @@ in what context, the options that lost and why, and the consequences. A record i
 | [0004](0004-move-to-reader-ergonomics-1-3-2.md) | check against reader-ergonomics v1.3.2, and drop the exemptions it now holds | accepted, 2026-10-29 |
 | [0005](0005-move-to-reader-ergonomics-1-4-3.md) | check against reader-ergonomics v1.4.3, which adds the figure-width check | accepted, 2026-10-29 |
 | [0006](0006-move-to-reader-ergonomics-1-6-0.md) | check against reader-ergonomics v1.6.0, whose decision-records replaces the local check | accepted, 2026-10-29 |
+| [0007](0007-move-to-reader-ergonomics-1-8-1.md) | check against reader-ergonomics v1.8.1, and draw the card's figure from its Graphviz source | accepted, 2026-10-29 |

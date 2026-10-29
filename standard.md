@@ -2,28 +2,40 @@
 
 What designing software before the code shares, as far as the evidence goes: the rules for an algorithm's
 specification, a design document, a decision record, an architecture description and a diagram. It extends
-[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/standard.md), the standard for any reader: read that one first. This page adds only what
+[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/standard.md), the standard for any reader: read that one first. This page adds only what
 software design changes, since its reader is often an implementer, a person or a model, who builds from the text.
 
 ## How to use it
 
-```text
- what is being designed?
-  ├─ an algorithm
-  │    └─▶ algorithm specification
-  ├─ a change to agree on
-  │    └─▶ design document, then a decision record
-  └─ a whole system
-       └─▶ architecture description, with system diagrams
+![What is being designed decides the shape: an algorithm specification, a design document then a decision record, or an architecture description; then write to the principles and run the checks, which report errors, warnings and questions for judgment.](standard-how-to-use.svg)
 
- then, whatever the shape:
-  write it to the principles below
-   │
-   ▼
-  python3 <reader-ergonomics>/checks/run.py .
-   ├─▶ error     certain: fix it
-   ├─▶ warning   fix it, or say why it is a false match
-   └─▶ judgment  answer it in checks/judgments.toml
+```dot
+digraph how_to_use {
+  graph [rankdir=TB, nodesep=0.4, ranksep=0.5, bgcolor="white", pad=0.2, fontname="Inter"];
+  node  [shape=box, style="rounded,filled", fontname="Inter", fontsize=13, margin="0.2,0.1", penwidth=1.5, fontcolor="#1F2328"];
+  edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
+  Q [label=<<b>what is being designed?</b>>, fillcolor="#FFFFFF", color="#3D434B", shape=diamond, style="filled", margin="0.05,0.05"];
+  AL [label=<<b>algorithm specification</b>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  DD [label=<<b>design document,</b><br/><font point-size="11" color="#55575F">then a decision record</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  AD [label=<<b>architecture description,</b><br/><font point-size="11" color="#55575F">with system diagrams</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  PR [label=<<b>write it to the principles</b>>, fillcolor="#FFFFFF", color="#3D434B"];
+  RUN [label=<<b>python3 &lt;reader-ergonomics&gt;/checks/run.py .</b>>, fillcolor="#FFFFFF", color="#3D434B"];
+  Q -> AL [label=" an algorithm"];
+  Q -> DD [label=" a change to agree on"];
+  Q -> AD [label=" a whole system"];
+  {rank=same; AL; DD; AD}
+  AL -> PR;
+  DD -> PR;
+  AD -> PR;
+  PR -> RUN;
+  E [label=<<b>error</b><br/><font point-size="11" color="#55575F">certain: fix it</font>>, fillcolor="#FBEDE4", color="#B4541A"];
+  W [label=<<b>warning</b><br/><font point-size="11" color="#55575F">fix it, or say why it is a false match</font>>, fillcolor="#FBEDE4", color="#B4541A", style="rounded,filled,dashed"];
+  J [label=<<b>judgment</b><br/><font point-size="11" color="#55575F">answer it in checks/judgments.toml</font>>, fillcolor="#E8EEF8", color="#2F5DA8"];
+  RUN -> E;
+  RUN -> W;
+  RUN -> J;
+  {rank=same; E; W; J}
+}
 ```
 
 1. **Pick the shape** from [shapes/](shapes/README.md), and name it in the document with a `**Shape:**` line that
@@ -31,7 +43,7 @@ software design changes, since its reader is often an implementer, a person or a
 2. **Write to the principles** below, and to those of reader-ergonomics, which still hold.
 3. **Check:** the local checks in `checks/local/` run with the standard's own.
 
-Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/standard.md#grades): measured, supported with caveat,
+Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/standard.md#grades): measured, supported with caveat,
 convention, not supported. Each principle states its grade and never claims more.
 
 ## Principles

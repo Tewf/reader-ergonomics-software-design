@@ -14,7 +14,7 @@
 
 ## Why
 
-- A reviewer reads with a question; stating it first is the [overview first](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/principles/document/overview-first.md)
+- A reviewer reads with a question; stating it first is the [overview first](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/principles/document/overview-first.md)
   principle applied to a proposal.
 - The proposal templates compared share motivation, design and alternatives; none puts the decision asked first, which
   is why this is a hypothesis and not a finding.
