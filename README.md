@@ -7,13 +7,15 @@ How to design software at the abstract layer just before the code: its architect
 algorithms and their specifications. And how to write about it (architecture descriptions, decision records, design
 documents, pseudocode and diagrams), at the least cost to the reader and to whoever implements it.
 
-It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
-live there and are not repeated here. This repository will add only what is particular to software design and the writing
-about it: its evidence, and the shapes of its documents.
+It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The general principles, their grades and the
+checks live there and are not repeated here. This repository adds only what is particular to software design and the writing
+about it: its evidence, its principles and the shapes of its documents.
+
+Start with the [card](standard.md). [En français](README.fr.md).
 
 > **Status:** work in progress. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
 > research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). The five shapes are
-> written (algorithm specification, design document, decision record, architecture description, system diagram); the principles are not started. It is an
+> written (algorithm specification, design document, decision record, architecture description, system diagram); eight principles and the [card](standard.md) are written. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the
 > state of the art.
 >
@@ -41,7 +43,10 @@ The same as reader-ergonomics, so a reader of one can find their way in the othe
   [decision record](shapes/decision-record.md), the [architecture description](shapes/architecture-description.md) and the
   [system diagram](shapes/system-diagram.md);
 - [`decisions/`](decisions/): the records of this repository's own design choices;
-- `principles/`: only where writing about software differs from the general standard (planned).
+- [`principles/`](principles/README.md): only where software design differs from the general standard, eight in three
+  groups (specification, decision, structure), gathered on the [card](standard.md);
+- [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt): how to change this repository, and its index for language models;
+- `checks/`: the settings that extend reader-ergonomics' and the local checks, with their tests.
 
 ## Check it
 
