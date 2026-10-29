@@ -2,12 +2,15 @@
 
 What designing software before the code shares, as far as the evidence goes: the rules for an algorithm's
 specification, a design document, a decision record, an architecture description and a diagram. It extends
-[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/standard.md), the standard for any reader: read that one first. This page adds only what
+[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/standard.md), the standard for any reader: read that one first. This page adds only what
 software design changes, since its reader is often an implementer, a person or a model, who builds from the text.
 
 ## How to use it
 
 ![What is being designed decides the shape: an algorithm specification, a design document then a decision record, or an architecture description; then write to the principles and run the checks, which report errors, warnings and questions for judgment.](standard-how-to-use.svg)
+
+<details>
+<summary>Graphviz source</summary>
 
 ```dot
 digraph how_to_use {
@@ -38,12 +41,14 @@ digraph how_to_use {
 }
 ```
 
+</details>
+
 1. **Pick the shape** from [shapes/](shapes/README.md), and name it in the document with a `**Shape:**` line that
    links it; the checks find their documents by that line.
 2. **Write to the principles** below, and to those of reader-ergonomics, which still hold.
 3. **Check:** the local checks in `checks/local/` run with the standard's own.
 
-Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/539aaf77e2dbb8e9b6d9b89bff4d52f7214504a8/standard.md#grades): measured, supported with caveat,
+Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/standard.md#grades): measured, supported with caveat,
 convention, not supported. Each principle states its grade and never claims more.
 
 ## Principles
