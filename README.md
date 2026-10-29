@@ -43,10 +43,10 @@ git clone https://github.com/Tewf/reader-ergonomics
 python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 
-CI runs the same checks on every push, and a run fails on any error ([checks.yml](.github/workflows/checks.yml)). The
+CI runs the same checks on every push, and a run fails on any error ([checks.yml](https://github.com/Tewf/software-design-writing/blob/master/.github/workflows/checks.yml)). The
 badge at the top is its last result: the proof that this repository obeys the standard it extends.
 Every push to master also renders the site, [tewf.github.io/software-design-writing](https://tewf.github.io/software-design-writing/)
-([pages.yml](.github/workflows/pages.yml)).
+([pages.yml](https://github.com/Tewf/software-design-writing/blob/master/.github/workflows/pages.yml)).
 
 ## Licence
 
