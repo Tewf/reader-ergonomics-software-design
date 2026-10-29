@@ -5,7 +5,7 @@
 - **Grade:** supported with caveat.
 - **Evidence:** [architecture-descriptions review](../../evidence/architecture-descriptions/review.md); [baseline, the crosswalk](../../evidence/architecture-descriptions/baseline.md).
 - **Check:** `shape-conformance` (exact): a description named in checks/config.toml holds the parts of the shape.
-- **Reader styles:** none particular to this genre yet; the reader-ergonomics styles hold.
+- **Reader styles:** [a newcomer](../../reader-styles/newcomer.md) puts the overview and the map first; [a model as implementer](../../reader-styles/model-as-implementer.md) keeps the map short.
 
 ## What it asks
 

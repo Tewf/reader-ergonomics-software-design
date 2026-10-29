@@ -27,6 +27,8 @@ website:
         href: principles/index.qmd
       - text: Shapes
         href: shapes/index.qmd
+      - text: Reader styles
+        href: reader-styles/index.qmd
       - text: Decisions
         href: decisions/index.qmd
       - text: Bibliography

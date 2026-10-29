@@ -5,7 +5,7 @@
 - **Grade:** convention, untested for the order; measured, observational and small for contracts in code.
 - **Evidence:** [algorithm-design review, strands 2 and 3](../../evidence/algorithm-design/review.md); [state of the art](../../evidence/algorithm-design/state-of-the-art.md).
 - **Check:** `algorithm-specs` (exact): the Contract is present and comes before the Steps; whether it is right is judgment.
-- **Reader styles:** none particular to this genre yet; the reader-ergonomics styles hold.
+- **Reader styles:** [a model as implementer](../../reader-styles/model-as-implementer.md) strengthens it: assertions a person checks when a model wrote them.
 
 ## What it asks
 

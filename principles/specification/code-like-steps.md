@@ -5,7 +5,7 @@
 - **Grade:** measured, in old and small experiments.
 - **Evidence:** [pseudocode review, strand 1](../../evidence/pseudocode/review.md); [against](../../evidence/pseudocode/against.md).
 - **Check:** `algorithm-specs` (exact): the Steps hold a code-like block; whether its statements are constrained is judgment.
-- **Reader styles:** none particular to this genre yet; the reader-ergonomics styles hold.
+- **Reader styles:** [a model as implementer](../../reader-styles/model-as-implementer.md) keeps it: a written plan helps a model by a few points.
 
 ## What it asks
 

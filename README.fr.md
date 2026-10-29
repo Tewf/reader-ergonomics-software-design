@@ -44,6 +44,8 @@ La même que reader-ergonomics, pour qu'un lecteur de l'un s'oriente dans l'autr
 - [`decisions/`](decisions/) : les registres des choix de conception de ce dépôt ;
 - [`principles/`](principles/README.md) : seulement là où la conception logicielle diffère du standard général, huit
   principes en trois groupes (spécification, décision, structure), réunis sur la [fiche](standard.md) ;
+- [`reader-styles/`](reader-styles/README.md) : les lecteurs propres à ce genre, un modèle qui implémente et un nouveau
+  venu ;
 - [`AGENTS.md`](AGENTS.md) et [`llms.txt`](llms.txt) : comment modifier ce dépôt, et son index pour les modèles de
   langage ;
 - `checks/` : les réglages qui étendent ceux de reader-ergonomics, et les vérifications locales avec leurs tests.

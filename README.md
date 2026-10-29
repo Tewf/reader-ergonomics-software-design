@@ -45,6 +45,7 @@ The same as reader-ergonomics, so a reader of one can find their way in the othe
 - [`decisions/`](decisions/): the records of this repository's own design choices;
 - [`principles/`](principles/README.md): only where software design differs from the general standard, eight in three
   groups (specification, decision, structure), gathered on the [card](standard.md);
+- [`reader-styles/`](reader-styles/README.md): readers particular to this genre, a model as implementer and a newcomer;
 - [`AGENTS.md`](AGENTS.md) and [`llms.txt`](llms.txt): how to change this repository, and its index for language models;
 - `checks/`: the settings that extend reader-ergonomics' and the local checks, with their tests.
 

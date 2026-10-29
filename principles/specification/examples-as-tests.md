@@ -5,7 +5,7 @@
 - **Grade:** measured, on model benchmarks; convention, untested for people.
 - **Evidence:** [algorithm-design review, strands 5 and 7](../../evidence/algorithm-design/review.md); [against](../../evidence/algorithm-design/against.md).
 - **Check:** `algorithm-specs` (exact): an Examples table with at least one row; it warns under three rows.
-- **Reader styles:** none particular to this genre yet; the reader-ergonomics styles hold.
+- **Reader styles:** [a model as implementer](../../reader-styles/model-as-implementer.md) strengthens it: examples as runnable tests, properties as property-based tests.
 
 ## What it asks
 

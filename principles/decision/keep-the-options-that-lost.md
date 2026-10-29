@@ -5,7 +5,7 @@
 - **Grade:** convention, adopted; one writer-side experiment.
 - **Evidence:** [design-decisions review](../../evidence/design-decisions/review.md); [state of the art](../../evidence/design-decisions/state-of-the-art.md).
 - **Check:** `shape-conformance` (exact): a record holds an Options section; `decision-records` (exact): it names its shape.
-- **Reader styles:** none particular to this genre yet; the reader-ergonomics styles hold.
+- **Reader styles:** [a newcomer](../../reader-styles/newcomer.md) adds a link from the description to the records.
 
 ## What it asks
 

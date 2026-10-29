@@ -26,6 +26,12 @@ Each page's markdown source is served at the same path with a .md extension.
 - [Order a description by the reader's questions](https://tewf.github.io/reader-ergonomics-software-design/principles/structure/by-the-readers-questions.md): an architecture description follows its readers' questions, in order: its readers, the system's surroundings, its parts, its invariants, its runtime and deployment, and its reasons.
 - [Every diagram has a key, every arrow a label](https://tewf.github.io/reader-ergonomics-software-design/principles/structure/diagram-key-and-labels.md): every diagram of a system has a key, and every arrow says what it carries, in the direction it points.
 
+## Reader styles
+
+- [Reader styles](https://tewf.github.io/reader-ergonomics-software-design/reader-styles/README.md): how a known reader changes the optimum
+- [Reader style: a model as implementer](https://tewf.github.io/reader-ergonomics-software-design/reader-styles/model-as-implementer.md)
+- [Reader style: a newcomer to the system](https://tewf.github.io/reader-ergonomics-software-design/reader-styles/newcomer.md)
+
 ## Optional
 
 - [Evidence](https://tewf.github.io/reader-ergonomics-software-design/evidence/README.md): one literature review per topic, with the evidence against
