@@ -127,7 +127,7 @@ A source under 10 is an example of practice only.
 | MADR 2024 | grey tier 2 | narrative; G1 | 12 of 20 (3 / 3 / 2 / 1 / 0.5 / 1 / 1 / 0.5) | review 7; state-of-the-art |
 | ADR 2026 | grey tier 2 | narrative | 12 of 20 (3 / 3 / 2.5 / 0 / 1 / 1 / 1 / 0.5) | review 2; frame |
 | AWS 2026c | grey tier 1 | narrative | 9.5 of 20 (2.5 / 3 / 1.5 / 0 / 0.5 / 0.5 / 0.5 / 1) | frame; state-of-the-art; position (example only) |
-| Microsoft 2026c | grey tier 1 | narrative | 10 of 20 (2.5 / 2.5 / 1.5 / 1 / 0.5 / 0.5 / 0.5 / 1) | state-of-the-art; against |
+| Microsoft 2026 ADR | grey tier 1 | narrative | 10 of 20 (2.5 / 2.5 / 1.5 / 1 / 0.5 / 0.5 / 0.5 / 1) | state-of-the-art; against |
 | GOV.UK 2025 | grey tier 1 | narrative (secondary) | 11.5 of 20 (3 / 2.5 / 2.5 / 1 / 0.5 / 0.5 / 0.5 / 1) | review 7; position |
 | Warsaw 2000 | grey tier 2 | narrative | 15 of 20 (3.5 / 5 / 2 / 1 / 0.5 / 1.5 / 1 / 0.5) | baseline; state-of-the-art |
 | Goodger 2002 | grey tier 2 | narrative | 12 of 20 (3.5 / 3 / 2 / 1 / 0 / 1 / 1 / 0.5) | baseline; state-of-the-art |
@@ -173,7 +173,7 @@ A source under 10 is an example of practice only.
 
 - 46 grey sources scored: 31 from the web search and 15 Q/A threads. 8 fall below 10 of 20, all from the web search: AWS 2026c, Frazelle 2026, HashiCorp 2026, Attentive 2026, Bitwarden 2026, Google Cloud 2024, Polishchuk 2026, Taylor 2025.
 - Those 8 appear in the text only as examples of practice.
-- Microsoft 2026c and Rust 2026b sit exactly at 10 and stay in.
+- Microsoft 2026 ADR and Rust 2026b sit exactly at 10 and stay in.
 - GitHub 2026 is the reviewer's own count of public listings, not a source, so it is not scored.
 - No Q/A thread falls below 10; the lowest is SESE 2012c at 11.
 - On three points the Q/A threads only repeat the pool, so they add no line elsewhere.

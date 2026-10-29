@@ -333,8 +333,8 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Meyer 1992 | Meyer (1992). Applying design by contract. IEEE Computer. Title and venue only | https://doi.org/10.1109/2.161279 |
 | Microsoft 2023 | Microsoft (2023-08-07). Visualize risk, in: Identifying infrastructure risks with threat modeling. Microsoft Learn training unit | https://learn.microsoft.com/en-us/training/modules/threat-modeling-enterprise-infrastructure/4-visualize-risk |
 | Microsoft 2025 | Microsoft (page dated 2025-09-25). Architecture styles. Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/ |
-| Microsoft 2026b | Microsoft (page updated 2026-10-09, read 2026-10-28). Azure icons, Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/icons/ |
-| Microsoft 2026c | Microsoft Azure Well-Architected Framework: maintain an architecture decision record (page dated 2026-04-10) | https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record |
+| Microsoft 2026 icons | Microsoft (page updated 2026-10-09, read 2026-10-28). Azure icons, Azure Architecture Center | https://learn.microsoft.com/en-us/azure/architecture/icons/ |
+| Microsoft 2026 ADR | Microsoft Azure Well-Architected Framework: maintain an architecture decision record (page dated 2026-04-10) | https://learn.microsoft.com/en-us/azure/well-architected/architect-role/architecture-decision-record |
 | Microsoft API 2026 | Microsoft (repository read 2026-10-29). Microsoft REST API guidelines, 23.3k stars on the page | https://github.com/microsoft/api-guidelines |
 | Migliorini 2024 | Migliorini, Verdecchia, Malavolta, Lago, Vicario (2024). Architectural views: the state of practice in open-source software projects. ECSA, LNCS | https://doi.org/10.1007/978-3-031-70797-1_27 |
 | Misu 2024 | Misu, Lopes, Ma, Noble (2024). Towards AI-assisted synthesis of verified Dafny methods. Proceedings of the ACM on Software Engineering. Abstract read | https://doi.org/10.1145/3643763 |

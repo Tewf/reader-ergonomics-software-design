@@ -125,7 +125,7 @@ The figure draws the stages of the table for system diagrams.
 | AWS 2026 | grey tier 2 | narrative pass | 8.5/20 (3/2/1.5/0.5/0/0.5/0.5/0.5) **below 10: example of practice only** | review 5 |
 | AWS 2026b | grey tier 2 | narrative pass | 12.5/20 (3/5/1.5/0.5/0.5/1/0.5/0.5) | review 5, baseline |
 | Wikipedia 2026b | grey tier 2 | narrative pass | 10/20 (0.5/2.5/3.5/1/1/0/1/0.5) | review 5 |
-| Microsoft 2026b | grey tier 2 | G3 | 10/20 (2.5/3/1.5/1/0.5/0.5/0.5/0.5) | review 5 |
+| Microsoft 2026 icons | grey tier 2 | G3 | 10/20 (2.5/3/1.5/1/0.5/0.5/0.5/0.5) | review 5 |
 | Microsoft 2023 | grey tier 2 | G4 | 11.5/20 (2.5/4/1.5/1/0.5/1/0.5/0.5) | review 5 |
 | OWASP 2026 | grey tier 2 | G7 | 11.5/20 (3.5/2.5/2.5/0/0.5/1/1/0.5) | review 5 |
 | Fuchsia 2025 | grey tier 2 | G5 | 9/20 (1.5/3.5/1.5/1/0/0.5/0.5/0.5) **below 10: example of practice only** | review 5 |

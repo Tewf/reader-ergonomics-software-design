@@ -45,7 +45,7 @@ Two records are kept apart: **most adopted** (what people use) and **best eviden
 - "no" means the section is not among those the template or guide lists. The table is read from the templates (Nygard 2011; MADR; PEP 12; Rust RFC template; KEP template; Ubl 2020; HashiCorp 2026, example only).
 - Among these seven, only the Rust RFC template asks for prior art and only the KEP template asks for a production readiness review.
 - Nygard 2011 has no alternatives section; MADR added one, which participants in Nogueira 2026 saw as better for rationale depth and slower to fill in.
-- ADR guidance treats an accepted record as immutable: write a new record that supersedes the old (GDS 2026; Microsoft 2026c; AWS 2026c, example only).
+- ADR guidance treats an accepted record as immutable: write a new record that supersedes the old (GDS 2026; Microsoft 2026 ADR; AWS 2026c, example only).
 - PEPs carry a change history (PEP 12) and published RFDs may be updated (Oxide RFD 1, Frazelle 2026).
 
 ## Upper bounds (achieved)

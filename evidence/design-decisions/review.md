@@ -95,7 +95,7 @@ In the literature above, "(secondary)" marks a number read in an abstract or sum
 | Arc42 2026b | undated | decision section, Nygard-style, significant decisions only | project documentation |
 | IBM Watson Discovery | 2018 talk | ADRs in markdown beside the code (Runde 2018) | two years of the speakers' use, no metrics |
 | GitHub mobile team | 2020 | ADRs, argued for the author's future self (Perkins 2020) | no measurement; blog |
-| AWS, Microsoft, Google Cloud | AWS undated; Microsoft 2026c; Google Cloud 2024 | ADR process and content guidance | vendor guidance; AWS and Google Cloud example only |
+| AWS, Microsoft, Google Cloud | AWS undated; Microsoft 2026 ADR; Google Cloud 2024 | ADR process and content guidance | vendor guidance; AWS and Google Cloud example only |
 | GOV.UK, GDS Way | 2025; reviewed 2026 | ADR framework; fields, store with code, supersede not rewrite | published guidance |
 | Bitwarden | undated | MADR-based ADRs, pull request review | company page, example only |
 | Python | date not checked | PEP 1 (Warsaw 2000), PEP 12 (Goodger 2002) | 746 PEP files |

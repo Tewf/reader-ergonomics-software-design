@@ -100,7 +100,7 @@ Q/A sites (Software Engineering Stack Exchange and Stack Overflow, searched 2026
   - Brown 2026c offers adoption claims (10,000 people taught) and advises keeping UML if it works.
 - Other producers state similar rules.
   - Label every line, add a key and a title (IcePanel 2023).
-  - Name the product beside each icon (Microsoft 2026b).
+  - Name the product beside each icon (Microsoft 2026 icons).
   - One concept per diagram, with alt text (Fuchsia 2025).
   - Same shape, same meaning; shapes, not colour (GitLab 2026).
   - Text contrast of 4.5:1 (AWS 2026b).

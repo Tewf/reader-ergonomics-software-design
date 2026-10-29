@@ -11,7 +11,7 @@ Decide how to draw a diagram of a software system. The reader must answer struct
 - A **multivocal literature review (MLR)**: a systematic review of formal literature plus **grey literature**, done to Garousi 2019. The searches are in [protocol](protocol.md) and the pool in [sources](sources.md).
 - Grey literature here comes in three tiers by outlet control:
   - tier 1: standards and books (OMG 2017);
-  - tier 2: company and project documentation, wikis, talks, repository pages (Microsoft 2026b, OWASP 2026);
+  - tier 2: company and project documentation, wikis, talks, repository pages (Microsoft 2026 icons, OWASP 2026);
   - tier 3: blogs (IcePanel 2023, GitHub 2022).
 
 ## Names for the same thing
