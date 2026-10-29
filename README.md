@@ -53,7 +53,7 @@ Ten minutes, without reading the reviews. The family's general form is reader-er
 | `diagram-keys` | every Mermaid diagram | a diagram has no key, or a flowchart arrow no label |
 | `decision-records`, in reader-ergonomics | the records in `decisions/` | a record breaks one of the shape's four rules |
 
-> **Status:** work in progress. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
+> **Status:** version 1.0.0, released 2026-10-29. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
 > research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). The five shapes are
 > written (algorithm specification, design document, decision record, architecture description, system diagram); eight principles and the [card](standard.md) are written. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the

@@ -1,15 +1,17 @@
 cff-version: 1.2.0
 message: >-
-  If this repository helps you, you may cite it as below. It is an informal,
-  work-in-progress synthesis of published research, written with Claude, an AI
-  assistant by Anthropic. It is not an official standard, not peer-reviewed,
+  If this repository helps you, you may cite it as below. It is an informal
+  synthesis of published research, written with Claude, an AI assistant by
+  Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
-title: "reader-ergonomics-software-design (work in progress)"
+title: "reader-ergonomics-software-design"
+version: 1.0.0
+date-released: 2026-10-29
 abstract: >-
-  How to design software at the abstract layer before the code (its
-  architecture, the running system, its algorithms and their specifications)
-  and how to write architecture descriptions, decision records, design
-  documents, pseudocode and system diagrams so that they are cheap to read.
+  How to write the documents that design software before the code: algorithm
+  specifications, design documents, decision records, architecture
+  descriptions and system diagrams, with shapes, graded principles and checks
+  to run in CI.
   An extension of reader-ergonomics: the evidence and document shapes
   particular to software design and the writing about it.
   Use it as a reading list and a starting point, not as an authority.

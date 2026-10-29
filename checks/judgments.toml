@@ -360,7 +360,7 @@ answer = "Reference: the search record, looked up by step, with the tables under
 check = "co-change"
 path = "README.md"
 question = "changed together with shapes/README.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "b4592999237f"
+file = "4d904ca49549"
 answer = "No: each new shape is listed in both, the front page in one line and the shapes index in full; the front page already links the index, as `[`shapes/`](shapes/)` shows, and the two serve different readers."
 [[answer]]
 check = "co-change"
@@ -372,7 +372,7 @@ answer = "No: the shared commits were passes over every topic at once; the index
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
-file = "5874c279cce7"
+file = "b6a5301dc7f9"
 answer = "Reference: the French front page, looked up for what the repository holds, under `## Périmètre` and `## Organisation`. Its how-to parts, `## Utilisation` and `## Vérifier`, are a few short steps, as on the English front page; a front page serves both readers, so it stays one document."
 [[answer]]
 check = "section-cohesion"

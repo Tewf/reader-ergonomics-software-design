@@ -54,7 +54,7 @@ Dix minutes, sans lire les revues. La forme générale de la famille est le
 | `diagram-keys` | chaque schéma Mermaid | un schéma n'a pas de légende, ou une flèche de flowchart pas d'étiquette |
 | `decision-records`, dans reader-ergonomics | les registres de `decisions/` | un registre enfreint l'une des quatre règles de la forme |
 
-> **État :** en cours. Sept revues de littérature sont écrites dans [evidence/](evidence/), chacune une revue
+> **État :** version 1.0.0, publiée le 2026-10-29. Sept revues de littérature sont écrites dans [evidence/](evidence/), chacune une revue
 > multivocale de la recherche et de la pratique ; leurs chiffres ont été vérifiés contre les sources primaires (quatre
 > le 2026-10-28, trois le 2026-10-29). Les cinq formes sont écrites (spécification d'algorithme, document de
 > conception, registre de décision, description d'architecture, schéma de système), ainsi que huit principes et la
