@@ -3,12 +3,12 @@
 **Decision:** This repository checks against reader-ergonomics v1.9.0 (commit `e886447`). The card's Graphviz source
 now sits folded under its figure, closed until clicked, by the family rule this release checks.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](../shapes/decision-record.md). **Proposed in:** no proposal; a family rule set by Mohamed, carried by reader-ergonomics v1.9.0.
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](../shapes/decision-record.md). **Proposed in:** no proposal; a family rule set by the author, carried by reader-ergonomics v1.9.0.
 
 ## Context
 
 - Record 0007 drew the card's flow figure as an SVG and kept its Graphviz source inline, open, under it.
-- Mohamed set a rule for the family: a figure is there to be read, so its source sits under it in a `<details>`
+- The author set a rule for the family: a figure is there to be read, so its source sits under it in a `<details>`
   fold, for whoever wants to reuse it.
 - v1.9.0 checks it with figure-source-inline: a figure with no folded source warns, and a copy that differs from its
   `.dot` file is an error. This repository had one warning, on that figure.

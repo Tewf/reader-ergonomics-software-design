@@ -1,7 +1,7 @@
 # Reader styles
 
 Readers particular to software design, who change some of its principles. The readers of reader-ergonomics, and
-Mohamed's own style, still hold where these say nothing.
+the author's own style, still hold where these say nothing.
 
 | Reader style | For |
 |---|---|
