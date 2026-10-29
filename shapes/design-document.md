@@ -95,5 +95,9 @@ proposal in two forms; the [baseline](../evidence/design-decisions/baseline.md) 
 
 ## Worked example
 
-A filled design document, the proposal behind this repository's [record 0001](../decisions/0001-pin-links-at-the-release-commit.md): [Pin the links to reader-ergonomics at its release commit](../examples/pin-links-at-the-release-commit.md). It carries the
-Shape line, so the checks run on it as on any design document of yours.
+- A change to a running system: [Keep login sessions in a shared store](../examples/shared-session-store.md), with
+  its alternatives in a table and each failure path named and tested. The system is invented for the example.
+- A change to this repository: [Pin the links to reader-ergonomics at its release commit](../examples/pin-links-at-the-release-commit.md),
+  the proposal behind its first decision record.
+
+Both carry the Shape line, so the checks run on them as on any design document of yours.

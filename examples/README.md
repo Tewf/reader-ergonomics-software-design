@@ -6,6 +6,7 @@ document of that shape: an example that drifts from its shape fails CI.
 | Example | Shape |
 |---|---|
 | [Lower bound in a sorted array](lower-bound-in-a-sorted-array.md) | [algorithm specification](../shapes/algorithm-specification.md) |
+| [Keep login sessions in a shared store](shared-session-store.md) | [design document](../shapes/design-document.md), a change to a running system, invented for the example |
 | [Pin the links to reader-ergonomics at its release commit](pin-links-at-the-release-commit.md) | [design document](../shapes/design-document.md), the proposal behind [record 0001](../decisions/0001-pin-links-at-the-release-commit.md) |
 | [Architecture of reader-ergonomics-software-design](architecture-of-reader-ergonomics-software-design.md) | [architecture description](../shapes/architecture-description.md) |
 
