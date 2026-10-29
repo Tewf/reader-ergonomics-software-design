@@ -3,15 +3,34 @@
 [![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml?query=branch%3Amaster)
 [![Site](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-software-design/)
 
-How to design software at the abstract layer just before the code: its architecture, the running system, its
-algorithms and their specifications. And how to write about it (architecture descriptions, decision records, design
-documents, pseudocode and diagrams), at the least cost to the reader and to whoever implements it.
+How to write the documents that design software before the code: algorithm specifications, design documents,
+decision records, architecture descriptions and system diagrams. Each is written at the least cost to its reader, and
+to whoever implements it, a person or a model. Five shapes give each document its skeleton, and checks find a document by its
+Shape line, so they can run in CI.
+
+Three reviews also read the evidence on designing itself. Algorithm design feeds two principles and the algorithm
+specification, and system design feeds one principle. Architecture design is a review with no rule drawn from it yet.
 
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The general principles, their grades and the
 checks live there and are not repeated here. This repository adds only what is particular to software design and the writing
 about it: its evidence, its principles and the shapes of its documents.
 
 Start with the [card](standard.md). [En français](README.fr.md).
+
+## Use it
+
+1. Copy the skeleton of a [shape](shapes/README.md), with its `**Shape:**` line, and fill it in.
+2. Copy [`checks/local/`](checks/local/) into your repository's `checks/local/`, and add a `checks/config.toml` that
+   says `extends = "reader-ergonomics"`.
+3. In CI, run `python3 <reader-ergonomics>/checks/run.py .`. A document is checked against the shape its Shape line
+   links, and every Mermaid diagram against the diagram rules:
+
+| Check | Checks | Fails when |
+|---|---|---|
+| `algorithm-specs` | algorithm specifications | a part is missing, the contract comes after the steps, the steps are prose, or the examples are no table |
+| `design-docs` | design documents | the decision asked is not first, a required part or the table of alternatives is missing |
+| `diagram-keys` | every Mermaid diagram | a diagram has no key, or a flowchart arrow no label |
+| `decision-records`, in reader-ergonomics | the records in `decisions/` | a record breaks one of the shape's four rules |
 
 > **Status:** work in progress. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
 > research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). The five shapes are

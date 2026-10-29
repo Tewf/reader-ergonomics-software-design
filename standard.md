@@ -46,7 +46,9 @@ digraph how_to_use {
 1. **Pick the shape** from [shapes/](shapes/README.md), and name it in the document with a `**Shape:**` line that
    links it; the checks find their documents by that line.
 2. **Write to the principles** below, and to those of reader-ergonomics, which still hold.
-3. **Check:** the local checks in `checks/local/` run with the standard's own.
+3. **Check:** copy `checks/local/` into your repository and run the standard's checks. `algorithm-specs` and
+   `design-docs` find each document by its Shape line and check it against its shape; `diagram-keys` checks every
+   Mermaid diagram; `decision-records`, in the standard, checks the records.
 
 Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/standard.md#grades): measured, supported with caveat,
 convention, not supported. Each principle states its grade and never claims more.

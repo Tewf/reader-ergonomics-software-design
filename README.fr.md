@@ -3,16 +3,35 @@
 [![Vérifications contre reader-ergonomics](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml?query=branch%3Amaster)
 [![Site](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-software-design/)
 
-Comment concevoir un logiciel au niveau abstrait, juste avant le code : son architecture, le système en
-fonctionnement, ses algorithmes et leurs spécifications. Et comment l'écrire (descriptions d'architecture, registres
-de décisions, documents de conception, pseudo-code et schémas), au moindre coût pour le lecteur et pour celui qui
-l'implémente.
+Comment écrire les documents qui conçoivent un logiciel avant le code : spécifications d'algorithme, documents de
+conception, registres de décisions, descriptions d'architecture et schémas de système. Chacun est écrit au moindre
+coût pour son lecteur, et pour celui qui l'implémente, une personne ou un modèle. Cinq formes donnent à chaque document son squelette, et
+des vérifications trouvent un document par sa ligne Shape, si bien qu'elles tournent en CI.
+
+Trois revues lisent aussi les preuves sur la conception elle-même. La conception d'algorithmes nourrit deux principes
+et la spécification d'algorithme, la conception de systèmes un principe. La conception d'architecture est une revue
+dont aucune règle n'est encore tirée.
 
 Il étend [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). Les principes généraux, leurs niveaux de
 preuve et les vérifications y vivent et ne sont pas répétés ici. Ce dépôt n'ajoute que ce qui est propre à la
 conception logicielle et à son écriture : ses preuves, ses principes et les formes de ses documents.
 
 Commencer par la [fiche](standard.md), en anglais. [In English](README.md).
+
+## Utilisation
+
+1. Copier le squelette d'une [forme](shapes/README.md), avec sa ligne `**Shape:**`, et le remplir.
+2. Copier [`checks/local/`](checks/local/) dans le `checks/local/` de son dépôt, et ajouter un `checks/config.toml`
+   qui dit `extends = "reader-ergonomics"`.
+3. En CI, lancer `python3 <reader-ergonomics>/checks/run.py .`. Un document est vérifié contre la forme que lie sa
+   ligne Shape, et chaque schéma Mermaid contre les règles des schémas :
+
+| Vérification | Vérifie | Échoue quand |
+|---|---|---|
+| `algorithm-specs` | les spécifications d'algorithme | une partie manque, le contrat vient après les étapes, les étapes sont en prose, ou les exemples ne sont pas un tableau |
+| `design-docs` | les documents de conception | la décision demandée ne vient pas en premier, une partie requise ou le tableau des alternatives manque |
+| `diagram-keys` | chaque schéma Mermaid | un schéma n'a pas de légende, ou une flèche de flowchart pas d'étiquette |
+| `decision-records`, dans reader-ergonomics | les registres de `decisions/` | un registre enfreint l'une des quatre règles de la forme |
 
 > **État :** en cours. Sept revues de littérature sont écrites dans [evidence/](evidence/), chacune une revue
 > multivocale de la recherche et de la pratique ; leurs chiffres ont été vérifiés contre les sources primaires (quatre
@@ -40,7 +59,10 @@ La même que reader-ergonomics, pour qu'un lecteur de l'un s'oriente dans l'autr
 
 - `evidence/<sujet>/` : une revue de littérature par sujet, un fichier par étape (cadre, revue, état de l'art,
   positionnement, arguments contre, référence de comparaison), plus son protocole et ses sources notées ; sept sujets ;
-- [`shapes/`](shapes/) : le squelette de chaque type de document, avec les preuves derrière chaque partie ;
+- [`shapes/`](shapes/) : le squelette de chaque type de document, avec les preuves derrière chaque partie. Sont
+  écrites la [spécification d'algorithme](shapes/algorithm-specification.md), le
+  [document de conception](shapes/design-document.md), le [registre de décision](shapes/decision-record.md), la
+  [description d'architecture](shapes/architecture-description.md) et le [schéma de système](shapes/system-diagram.md) ;
 - [`decisions/`](decisions/) : les registres des choix de conception de ce dépôt ;
 - [`principles/`](principles/README.md) : seulement là où la conception logicielle diffère du standard général, huit
   principes en trois groupes (spécification, décision, structure), réunis sur la [fiche](standard.md) ;

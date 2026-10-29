@@ -11,7 +11,7 @@ Once a decision is taken, a decision record keeps it, and links back here.
 - When there is more than one reasonable design, so the losing ones need writing down.
 - Not for one algorithm: that is an [algorithm specification](algorithm-specification.md), which the design section
   may link.
-- Not for the record of a decision already taken: that is a decision record, the shape planned next.
+- Not for the record of a decision already taken: that is a [decision record](decision-record.md), which links back here.
 - Not for a small, reversible change: its commit message is enough.
 
 ## How each part maps to the evidence
