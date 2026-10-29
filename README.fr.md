@@ -20,10 +20,11 @@ Commencer par la [fiche](standard.md), en anglais. [In English](README.md).
 
 ## Utilisation
 
-Dix minutes, sans lire les revues :
+Dix minutes, sans lire les revues. La forme générale de la famille est le
+[Take your own version](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/README.md#take-your-own-version) de reader-ergonomics ; voici ce qu'elle donne pour la conception logicielle :
 
 1. **Épingler le standard par commit**, pour que ses vérifications ne changent pas sous vos pieds :
-   `git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout 7a76cc6` (v1.13.0).
+   `git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout bfbe9f7` (v1.18.2).
 2. **Copier ce qu'il faut, une fois.** Le squelette d'une [forme](shapes/README.md), avec sa ligne `**Shape:**`, et
    [`checks/local/`](checks/local/) dans le `checks/local/` de son dépôt. Les copies sont à vous : un changement
    ultérieur ici ne touche rien de ce que vous avez copié. Notez le commit d'où vous copiez, pour comparer plus tard.

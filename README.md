@@ -19,10 +19,11 @@ Start with the [card](standard.md). [En français](README.fr.md).
 
 ## Use it
 
-Ten minutes, without reading the reviews:
+Ten minutes, without reading the reviews. The family's general form is reader-ergonomics'
+[Take your own version](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/README.md#take-your-own-version); here is what it means for software design:
 
 1. **Pin the standard by commit**, so its checks do not change under you:
-   `git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout 7a76cc6` (v1.13.0).
+   `git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout bfbe9f7` (v1.18.2).
 2. **Copy what you need, once.** Take the skeleton of a [shape](shapes/README.md), with its `**Shape:**` line, and
    [`checks/local/`](checks/local/) into your repository's `checks/local/`. The copies are yours: a later change here
    touches nothing you copied. Note the commit you copied from, to compare later.
