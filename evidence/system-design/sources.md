@@ -31,7 +31,7 @@ Here is the pool of the system-design review: how it narrowed, then one row per 
   - forward-citing records not taken: about 75 of the 100 on the first page (application papers, education, unrelated uses of AWS).
 - Snowballing, second pass (details in [protocol](protocol.md)): backward from Yuan 2014, Alquraan 2018 and Lampson 2020; forward from Newcombe 2015, first 100 citing records.
 - Existing reviews found: 7, in review.md strand 0.
-- Reach of the formal sources: 7 are "title and venue only" (Bloch 2006, Ellis 2007, Nuseibeh 2001, Brooker 2025, Stylos 2008, Rabkin 2013, Gill 2011). 3 of those were tried and could not be retrieved (Ellis 2007, Nuseibeh 2001, Brooker 2025).
+- Reach of the formal sources: 3 are title and venue only (Ellis 2007, Nuseibeh 2001, Rabkin 2013). 2 of those were tried and could not be retrieved (Ellis 2007, Nuseibeh 2001). Bloch 2006, Brooker 2025, Stylos 2008 and Gill 2011 were later read in full.
 
 The figure draws the stages of the table for system design.
 
@@ -64,9 +64,9 @@ The figure draws the stages of the table for system design.
 | Huang 2017 | formal | lead | experience report; abstract read | review 3 |
 | Liu 2019 | formal | lead | measured, descriptive; abstract read | review 3 |
 | Myers 2016 | formal | lead | summary article; submitted version read | review 5 |
-| Bloch 2006 | formal | lead | talk abstract; title and venue only | review 5 |
+| Bloch 2006 | formal | lead | talk abstract of design maxims; full text read | review 5 |
 | Nuseibeh 2001 | formal | lead | argument; located only, retrieval failed | review 7 |
-| Brooker 2025 | formal | lead | practice report; located only, publisher blocked | review 6 |
+| Brooker 2025 | formal | lead | practice report; full text read (an owner's report) | review 6 |
 | Bornholt 2021 | formal | lead | practice report with counts; full text read (an owner's report) | review 6 |
 | Li 2013p | formal | search | systematic survey; abstract read | review 0 |
 | Owotogbe 2025 | formal | search | multivocal review; abstract read, 96 sources | review 0 |
@@ -87,9 +87,9 @@ The figure draws the stages of the table for system design.
 | Piccioni 2013 | formal | known | measured, descriptive, 25 programmers; full text read | review 5 |
 | Murphy 2018 | formal | known | measured, descriptive, 24 interviews; abstract read | review 5 |
 | Elm 2012 | formal | known | survey; abstract read | review 7 |
-| Stylos 2008 | formal | snowball | user study; title and venue only, result read in Myers 2016 (secondary) | review 5 |
+| Stylos 2008 | formal | snowball | user study, 10 participants; full text read | review 5 |
 | Rabkin 2013 | formal | snowball | failure study; title and venue only | review 3 |
-| Gill 2011 | formal | snowball | failure study; title and venue only | review 3 |
+| Gill 2011 | formal | snowball | failure study, one year of logs; full text read | review 3 |
 | Fonseca 2017 | formal | snowball | measured, descriptive; abstract read | against |
 | Beek 2024 | formal | snowball | survey; abstract read | review 6 |
 | Cirstea 2024 | formal | snowball | method paper; abstract read | review 6 |

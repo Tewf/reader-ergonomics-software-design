@@ -27,7 +27,8 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - Vera-Rivera 2021 (abstract read): 29 of 326 papers on microservice granularity; runtime properties are studied more than maintainability.
 - Su 2024 (abstract read): a multivocal review of four returns from microservices to a monolith; the reasons are cost, complexity, scalability, performance and organisation.
 - Mumtaz 2021 (abstract read): detection of architecture smells; many smells have no tool and empirical validation is limited.
-- Falessi 2011, de Silva 2012, Besker 2018, Babar 2004 (abstracts read in summaries, secondary). Their findings: there is no best decision technique; no single strategy stops erosion; a unified model of architectural debt exists. Four scenario-based evaluation methods share five activities.
+- Falessi 2011, de Silva 2012, Besker 2018 (abstracts read in summaries, secondary). Their findings: there is no best decision technique; no single strategy stops erosion; a unified model of architectural debt exists.
+- Babar 2004 (full text, an author copy in a university repository): four scenario-based evaluation methods compared; five common activities form a generic evaluation process.
 - Dobrica 2002 surveys eight analysis methods (summary line, secondary); Baabad 2020, a review of degradation in open source, is located only.
 - Tofan 2014 maps architectural decisions; reviewed in [design-decisions](../design-decisions/review.md), linked here.
 - No tertiary study of software architecture design was found.
@@ -68,7 +69,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 
 - ISO 2023: the product quality model of ISO/IEC 25010 has nine characteristics (read in a summary of the standard).
 - AWS 2026d: six pillars; the page speaks of none of structure, modularity or coupling.
-- Ameller 2013 (how architects consider non-functional requirements) and Kazman 2000 (ATAM) are located only; Babar 2004 and Dobrica 2002 compare methods (strand 0).
+- Ameller 2013 (how architects consider non-functional requirements) is located only. Kazman 2000 (ATAM, read in full) is a method report with one case, not a test of effect. Babar 2004 and Dobrica 2002 compare methods (strand 0).
 - Bellomo 2015 (secondary): ATAM data over 31 projects; modifiability, performance, availability, interoperability and deployability dominate.
 - No controlled study that evaluation before building improves the finished system was found.
 

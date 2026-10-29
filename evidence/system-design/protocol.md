@@ -72,7 +72,7 @@ Count source: the Semantic Scholar bulk title-and-abstract search and the arXiv 
   - Backward from Myers 2016: its reference list gave Ellis 2007 (already held) and Stylos 2008.
   - Limits: one page forward only; one level; no chase from the other seminal works.
 - Second pass: open copies were sought for every formal source held by title; the author's or an institution's copy, an open publisher page or a republication was read as text and not saved. Routes used need no identity: the Semantic Scholar paper endpoint, Crossref, publisher landing pages, authors' pages.
-- Still unreachable after the second pass: Nuseibeh 2001 and Brooker 2025 (the publishers refused the fetch), Ellis 2007 (no open copy found); they are marked "located only" in sources.md.
+- Still unreachable after the second pass: Nuseibeh 2001 (the publisher refused the fetch) and Ellis 2007 (no open copy found); they are marked located only in sources.md. Brooker 2025 was read in full later.
 - Four standard or book leads could not be read at all from the open web (ISO 15288, ISO 42020, INCOSE, Kleppmann 2017); they are located, not scored.
 
 ## 5. Grey search

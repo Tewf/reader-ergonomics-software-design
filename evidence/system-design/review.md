@@ -66,13 +66,16 @@ A number carries "(secondary)" when it was read in an abstract or a summary, and
 - Controlled or observational user studies exist, mostly on library APIs:
   - Stylos 2007 (read): a comparative user study, by the authors' own account aimed at trends rather than statistics, with 30 professional programmers. Against the authors' hypothesis they preferred and were more effective with parameterless constructors.
   - Ellis 2007: factory against constructor; located only, and Myers 2016 reports that avoiding the factory pattern improves usability (secondary).
-  - Stylos 2008: 2.4 to 11.2 times faster when a method sat on the expected class (read in Myers 2016, secondary).
+  - Stylos 2008 (read): ten programmers, three tasks on modified library APIs; conditions were assigned per task, so each person met both across the tasks.
+    - 2.4 to 11.2 times faster at combining objects when a method on the starting class referred to the other class.
+    - Significant at p below 0.05 on each task (rank sum test).
+    - Two of five in the slower condition missed the 30 minute limit on two tasks.
   - Piccioni 2013 (read): 25 programmers on one persistence library; names and relations between types were hard; no comparison condition.
-- Bloch 2006 is an influential talk on API design (title and venue only).
+- Bloch 2006 (read) is a two-page abstract of API design maxims from the author's experience; it reports no data.
 - Myers 2016 (read): few empirical studies of API design patterns exist; design guidelines from experienced designers are large and sometimes contradictory.
 - Murphy 2018: 24 designers from 7 companies learned design on the job (abstract). Murphy 2017: 32 company REST guidelines differ on some topics (secondary).
 - Kotstein 2021: 8 experts rated 82 REST rules; 28 high, 17 medium, 37 low importance (abstract).
-- Grade: supported with caveat for Stylos 2007 (a user study with no statistical test) and for Stylos 2008 and Ellis 2007 (reported in Myers 2016, design and sample unknown). All concern library APIs, not network services. The rest are measured, descriptive.
+- Grade: supported with caveat for Stylos 2007 (a user study with no statistical test). The same for Stylos 2008 (ten participants, tasks of about half an hour, modified APIs) and for Ellis 2007 (reported in Myers 2016, design and sample unknown). All concern library APIs, not network services. The rest are measured, descriptive.
 
 ## 6. Checking a design before building (Q6)
 
@@ -83,7 +86,8 @@ A number carries "(secondary)" when it was read in an abstract or a summary, and
   - 16 issues prevented from reaching production; checks are 13% of the code base; 18% of harness lines were last edited by non-experts.
   - Two experts worked full time for nine months to start.
 - Zhou 2021 (read): the real database runs in a deterministic simulation with fault injection; it cannot find performance issues.
-- Hackett 2023: a small TLA+ model of Cosmos DB exposed two documentation issues; Cirstea 2024 and Tang 2024 check code against TLA+ specifications (abstracts); Brooker 2025 is located only.
+- Hackett 2023: a small TLA+ model of Cosmos DB exposed two documentation issues; Cirstea 2024 and Tang 2024 check code against TLA+ specifications (abstracts).
+- Brooker 2025 (read) is the owner's survey of formal and lightweight methods at AWS. It covers TLA+, the P language, property-based testing, deterministic simulation and fuzzing. It is an experience report.
 - ter Beek 2024 surveys formal methods in industry, from requirements to runtime monitoring (abstract).
 - Alquraan 2018 proposes design review for partitions, and fault injection with a test framework.
 - Grade: convention, untested; each owner reports its own success.

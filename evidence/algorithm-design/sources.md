@@ -63,19 +63,19 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Fisler 2014 | formal | F4; brief lead | measured, descriptive, over 200 solutions (secondary) | review 1 |
 | Soloway 1986 | formal | brief lead | one-sentence abstract read | review 1 |
 | Spohrer 1985 | formal | memory lead | machine summary only (secondary) | review 1 |
-| Felleisen 2004 | formal | brief lead | title and venue only | review 1 |
-| Ginat 2003 | formal | snowball (Liu 2024) | title and venue only | review 1 |
-| Bennedsen 2008 | formal | snowball (Liu 2024) | title and venue only; finding read in Liu 2024 | review 1 |
-| Hoare 1969 | formal | brief lead | seminal, title and venue only | review 2 |
-| Dijkstra 1975 | formal | brief lead | seminal, title and venue only (the 1976 book was not located) | review 1, 2 |
+| Felleisen 2004 | formal | brief lead | educational pearl, an argument from teaching experience; full text read | review 1 |
+| Ginat 2003 | formal | snowball (Liu 2024) | teaching report on one class of 33; full text read | review 1 |
+| Bennedsen 2008 | formal | snowball (Liu 2024) | measured, 145 students over three years; full text read | review 1 |
+| Hoare 1969 | formal | brief lead | seminal; full text read | review 2 |
+| Dijkstra 1975 | formal | brief lead | seminal; full text read (the 1976 book was not located) | review 1, 2 |
 | Gries 1981 | formal | brief lead | book not opened | review 2 |
 | Back 1998 | formal | F17 | book not opened | review 2 |
 | Kourie 2012 | formal | memory lead | book not opened | review 2 |
 | Meyer 1992 | formal | F6; brief lead | title and venue only | review 2 |
 | Furia 2014 | formal | brief lead | survey and taxonomy, abstract read | review 2 |
 | Abrial 2010 | formal | memory lead | book not opened | review 2 |
-| Jackson 2002 | formal | brief lead | title and venue only | review 2 |
-| Claessen 2000 | formal | brief lead | title and venue only | review 2 |
+| Jackson 2002 | formal | brief lead | language design paper; full text read | review 2 |
+| Claessen 2000 | formal | brief lead | tool paper; full text read | review 2 |
 | MacIver 2019 | formal | F10 | tool paper, abstract read | review 2, 5 |
 | Goldstein 2024 | formal | brief lead | measured, descriptive, 30 interviews, one company, abstract read | review 5 |
 | Bornholt 2021 | formal | memory lead | not reviewed here; system-design topic | review 5 (link only) |
@@ -88,7 +88,7 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Woodcock 2009 | formal | brief lead | measured, descriptive, 62 projects, preprint copy read (section 3) | review 3, 5 |
 | Garavel 2020 | formal | brief lead | measured, descriptive, 130 responses to 170 invitations, open copy read | review 5 |
 | Gleirscher 2020 | formal | brief lead | measured, descriptive, N = 216, preprint abstract read | review 4, 5 |
-| Snook 2001 | formal | brief lead | machine summary only (secondary) | review 5 |
+| Snook 2001 | formal | brief lead | structured interviews, five companies; full text read | review 5 |
 | Finney 1996 | formal | brief lead | measured, old, small, abstract via repository (secondary) | review 4 |
 | Pfleeger 1997 | formal | brief lead | measured, case study of one system; an author copy read once, address not recorded | review 3 |
 | Sobel 2002 | formal | brief lead | measured, quasi-experiment; findings read in Berry 2003 only (secondary) | review 3 |
@@ -97,12 +97,12 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Rafique 2013 | formal | memory lead | meta-analysis, secondary summary, no numbers | review 3 |
 | Kaufman 2026 | formal | R4 (search result) | measured, controlled, 86 programmers, preprint, abstract read | review 4, 7 |
 | Chakarov 2025 | formal | G5 | industry report on itself, abstract and text read | review 5 |
-| Sanders 2009 | formal | brief lead | machine summary only (secondary) | review 6 |
+| Sanders 2009 | formal | brief lead | definition paper; full text read | review 6 |
 | Johnson 2002 | formal | brief lead | machine summary only (secondary) | review 6 |
 | McGeoch 2012 | formal | brief lead | book not opened | review 6 |
 | Müller-Hannemann 2010 | formal | F11 | edited volume, title only | review 6 |
-| Hooker 1994 | formal | memory lead | title and venue only | review 6 |
-| Hooker 1995 | formal | memory lead | title and venue only | review 6 |
+| Hooker 1994 | formal | memory lead | title and venue only; the PDF is a scan with no text layer (unreadable here) | review 6 |
+| Hooker 1995 | formal | memory lead | essay, an argument; full text read | review 6 |
 | Collberg 2016 | formal | memory lead | measured, descriptive, secondary | review 6 |
 | Jiang 2023 | formal | brief lead; F14 | benchmark study by the method's authors, abstract read | review 7 |
 | Li 2023 | formal | brief lead | benchmark study by the method's authors, abstract read | review 7 |

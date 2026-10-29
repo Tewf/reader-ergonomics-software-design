@@ -34,20 +34,28 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 - Textbooks name their techniques in their chapter lists: Kleinberg 2005 promises "a range of design and analysis techniques" (publisher page); Skiena 2020 has a part called Practical Algorithm Design (publisher page; neither book opened).
 - No study that tests whether a taxonomy of design techniques is sound, complete or predictive was found (this search, strings F1 to F2, G4).
 - Liu 2024 section 5.1 reports what students do:
-  - they under-use recursion and reduction after an algorithms course, and lean on greedy methods even against counterexamples (reading of Ginat 2003 and others; title only for the cited studies);
-  - abstraction ability correlated with performance in the algorithms course and in no other of ten courses (reading of Bennedsen 2008, title only).
+  - they under-use recursion and reduction after an algorithms course (Liu 2024's report; this is not in Ginat 2003, and the cited study was not found there);
+  - they lean on greedy methods and look for few counterexamples (Ginat 2003, read).
+    - It is a teaching report on one class of 33.
+    - 14 of 33 on one task and 21 of 33 on another devised a greedy rule.
+    - Doubts raised by the teachers did not shake their confidence.
+    - There was no control group or test;
+  - abstraction ability was tested in 145 students over three years (Bennedsen 2008, read).
+    - It did not correlate with average exam score (p = 0.187).
+    - Of ten courses, Algorithms and Data Structures 2 correlated (n = 45, r = 0.42, p = 0.003).
+    - Regularity and Automata showed a weak indication (n = 43, r = 0.29, p = 0.06).
 - Programming plans: Soloway 1986 (abstract read) says teaching problem solving through programming needs a revised introductory curriculum.
   - Spohrer 1985 (machine summary; secondary) gives a descriptive theory of buggy novice programs and a bug categorisation by goals and plans.
   - Soloway 1984 is reviewed in the pseudocode topic.
 - Fisler 2014 applied the rainfall problem, a test of plan composition, to over 200 solutions from five courses; functional-first students did better than in earlier work (secondary).
-- The design recipe: Felleisen 2004 states a curriculum built on it; the textbook preface lists six steps and offers only teaching experience as support (HtDP 2026, read).
+- The design recipe: Felleisen 2004 (read) states a curriculum built on it: six design habits and about ten recipes, supported by teaching experience only; the textbook preface lists six steps too (HtDP 2026, read).
 - Loksa 2016 (abstract read): explicit teaching of a six-stage problem solving process, with prompts, raised productivity, independence, self-efficacy, metacognitive awareness and growth mindset in 48 high school students across two summer camps.
 - Wirth 1971 and Dijkstra 1975 tie design to derivation: [pseudocode](../pseudocode/frame.md) covers the first; strand 2 the second.
 
 ## 2. Stating intended behaviour (Q3)
 
-- Hoare 1969 gives the triple: a precondition, a statement, a postcondition.
-- Dijkstra 1975 derives programs from their postconditions with guarded commands.
+- Hoare 1969 (read) gives the triple: a precondition, a statement, a postcondition (the paper calls the last a result). Its rule of iteration uses an assertion kept true by each pass, not yet named an invariant; it proves what holds on termination, not that the loop ends.
+- Dijkstra 1975 (read) derives programs from their postconditions with guarded commands and a weakest precondition calculus; the proof is built with the program, an argument with worked examples.
 - Gries 1981 and Back 1998 develop derivation and the refinement calculus (books not opened; DOIs resolve to the books).
 - Kourie 2012 describes **correctness by construction**: the specification comes first and the program grows with its proof (book not opened).
 - Furia 2014 classifies loop invariants over a range of fundamental algorithms (abstract; secondary); invariants derive from postconditions by recurring patterns, and the study calls for high-level specifications.
@@ -91,7 +99,7 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 - Surveys of practitioners:
   - Garavel 2020 (read in an open copy) sent 170 invitations and received 130 responses (76%) to 30 questions, and compiled 111 position statements.
   - Of those responses, 62.3% answered that designing trustworthy systems without formal methods is probably or definitely not possible.
-  - Snook 2001 (machine summary; secondary) interviewed formal methods users on effects and pragmatic issues.
+  - Snook 2001 (read) interviewed formal methods users on effects and pragmatic issues: representatives of five companies, each for about two hours; the authors call the findings provisional, and the interviewees were proponents.
   - Gleirscher 2020 (N = 216) and Woodcock 2009 (62 projects) are in strands 3 and 4.
 - Contracts in the wild:
   - Dietrich 2017 (abstract read): 25 techniques catalogued; in the 200 most popular Maven Central projects (351,034 KLOC) contracts are used less than expected, with large differences between projects.
@@ -106,9 +114,9 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 
 ## 6. Algorithm engineering and experiments (Q7)
 
-- Sanders 2009 (machine summary; secondary): algorithm theory, with its modelling, design and analysis, is an ingredient of algorithm engineering, not a competing approach.
+- Sanders 2009 (read): algorithm engineering is a cycle of design, analysis, implementation and experiment driven by falsifiable hypotheses. Algorithm theory, with its modelling, design and analysis, is an ingredient of it, not a competing approach. It is a definition, not a measurement.
 - Johnson 2002 (machine summary; secondary): an informal discussion of issues in analysing algorithms by experiment, from more than a decade of experience; McGeoch 2012 is the book (publisher listing only).
-- Müller-Hannemann 2010 (an edited volume on bridging theory and practice) and Hooker 1994 and 1995 (an empirical science of algorithms; testing heuristics) are known by title only.
+- Müller-Hannemann 2010 (an edited volume on bridging theory and practice) and Hooker 1995 (testing heuristics; read) is an essay arguing for controlled experiments over competitive testing. Hooker 1994 (an empirical science of algorithms) is known by title only, as its PDF is a scan that could not be read.
 - Collberg 2016: of 402 papers backed by code, 32.3% could be obtained and built within 30 minutes (a summary of the 2013 technical report; secondary; the article may differ).
 
 ## 7. Designing for a model as implementer (Q8)

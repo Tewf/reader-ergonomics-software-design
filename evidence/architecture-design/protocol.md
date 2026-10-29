@@ -89,7 +89,7 @@ Counts come from the Semantic Scholar bulk search, title and abstract. They matc
   - Cataldo and Mauerer (congruence);
   - Kazman 2015, Mo 2015 and Nayebi 2019 (architectural roots);
   - Forsgren 2018 (publisher page; it does not mention architecture, so the claim stays with DORA 2025).
-- Leads still not reached: the abstract of Stevens 1974, Ameller 2013, Kazman 2000, Baabad 2020 and Di Francesco 2018. Only a summary line was reached for Tang 2010 and 2015, Zannier 2007, Cataldo 2008 and Dobrica 2002. The full text of Parnas 1972 was not reached. The reasons are in sources.md.
+- Leads still not reached: the abstract of Stevens 1974, Ameller 2013, Baabad 2020 and Di Francesco 2018. Kazman 2000 was read in full later. Only a summary line was reached for Tang 2010 and 2015, Zannier 2007, Cataldo 2008 and Dobrica 2002. The full text of Parnas 1972 was not reached. The reasons are in sources.md.
 - Snowballing: backward from Zhang 2012, Li 2022 and Esposito 2025 by abstract only; forward snowballing was not done. Both are partial.
 - Routes used to read abstracts, none needing an identity:
   - the Semantic Scholar paper endpoint (abstract and summary line);

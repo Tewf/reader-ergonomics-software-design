@@ -71,8 +71,8 @@ The figure draws the stages of the table for architecture design.
 | Vokac 2004 | formal | F12 neighbourhood | industrial case, 500,000 lines over three years; abstract read in a record (secondary) | review 3; against |
 | Ameller 2013 | formal | found by title | interviews; located only, abstract not reached | review 4 |
 | Bellomo 2015 | formal | found by title | descriptive, ATAM data; secondary | review 4 |
-| Kazman 2000 | formal | lead | technical report; located only, copy refused | review 4 |
-| Babar 2004 | formal | R6 | comparison of four methods; abstract read | review 0, 4 |
+| Kazman 2000 | formal | lead | technical report describing the method and one case; full text read | review 4 |
+| Babar 2004 | formal | R6 | comparison of four methods; full text read (university repository copy) | review 0, 4 |
 | Dobrica 2002 | formal | found by title | survey of eight methods; summary line read (secondary) | review 0, 4 |
 | Abrahamsson 2010 | formal | lead | position; introduction read in a search summary, abstract not reached in full | review 5 |
 | Waterman 2015 | formal | lead | grounded theory, 44 participants; abstract read in a listing | review 5 |

@@ -45,7 +45,7 @@ This file collects the evidence against specifying and planning before coding, t
 ## Experiments on algorithms are hard to repeat
 
 - Collberg 2016 (secondary): 32.3% of 402 papers backed by code built within 30 minutes.
-- Hooker 1994 and Hooker 1995 (titles only) argue against the way heuristics are tested; the arguments were not read, so no claim is taken from them.
+- Hooker 1995 (read) argues, without data, that competitive testing of heuristics makes fair comparison hard and tells which algorithm is faster but not why. Hooker 1994 (title only; the PDF is an unreadable scan) is not used for any claim.
 
 ## Planning before coding is not always better
 

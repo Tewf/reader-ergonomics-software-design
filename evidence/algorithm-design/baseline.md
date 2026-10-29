@@ -21,7 +21,7 @@ This file names the baseline for the repository's rules on designing and specify
 - M0 for a function: its precondition on the inputs, its postcondition on the output, written as checkable statements.
 - M0 for a loop: an invariant that holds before and after each pass and, with the exit test, implies the postcondition (Furia 2014).
 - M0 is executable when written as assertions (Casalnuovo 2015) or as a property test (Claessen 2000), and checkable by a person when written in a comment.
-- M0 is not a proof; a proof is a separate step (Dijkstra 1975).
+- M0 is not a proof. Dijkstra 1975 shows the step beyond M0: a calculus that derives the program and its proof together from the postcondition.
 
 ## How a proposed rule is compared
 
