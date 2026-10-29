@@ -10,12 +10,12 @@ report, commit message) and the reasons for shapes are in
 | Shape | For |
 |---|---|
 | [algorithm-specification.md](algorithm-specification.md) | one algorithm stated before it is coded: contract, technique, steps, invariants, cost, examples, properties and a plan for the implementer, a person or a model |
+| [design-document.md](design-document.md) | one design proposed before it is built: the decision asked, motivation and use cases, goals and non-goals, the design, the alternatives that lost, consequences, feasibility and open questions |
 
 ## Planned
 
 | Shape | Baseline it starts from |
 |---|---|
-| design document | the proposal shape of PEP 12 and design-doc practice ([design-decisions](../evidence/design-decisions/baseline.md)) |
 | decision record | Nygard's five parts, with the rejected alternatives kept ([design-decisions](../evidence/design-decisions/baseline.md)) |
 | architecture description | arc42, C4 and Views and Beyond, ordered by the reader's questions ([architecture-descriptions](../evidence/architecture-descriptions/baseline.md)) |
 | diagram key | C4 with a key that says what each arrow means ([system-diagrams](../evidence/system-diagrams/baseline.md)) |
