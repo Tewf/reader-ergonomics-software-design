@@ -6,7 +6,7 @@ This file separates what research has measured from what practice does, and says
 
 - Metrics of design predict faults in a controlled set of eight systems (Basili 1996b) and in a model that found over 90% of faulty classes (Briand 2000, secondary). Error-prone files cluster in a few architecture subspaces (Xiao 2014; Mo 2015, secondary). Organisational metrics beat code metrics in one large case (Nagappan 2008).
 - Socio-technical congruence predicted failures in two industrial projects (Cataldo 2013, secondary) and was unrelated to bugs and churn in 25 open source projects (Mauerer 2022): the effect depends on the setting.
-- Mirroring of organisation and structure is prevalent but not universal in industry and firm studies, and not supported in open collaborative projects, over 142 studies (Colfer 2016).
+- Mirroring of organisation and structure holds in 70% of the descriptive industry and firm studies, partly in 22%, and fails in most of those on open collaborative projects (56%), over 142 studies (Colfer 2016).
 - Patterns have no firm general support in 11 experiments; documenting them helps pattern-relevant tasks in small programs (Zhang 2012; Prechelt 2002).
 - A monolith can beat services on one machine, and vertical scaling can be cheaper (Blinowski 2022).
 - Architectural decisions rank first as a source of technical debt among 1,831 survey participants (Ernst 2015, secondary).

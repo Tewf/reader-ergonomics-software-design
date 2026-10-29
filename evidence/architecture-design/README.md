@@ -22,7 +22,7 @@ Method: a multivocal literature review (Garousi 2019, [evidence method](../READM
 | Documenting patterns helped pattern-relevant maintenance tasks in two experiments, with 74 and 22 students | measured, one study (secondary; draft abstract) | review.md 3 |
 | In eight systems from identical requirements, several object-oriented design metrics predicted fault-prone classes better than traditional code metrics | measured, one setting (abstract read) | review.md 2 |
 | Organisational metrics predicted failure-proneness in Windows Vista better than traditional code metrics | measured, one company (abstract read) | review.md 6 |
-| Mirroring of organisation and technical structure is prevalent but not universal across 142 studies | measured, descriptive (review of studies; abstract read) | review.md 6 |
+| Mirroring of organisation and technical structure holds in 70% of descriptive industry and firm studies (partly in 22%), and fails in 56% of those on open collaborative projects, over 142 studies | measured, descriptive (review of studies; full text read) | review.md 6 |
 | On one machine a monolith beat its microservice counterpart; vertical scaling was more cost-effective in one cloud | measured, one reference application (abstract read) | review.md 8 |
 | At most 77% of 1,502 respondents use microservices (over 23% do not); 92% of respondents report some success | measured, descriptive, self-selected sample | review.md 8 |
 | Architectural decisions ranked first as a source of technical debt in a survey of 1,831 | measured, descriptive (secondary) | review.md 7 |

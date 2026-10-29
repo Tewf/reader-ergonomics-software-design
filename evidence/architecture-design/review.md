@@ -83,7 +83,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 ## 6. Structure and the organisation (Q7)
 
 - Conway 1968: organisations that design systems produce designs that copy their communication structures (reprint, conclusion).
-- Colfer 2016 (abstract read; MacCormack 2012 tests the same hypothesis, abstract partly read): mirroring predicts organisational ties that match technical dependencies. 142 studies show it is prevalent but not universal in industry and firm studies, while studies of open collaborative projects, most of them software, did not support it.
+- Colfer 2016 (full text, open access; MacCormack 2012 tests the same hypothesis, abstract partly read): mirroring predicts organisational ties that match technical dependencies. Of 142 studies, the descriptive industry and firm studies gave strong support in 70%, partial in 22% and none in 8%. In open collaborative projects, mostly software, 56% of the descriptive studies did not support it.
 - Nagappan 2008 (abstract read): in Windows Vista, organisational metrics predicted failure-proneness and beat traditional metrics in precision and recall.
 - Herbsleb 1999 (secondary): a case study of a distributed project; coordination suffered across sites as informal communication broke down.
 - Cataldo 2013 (secondary): in two large projects from two companies, mismatch between required and actual coordination went with more failures and higher congruence with better productivity.

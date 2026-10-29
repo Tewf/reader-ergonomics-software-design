@@ -100,7 +100,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Claessen 2000 | Claessen, Hughes (2000). QuickCheck: a lightweight tool for random testing of Haskell programs. ICFP, ACM SIGPLAN Notices. Full text read | https://doi.org/10.1145/357766.351266 |
 | Clements 2010 | Clements, Bachmann, Bass, Garlan, Ivers, Little, Merson, Nord, Stafford (2010). Documenting Software Architectures: Views and Beyond, 2nd ed. Addison-Wesley | https://www.sei.cmu.edu/library/documenting-software-architectures-views-and-beyond-second-edition/ |
 | Coffman 2026 | Coffman et al. (2026). Comparing student achievement, attitudes, and behaviors with RAPTOR and Python. ACM Transactions on Computing Education | https://doi.org/10.1145/3815177 |
-| Colfer 2016 | Colfer, Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change. Abstract read | https://doi.org/10.1093/icc/dtw027 |
+| Colfer 2016 | Colfer, Baldwin (2016). The mirroring hypothesis: theory, evidence, and exceptions. Industrial and Corporate Change. Full text read (open access) | https://doi.org/10.1093/icc/dtw027 |
 | Collberg 2016 | Collberg, Proebsting (2016). Repeatability in computer systems research. Communications of the ACM 59(3), 62-69. Numbers read in a summary of the 2013 technical report | https://doi.org/10.1145/2812803 |
 | College Board 2025 | College Board (2025). AP Computer Science Principles exam reference sheet | https://apcentral.collegeboard.org/media/pdf/ap-computer-science-principles-exam-reference-sheet.pdf |
 | Conklin 1988 | Conklin, Begeman (1988). gIBIS: a hypertext tool for exploratory policy discussion. ACM conference on computer-supported cooperative work | https://doi.org/10.1145/62266.62278 |

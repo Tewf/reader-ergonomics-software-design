@@ -32,7 +32,7 @@ This file collects the evidence against the common rules of architecture design.
 - Mauerer 2022: across 25 open source projects, socio-technical motif congruence was not related to bugs or churn in any temporal scenario.
 - Cataldo 2013 (secondary) found congruence tied to fewer failures in two industrial projects, so the effect is not robust across settings.
 
-- Colfer 2016: mirroring is prevalent but not universal in industry and firm studies, not supported in open collaborative projects, and partial mirroring appears in technologically dynamic industries.
+- Colfer 2016: mirroring is not supported in 8% of the descriptive industry and firm studies and in 56% of those on open collaborative projects; partial mirroring appears in technologically dynamic industries.
 - The inverse Conway maneuver reached Trial in 2014 and left the current Radar (ThoughtWorks 2014).
 - Team Topologies 2026 (example only) gives anecdotes and no study count.
 

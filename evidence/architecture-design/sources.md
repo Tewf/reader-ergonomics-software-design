@@ -51,7 +51,7 @@ The figure draws the stages of the table for architecture design.
 | Baldwin 2000 | formal | lead | book, not opened | review 2, 6 |
 | MacCormack 2006 | formal | lead | empirical, two products; abstract read | review 2 |
 | MacCormack 2012 | formal | lead | empirical test of mirroring; abstract partly read | review 6 |
-| Colfer 2016 | formal | lead | review of 142 studies; abstract read | review 6 |
+| Colfer 2016 | formal | lead | review of 142 studies; full text read (open access) | review 6 |
 | Cataldo 2008 | formal | lead | empirical framework; summary line read (secondary); abstract not reached | review 6 |
 | Cataldo 2013 | formal | lead | empirical, two large projects; abstract read in a search summary (secondary) | review 6 |
 | Mauerer 2022 | formal | found by search summary | measured, 25 open source projects; abstract read | review 6 |
