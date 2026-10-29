@@ -13,12 +13,7 @@ report, commit message) and the reasons for shapes are in
 | [design-document.md](design-document.md) | one design proposed before it is built: the decision asked, motivation and use cases, goals and non-goals, the design, the alternatives that lost, consequences, feasibility and open questions |
 | [decision-record.md](decision-record.md) | one decision kept after it is taken: the decision first, its status, context, the options with why each lost, and consequences; its worked example is this repository's own [first record](../decisions/0001-pin-links-at-the-release-commit.md) |
 | [architecture-description.md](architecture-description.md) | the structure of one system, ordered by the reader's questions: readers and tasks, context, a map of the parts, invariants, runtime, deployment, cross-cutting concepts, decisions linked, risks and a glossary |
-
-## Planned
-
-| Shape | Baseline it starts from |
-|---|---|
-| diagram key | C4 with a key that says what each arrow means ([system-diagrams](../evidence/system-diagrams/baseline.md)) |
+| [system-diagram.md](system-diagram.md) | one diagram of a system: a title with type and scope, a key, typed elements, labelled one-way arrows, few layout flaws, and its source as text beside it |
 
 ## Choosing a shape
 

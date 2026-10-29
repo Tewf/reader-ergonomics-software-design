@@ -12,8 +12,8 @@ live there and are not repeated here. This repository will add only what is part
 about it: its evidence, and the shapes of its documents.
 
 > **Status:** work in progress. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
-> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). Four shapes are
-> written (algorithm specification, design document, decision record, architecture description); the last shape and the principles are not started. It is an
+> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). The five shapes are
+> written (algorithm specification, design document, decision record, architecture description, system diagram); the principles are not started. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the
 > state of the art.
 >
@@ -38,8 +38,8 @@ The same as reader-ergonomics, so a reader of one can find their way in the othe
   the case against, baseline), plus its protocol and its scored sources; written for seven topics;
 - [`shapes/`](shapes/): the skeleton of each kind of document, with the evidence behind each part. Written are the
   [algorithm specification](shapes/algorithm-specification.md), the [design document](shapes/design-document.md), the
-  [decision record](shapes/decision-record.md) and the [architecture description](shapes/architecture-description.md), and one more
-  is planned;
+  [decision record](shapes/decision-record.md), the [architecture description](shapes/architecture-description.md) and the
+  [system diagram](shapes/system-diagram.md);
 - [`decisions/`](decisions/): the records of this repository's own design choices;
 - `principles/`: only where writing about software differs from the general standard (planned).
 
