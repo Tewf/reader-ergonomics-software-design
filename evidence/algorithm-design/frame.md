@@ -69,4 +69,4 @@ Decide how an algorithm is designed and how its behaviour is stated before any c
 - How an algorithm is written for a reader: [pseudocode](../pseudocode/frame.md).
 - TLA+ and formal methods at a cloud provider as system design: Newcombe 2015, reviewed in the system-design topic; here only a link.
 - Decisions and their records: [design decisions](../design-decisions/frame.md).
-- Findings that are general reading principles: [define before use](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/document/define-before-use.md), [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/document/worked-examples-with-subgoals.md).
+- Findings that are general reading principles: [define before use](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/document/define-before-use.md), [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/document/worked-examples-with-subgoals.md).

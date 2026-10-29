@@ -19,7 +19,7 @@
   contract between caller and code.
 - In 100 popular C and C++ projects, methods with assertions had fewer defects, an effect the authors call small
   (Casalnuovo 2015, observational).
-- A reader who knows what must hold can judge the steps: the [overview first](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/document/overview-first.md)
+- A reader who knows what must hold can judge the steps: the [overview first](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/document/overview-first.md)
   principle, applied to a specification.
 
 ## Limits

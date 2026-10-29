@@ -17,3 +17,4 @@ in what context, the options that lost and why, and the consequences. A record i
 | [0007](0007-move-to-reader-ergonomics-1-8-1.md) | check against reader-ergonomics v1.8.1, and draw the card's figure from its Graphviz source | accepted, 2026-10-29 |
 | [0008](0008-move-to-reader-ergonomics-1-9-0.md) | check against reader-ergonomics v1.9.0, and fold the figure's Graphviz source | accepted, 2026-10-29 |
 | [0009](0009-move-to-reader-ergonomics-1-10-0.md) | check against reader-ergonomics v1.10.0, which adds the family's figure checks | accepted, 2026-10-29 |
+| [0010](0010-move-to-reader-ergonomics-1-11-0.md) | check against reader-ergonomics v1.11.0, and key two Microsoft pages by a title word | accepted, 2026-10-29 |
