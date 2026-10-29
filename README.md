@@ -3,15 +3,17 @@
 [![Checks against reader-ergonomics](https://github.com/Tewf/software-design-writing/actions/workflows/checks.yml/badge.svg)](https://github.com/Tewf/software-design-writing/actions/workflows/checks.yml)
 [![Site](https://github.com/Tewf/software-design-writing/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/software-design-writing/)
 
-How to write about software (architecture descriptions, decision records, design documents, pseudocode and diagrams
-of a system) so that it costs the reader as little as possible.
+How to design software at the abstract layer just before the code: its architecture, the running system, its
+algorithms and their specifications. And how to write about it (architecture descriptions, decision records, design
+documents, pseudocode and diagrams), so that it costs the reader, and whoever implements it, as little as possible.
 
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
-live there and are not repeated here. This repository will add only what is particular to writing about software: its
-evidence, and the shapes of its documents.
+live there and are not repeated here. This repository will add only what is particular to software design and the writing
+about it: its evidence, and the shapes of its documents.
 
-> **Status:** work in progress. Four literature reviews are written in [evidence/](evidence/), each a multivocal review of
-> research and practice; their numbers were audited on 2026-10-28 against the primary sources, and the shapes and principles are not started. It is an
+> **Status:** work in progress. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
+> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29), and the shapes and
+> principles are not started. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the
 > state of the art.
 >
@@ -24,7 +26,8 @@ evidence, and the shapes of its documents.
 | | What | Why |
 |---|---|---|
 | in | documents about a system: architecture descriptions, decision records, design documents, pseudocode, component and data-flow diagrams | the reader is the object, as in reader-ergonomics |
-| out | how to design the system itself: modularity, coupling, architecture quality | another object, with its own evidence and its own checks |
+| in | designing the system at the abstract layer before the code: architecture design, system design, algorithm design and specification | the design is what an implementer, a person or a model, works from |
+| out | programming languages and their implementation | another object, with its own evidence and its own checks |
 | out | how code is laid out in files and folders | already covered by the collection principles of reader-ergonomics |
 
 ## Layout
@@ -32,7 +35,7 @@ evidence, and the shapes of its documents.
 The same as reader-ergonomics, so a reader of one can find their way in the other:
 
 - `evidence/<topic>/`: one literature review per topic, one file per step (frame, review, state of the art, position,
-  the case against, baseline), plus its protocol and its scored sources; written for four topics;
+  the case against, baseline), plus its protocol and its scored sources; written for seven topics;
 - `shapes/`: the skeleton of each kind of document, with the evidence behind each part (planned);
 - `principles/`: only where writing about software differs from the general standard (planned).
 

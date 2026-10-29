@@ -6,10 +6,12 @@ message: >-
   and not a new result.
 title: "software-design-writing (work in progress)"
 abstract: >-
-  How to write architecture descriptions, decision records, design
+  How to design software at the abstract layer before the code (its
+  architecture, the running system, its algorithms and their specifications)
+  and how to write architecture descriptions, decision records, design
   documents, pseudocode and system diagrams so that they are cheap to read.
   An extension of reader-ergonomics: the evidence and document shapes
-  particular to writing about software.
+  particular to software design and the writing about it.
   Use it as a reading list and a starting point, not as an authority.
 type: software
 authors:
@@ -20,6 +22,9 @@ license:
   - CC-BY-4.0
 keywords:
   - software architecture
+  - system design
+  - algorithm design
+  - formal specification
   - design documents
   - pseudocode
   - documentation
