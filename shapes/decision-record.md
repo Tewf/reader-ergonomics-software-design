@@ -1,7 +1,7 @@
 # Shape: decision record for a design decision
 
 reader-ergonomics has a general
-[decision record](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/shapes/decision-record.md):
+[decision record](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/shapes/decision-record.md):
 the parts every record has, with their evidence. This shape extends it, since a decision about the design of
 software adds two parts:
 

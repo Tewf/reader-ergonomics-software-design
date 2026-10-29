@@ -37,10 +37,10 @@ gives the comparison it should face. Each key (Author Year) is listed in the [bi
 
 | Part | Principle |
 |---|---|
-| Problem and contract before the steps | [overview first](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/principles/document/overview-first.md) |
-| Interface with types before any use | [define before use](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/principles/document/define-before-use.md) |
-| Fixed sections, steps as a code block | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/principles/page/signal-the-structure.md) |
-| One worked example, then the implementer's own | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/principles/document/worked-examples-with-subgoals.md) |
+| Problem and contract before the steps | [overview first](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/document/overview-first.md) |
+| Interface with types before any use | [define before use](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/document/define-before-use.md) |
+| Fixed sections, steps as a code block | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/page/signal-the-structure.md) |
+| One worked example, then the implementer's own | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/document/worked-examples-with-subgoals.md) |
 
 ## The skeleton
 

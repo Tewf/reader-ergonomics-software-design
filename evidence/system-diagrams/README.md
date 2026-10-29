@@ -5,7 +5,7 @@ Question: how should diagrams of a software system be drawn so that a reader ext
 | Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
 |---|---|---|---|---|---|---|---|---|---|
 
-General principles are not reviewed again here: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/principles/page/draw-relations.md) and [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/principles/page/figure-next-to-its-text.md). Which views a description contains belongs to the review "architecture-descriptions".
+General principles are not reviewed again here: [draw relations](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/page/draw-relations.md) and [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/principles/page/figure-next-to-its-text.md). Which views a description contains belongs to the review "architecture-descriptions".
 
 ## Claims
 
