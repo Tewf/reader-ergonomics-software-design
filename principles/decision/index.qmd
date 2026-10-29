@@ -1,0 +1,5 @@
+---
+title: "Decision: proposing a design and keeping the choice"
+---
+
+{{< include README.md >}}

@@ -1,0 +1,33 @@
+# Software design
+
+> How to design software before the code, and write it down, by what research has measured: rules for specifications, design documents, decision records, architecture descriptions and diagrams, each with its grade of evidence.
+
+Each page's markdown source is served at the same path with a .md extension.
+
+## Standard
+
+- [Standard](https://tewf.github.io/reader-ergonomics-software-design/standard.md): the one-page card to follow, with every principle and its grade
+- [Contributing](https://tewf.github.io/reader-ergonomics-software-design/AGENTS.md): rules for changing this repository
+
+## Specification: before the code is written
+
+- [Code-like steps](https://tewf.github.io/reader-ergonomics-software-design/principles/specification/code-like-steps.md): an algorithm's steps are written as constrained, code-like pseudocode, one statement per line, not as prose.
+- [Contract before steps](https://tewf.github.io/reader-ergonomics-software-design/principles/specification/contract-before-steps.md): an algorithm's specification states its contract before its steps: the precondition the caller ensures, and the postcondition the code ensures.
+- [Examples and properties as tests](https://tewf.github.io/reader-ergonomics-software-design/principles/specification/examples-as-tests.md): a specification handed to an implementer, a person or a model, carries examples with their expected outputs, edge cases first, and properties that hold for every valid input.
+
+## Decision: proposing a design and keeping the choice
+
+- [The decision asked comes first](https://tewf.github.io/reader-ergonomics-software-design/principles/decision/decision-asked-first.md): a design document opens with the decision it asks of the reviewer, before the motivation.
+- [Design the failure paths](https://tewf.github.io/reader-ergonomics-software-design/principles/decision/design-the-failure-paths.md): a design names how each part fails and how each failure is handled, and its plan tests those paths.
+- [Keep the options that lost](https://tewf.github.io/reader-ergonomics-software-design/principles/decision/keep-the-options-that-lost.md): a decision record lists every option considered, the chosen one included, with its consequences and why the others lost.
+
+## Structure: describing and drawing a system
+
+- [Order a description by the reader's questions](https://tewf.github.io/reader-ergonomics-software-design/principles/structure/by-the-readers-questions.md): an architecture description follows its readers' questions, in order: its readers, the system's surroundings, its parts, its invariants, its runtime and deployment, and its reasons.
+- [Every diagram has a key, every arrow a label](https://tewf.github.io/reader-ergonomics-software-design/principles/structure/diagram-key-and-labels.md): every diagram of a system has a key, and every arrow says what it carries, in the direction it points.
+
+## Optional
+
+- [Evidence](https://tewf.github.io/reader-ergonomics-software-design/evidence/README.md): one literature review per topic, with the evidence against
+- [Bibliography](https://tewf.github.io/reader-ergonomics-software-design/evidence/bibliography.md): every cited work, once
+- [Shapes](https://tewf.github.io/reader-ergonomics-software-design/shapes/README.md): skeletons for kinds of documents

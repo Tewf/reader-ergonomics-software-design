@@ -22,4 +22,11 @@ stylesheets = []   # as above
 
 [shape_conformance]
 # The standard's general decision record, plus the Options this repository's shape adds (decisions/0003).
-shapes = [{ name = "decision record", files = ["decisions/0*.md"], required = ["Context", "Decision", "Options", "Consequences", "See also"] }]
+shapes = [
+  { name = "decision record", files = ["decisions/0*.md"], required = ["Context", "Decision", "Options", "Consequences", "See also"] },
+  # An architecture description, where a repository keeps one (principle: order a description by the reader's questions).
+  { name = "architecture description", files = ["ARCHITECTURE.md", "docs/architecture.md"], required = ["Purpose and context", "Parts", "Invariants", "Runtime", "Deployment", "Decisions"] },
+]
+
+[standard_card]
+facets = ["specification", "decision", "structure"]   # the principle groups, in the order the card shows them

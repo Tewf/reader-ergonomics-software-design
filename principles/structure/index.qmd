@@ -1,0 +1,5 @@
+---
+title: "Structure: describing and drawing a system"
+---
+
+{{< include README.md >}}
