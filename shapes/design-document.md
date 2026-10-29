@@ -139,3 +139,5 @@ same commit.
 
 ## Open questions
 - Should a check of this repository fail on a `master` link into reader-ergonomics, so the rule cannot drift?
+  Answered later: yes. The local check `standard-links` fails a link that names neither the pinned commit nor its
+  release tag.

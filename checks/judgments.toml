@@ -252,7 +252,7 @@ answer = "Reference: a record looked up to learn why the links name a commit; it
 check = "document-mode"
 path = "shapes/design-document.md"
 question = "reads about equally as reference and how-to: one mode per document?"
-file = "5b6f447dd849"
+file = "81270c9d60bb"
 answer = "How-to: it is a template to fill, given as `## The skeleton` and `## The rules`; the table under `## How each part maps to the evidence` only justifies the parts of that procedure, as the shapes of reader-ergonomics do. It stays one document."
 [[answer]]
 check = "logical-lines"
