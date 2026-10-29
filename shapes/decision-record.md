@@ -60,6 +60,7 @@ software adds two parts:
 1. Options list every option considered, the chosen one included, each with why it won or lost.
 2. A decision that was argued in a design document links it under "Proposed in"; the debate stays there.
 3. The Shape line links this shape, which extends the general one, so a check knows to require Options.
+4. Consequences label their lines Good, Bad and To keep it true, so a check can see that a bad one is named.
 
 The general shape's rules hold as written. Each record holds one decision, stated first, with its bad consequences;
 an accepted record is superseded, not changed in place.
@@ -68,8 +69,10 @@ an accepted record is superseded, not changed in place.
 
 - `shape-conformance` of reader-ergonomics, declared in this repository's `checks/config.toml`: a record holds
   Context, Decision, Options, Consequences and See also.
-- `decision-records`, this repository's local check: the record's number in its title, the decision line, the status
-  line and the Shape line.
+- `decision-records`, this repository's local check, for the general shape's four rules. The records are numbered in
+  order and linked from the README, and each opens with its decision. Its status has a word and a date, and links
+  forward when superseded, and its Shape line links this shape. A record with no Consequences line labelled Bad
+  becomes a judgment question.
 
 ## Worked example
 
