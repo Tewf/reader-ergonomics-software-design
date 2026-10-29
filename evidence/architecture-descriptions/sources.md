@@ -1,6 +1,6 @@
 # Sources: the pool of the multivocal review, with its flow and quality scores
 
-This file lists how many records each search found, screened and added. It then lists every source in the review: its kind, how it was found, its quality and where it is used. Method: [protocol](protocol.md). Full citations: the bibliography.
+This file lists how many records each search found, screened and added. It then lists every source in the review, with its kind, how it was found, its quality and where it is used. The method of the search is in [protocol](protocol.md), and the full citations of the sources are in the bibliography.
 
 ## Flow: summary
 
@@ -32,7 +32,7 @@ The figure draws the stages of the table for architecture descriptions.
 
 ## Flow: formal strings
 
-Hit counts are the engine's on 2026-10-28. The engine is the Semantic Scholar bulk search, or arXiv for A1 and A2. "Screened" counts titles read, in order of citations. "Added" is the number of new sources that entered the pool.
+Hit counts are the engine's on 2026-10-28. That engine is the Semantic Scholar bulk search, or arXiv for A1 and A2. The "Screened" column counts titles read, in order of citations. The "Added" column is the number of new sources that entered the pool.
 
 | String | Hits | Screened | Relevant | Added |
 |---|---|---|---|---|

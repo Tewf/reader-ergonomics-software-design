@@ -1,6 +1,6 @@
 # Protocol: how the pool of sources was built
 
-This file states how the design-decisions review was searched, screened and scored, so another reviewer can repeat it. It follows Garousi 2019, a multivocal literature review (MLR): formal and grey literature in one pool. All searches ran on 2026-10-28. Architecture terms (viewpoint, architectural knowledge) are defined in [architecture-descriptions](../architecture-descriptions/frame.md).
+This file states how another reviewer can repeat the search, screening and scoring of the design-decisions review. It follows Garousi 2019, a multivocal literature review (MLR): formal and grey literature in one pool. All searches of the review ran on 2026-10-28. The architecture terms it uses (viewpoint, architectural knowledge) are defined in [architecture-descriptions](../architecture-descriptions/frame.md).
 
 ## 1. Why grey literature
 

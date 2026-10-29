@@ -42,7 +42,7 @@ The figure draws the stages of the table for algorithm design.
 
 "Found via": F = formal string, R = search for existing reviews, G = grey string.
 
-A brief lead was named in the commissioning brief and verified to exist with its authors, year and venue. A memory lead was recalled by the reviewer and verified the same way. Grade vocabulary as in the README. Sources marked "title and venue only" support no claim except that they exist and what their title states.
+A brief lead was named in the commissioning brief and verified to exist with its authors, year and venue. A memory lead was recalled by the reviewer and verified the same way. The grade vocabulary for these leads is as in the README. A lead marked "title and venue only" supports no claim except that it exists and what its title states.
 
 | Key | Kind | Found via | Quality | Used in |
 |---|---|---|---|---|
@@ -147,7 +147,7 @@ Subtotals follow the order of the [method](../README.md#method) note: authority,
 
 ## Grey sources from Q/A sites, scored
 
-Same subtotals. Grey tier 2. Software Engineering Stack Exchange (SESE), Stack Overflow (SO), Computer Science Stack Exchange (CS), read 2026-10-29. Scoring rules as in the [protocol](protocol.md), subsection Q/A sites.
+These threads have the same subtotals and are grey tier 2. They were read on 2026-10-29 from Software Engineering Stack Exchange (SESE), Stack Overflow (SO) and Computer Science Stack Exchange (CS). The scoring rules for the threads are as in the [protocol](protocol.md), subsection Q/A sites.
 
 | Key | Kind | Found via | Quality (total, then subtotals) | Used in |
 |---|---|---|---|---|

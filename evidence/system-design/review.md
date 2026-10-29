@@ -3,7 +3,7 @@
 This file reads the literature on designing a running system before it is built.
 The strands are existing reviews, principles, trade-offs, failure studies, estimation, interfaces, checking, standards, interview books, Q/A sites and models as implementers.
 
-A number read in an abstract or a summary, and not in the paper, carries "(secondary)". Grey scores are in [sources](sources.md); a source under 10 of 20 would be named "example only", and none fell under 10. Works not reachable are named "located only".
+A number carries "(secondary)" when it was read in an abstract or a summary, and not in the paper. Grey scores are in [sources](sources.md); a source under 10 of 20 would be named "example only", and none fell under 10. Works not reachable are named "located only".
 
 ## 0. Existing reviews
 

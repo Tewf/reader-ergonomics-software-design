@@ -1,6 +1,6 @@
 # Protocol: how the pool of sources was built
 
-This file records how the algorithm-design review was searched, screened and scored, for a reviewer who wants to repeat it. The rules every review shares are in the [evidence method](../README.md#method). Every search ran on 2026-10-29. Pseudocode and flowcharts are covered by [pseudocode](../pseudocode/frame.md) and decision records by [design decisions](../design-decisions/frame.md).
+This file records how the algorithm-design review was searched, screened and scored, for a reviewer who wants to repeat it. The rules every review shares are in the [evidence method](../README.md#method). Every search of this review ran on 2026-10-29. Two neighbouring reviews cover the rest: pseudocode and flowcharts are in [pseudocode](../pseudocode/frame.md) and decision records are in [design decisions](../design-decisions/frame.md).
 
 ## 1. Why grey literature
 

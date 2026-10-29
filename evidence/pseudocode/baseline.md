@@ -14,7 +14,7 @@ This file names the baseline a proposed rule on presenting algorithms must beat,
 
 The main baseline is CLRS-style pseudocode: numbered lines, indentation for blocks, an assignment arrow, named procedures, comments marked.
 
-Caveat: the printed conventions section of Cormen et al. was still not read, and second-hand course notes give different comment symbols (a triangle in one, slashes in another). A comparison must name the edition. Knuth's printed text was not read; Sedgewick's 4th edition ships Java, so it is a code arm, not a pseudocode arm (Sedgewick 2026, example only).
+Caveat: the printed conventions section of Cormen et al. was still not read. Second-hand course notes give different comment symbols (a triangle in one, slashes in another), so a comparison must name the edition. Knuth's printed text was not read either; Sedgewick's 4th edition ships Java, so it is a code arm, not a pseudocode arm (Sedgewick 2026, example only).
 
 ## What the CLRS style fixes (from Cormen 2003)
 

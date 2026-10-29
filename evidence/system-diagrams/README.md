@@ -1,6 +1,6 @@
 # System diagrams: how to draw a software system so the reader gets the structure
 
-Question: how should diagrams of a software system (component and container, deployment, sequence, data-flow, class diagrams used as documentation) be drawn so that a reader extracts the right structure quickly and correctly. This is a multivocal literature review: formal and grey literature, to Garousi 2019.
+Question: how should diagrams of a software system be drawn so that a reader extracts the right structure quickly and correctly? The diagrams are component and container, deployment, sequence, data-flow, and class diagrams used as documentation. This is a multivocal literature review: formal and grey literature, to Garousi 2019.
 
 Steps: [frame](frame.md) · [protocol](protocol.md) · [review](review.md) · [sources](sources.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
 

@@ -1,6 +1,8 @@
 # Protocol: how the pool of sources was built
 
-This file records how the review of architecture descriptions was run as a multivocal literature review (MLR, Garousi 2019), so that a reader can repeat the search. Grey literature is defined in the [design-decisions frame](../design-decisions/frame.md). All searches were run on 2026-10-28 by one reviewer.
+This file records the search for the review of architecture descriptions. A reader can repeat the search from it. The review is a multivocal literature review (MLR, Garousi 2019).
+
+Grey literature, which the review includes, is defined in the [design-decisions frame](../design-decisions/frame.md). All searches of the review were run on 2026-10-28 by one reviewer.
 
 ## 1. Why grey literature
 
@@ -110,7 +112,7 @@ A Q/A query restricted to stackoverflow.com was refused by the web engine, and t
 
 ### Q/A sites
 
-The search ran on 2026-10-28. Grey type: question-and-answer sites, tier 2 (outlet score 0.5). One reviewer. The stopping parameters, the reading and scoring rules and the limits below are shared by the four reviews of this repository; the other three protocols link here for them.
+The search ran on 2026-10-28, with one reviewer. The grey type searched is question-and-answer sites, tier 2 (outlet score 0.5). For these sites, the four reviews of this repository share the stopping parameters, the reading and scoring rules and the limits below; the other three protocols link here for them.
 
 **Stopping rule, stated before searching**
 

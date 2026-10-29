@@ -1,6 +1,6 @@
 # Frame: the problem and its names
 
-This file states, in one sentence, the problem of designing an algorithm and stating its intended behaviour, then the names research and practice give to it.
+This file states the problem of designing an algorithm and stating its intended behaviour, in one sentence. It then gives the names that research and practice use for the problem.
 
 ## The problem in one sentence
 

@@ -163,7 +163,7 @@ Quality for grey sources: A authority (of 4), M methodology (6), O objectivity (
 
 Scored 47 grey sources: 21 from the web and books, 26 Q/A threads. 7 fall below 10 of 20 and stay as examples of practice only: Wikipedia 2026a, Rosetta Code 2026, UW 2023, UH 2026, Sedgewick 2026, Forum 2026 and SO 2009c.
 
-The Q/A threads mostly repeat the pool. Definitions (SESE 2012e, SESE 2011d), symbol meanings and teaching opinions add nothing new, and SESE 2018c is cited only here. No thread concerns typesetting or layout (Q2), and none compares reader outcomes; for those the Q/A sites add nothing. `title=describe algorithm` returned nothing, and `title=algorithm notation` two weak Computer Science threads.
+The Q/A threads mostly repeat the pool. The threads add nothing new in their definitions (SESE 2012e, SESE 2011d), symbol meanings and teaching opinions, and SESE 2018c is cited only here. No thread concerns typesetting or layout (Q2), and no thread compares reader outcomes; for those questions the Q/A sites add nothing. Two title searches of the Q/A sites found little: `title=describe algorithm` returned nothing, and `title=algorithm notation` two weak Computer Science threads.
 
 ### Formal
 

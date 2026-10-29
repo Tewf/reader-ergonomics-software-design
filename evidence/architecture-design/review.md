@@ -1,7 +1,21 @@
 # Review
 
 This file reads the literature on choosing the structure of one software system, by strand.
-The strands are existing reviews, methods, modularity, patterns, quality attributes and evaluation, up-front design, organisation, erosion and debt, monolith and services, practice, Q/A sites, designing for a model, and how architects reason.
+The strands run in this order:
+
+- existing reviews
+- methods
+- modularity
+- patterns
+- quality attributes and evaluation
+- up-front design
+- organisation
+- erosion and debt
+- monolith and services
+- practice
+- Q/A sites
+- designing for a model
+- how architects reason
 
 The mark "(secondary)" flags a result read in a summary of an abstract or in another source, not in the paper. A work whose row in [sources](sources.md) says "located only" supports no result here. Grey scores are in [sources](sources.md); a source under 10 of 20 is named "example only".
 

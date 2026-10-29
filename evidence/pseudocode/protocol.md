@@ -1,6 +1,6 @@
 # Protocol: how the pool of sources was built
 
-This file records how the formal and grey literature (defined in [frame](frame.md)) on presenting algorithms was searched, screened and scored, following Garousi 2019, so that the pool in [sources](sources.md) can be rebuilt. The method is summarised in the [evidence README](../README.md#method).
+This file records how the literature on presenting algorithms was searched, screened and scored, following Garousi 2019. The literature is formal and grey (defined in [frame](frame.md)). These records let the pool of that literature in [sources](sources.md) be rebuilt. The method of the search is summarised in the [evidence README](../README.md#method).
 
 ## 1. Why grey literature
 
@@ -56,7 +56,7 @@ Types and producers chosen, with the reason:
 
 ### Q/A sites
 
-One reviewer ran PS1 to PS8 on 2026-10-28 as grey tier 2. For N and k, the fixed API parameters, the scoring rules and the general limits of the search, see the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites).
+One reviewer ran PS1 to PS8 on 2026-10-28 as grey tier 2. The [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites) gives N and k, the fixed API parameters, the scoring rules and the general limits of the search.
 
 **Strings as run, pseudocode**
 

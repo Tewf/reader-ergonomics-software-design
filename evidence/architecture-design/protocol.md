@@ -1,6 +1,6 @@
 # Protocol: how the pool of sources was built
 
-This file records how the architecture-design review was searched, screened and scored, so that someone else can repeat the search. The evidence index holds the rules shared by all reviews ([method](../README.md#method)). All searches ran on 2026-10-29. Terms (architecture, architectural knowledge, viewpoint) are defined in [architecture-descriptions](../architecture-descriptions/frame.md); decision records are in [design-decisions](../design-decisions/frame.md).
+This file records how the architecture-design review was searched, screened and scored, so that someone else can repeat the search. The rules shared by all reviews are in the evidence index ([method](../README.md#method)). All searches of this review ran on 2026-10-29. The terms it uses (architecture, architectural knowledge, viewpoint) are defined in [architecture-descriptions](../architecture-descriptions/frame.md); decision records are in [design-decisions](../design-decisions/frame.md).
 
 ## 1. Why grey literature
 
@@ -32,7 +32,7 @@ Of the seven questions in Garousi 2019 Table 4, one yes would justify grey liter
 | Q10 | What is measured when an architecture or design is handed to a model that writes the code? |
 | Q11 | How do architects reason while designing, and what biases affect them? |
 
-Adjusted after the frame: Q10 was added as the brief's strand "designing for a model as implementer". Q11 was added in the second pass, for the strand on design reasoning that the first pass had not searched.
+Adjusted after the frame: Q10 was added as the brief's strand "designing for a model as implementer". Q11 was added in the second pass. Its strand, design reasoning, had not been searched in the first pass.
 
 ## 3. Existing reviews (Garousi Guideline 2)
 
@@ -43,7 +43,7 @@ Adjusted after the frame: Q10 was added as the brief's strand "designing for a m
 
 ## 4. Formal search
 
-Counts come from the Semantic Scholar bulk search, title and abstract. They match words, not phrases, so they are noisy upper bounds. The arXiv API answered HTTP 429 on the day for every call; arXiv counts are not obtained. OpenAlex was not called (daily budget spent); the strings are in `openalex.tsv`, for counting later by script.
+Counts come from the Semantic Scholar bulk search, title and abstract. They match words, not phrases, so they are noisy upper bounds. The arXiv counts are not obtained: its API answered HTTP 429 on the day for every call. The OpenAlex counts are not obtained either: it was not called (daily budget spent); the strings are in `openalex.tsv`, for counting later by script.
 
 | Id | String as run | Semantic Scholar |
 |---|---|---|
@@ -120,7 +120,7 @@ Counts come from the Semantic Scholar bulk search, title and abstract. They matc
 
 ### Q/A sites
 
-Strings AR1 to AR15 ran on 2026-10-29, one reviewer, grey tier 2. Everything the four Q/A searches share (stopping parameters, API call, reading and scoring, common limits) is in the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites). Fixed parameters here: Stack Exchange API 2.3, `search/advanced`, `order=desc&sort=votes&pagesize=30`, no key, no login; the first 12 titles of each list were read.
+Strings AR1 to AR15 ran on 2026-10-29, one reviewer, grey tier 2. The four Q/A searches share their stopping parameters, API call, reading and scoring, and common limits; these are in the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites). Fixed parameters here: Stack Exchange API 2.3, `search/advanced`, `order=desc&sort=votes&pagesize=30`, no key, no login; the first 12 titles of each list were read.
 
 | Id | String as run | Site | Returned = screened | Included | New |
 |---|---|---|---|---|---|

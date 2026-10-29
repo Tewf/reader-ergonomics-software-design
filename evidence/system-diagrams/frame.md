@@ -4,7 +4,7 @@ This file states the problem in one sentence, lists what research and practice c
 
 ## The problem in one sentence
 
-Decide how to draw a diagram of a software system so that a reader answers structural questions (what talks to what, what is inside what, what runs where, in which order) quickly and without error.
+Decide how to draw a diagram of a software system. The reader must answer structural questions quickly and without error: what talks to what, what is inside what, what runs where, in which order.
 
 ## Method
 

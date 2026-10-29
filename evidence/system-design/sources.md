@@ -99,7 +99,7 @@ The figure draws the stages of the table for system design.
 
 ## Grey sources, scored
 
-Subtotals run authority, methodology, objectivity, date, position, novelty, impact, outlet, in the order the [method](../README.md#method) note gives. A source under 10 is an example of practice only. Q/A scoring rules: [protocol](protocol.md). Stack Exchange keys use letters from p, to avoid keys taken by parallel topics.
+Subtotals run authority, methodology, objectivity, date, position, novelty, impact, outlet, in the order the [method](../README.md#method) note gives. A source under 10 is an example of practice only. The Q/A scoring rules for these sources are in [protocol](protocol.md). The Stack Exchange keys of these sources use letters from p, to avoid keys taken by parallel topics.
 
 | Key | Kind | Found via | Quality (total, then subtotals) | Used in |
 |---|---|---|---|---|

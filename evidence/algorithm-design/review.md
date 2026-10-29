@@ -1,6 +1,6 @@
 # Review
 
-This file reads the literature on designing an algorithm and on stating what it must do, in strands. The strands are existing reviews, design, specification, evidence of effect, readability, practice, engineering, and models as implementers.
+This file reads the literature by strand, on designing an algorithm and on stating what it must do. The strands are existing reviews, design, specification, evidence of effect, readability, practice, engineering, and models as implementers.
 
 The mark "(secondary)" flags a number read in an abstract or a summary and not in the paper. The mark "title only" means the paper was located and not read. Grey scores are in [sources](sources.md), and a source scoring under 10 of 20 is named "example only".
 
@@ -138,7 +138,7 @@ Benchmarks measure the pass rate on small function-level problems, usually with 
 
 ## 8. Q/A sites
 
-16 threads read on 2026-10-29 from three sites (Software Engineering 9, Stack Overflow 4, Computer Science 3), scored in [sources](sources.md). Two score below 10 and are examples only.
+The review read 16 threads on 2026-10-29, from three sites (Software Engineering 9, Stack Overflow 4, Computer Science 3). The scores of the threads are in [sources](sources.md). Two threads score below 10 and are examples only.
 
 - Contracts: the caller meets the precondition (SESE 2011q); mainstream languages lack support, and JML, .NET Code Contracts and ACSL are the named routes (SESE 2012l, SO 2009f).
 - Contracts against tests: contracts often cannot be stated or checked conveniently (SO 2009e); they cut the tests needed (SO 2008d); both serve as oracles (SESE 2013d).

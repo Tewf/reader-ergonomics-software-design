@@ -1,6 +1,6 @@
 # Baseline
 
-This file names what the repository's rules for designing and specifying an algorithm are compared against, and how. The review is finished only because a baseline can be named for each step.
+This file names the baseline for the repository's rules on designing and specifying an algorithm. It also says how the rules are compared against that baseline. The review is finished only because a baseline can be named for each step.
 
 ## The baselines
 

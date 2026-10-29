@@ -5,7 +5,7 @@
 
 How to design software at the abstract layer just before the code: its architecture, the running system, its
 algorithms and their specifications. And how to write about it (architecture descriptions, decision records, design
-documents, pseudocode and diagrams), so that it costs the reader, and whoever implements it, as little as possible.
+documents, pseudocode and diagrams), at the least cost to the reader and to whoever implements it.
 
 It extends [reader-ergonomics](https://github.com/Tewf/reader-ergonomics). The principles, their grades and the checks
 live there and are not repeated here. This repository will add only what is particular to software design and the writing

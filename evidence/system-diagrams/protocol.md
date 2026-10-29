@@ -1,6 +1,6 @@
 # Protocol: how the pool of sources on system diagrams was built
 
-This file records every search, count, rule and limit of this multivocal literature review, following Garousi 2019, so the pool can be rebuilt. The pool itself is in [sources](sources.md).
+This file records every search, count, rule and limit of this multivocal literature review, following Garousi 2019. With these records the pool can be rebuilt. The pool itself is in [sources](sources.md).
 
 ## 1. Why grey literature (Garousi 2019, Table 4)
 
@@ -85,7 +85,7 @@ This file records every search, count, rule and limit of this multivocal literat
 
 ### Q/A sites
 
-SD1 to SD12 are grey tier 2, run by one reviewer on 2026-10-28. Everything the four Q/A searches have in common (stopping rule, parameters, scoring, limits) is stated in the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites).
+SD1 to SD12 are grey tier 2, run by one reviewer on 2026-10-28. The four Q/A searches have in common a stopping rule, parameters, scoring and limits; the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites) states them.
 
 **Strings as run, system-diagrams**
 

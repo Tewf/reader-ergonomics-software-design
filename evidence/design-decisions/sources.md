@@ -1,6 +1,6 @@
 # Sources: the pool, the flow and the scores
 
-This file lists every source in the design-decisions review: how the pool narrowed, and one row per source with its kind, how it was found, its quality and where it is used. Method and strings are in [protocol](protocol.md). Architecture terms (viewpoint, architectural knowledge) are defined in [architecture-descriptions](../architecture-descriptions/frame.md).
+This file shows how the pool of the design-decisions review narrowed. It then gives one row for every source in the review: kind, route of discovery, quality score and the places that use it. The method and the strings of the review are in [protocol](protocol.md). The architecture terms it uses (viewpoint, architectural knowledge) are defined in [architecture-descriptions](../architecture-descriptions/frame.md).
 
 ## Flow
 
@@ -107,7 +107,18 @@ Grade vocabulary as in the README. "narrative" means found by the earlier readin
 
 ## Grey sources, scored
 
-Subtotals in order: authority (4), methodology (6), objectivity (4), date (1), position (1), novelty (2), impact (1), outlet (1). A source under 10 is an example of practice only.
+Subtotals in order:
+
+- authority (4)
+- methodology (6)
+- objectivity (4)
+- date (1)
+- position (1)
+- novelty (2)
+- impact (1)
+- outlet (1)
+
+A source under 10 is an example of practice only.
 
 | Key | Kind | Found via | Quality (total, then subtotals) | Used in |
 |---|---|---|---|---|

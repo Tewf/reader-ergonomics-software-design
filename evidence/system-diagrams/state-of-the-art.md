@@ -1,6 +1,6 @@
 # State of the art, per sub-question
 
-This file records who holds the best result on each sub-question of system diagrams, by what method, measured how. Two records are kept apart: **most adopted** (practice) and **best evidence** (research).
+For each sub-question of system diagrams, this file records who holds the best result, by what method, measured how. Two records are kept apart: **most adopted** (practice) and **best evidence** (research).
 
 | Sub-question | Most adopted | Best evidence |
 |---|---|---|

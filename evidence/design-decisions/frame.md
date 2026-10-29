@@ -1,10 +1,10 @@
 # Frame: the problem and its names
 
-This file states, in one sentence, the problem of proposing and recording decisions, then the names research and practice give to it.
+This file states the problem of proposing and recording decisions, in one sentence. It then gives the names that research and practice use for the problem.
 
 ## The problem in one sentence
 
-Decide how the document that proposes a design decision, and the document that records it, should be written. A reviewer must be able to judge the proposal before adoption; a later maintainer must be able to recover why the system is as it is.
+Decide how to write the document that proposes a design decision and the document that records it. A reviewer must be able to judge the proposal before adoption; a later maintainer must be able to recover why the system is as it is.
 
 ## What the field calls it
 

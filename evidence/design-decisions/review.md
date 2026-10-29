@@ -1,7 +1,7 @@
 # Review
 
-This file reads the literature on documents that propose or record design decisions. Strands run from existing reviews to surveys, seminal work, studies, mining and practice.
-"(secondary)" marks a number read in an abstract or summary, not in the paper. Quality scores for grey sources are in [sources](sources.md); a source under 10 of 20 is named "example only".
+This file reads the literature on documents that propose or record design decisions. The literature runs in strands, from existing reviews to surveys, seminal work, studies, mining and practice.
+In the literature above, "(secondary)" marks a number read in an abstract or summary, not in the paper. Quality scores for these grey sources are in [sources](sources.md); a source under 10 of 20 is named "example only".
 
 ## 0. Existing reviews
 

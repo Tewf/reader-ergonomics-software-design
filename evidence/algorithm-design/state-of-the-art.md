@@ -1,6 +1,10 @@
 # State of the art
 
-This file says who holds the record on each question, by what method, measured how. **Most adopted** (a practice record) is kept apart from **best evidence** (a research record). Upper bounds (what a method achieved on a benchmark or in a project) are kept apart from lower bounds (what it cannot do). No lower bound on cost or correctness was found for any method here, so each row names only an upper bound. "(secondary)" marks a number read in an abstract or a summary.
+This file says who holds the record on each question, by what method, measured how. **Most adopted** (a practice record) is kept apart from **best evidence** (a research record).
+
+Records of two further kinds are kept apart: upper bounds and lower bounds. An upper bound is what a method achieved on a benchmark or in a project. A lower bound is what that method cannot do.
+
+No lower bound on cost or correctness was found for any method here. Each row therefore names only an upper bound. In a row, "(secondary)" marks a number read in an abstract or a summary.
 
 ## Q1 Design techniques and their taxonomy
 

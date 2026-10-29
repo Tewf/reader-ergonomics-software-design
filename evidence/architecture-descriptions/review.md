@@ -1,7 +1,17 @@
 # Review
 
-This file reviews the literature on architecture descriptions by strand: existing reviews, surveys, standards and models, readers and their needs, experiments, what projects write, then practice. The pool and its scores are in [sources](sources.md); the method is in [protocol](protocol.md).
-A number marked (secondary) was read in an abstract or a summary only; the others were read in the paper. Grey sources below 10 of 20 are marked "example of practice" and support no claim.
+This file reviews the literature on architecture descriptions by strand. The strands are:
+
+- existing reviews
+- surveys
+- standards and models
+- readers and their needs
+- experiments
+- what projects write
+- practice
+
+The pool of sources and its scores are in [sources](sources.md); the method is in [protocol](protocol.md).
+A number from these sources marked (secondary) was read in an abstract or a summary only; the others were read in the paper. Grey sources below 10 of 20 are marked "example of practice" and support no claim.
 
 ## 0. Existing reviews
 

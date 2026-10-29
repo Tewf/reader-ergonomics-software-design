@@ -19,18 +19,25 @@ just before the code.
 
 ## Method
 
-Each topic is a **multivocal literature review**: research and **grey literature** (standards, company
-practice, templates, practitioner books and sites) in one review, built to a written protocol after
-Garousi 2019. Two files in each topic make the review checkable and rerunnable:
+Each topic is a **multivocal literature review** built to a written protocol after Garousi 2019. The review pools research and **grey literature** (standards, company practice, templates, practitioner books and sites). Two files in each topic make the review checkable and rerunnable:
 
 | File | What it holds |
 |---|---|
 | `protocol.md` | why grey literature is included, the questions, every search string with its date and count, the stopping rule, the selection criteria |
 | `sources.md` | every included source, how it was found, and its quality: the evidence grade for research, a score out of 20 for grey literature |
 
-A grey source is scored on Garousi's 20 criteria, in eight groups. The `sources.md` tables abbreviate them: A authority
-(of 4), M methodology (6), O objectivity (4), D date (1), P position among related sources (1), N novelty (2), I impact
-(1), T outlet tier (1). Below 10 of 20 it may illustrate what practice does, but it never supports a claim.
+A grey source is scored on Garousi's 20 criteria, in eight groups. The `sources.md` tables abbreviate the groups with letters:
+
+- A: authority (of 4)
+- M: methodology (6)
+- O: objectivity (4)
+- D: date (1)
+- P: position among related sources (1)
+- N: novelty (2)
+- I: impact (1)
+- T: outlet tier (1)
+
+A grey source below 10 of 20 may illustrate what practice does, but it never supports a claim.
 
 Outlet tier scores 1, 0.5 or 0. Tier 1 is a book, magazine, thesis, standard, committee paper or vendor guidance page; tier 2 is a talk, repository, project, wiki or Q/A page; tier 3 is a blog.
 

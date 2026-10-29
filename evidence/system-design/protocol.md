@@ -1,6 +1,6 @@
 # Protocol: how the pool of sources was built
 
-The searches, screening and scoring of the system-design review are set out here so that they can be rerun. What every review shares is in the [evidence method](../README.md#method). All searches ran on 2026-10-29. Terms of architecture are defined in [architecture-descriptions](../architecture-descriptions/frame.md); module-level design is in [architecture-design](../architecture-design/frame.md).
+The searches, screening and scoring of the system-design review are set out here so that they can be rerun. The rules that every review shares are in the [evidence method](../README.md#method). All searches of this review ran on 2026-10-29. Its terms of architecture are defined in [architecture-descriptions](../architecture-descriptions/frame.md); module-level design is in [architecture-design](../architecture-design/frame.md).
 
 ## 1. Why grey literature
 
@@ -103,7 +103,7 @@ Count source: the Semantic Scholar bulk title-and-abstract search and the arXiv 
 
 ### 5.1 Q/A sites
 
-Strings SY1 to SY18 ran on 2026-10-29, one reviewer, grey tier 2. The API call, the stopping parameters (N = 30 by votes per site, k = 10), how threads are read and scored, and the common limits are in the [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites).
+Strings SY1 to SY18 ran on 2026-10-29, one reviewer, grey tier 2. The [architecture-descriptions protocol](../architecture-descriptions/protocol.md#q-a-sites) gives the API call for these strings. It gives N = 30 by votes per site and k = 10 as the stopping parameters. It also gives the common limits, and how threads are read and scored.
 
 | Id | String as run | Site | Returned = screened | Included | New |
 |---|---|---|---|---|---|

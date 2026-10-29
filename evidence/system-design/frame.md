@@ -1,10 +1,10 @@
 # Frame: the problem and its names
 
-This file states, in one sentence, the problem of designing a running system before building it, then the names research and practice give to its parts. The review is a multivocal literature review after Garousi 2019: see the [evidence method](../README.md#method) and the [protocol](protocol.md).
+This file states the problem of designing a running system before building it, in one sentence. It then gives the names that research and practice use for its parts. The review is a multivocal literature review after Garousi 2019: see the [evidence method](../README.md#method) and the [protocol](protocol.md).
 
 ## The problem in one sentence
 
-Decide how the services, data stores, networks and machines of a running system are designed before they are built, so that the system meets its load, reliability and consistency goals. Then find out which of the principles used for this have been tested.
+Decide how to design a running system before it is built. The parts of the running system are services, data stores, networks and machines. The design must let the system meet its load, reliability and consistency goals. Then find out which of the design principles used for this have been tested.
 
 ## What the field calls it
 

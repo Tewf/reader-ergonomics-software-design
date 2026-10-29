@@ -1,6 +1,6 @@
 # Baseline: what the rules are compared against
 
-This file names the baseline a proposed rule on design documents and decision records must beat, and how the two would be compared.
+This file names the baseline that a proposed rule on design documents and decision records must beat. It also says how the two would be compared.
 
 ## The named baselines
 

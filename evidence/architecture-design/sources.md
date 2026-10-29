@@ -131,7 +131,7 @@ Books, not opened, not scored (named, no claim rests on them): Cervantes 2016, B
 
 ## Grey sources from Q/A sites
 
-Grey tier 2. Date read 2026-10-29. Subtotals as above; rules in the [shared protocol](../architecture-descriptions/protocol.md#q-a-sites). Votes, views and answers per thread are in [bibliography](../bibliography.md), read on 2026-10-29.
+These threads are grey tier 2, with the date read 2026-10-29. The subtotals are as above, and the rules are in the [shared protocol](../architecture-descriptions/protocol.md#q-a-sites). The votes, views and answers per thread, as read on 2026-10-29, are in [bibliography](../bibliography.md).
 
 | Key | Kind | Found via | Quality (total, then subtotals) | Used in |
 |---|---|---|---|---|
