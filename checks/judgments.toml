@@ -1,0 +1,479 @@
+# Answers to the questions the checks leave for judgment (reader-ergonomics checks/framework/judgment.py).
+# An answer holds while its file is unchanged: `file` is the first 12 hex characters of the file's
+# SHA-256 when the answer was given, and an edit to the file asks the question again.
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/algorithm-design/protocol.md"
+question = "147 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "9a268c405c4f"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/algorithm-design/review.md"
+question = "120 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3cdfd99c7c55"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/algorithm-design/sources.md"
+question = "157 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "28ed3b6459b1"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-descriptions/protocol.md"
+question = "149 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "7eee6a856aa2"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-descriptions/review.md"
+question = "114 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "f781c90f0af6"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-descriptions/sources.md"
+question = "198 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "2d845fad235a"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-design/protocol.md"
+question = "150 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3b89120dd3bb"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-design/review.md"
+question = "95 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "7c556d0452ea"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-design/sources.md"
+question = "142 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "9b732768aaae"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/design-decisions/protocol.md"
+question = "116 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "a74212c39228"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/design-decisions/review.md"
+question = "99 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "c1c5d8a100b8"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/design-decisions/sources.md"
+question = "153 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "a5510d55d33f"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/pseudocode/protocol.md"
+question = "89 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "069cc4b5f557"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/pseudocode/review.md"
+question = "106 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "48629d7a6fb5"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/pseudocode/sources.md"
+question = "200 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "db871aa6e818"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-design/protocol.md"
+question = "143 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "d2bee30ff355"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-design/review.md"
+question = "96 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "c6958ea154a1"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-design/sources.md"
+question = "130 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "d3a66895abc2"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-diagrams/protocol.md"
+question = "106 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "2f1b46ad4ecf"
+answer = "One role: how this topic's pool of sources was searched, screened and scored, so another reviewer can rerun it. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-diagrams/review.md"
+question = "95 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "5d9b801326e3"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-diagrams/sources.md"
+question = "146 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "168fd0750ac8"
+answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/algorithm-design/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "3cdfd99c7c55"
+answer = "No: the file is a log of sources, one finding per line under its strand. The process that built the pool is drawn in sources.md (flow.svg), and the comparisons are tables in state-of-the-art.md."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/architecture-descriptions/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "23762e271ceb"
+answer = "No: each line is one counter-finding against one claim of the README's claims table; the lines share no relation that a figure would show."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/architecture-descriptions/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "f781c90f0af6"
+answer = "No: the file is a log of sources, one finding per line under its strand. The process that built the pool is drawn in sources.md (flow.svg), and the comparisons are tables in state-of-the-art.md."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/architecture-design/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "7c556d0452ea"
+answer = "No: the file is a log of sources, one finding per line under its strand. The process that built the pool is drawn in sources.md (flow.svg), and the comparisons are tables in state-of-the-art.md."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/design-decisions/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "a9ca8f47d6a4"
+answer = "No: each line is one counter-finding against one claim of the README's claims table; the lines share no relation that a figure would show."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/design-decisions/position.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "af61b89f29e5"
+answer = "No: the file lists what is known, what is not, and where practice and evidence part, one item per line; the comparison itself is the table of state-of-the-art.md."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/pseudocode/against.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "1434fdd02d6b"
+answer = "No: each line is one counter-finding against one claim of the README's claims table; the lines share no relation that a figure would show."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/system-diagrams/review.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "5d9b801326e3"
+answer = "No: the file is a log of sources, one finding per line under its strand. The process that built the pool is drawn in sources.md (flow.svg), and the comparisons are tables in state-of-the-art.md."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/pseudocode/README.md"
+question = "says nearly what evidence/system-diagrams/README.md (line 5) says, similarity 1.00: one fact in two places?"
+file = "2e725912222a"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-descriptions/README.md"
+question = "says nearly what evidence/pseudocode/README.md (line 5) says, similarity 1.00: one fact in two places?"
+file = "09c45654ceca"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-descriptions/protocol.md"
+question = "says nearly what evidence/design-decisions/protocol.md (line 7) says, similarity 0.99: one fact in two places?"
+file = "7eee6a856aa2"
+answer = "Not one fact: each protocol states, in a sentence, which rule of Garousi 2019 it applies or which databases gave its counts on its day; the shared rule is linked from the evidence method, and the answers and counts that follow differ by topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/pseudocode/README.md"
+question = "says nearly what evidence/system-design/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "2e725912222a"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/design-decisions/README.md"
+question = "says nearly what evidence/pseudocode/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "0155dd637cf4"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-design/README.md"
+question = "says nearly what evidence/pseudocode/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "b8562379e589"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/README.md"
+question = "says nearly what evidence/pseudocode/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "daf8fb930b69"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/system-design/README.md"
+question = "says nearly what evidence/system-diagrams/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "5f30e5c3ba5a"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/design-decisions/README.md"
+question = "says nearly what evidence/system-diagrams/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "0155dd637cf4"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-design/README.md"
+question = "says nearly what evidence/system-diagrams/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "b8562379e589"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-descriptions/README.md"
+question = "says nearly what evidence/system-design/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "09c45654ceca"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-descriptions/README.md"
+question = "says nearly what evidence/design-decisions/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "09c45654ceca"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/architecture-descriptions/README.md"
+question = "says nearly what evidence/architecture-design/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "09c45654ceca"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/README.md"
+question = "says nearly what evidence/system-diagrams/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "daf8fb930b69"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/README.md"
+question = "says nearly what evidence/architecture-descriptions/README.md (line 5) says, similarity 0.97: one fact in two places?"
+file = "daf8fb930b69"
+answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/protocol.md"
+question = "says nearly what evidence/pseudocode/protocol.md (line 7) says, similarity 0.96: one fact in two places?"
+file = "9a268c405c4f"
+answer = "Not one fact: each protocol states, in a sentence, which rule of Garousi 2019 it applies or which databases gave its counts on its day; the shared rule is linked from the evidence method, and the answers and counts that follow differ by topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/design-decisions/protocol.md"
+question = "says nearly what evidence/system-design/protocol.md (line 46) says, similarity 0.95: one fact in two places?"
+file = "a74212c39228"
+answer = "Not one fact: each protocol states, in a sentence, which rule of Garousi 2019 it applies or which databases gave its counts on its day; the shared rule is linked from the evidence method, and the answers and counts that follow differ by topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/protocol.md"
+question = "says nearly what evidence/system-design/protocol.md (line 46) says, similarity 0.94: one fact in two places?"
+file = "9a268c405c4f"
+answer = "Not one fact: each protocol states, in a sentence, which rule of Garousi 2019 it applies or which databases gave its counts on its day; the shared rule is linked from the evidence method, and the answers and counts that follow differ by topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/protocol.md"
+question = "says nearly what evidence/architecture-design/protocol.md (line 7) says, similarity 0.92: one fact in two places?"
+file = "9a268c405c4f"
+answer = "Not one fact: each protocol states, in a sentence, which rule of Garousi 2019 it applies or which databases gave its counts on its day; the shared rule is linked from the evidence method, and the answers and counts that follow differ by topic."
+
+[[answer]]
+check = "paraphrase"
+path = "evidence/algorithm-design/protocol.md"
+question = "says nearly what evidence/design-decisions/protocol.md (line 41) says, similarity 0.92: one fact in two places?"
+file = "9a268c405c4f"
+answer = "Not one fact: each protocol states, in a sentence, which rule of Garousi 2019 it applies or which databases gave its counts on its day; the shared rule is linked from the evidence method, and the answers and counts that follow differ by topic."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/algorithm-design/against.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "25e787c48a96"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/algorithm-design/state-of-the-art.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "227ea3453c88"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/architecture-descriptions/review.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "f781c90f0af6"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/architecture-descriptions/state-of-the-art.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "b5ea43b6ae2a"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/architecture-design/review.md"
+question = "reads about equally as explanation and reference: one mode per document?"
+file = "7c556d0452ea"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/design-decisions/README.md"
+question = "reads about equally as how-to and explanation: one mode per document?"
+file = "0155dd637cf4"
+answer = "Reference: the topic's index, its files and its claims table, looked up rather than followed."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/design-decisions/baseline.md"
+question = "reads about equally as reference and explanation: one mode per document?"
+file = "7ca64e894f8d"
+answer = "Reference: the named baseline and the comparison it calls for, looked up when a rule is compared; each reason is one line."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/design-decisions/protocol.md"
+question = "reads about equally as how-to and explanation: one mode per document?"
+file = "a74212c39228"
+answer = "How-to, for a reviewer who reruns the search: the numbered sections are the steps in order, and each step's reason stays beside it."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/pseudocode/frame.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "3b68f2fbe0a0"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/pseudocode/protocol.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "069cc4b5f557"
+answer = "How-to, for a reviewer who reruns the search: the numbered sections are the steps in order, and each step's reason stays beside it."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/pseudocode/review.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "48629d7a6fb5"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/system-design/frame.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "b2def0e87ad0"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/system-diagrams/against.md"
+question = "reads about equally as reference and how-to: one mode per document?"
+file = "bd8ef18ddbbb"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/system-diagrams/frame.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "c8bda2fa6e16"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/system-diagrams/position.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "0addf43acf34"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/system-diagrams/review.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "5d9b801326e3"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "document-mode"
+path = "evidence/system-diagrams/state-of-the-art.md"
+question = "reads about equally as how-to and reference: one mode per document?"
+file = "450bb3f6edff"
+answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
+
+[[answer]]
+check = "section-cohesion"
+path = "README.md"
+question = "section 'Check it' is far from every other section (0.24): a second role?"
+file = "4a58229d8866"
+answer = "No second role: a front page says how to check the repository, as reader-ergonomics' own does; the section is far from the others because it holds commands, not prose."
+
+[[answer]]
+check = "tree-shape"
+path = "checks"
+question = "1 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: checks/ is the extension point reader-ergonomics' extending.md names (config.toml, local/); it holds the judgment answers now, and the config and local checks when they are written."
