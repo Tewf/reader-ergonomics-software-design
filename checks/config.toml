@@ -1,0 +1,8 @@
+# This repository's settings over reader-ergonomics' own, merged table by table; a value here wins
+# (reader-ergonomics extending.md, the interface). Only the values that change are written.
+extends = "reader-ergonomics"
+
+[co_change]
+# The judgment answers change with every file they answer for, as the bibliography changes with every review;
+# asking whether they belong beside each of those files cannot settle, since answering changes the file again.
+exempt = ["standard.md", "llms.txt", "evidence/bibliography.md", "checks/judgments.toml"]
