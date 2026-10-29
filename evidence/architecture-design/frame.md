@@ -64,5 +64,5 @@ Choose how one software system is divided into parts and how the parts depend on
 | system-design | data, consistency, replication, failure, capacity, APIs between services, checking a design before building (Newcombe 2015) |
 | algorithm-design | design techniques, specification, function-level planning for code generation |
 
-- The general reading principles are linked, not reviewed again: [overview first](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/principles/document/overview-first.md), [define before use](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/principles/document/define-before-use.md).
+- The general reading principles are linked, not reviewed again: [overview first](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/document/overview-first.md), [define before use](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/principles/document/define-before-use.md).
 - Out of scope: whether a particular system is well designed; code-level design rules (naming, functions); programming languages.

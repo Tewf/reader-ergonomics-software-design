@@ -2,11 +2,11 @@
 
 For anyone changing this repository, person or language model. To design software with it, read
 [standard.md](standard.md) instead; this file is about this repository only. It extends reader-ergonomics through the
-interface in that repository's [extending.md](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/extending.md), and relies on nothing else there.
+interface in that repository's [extending.md](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/extending.md), and relies on nothing else there.
 
 ## Before writing
 
-1. Read reader-ergonomics' [standard.md](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/standard.md), then this repository's [standard.md](standard.md). A
+1. Read reader-ergonomics' [standard.md](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/standard.md), then this repository's [standard.md](standard.md). A
    principle that reader-ergonomics holds is linked, never restated here.
 2. A principle belongs here only when software design changes it: the reader is often an implementer, a person or a
    model, who builds from the text.
@@ -17,7 +17,7 @@ interface in that repository's [extending.md](https://github.com/Tewf/reader-erg
 
 ## Rules for claims
 
-- The rules for claims are reader-ergonomics' own, as [its AGENTS.md](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/AGENTS.md) lists them:
+- The rules for claims are reader-ergonomics' own, as [its AGENTS.md](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/AGENTS.md) lists them:
   - every principle has a grade;
   - the text cites `Author Year`, with one entry in [evidence/bibliography.md](evidence/bibliography.md);
   - the evidence against a claim is kept in `against.md`;

@@ -2,7 +2,7 @@
 
 What designing software before the code shares, as far as the evidence goes: the rules for an algorithm's
 specification, a design document, a decision record, an architecture description and a diagram. It extends
-[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/standard.md), the standard for any reader: read that one first. This page adds only what
+[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/standard.md), the standard for any reader: read that one first. This page adds only what
 software design changes, since its reader is often an implementer, a person or a model, who builds from the text.
 
 ## How to use it
@@ -48,7 +48,7 @@ digraph how_to_use {
 2. **Write to the principles** below, and to those of reader-ergonomics, which still hold.
 3. **Check:** the local checks in `checks/local/` run with the standard's own.
 
-Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/e8864477a53d713251ba42a4cf7b7a0d761243a2/standard.md#grades): measured, supported with caveat,
+Grades mean what they mean in [reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/c08433c4d868d9b38ac1441f58ae7602c399db6d/standard.md#grades): measured, supported with caveat,
 convention, not supported. Each principle states its grade and never claims more.
 
 ## Principles
