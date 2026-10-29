@@ -2,7 +2,8 @@
 
 Question: how is a running system (services, data stores, networks and machines) designed before it is built? The system should meet its load, reliability and consistency goals. The review asks what the evidence says about the principles used.
 
-Steps: [protocol](protocol.md) · [sources](sources.md) · [frame](frame.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+| Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
+|---|---|---|---|---|---|---|---|---|---|
 
 Method: after Garousi 2019, a multivocal literature review by one reviewer; the shared rules are in the [evidence method](../README.md#method). The search ran on 2026-10-29, and a second pass the same day read open copies and ran snowballing.
 

@@ -4,7 +4,7 @@ The searches, screening and scoring of the system-design review are set out here
 
 ## 1. Why grey literature
 
-Garousi 2019 Table 4 lists seven questions for grey literature, where a single yes suffices. For system design every answer is yes.
+Garousi 2019 Table 4 lists seven questions for grey literature, where a single yes suffices ([the rule](../README.md#method)). For system design every answer is yes.
 
 | # | Question | Answer for this topic |
 |---|---|---|

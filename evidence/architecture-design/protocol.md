@@ -4,7 +4,7 @@ This file records how the architecture-design review was searched, screened and 
 
 ## 1. Why grey literature
 
-Of the seven questions in Garousi 2019 Table 4, one yes would justify grey literature; all seven are yes for this topic.
+Of the seven questions in Garousi 2019 Table 4, one yes would justify grey literature; all seven are yes for this topic ([the rule](../README.md#method)).
 
 | # | Question | Answer for this topic |
 |---|---|---|

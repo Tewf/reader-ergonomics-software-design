@@ -2,7 +2,8 @@
 
 Question: how should design documents, RFCs and architecture decision records be written, so a reader can judge a proposal before it is adopted and later recover why the system is as it is.
 
-Steps: [protocol](protocol.md) · [sources](sources.md) · [frame](frame.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+| Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
+|---|---|---|---|---|---|---|---|---|---|
 
 This is a multivocal literature review (Garousi 2019) by one reviewer, searched on 2026-10-28.
 

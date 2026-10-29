@@ -2,7 +2,8 @@
 
 Question: how is the structure of one software system chosen before it is built? The structure should meet its quality goals and stay cheap to change. The review asks what the evidence says about the methods and principles used to choose it.
 
-Steps: [protocol](protocol.md) · [sources](sources.md) · [frame](frame.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+| Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
+|---|---|---|---|---|---|---|---|---|---|
 
 Method: a multivocal literature review (Garousi 2019, [evidence method](../README.md#method)), one reviewer, searched on 2026-10-29.
 

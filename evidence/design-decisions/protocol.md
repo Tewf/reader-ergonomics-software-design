@@ -4,7 +4,7 @@ This file states how another reviewer can repeat the search, screening and scori
 
 ## 1. Why grey literature
 
-Garousi 2019 Table 4: one "yes" suggests including grey literature. All seven answers here are yes.
+Garousi 2019 Table 4: one "yes" suggests including grey literature ([the rule](../README.md#method)). All seven answers here are yes.
 
 | # | Question | Answer for this topic |
 |---|---|---|

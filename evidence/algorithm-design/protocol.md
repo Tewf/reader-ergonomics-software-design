@@ -4,7 +4,7 @@ This file records how the algorithm-design review was searched, screened and sco
 
 ## 1. Why grey literature
 
-Garousi 2019 Table 4 asks seven questions, and one yes is enough to add grey literature. Here all seven are yes.
+Garousi 2019 Table 4 asks seven questions, and one yes is enough to add grey literature ([the rule](../README.md#method)). Here all seven are yes.
 
 | # | Question | Answer for this topic |
 |---|---|---|

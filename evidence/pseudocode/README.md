@@ -2,7 +2,8 @@
 
 Question: how should an algorithm be presented (pseudocode, flowchart, structured English, program design language, literate program, executable specification, real code) so the reader understands it and can implement or verify it.
 
-Steps: [frame](frame.md) · [protocol](protocol.md) · [sources](sources.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+| Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
+|---|---|---|---|---|---|---|---|---|---|
 
 Related general principles (not reviewed again here):
 

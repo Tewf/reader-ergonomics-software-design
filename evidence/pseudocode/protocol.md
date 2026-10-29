@@ -4,7 +4,7 @@ This file records how the literature on presenting algorithms was searched, scre
 
 ## 1. Why grey literature
 
-Garousi 2019 Table 4 asks seven questions; one "yes" suggests including grey literature. All seven are "yes" here.
+Garousi 2019 Table 4 asks seven questions; one "yes" suggests including grey literature ([the rule](../README.md#method)). All seven are "yes" here.
 
 | # | Question | Answer for pseudocode |
 |---|---|---|

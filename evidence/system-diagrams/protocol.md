@@ -4,6 +4,8 @@ This file records every search, count, rule and limit of this multivocal literat
 
 ## 1. Why grey literature (Garousi 2019, Table 4)
 
+One yes among the seven questions is enough to include grey literature ([the rule](../README.md#method)).
+
 | # | Question | Answer for system diagrams |
 |---|---|---|
 | 1 | Subject complex, not solvable by formal literature alone? | Yes: research studies UML, practice draws C4, cloud icons and diagrams as code |

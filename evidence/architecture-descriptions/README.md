@@ -2,7 +2,8 @@
 
 Question: how should a description of a software system's architecture be organised (views, levels of abstraction, sections, entry points)? The reader may be a new team member, a reviewer or an operator; each must find what they need and build a correct model of the system.
 
-Steps: [frame](frame.md) · [protocol](protocol.md) · [review](review.md) · [sources](sources.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+| Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
+|---|---|---|---|---|---|---|---|---|---|
 
 Method: a multivocal literature review (Garousi 2019), 92 sources: 51 formal, 41 grey of which 8 score below 10 of 20 (examples of practice only). The grey sources include 21 threads from Q/A sites.
 

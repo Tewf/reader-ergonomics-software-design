@@ -6,7 +6,7 @@ Grey literature, which the review includes, is defined in the [design-decisions 
 
 ## 1. Why grey literature
 
-Garousi 2019 Table 4: one "yes" suggests including grey literature. All seven answers are yes for this topic.
+Garousi 2019 Table 4: one "yes" suggests including grey literature ([the rule](../README.md#method)). All seven answers are yes for this topic.
 
 | # | Question | Answer for this topic |
 |---|---|---|

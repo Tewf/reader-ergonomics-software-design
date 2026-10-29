@@ -26,6 +26,9 @@ Each topic is a **multivocal literature review** built to a written protocol aft
 | `protocol.md` | why grey literature is included, the questions, every search string with its date and count, the stopping rule, the selection criteria |
 | `sources.md` | every included source, how it was found, and its quality: the evidence grade for research, a score out of 20 for grey literature |
 
+Grey literature is included when a topic answers yes to any of the seven questions of Garousi 2019, Table 4; each
+protocol answers them in its section 1.
+
 A grey source is scored on Garousi's 20 criteria, in eight groups. The `sources.md` tables abbreviate the groups with letters:
 
 - A: authority (of 4)

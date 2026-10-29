@@ -2,7 +2,8 @@
 
 Question: how is an algorithm designed and its intended behaviour stated before it is coded? The aim is that an implementer, a person or a model, builds it correctly and a reader can check it. The review asks what the evidence says about the methods.
 
-Steps: [protocol](protocol.md) · [sources](sources.md) · [frame](frame.md) · [review](review.md) · [state of the art](state-of-the-art.md) · [position](position.md) · [against](against.md) · [baseline](baseline.md) · [bibliography](../bibliography.md)
+| Steps | [frame](frame.md) | [review](review.md) | [state of the art](state-of-the-art.md) | [position](position.md) | [against](against.md) | [baseline](baseline.md) | [protocol](protocol.md) | [sources](sources.md) | [bibliography](../bibliography.md) |
+|---|---|---|---|---|---|---|---|---|---|
 
 Method: a multivocal literature review after Garousi 2019 (see the [evidence method](../README.md#method)), one reviewer, searched on 2026-10-29.
 
