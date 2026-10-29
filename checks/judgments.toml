@@ -263,9 +263,9 @@ answer = "One role: the repeatable record of this topic's search. Its opening sa
 [[answer]]
 check = "logical-lines"
 path = "evidence/architecture-descriptions/protocol.md"
-question = "169 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "c01456cf4c55"
-answer = "One role: the record from which the architecture-descriptions search can be repeated, as `A reader can repeat the search from it.` says. Sections `5. Grey search` and `7. Selection` follow the order of the search. It stays whole."
+question = "201 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "3609b8f96f22"
+answer = "One role: the record from which the architecture-descriptions search can be repeated, as `A reader can repeat the search from it.` says. Sections `4. Formal search` and `5. Grey search` list every string as a table row, which is most of the length, and the sections follow the order of the search. It stays whole."
 [[answer]]
 check = "logical-lines"
 path = "evidence/architecture-design/protocol.md"
@@ -306,7 +306,7 @@ answer = "No: the index changed with each topic README because passes over all s
 check = "paraphrase"
 path = "evidence/architecture-descriptions/protocol.md"
 question = "says nearly what evidence/design-decisions/protocol.md (line 7) says, similarity 0.99: one fact in two places?"
-file = "c01456cf4c55"
+file = "3609b8f96f22"
 answer = "No: the sentence is now a one-line reminder, as in `All seven answers are yes for this topic`, that links the rule with `[the rule](../README.md#method)` instead of stating it, which is the standard's remedy for a distant use. What stays here is this topic's own result, that every Table 4 answer is yes."
 [[answer]]
 check = "paraphrase"
@@ -432,19 +432,19 @@ answer = "No: the protocols changed together in passes over every topic, the las
 check = "co-change"
 path = "evidence/architecture-descriptions/protocol.md"
 question = "changed together with evidence/design-decisions/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "c01456cf4c55"
+file = "3609b8f96f22"
 answer = "No: the protocols changed together in passes over every topic, the last one adding `### OpenAlex counts` to each; each holds one topic's search record, and the method they share is stated once in the evidence index."
 [[answer]]
 check = "co-change"
 path = "evidence/architecture-descriptions/protocol.md"
 question = "changed together with evidence/pseudocode/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "c01456cf4c55"
+file = "3609b8f96f22"
 answer = "No: the protocols changed together in passes over every topic, the last one adding `### OpenAlex counts` to each; each holds one topic's search record, and the method they share is stated once in the evidence index."
 [[answer]]
 check = "co-change"
 path = "evidence/architecture-descriptions/protocol.md"
 question = "changed together with evidence/system-diagrams/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "c01456cf4c55"
+file = "3609b8f96f22"
 answer = "No: the protocols changed together in passes over every topic, the last one adding `### OpenAlex counts` to each; each holds one topic's search record, and the method they share is stated once in the evidence index."
 [[answer]]
 check = "co-change"

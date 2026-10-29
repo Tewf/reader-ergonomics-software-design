@@ -9,17 +9,21 @@ software design changes, since its reader is often an implementer, a person or a
 
 ```text
  what is being designed?
-  ├─ an algorithm ─────────▶ algorithm specification
-  ├─ a change to agree on ─▶ design document, then a decision record
-  └─ a whole system ───────▶ architecture description, with system diagrams
-                                       │
-                                       ▼
-                      write it to the principles below
-                                       ▼
-               python3 <reader-ergonomics>/checks/run.py .
-                                       ├─▶ error     certain: fix it
-                                       ├─▶ warning   fix it, or say why it is a false match
-                                       └─▶ judgment  answer it in checks/judgments.toml
+  ├─ an algorithm
+  │    └─▶ algorithm specification
+  ├─ a change to agree on
+  │    └─▶ design document, then a decision record
+  └─ a whole system
+       └─▶ architecture description, with system diagrams
+
+ then, whatever the shape:
+  write it to the principles below
+   │
+   ▼
+  python3 <reader-ergonomics>/checks/run.py .
+   ├─▶ error     certain: fix it
+   ├─▶ warning   fix it, or say why it is a false match
+   └─▶ judgment  answer it in checks/judgments.toml
 ```
 
 1. **Pick the shape** from [shapes/](shapes/README.md), and name it in the document with a `**Shape:**` line that

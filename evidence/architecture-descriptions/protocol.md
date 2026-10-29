@@ -47,26 +47,26 @@ OpenAlex was tried first and gave a count for no string: its shared daily budget
 
 Strings as run (hit counts in [sources](sources.md)):
 
-```text
-F1  "architecture documentation" | "architectural documentation" | "software architecture documentation"
-F2  ("architecture description" | "architecture descriptions") + (42010 | stakeholder* | viewpoint*)
-F3  ("architectural views" | "architecture views" | "viewpoints") + "software architecture"
-F4  ("architectural knowledge" | "architecture knowledge") + (retrieval | search | documentation | management)
-F5  "docs as code" | "documentation as code" | "docs-as-code"
-F5b docs as code documentation software      (relevance-ranked endpoint)
-F6  ("systematic literature review" | "systematic mapping" | "systematic review" | "mapping study" | "multivocal literature review") + ("architecture documentation" | "architectural documentation" | "architecture description" | "architectural knowledge")
-F7  (newcomer* | onboarding) + "architecture documentation"
-F8  "C4 model" | "arc42"
-F9  "multivocal" + "software architecture"
-F10 "architecture documentation" + (readability | comprehension | understandability | usability)
-F11 ("software architecture" | "architecture description") + (grey | "grey literature" | practitioners) + (documentation | description)
-F12 "C4 model" + "software architecture"
-F13 "arc42"
-F14 "architecture documentation" + (survey | interview* | practitioners)
-F15 ("ARCHITECTURE.md" | "architecture overview") + "open source" + (newcomers | contributors)
-A1  ti:"architecture documentation" OR ti:"architectural documentation" OR ti:"architecture description" OR ti:"architecture descriptions"   (arXiv)
-A2  abs:"architecture documentation" AND (abs:newcomer OR abs:onboarding OR abs:developers)   (arXiv)
-```
+| Id | String as run | Note |
+|---|---|---|
+| F1 | "architecture documentation" \| "architectural documentation" \| "software architecture documentation" |  |
+| F2 | ("architecture description" \| "architecture descriptions") + (42010 \| stakeholder* \| viewpoint*) |  |
+| F3 | ("architectural views" \| "architecture views" \| "viewpoints") + "software architecture" |  |
+| F4 | ("architectural knowledge" \| "architecture knowledge") + (retrieval \| search \| documentation \| management) |  |
+| F5 | "docs as code" \| "documentation as code" \| "docs-as-code" |  |
+| F5b | docs as code documentation software | relevance-ranked endpoint |
+| F6 | ("systematic literature review" \| "systematic mapping" \| "systematic review" \| "mapping study" \| "multivocal literature review") + ("architecture documentation" \| "architectural documentation" \| "architecture description" \| "architectural knowledge") |  |
+| F7 | (newcomer* \| onboarding) + "architecture documentation" |  |
+| F8 | "C4 model" \| "arc42" |  |
+| F9 | "multivocal" + "software architecture" |  |
+| F10 | "architecture documentation" + (readability \| comprehension \| understandability \| usability) |  |
+| F11 | ("software architecture" \| "architecture description") + (grey \| "grey literature" \| practitioners) + (documentation \| description) |  |
+| F12 | "C4 model" + "software architecture" |  |
+| F13 | "arc42" |  |
+| F14 | "architecture documentation" + (survey \| interview* \| practitioners) |  |
+| F15 | ("ARCHITECTURE.md" \| "architecture overview") + "open source" + (newcomers \| contributors) |  |
+| A1 | ti:"architecture documentation" OR ti:"architectural documentation" OR ti:"architecture description" OR ti:"architecture descriptions" | arXiv |
+| A2 | abs:"architecture documentation" AND (abs:newcomer OR abs:onboarding OR abs:developers) | arXiv |
 
 - Known limit of the engine: it matched loosely on some strings, so F5 and F8 returned unrelated hits (plant biology, genomics). Their counts are reported but carry no weight.
 - Snowballing, forward: the papers citing Rost 2013, Ernst 2023, Dagenais 2010, Lethbridge 2003, Ding 2014a and de Graaf 2016 were listed and screened by title (the first 200 per seed).
@@ -113,22 +113,22 @@ Grey types chosen, with the reason:
 
 Web queries as run (about 10 results each, one web search engine):
 
-```text
-G1  how to document software architecture
-G2  software architecture documentation best practices
-G3  ARCHITECTURE.md file in repository overview for new contributors
-G4  docs as code architecture documentation
-G5  softwareengineering.stackexchange how to document software architecture for new team members
-G6  Simon Brown talk visualise document explore software architecture C4 InfoQ
-G7  onboarding new developers architecture overview documentation engineering blog
-G8  Diátaxis documentation framework tutorials how-to reference explanation
-G9  architecture documentation views presentation   (restricted to infoq.com, martinfowler.com, thoughtworks.com)
-G10 arc42 template adoption survey companies using arc42 architecture documentation
-G11 state of software architecture survey architects how they document architecture percent respondents
-W1  systematic mapping study OR literature review software architecture documentation practitioners
-W2  multivocal literature review software architecture documentation grey literature
-O1  architecture documentation methods scientific and grey sources Helsinki   (the one OpenAlex query that returned, before the budget ran out)
-```
+| Id | Query as run | Note |
+|---|---|---|
+| G1 | how to document software architecture |  |
+| G2 | software architecture documentation best practices |  |
+| G3 | ARCHITECTURE.md file in repository overview for new contributors |  |
+| G4 | docs as code architecture documentation |  |
+| G5 | softwareengineering.stackexchange how to document software architecture for new team members |  |
+| G6 | Simon Brown talk visualise document explore software architecture C4 InfoQ |  |
+| G7 | onboarding new developers architecture overview documentation engineering blog |  |
+| G8 | Diátaxis documentation framework tutorials how-to reference explanation |  |
+| G9 | architecture documentation views presentation | restricted to infoq.com, martinfowler.com, thoughtworks.com |
+| G10 | arc42 template adoption survey companies using arc42 architecture documentation |  |
+| G11 | state of software architecture survey architects how they document architecture percent respondents |  |
+| W1 | systematic mapping study OR literature review software architecture documentation practitioners |  |
+| W2 | multivocal literature review software architecture documentation grey literature |  |
+| O1 | architecture documentation methods scientific and grey sources Helsinki | the one OpenAlex query that returned, before the budget ran out |
 
 Besides the strings, nine title lookups were run to read the abstract of a review already found; they are counted in [sources](sources.md).
 
