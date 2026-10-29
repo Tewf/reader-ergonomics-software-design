@@ -12,8 +12,8 @@ live there and are not repeated here. This repository will add only what is part
 about it: its evidence, and the shapes of its documents.
 
 > **Status:** work in progress. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
-> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). Three shapes are
-> written (algorithm specification, design document, decision record); the other shapes and the principles are not started. It is an
+> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). Four shapes are
+> written (algorithm specification, design document, decision record, architecture description); the last shape and the principles are not started. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the
 > state of the art.
 >
@@ -36,9 +36,10 @@ The same as reader-ergonomics, so a reader of one can find their way in the othe
 
 - `evidence/<topic>/`: one literature review per topic, one file per step (frame, review, state of the art, position,
   the case against, baseline), plus its protocol and its scored sources; written for seven topics;
-- [`shapes/`](shapes/): the skeleton of each kind of document, with the evidence behind each part; written are the
-  [algorithm specification](shapes/algorithm-specification.md), the [design document](shapes/design-document.md) and the
-  [decision record](shapes/decision-record.md), and two more are planned;
+- [`shapes/`](shapes/): the skeleton of each kind of document, with the evidence behind each part. Written are the
+  [algorithm specification](shapes/algorithm-specification.md), the [design document](shapes/design-document.md), the
+  [decision record](shapes/decision-record.md) and the [architecture description](shapes/architecture-description.md), and one more
+  is planned;
 - [`decisions/`](decisions/): the records of this repository's own design choices;
 - `principles/`: only where writing about software differs from the general standard (planned).
 
