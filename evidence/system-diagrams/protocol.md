@@ -51,13 +51,37 @@ One yes among the seven questions is enough to include grey literature ([the rul
 | 16 | "multivocal" + "architecture documentation" | 0 | 0 |
 | 17 | "software architecture" + diagram + practitioners + survey | 5 | 5 |
 
-- Second database, OpenAlex, `title_and_abstract.search`, strings 1 to 8 only: 2, 49, 41, 5, 55, 25, 7, 3 hits. Its daily quota ended there, so strings 9 to 17 have one database.
+- Second database, OpenAlex, `title_and_abstract.search`, strings 1 to 8 only: 2, 49, 41, 5, 55, 25, 7, 3 hits. Its daily quota ended there. All 17 strings were counted on 2026-10-29, in the table OpenAlex counts below; strings 1 to 8 gave the same counts as on the day.
 - Screening: all hits when 20 or fewer; otherwise the top 20 by citation count (top 12 for strings 5 and 12).
 - Zero hits on string 16 was read as a weak query, not as absence: strings 4 and 17 cover the topic.
 - A quick check on arXiv (abstract field) gave 3 hits for "physics of notations", 5 for "C4 model" and 2 for "architecture diagrams" with "practitioners".
 - The strict arXiv queries for "multivocal" with "diagram" and for "eye tracking" with "UML" returned 0. They were read as weak queries and covered by strings 10, 15 and 16.
 - Backward snowballing: the review lists of Dikici 2018, Störrle 2016b and Nicacio 2022.
 - Forward snowballing: citing papers of Störrle 2011 (59), Budgen 2011 (153) and Moody 2009a (1000 listed, the most the service returned), by title keywords.
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| 1 | `"systematic review" AND UML AND comprehension` | 2 |
+| 2 | `"systematic literature review" AND UML AND diagram` | 49 |
+| 3 | `"mapping study" AND UML` | 41 |
+| 4 | `"systematic mapping" AND "software architecture" AND visualization` | 5 |
+| 5 | `"physics of notations"` | 55 |
+| 6 | `"visual notation" AND "cognitive effectiveness"` | 25 |
+| 7 | `UML AND layout AND comprehension AND experiment` | 7 |
+| 8 | `"diagram layout" AND UML AND understanding` | 3 |
+| 9 | `"architecture diagram" AND readability` | 25 |
+| 10 | `"UML" AND "eye tracking"` | 18 |
+| 11 | `"data flow diagram" AND security AND experiment` | 11 |
+| 12 | `"diagrams as code"` | 7 |
+| 13 | `"C4 model" AND architecture` | 62 |
+| 14 | `sketches AND "software design" AND practice` | 16 |
+| 15 | `"multivocal" AND diagram` | 7 |
+| 16 | `"multivocal" AND "architecture documentation"` | 0 |
+| 17 | `"software architecture" AND diagram AND practitioners AND survey` | 4 |
 
 ## 5. Grey search, run 2026-10-28
 

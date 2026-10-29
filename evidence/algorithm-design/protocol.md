@@ -45,7 +45,7 @@ Garousi 2019 Table 4 asks seven questions, and one yes is enough to add grey lit
 
 ## 4. Formal search
 
-Count sources: the Semantic Scholar bulk title-and-abstract search (no key) and the arXiv search API (all fields). OpenAlex was not called: its anonymous daily budget is spent until 00:00 UTC on 2026-10-30, so its counts are absent and are added afterwards by script from the strings in the file openalex.tsv. Semantic Scholar and arXiv match words, not phrases, so counts are noisy upper bounds. Semantic Scholar lists were ordered by citations.
+Count sources: the Semantic Scholar bulk title-and-abstract search (no key) and the arXiv search API (all fields). OpenAlex was not called during the search, since its anonymous daily budget was spent; its counts were taken later the same day and are in the table OpenAlex counts below. Semantic Scholar and arXiv match words, not phrases, so counts are noisy upper bounds. Semantic Scholar lists were ordered by citations.
 
 | Id | String as run (Semantic Scholar syntax) | Semantic Scholar | arXiv |
 |---|---|---|---|
@@ -75,6 +75,31 @@ Count sources: the Semantic Scholar bulk title-and-abstract search (no key) and 
   - Dropped: a 1997 workshop paper on why formal methods are not used more widely (no resolvable record).
   - Corrected: the contracts-in-the-wild study is by Dietrich, Pearce, Jezek and Brada, not the authors first recalled.
 - Snowballing, backward: the references of Liu 2024 section 5.1 gave Ginat 2003 and Bennedsen 2008. Forward: not run.
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| F1 | `"algorithm design techniques" OR "algorithm design paradigms" OR "algorithm design strategies"` | 362 |
+| F2 | `"algorithmic problem solving" AND students` | 220 |
+| F3 | `"design recipe" AND programming` | 43 |
+| F4 | `"programming plans" OR ("plan composition" AND novice)` | 18,058 |
+| F5 | `"correctness by construction" AND program` | 102 |
+| F6 | `"design by contract" OR "programming by contract"` | 701 |
+| F7 | `"loop invariants"` | 1,113 |
+| F8 | `"formal specification" AND empirical AND (experiment OR survey OR "case study")` | 244 |
+| F9 | `"formal methods" AND industry AND (survey OR practice OR adoption)` | 370 |
+| F10 | `"property-based testing"` | 543 |
+| F11 | `"algorithm engineering" OR "experimental algorithmics"` | 1,097 |
+| F12 | `"formal specification" AND (readability OR comprehension OR understandability OR notation)` | 1,753 |
+| F13 | `"large language models" AND code AND generation AND (specification OR postcondition OR "formal specification")` | 828 |
+| F14 | `planning AND "code generation" AND "language models"` | 423 |
+| F15 | `"test-driven" AND "language models" AND "code generation"` | 61 |
+| F16 | `"specification-driven development" OR "spec-driven development"` | 117 |
+| F17 | `"refinement calculus" OR "program derivation" OR "program calculation"` | 2,665 |
+| F18 | `Dafny AND verification AND "language models"` | 36 |
 
 ## 5. Grey search
 
@@ -180,7 +205,7 @@ Site names: SESE Software Engineering Stack Exchange; CS Computer Science Stack 
 
 - The limits shared by every review are in the [evidence method](../README.md#method).
 - One reviewer, no second rater, no inter-rater agreement.
-- OpenAlex counts are missing and the lists are ordered by citations. Forward snowballing was not run; backward covered one review.
+- The Semantic Scholar lists are ordered by citations. Forward snowballing was not run; backward covered one review.
 - Sources read by title only support no claim.
 - Sobel 2002 was not read as a paper, only through its published comment; Levitin 1999 was read in full later, through a library.
 - The main books (Polya, Gries, Kourie, Abrial, Back, McGeoch, Kleinberg, Skiena) were not opened.

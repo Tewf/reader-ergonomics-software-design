@@ -15,7 +15,7 @@ Method: after Garousi 2019, a multivocal literature review by one reviewer; the 
   - 10 were read in full text, and Newcombe 2015 in its preprint.
 - It claims to be neither a standard, nor a new result, nor the state of the art.
 - The mark "(secondary)" goes on a number read only in an abstract or a summary.
-- Counts from OpenAlex are missing; its queries are in `openalex.tsv`.
+- OpenAlex counts were taken after the search, the same day; they are in the [protocol](protocol.md).
 
 ## Claims
 

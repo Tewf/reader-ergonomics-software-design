@@ -11,7 +11,7 @@ Method: a multivocal literature review (Garousi 2019, [evidence method](../READM
 - It holds 65 formal sources and 30 grey ones. The grey ones are 13 web sources scored, 11 threads from Q/A sites scored and 6 books not opened. Two of the scored grey sources fall below the threshold of 10 of 20 and are examples only.
 - It is no standard, no new result and no claim on the state of the art.
 - A number read only in an account of an abstract is marked "(secondary)"; 11 formal works were not reached beyond a summary line or the title ("located only"), and sources.md says which.
-- Counts from OpenAlex and arXiv are absent; the strings for OpenAlex are in `openalex.tsv`.
+- arXiv counts are absent; OpenAlex counts were taken after the search and are in the [protocol](protocol.md).
 
 ## Claims
 

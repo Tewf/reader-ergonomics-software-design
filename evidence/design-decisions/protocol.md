@@ -38,7 +38,7 @@ Garousi 2019 Table 4: one "yes" suggests including grey literature ([the rule](.
 
 ## 4. Formal search
 
-Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv search API (all fields). OpenAlex, the intended source, refused every request on the day (daily budget exhausted), so its counts are absent; Semantic Scholar matches words, not phrases, so counts are noisy upper bounds.
+Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv search API (all fields). OpenAlex, the intended source, refused every request on the day (daily budget exhausted). Its counts were taken a day later, in the table below. Semantic Scholar matches words, not phrases, so counts are noisy upper bounds.
 
 | Id | String as run | Semantic Scholar | arXiv |
 |---|---|---|---|
@@ -55,6 +55,23 @@ Count source: the Semantic Scholar bulk title-and-abstract search, and the arXiv
 
 - Screened by title: all hits of F2, F3, F6; the 15 most cited of F1, F4, F5, F7, F8; the first 12 arXiv hits of each arXiv string. F9 was too noisy to screen on Semantic Scholar (physics, imaging); its arXiv set gave one lead.
 - Snowballing, backward: the reference lists of Tofan 2014 and Harhio 2022 were read for further reviews. Forward: Semantic Scholar citations of Tofan 2014 were listed (first page only). Both are partial.
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| F1 | `"design rationale" AND software` | 676 |
+| F2 | `"architecture decision records"` | 129 |
+| F3 | `"architectural decision records"` | 129 |
+| F4 | `"architectural design decisions"` | 795 |
+| F5 | `"architectural knowledge" AND decision` | 455 |
+| F6 | `"decision documentation" AND architecture` | 28 |
+| F7 | `"design document" AND software AND review` | 119 |
+| F8 | `"request for comments" AND design AND software` | 10 |
+| F9 | `"enhancement proposals"` | 210 |
+| F10 | `"architecture decision" AND (documentation OR rationale)` | 334 |
 
 ## 5. Grey search
 
@@ -154,7 +171,7 @@ Strings DD1 to DD18 ran on 2026-10-28, one reviewer, grey tier 2. The stopping p
 
 - A second rater re-scored 7 of this topic's grey sources blind ([method](../README.md#method)): all 7 decisions agree. The second scores were equal or higher, so the scores of exactly 10 (Microsoft 2026, Rust 2026b) sit near the threshold on one side only.
 - Search engines personalise and change; counts will differ on a repeat.
-- OpenAlex counts are missing; Semantic Scholar and arXiv counts are not phrase-exact.
+- Semantic Scholar and arXiv counts are not phrase-exact; the OpenAlex counts, taken a day after the search, are.
 - Forward snowballing was one page; backward snowballing covered two works.
 - Many formal sources were read by abstract only; sources.md says which.
 - This search did not find a study that measures reviewers reading proposals; that is not proof none exists.

@@ -48,6 +48,12 @@ For each source a review extracts its kind, year, claim, evidence and any number
 
 Limits every review shares: search engines personalise and drift, so a repeat gives other counts; Semantic Scholar and arXiv counts match words, not phrases; a source read by abstract only is marked so in `sources.md`.
 
+Search counts: each protocol's formal strings were also counted on OpenAlex on 2026-10-29, after the daily limit that
+had blocked them during the searches. Each string was translated (`|` to OR, `+` to AND, wildcards dropped) and
+searched as a phrase in titles and abstracts, at
+`https://api.openalex.org/works?filter=title_and_abstract.search:<query>&per_page=1`, reading `meta.count`. These
+counts are exact for the query as written, unlike the word-matching counts of Semantic Scholar and arXiv.
+
 How a number was read is marked beside it. "(secondary)" means only an abstract or another work's summary was read. The
 three design reviews also write "abstract read" when the paper's own abstract was read, and "located only" when nothing
 beyond the title and venue was reached; such a work supports no claim.

@@ -43,7 +43,7 @@ Adjusted after the frame: Q10 was added as the brief's strand "designing for a m
 
 ## 4. Formal search
 
-Counts come from the Semantic Scholar bulk search, title and abstract. They match words, not phrases, so they are noisy upper bounds. The arXiv counts are not obtained: its API answered HTTP 429 on the day for every call. The OpenAlex counts are not obtained either: it was not called (daily budget spent); the strings are in `openalex.tsv`, for counting later by script.
+Counts come from the Semantic Scholar bulk search, title and abstract. They match words, not phrases, so they are noisy upper bounds. The arXiv counts are not obtained: its API answered HTTP 429 on the day for every call. OpenAlex was not called during the search (daily budget spent); its counts were taken later the same day and are in the table OpenAlex counts below.
 
 | Id | String as run | Semantic Scholar |
 |---|---|---|
@@ -96,6 +96,44 @@ Counts come from the Semantic Scholar bulk search, title and abstract. They matc
   - Crossref's abstract field;
   - a general web search whose summaries paraphrase the abstract;
   - the research groups' own pages and preprint abstract pages. Publisher copies, SEI and DTIC reports and several author pages answered 403 or refused the connection; no PDF was saved.
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| R1 | `"software architecture" AND "systematic mapping study"` | 94 |
+| R2 | `"software architecture" AND "tertiary study"` | 2 |
+| R3 | `"architectural technical debt" AND systematic` | 23 |
+| R4 | `"architecture erosion" AND systematic` | 21 |
+| R5 | `"architecture smells" AND systematic` | 19 |
+| R6 | `"architecture evaluation" AND systematic` | 306 |
+| R7 | `Conway AND "socio-technical congruence" AND systematic` | 1 |
+| R8 | `microservices AND multivocal` | 35 |
+| R9 | `monolith AND microservices AND migration AND systematic` | 36 |
+| R10 | `agile AND "software architecture" AND "systematic literature review"` | 11 |
+| R11 | `"architectural tactics" AND systematic` | 43 |
+| R12 | `"large language model" AND "software architecture" AND systematic` | 43 |
+| F1 | `"software architecture design" AND method` | 406 |
+| F2 | `"attribute-driven design" AND architecture` | 89 |
+| F3 | `"architectural tactics" AND "quality attributes"` | 78 |
+| F4 | `"information hiding" AND modularity AND software` | 157 |
+| F5 | `"design structure matrix" AND software AND architecture` | 48 |
+| F6 | `"architecture evaluation" AND ATAM` | 88 |
+| F7 | `"architecture erosion" AND software` | 168 |
+| F8 | `"architectural technical debt"` | 138 |
+| F9 | `"mirroring hypothesis" AND Conway` | 6 |
+| F10 | `agile AND "up-front architecture"` | 6 |
+| F11 | `"modular monolith" AND microservices` | 46 |
+| F12 | `"design patterns" AND maintenance AND "controlled experiment"` | 16 |
+| F13 | `"fitness functions" AND "evolutionary architecture"` | 17 |
+| F14 | `"large language models" AND "software architecture" AND design` | 165 |
+| R13 | `"design reasoning" AND "software architecture"` | 17 |
+| R14 | `"cognitive biases" AND "software design"` | 10 |
+| R15 | `"socio-technical congruence" AND software` | 68 |
+| R16 | `"architectural debt" AND "design rule"` | 4 |
+| R17 | `"decision making" AND "software designers" AND empirical` | 9 |
 
 ## 5. Grey search
 
@@ -180,7 +218,7 @@ Strings AR1 to AR15 ran on 2026-10-29, one reviewer, grey tier 2. The four Q/A s
 
 - The limits shared by every review are in the [evidence method](../README.md#method).
 - One reviewer; no second rater was used.
-- OpenAlex and arXiv counts are missing.
+- arXiv counts are missing; OpenAlex counts were taken after the search, the same day.
 - No abstract was reached for 11 works (located only, or a summary line). For 18 more it was read in a search summary, not in the source. A number read in such a summary is marked "(secondary)".
 - Forward snowballing was not done.
 - Q/A threads: one scorer.

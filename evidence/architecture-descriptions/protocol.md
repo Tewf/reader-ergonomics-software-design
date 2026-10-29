@@ -43,7 +43,7 @@ Searched before anything else; each is placed in strand 0 of the [review](review
 
 Engines: the Semantic Scholar bulk search (Boolean syntax: `|` or, `+` and, quotes for phrases, `*` truncation; results sorted by citation count), the arXiv API, and Crossref for checking every DOI.
 
-OpenAlex was tried first and gave a count for no string: its shared daily budget was used up (HTTP 429). To repeat a count there, use `https://api.openalex.org/works?filter=title_and_abstract.search:<terms>&per_page=1` and read `meta.count`.
+OpenAlex was tried first and gave a count for no string: its shared daily budget was used up (HTTP 429). The counts were taken later, on 2026-10-29, and are in the table OpenAlex counts below.
 
 Strings as run (hit counts in [sources](sources.md)):
 
@@ -71,6 +71,30 @@ A2  abs:"architecture documentation" AND (abs:newcomer OR abs:onboarding OR abs:
 - Known limit of the engine: it matched loosely on some strings, so F5 and F8 returned unrelated hits (plant biology, genomics). Their counts are reported but carry no weight.
 - Snowballing, forward: the papers citing Rost 2013, Ernst 2023, Dagenais 2010, Lethbridge 2003, Ding 2014a and de Graaf 2016 were listed and screened by title (the first 200 per seed).
 - Snowballing, backward: the 45 references of Ernst 2023 were screened. The references of Rost 2013 and Weinreich 2016 could not be listed in time.
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| F1 | `"architecture documentation" OR "architectural documentation" OR "software architecture documentation"` | 1,012 |
+| F2 | `("architecture description" OR "architecture descriptions") AND (42010 OR stakeholder OR viewpoint)` | 348 |
+| F3 | `("architectural views" OR "architecture views" OR "viewpoints") AND "software architecture"` | 599 |
+| F4 | `("architectural knowledge" OR "architecture knowledge") AND (retrieval OR search OR documentation OR management)` | 648 |
+| F5 | `"docs as code" OR "documentation as code" OR "docs-as-code"` | 32 |
+| F6 | `("systematic literature review" OR "systematic mapping" OR "systematic review" OR "mapping study" OR "multivocal literature review") AND ("architecture documentation" OR "architectural documentation" OR "architecture description" OR "architectural knowledge")` | 70 |
+| F7 | `(newcomer OR onboarding) AND "architecture documentation"` | 8 |
+| F8 | `"C4 model" OR "arc42"` | 308 |
+| F9 | `"multivocal" AND "software architecture"` | 16 |
+| F10 | `"architecture documentation" AND (readability OR comprehension OR understandability OR usability)` | 597 |
+| F11 | `("software architecture" OR "architecture description") AND (grey OR "grey literature" OR practitioners) AND (documentation OR description)` | 168 |
+| F12 | `"C4 model" AND "software architecture"` | 26 |
+| F13 | `"arc42"` | 43 |
+| F14 | `"architecture documentation" AND (survey OR interview OR practitioners)` | 262 |
+| F15 | `("ARCHITECTURE.md" OR "architecture overview") AND "open source" AND (newcomers OR contributors)` | 2 |
+| A1 | `"architecture documentation" OR "architectural documentation" OR "architecture description" OR "architecture descriptions"` | 4,912 |
+| A2 | `"architecture documentation" AND (newcomer OR onboarding OR developers)` | 60 |
 
 ## 5. Grey search
 

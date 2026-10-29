@@ -43,7 +43,7 @@ Garousi 2019 Table 4 lists seven questions for grey literature, where a single y
 
 ## 4. Formal search
 
-Count source: the Semantic Scholar bulk title-and-abstract search and the arXiv search API (all fields). OpenAlex was not called (its anonymous daily budget is spent until 2026-10-30 00:00 UTC); its queries are in `openalex.tsv`, for counts added later by script. Semantic Scholar matches words, not phrases, so counts are noisy upper bounds. Semantic Scholar has OR as `|` and AND as `+`.
+Count source: the Semantic Scholar bulk title-and-abstract search and the arXiv search API (all fields). OpenAlex had no budget left during the search; it counted every string later that day (table below). Semantic Scholar matches words, not phrases, so counts are noisy upper bounds. Semantic Scholar has OR as `|` and AND as `+`.
 
 | Id | String as run (abridged) | Semantic Scholar | arXiv |
 |---|---|---|---|
@@ -74,6 +74,25 @@ Count source: the Semantic Scholar bulk title-and-abstract search and the arXiv 
 - Second pass: open copies were sought for every formal source held by title; the author's or an institution's copy, an open publisher page or a republication was read as text and not saved. Routes used need no identity: the Semantic Scholar paper endpoint, Crossref, publisher landing pages, authors' pages.
 - Still unreachable after the second pass: Nuseibeh 2001 (the publisher refused the fetch) and Ellis 2007 (no open copy found); they are marked located only in sources.md. Brooker 2025 was read in full later.
 - Four standard or book leads could not be read at all from the open web (ISO 15288, ISO 42020, INCOSE, Kleppmann 2017); they are located, not scored.
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| F1 | `"end-to-end argument" OR "computer system design" OR "system design principles"` | 1,225 |
+| F2 | `"CAP theorem" AND (consistency OR availability)` | 237 |
+| F3 | `"consistency models" AND "distributed"` | 827 |
+| F4 | `"cloud outages" OR "outage study" OR ("production failures" AND "distributed")` | 190 |
+| F5 | `"capacity planning" AND "software"` | 657 |
+| F6 | `"API usability" OR "API design"` | 3,134 |
+| F7 | `"formal methods" AND ("distributed systems" OR "cloud") AND "design"` | 345 |
+| F8 | `"site reliability engineering"` | 402 |
+| F9 | `"systems engineering" AND ("design definition" OR "architecture definition")` | 114 |
+| F10 | `"large language model" AND "system design"` | 2,062 |
+| F11 | `"design review" AND ("distributed" OR "production readiness")` | 273 |
+| F12 | `"literature review" AND "distributed systems" AND ("design" OR "reliability")` | 95 |
 
 ## 5. Grey search
 

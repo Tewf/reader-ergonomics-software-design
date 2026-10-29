@@ -31,11 +31,25 @@ Searched first, with strings F1 and R1 to R5 (sources.md). Seven secondary studi
 ## 4. Formal search
 
 - Database: OpenAlex, filter `title_and_abstract.search`, field `meta.count`, run 2026-10-28.
-- OpenAlex then refused further calls (a shared daily budget was spent). The remaining formal strings were run on the arXiv API (field `totalResults`) and on a general web search that returns academic pages. Counts from different engines are not comparable.
+- OpenAlex then refused further calls (a shared daily budget was spent). The remaining formal strings were run on the arXiv API (field `totalResults`) and on a general web search that returns academic pages. Counts from different engines are not comparable. Seven strings were counted on OpenAlex on 2026-10-29, in the table OpenAlex counts below; F1 to F3 gave the same counts as on the day.
 - Every string, its count and its screening are in sources.md.
 - Snowballing on 2026-10-28, through the Semantic Scholar graph API:
   - Forward from Shneiderman 1977, Ramsey 1983, Scanlan 1989, Wyrich 2023, Andrzejewska 2022 and Ulate-Caballero 2021 (caps of 60 or 100 apply).
   - Backward from Andrzejewska 2022 and Wyrich 2023 (reference lists as indexed there).
+
+### OpenAlex counts (2026-10-29)
+
+Counted as the [method](../README.md#method) describes; exact for each query as written.
+
+| Id | OpenAlex query as run | Count |
+|---|---|---|
+| F1 | `"pseudocode" AND ("systematic review" OR "mapping study" OR "literature review")` | 35 |
+| F2 | `pseudocode AND comprehension` | 50 |
+| F3 | `flowchart AND (pseudocode OR "program comprehension")` | 232 |
+| F4 | `pseudocode` | 3,858 |
+| F7 | `pseudocode AND reproducibility` | 263 |
+| F8 | `"pseudocode" AND "flowchart"` | 229 |
+| F9 | `"literate programming"` | 541 |
 
 ## 5. Grey search
 
@@ -131,7 +145,7 @@ Garousi Table 7, 20 criteria, each 1, 0.5 or 0:
 
 - A second rater re-scored 5 of this topic's grey sources blind ([method](../README.md#method)): all 5 decisions agree, the forum post kept as an example included (4 and 6 of 20).
 - Search engines personalise and change; all searches were run on one day.
-- OpenAlex counts exist for three strings only.
+- OpenAlex counts exist for seven strings: three on the day, all seven on 2026-10-29.
 - Several papers were read at abstract level; each is marked "(abstract; secondary)".
 - Printed Knuth and the printed conventions of Cormen et al. were not read.
 - Q/A threads of pseudocode: one scorer, no second rater.
