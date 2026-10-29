@@ -11,3 +11,4 @@ in what context, the options that lost and why, and the consequences. A record i
 | [0001](0001-pin-links-at-the-release-commit.md) | links into reader-ergonomics name the release's commit, as CI does | accepted, 2026-10-29 |
 | [0002](0002-move-to-reader-ergonomics-1-2-0.md) | check against reader-ergonomics v1.2.0, whose judgment-quotes replaces the local check | accepted, 2026-10-29 |
 | [0003](0003-move-to-reader-ergonomics-1-3-0.md) | check against reader-ergonomics v1.3.0, and extend its general decision record | accepted, 2026-10-29 |
+| [0004](0004-move-to-reader-ergonomics-1-3-2.md) | check against reader-ergonomics v1.3.2, and drop the exemptions it now holds | accepted, 2026-10-29 |

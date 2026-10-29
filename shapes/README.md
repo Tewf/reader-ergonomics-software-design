@@ -3,7 +3,7 @@
 A **shape** is the fixed skeleton of one kind of document: every document of that kind has the same parts in the same
 order. These are the shapes particular to designing software before the code. The general ones (note, folder README,
 report, commit message) and the reasons for shapes are in
-[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/shapes/README.md).
+[reader-ergonomics](https://github.com/Tewf/reader-ergonomics/blob/a90b02efa64fb829e413c9ec404f4abd3bf21ec1/shapes/README.md).
 
 ## Contents
 

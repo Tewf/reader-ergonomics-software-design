@@ -2,11 +2,6 @@
 # (reader-ergonomics extending.md, the interface). Only the values that change are written.
 extends = "reader-ergonomics"
 
-[co_change]
-# The judgment answers change with every file they answer for, as the bibliography changes with every review;
-# asking whether they belong beside each of those files cannot settle, since answering changes the file again.
-exempt = ["standard.md", "llms.txt", "evidence/bibliography.md", "checks/judgments.toml"]
-
 [judgment_quotes]
 # Every answer quotes its file, path questions included: this repository's answers already do, and a path answer
 # with no quote is how answers turned into templates on 2026-10-29 (decisions/0002).
@@ -31,8 +26,3 @@ shapes = [
 [standard_card]
 facets = ["specification", "decision", "structure"]   # the principle groups, in the order the card shows them
 
-[logical_lines]
-# The judgment answers are a data file, one record per answer, like the bibliography; asking for their role in a
-# sentence inside the same file reopens the question each time it is answered.
-exempt_from_trigger = ["evidence/bibliography.md", "checks/judgments.toml"]
-exempt_from_ceiling = ["evidence/bibliography.md", "checks/judgments.toml"]
