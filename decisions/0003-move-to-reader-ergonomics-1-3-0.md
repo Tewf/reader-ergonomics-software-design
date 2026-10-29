@@ -3,7 +3,7 @@
 **Decision:** This repository checks against reader-ergonomics v1.3.0 (commit `d408349`), and its decision-record
 shape extends the standard's general one instead of standing alone.
 
-**Status:** accepted, 2026-10-29. **Shape:** [decision record](../shapes/decision-record.md). **Proposed in:** no proposal; agreed among the sessions that maintain reader-ergonomics, its topic extension and this repository.
+**Status:** accepted, 2026-10-29. **Shape:** [decision record](../shapes/decision-record.md). **Proposed in:** no proposal; agreed among the maintainers of reader-ergonomics, its topic extension and this repository.
 
 ## Context
 
