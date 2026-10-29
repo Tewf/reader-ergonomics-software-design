@@ -22,6 +22,8 @@ website:
         href: evidence/index.qmd
       - text: Shapes
         href: shapes/index.qmd
+      - text: Decisions
+        href: decisions/index.qmd
       - text: Bibliography
         href: evidence/bibliography.md
     right:
