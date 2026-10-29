@@ -5,18 +5,20 @@ could give a reason that was absent from the file it answered for. A program can
 check that the answer is about the file: an answer must hold at least one quotation, in double quotes or backticks,
 and each quotation must occur in the answered file, or name an entry of the answered folder.
 
-What a run with no error guarantees, for every [[answer]] whose file still exists:
+What a run with no error guarantees, for every [[answer]] whose file exists and is unchanged since the answer:
 - the answer holds at least one quotation of two characters or more;
 - each quotation occurs in the file's text (ignoring case and runs of white space), or, for a folder, names one of
   its entries, or names a file that exists beside the answered file or at the repository's root;
 - each "line N" it cites is a line of the file.
 
 What it does not guarantee: that the quotation supports the answer, or that the answer is right (judgment).
-An answer whose file is gone is skipped: the standard's judgment step already asks its question again.
+An answer whose file is gone, or has changed since the answer (its `file` hash no longer matches), is skipped:
+the standard's judgment step already asks that question again, and the new answer is checked instead.
 Time O(answers x file size).
 """
 from __future__ import annotations
 
+import hashlib
 import re
 import tomllib
 from pathlib import Path
@@ -37,6 +39,11 @@ def normalised(text: str) -> str:
 def answer_lines(text: str) -> list[int]:
     """The line of each [[answer]] header, in file order, so a finding points at its block."""
     return [n for n, line in enumerate(text.splitlines(), 1) if line.strip() == "[[answer]]"]
+
+
+def current_hash(target: Path) -> str:
+    """The hash the standard's judgment step stores: a file's first 12 hex digits of SHA-256, a folder's empty string."""
+    return hashlib.sha256(target.read_bytes()).hexdigest()[:12] if target.is_file() else ""
 
 
 def quote_found(quote: str, target: Path, root: Path) -> bool:
@@ -65,7 +72,7 @@ def check(root: Path, config: dict) -> list[Finding]:
     for index, answer in enumerate(answers):
         line = lines[index] if index < len(lines) else 1
         target = root / answer.get("path", "")
-        if not answer.get("path") or not target.exists():
+        if not answer.get("path") or not target.exists() or answer.get("file", "") != current_hash(target):
             continue
         reply = answer.get("answer", "")
         quotes = [next(group for group in match.groups() if group) for match in QUOTE.finditer(reply)]
