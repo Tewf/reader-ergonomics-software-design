@@ -7,13 +7,13 @@ Question: how should an algorithm be presented (pseudocode, flowchart, structure
 
 Related general principles (not reviewed again here):
 
-- [Draw relations](https://github.com/Tewf/reader-ergonomics/blob/master/principles/page/draw-relations.md)
-- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/define-before-use.md)
-- [Names predict content](https://github.com/Tewf/reader-ergonomics/blob/master/principles/collection/names-predict-content.md)
-- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/worked-examples-with-subgoals.md)
-- [Figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/master/principles/page/figure-next-to-its-text.md)
-- Identifier names: the [psycholinguistics review](https://github.com/Tewf/reader-ergonomics/tree/master/evidence/psycholinguistics) covers the code-readability studies.
-- Readers that are models: the [LLM readers review](https://github.com/Tewf/reader-ergonomics/tree/master/evidence/llm-readers).
+- [Draw relations](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/page/draw-relations.md)
+- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/define-before-use.md)
+- [Names predict content](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/collection/names-predict-content.md)
+- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/worked-examples-with-subgoals.md)
+- [Figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/page/figure-next-to-its-text.md)
+- Identifier names: the [psycholinguistics review](https://github.com/Tewf/reader-ergonomics/tree/40cd9fb3ed21a01a8913788edc46ade9562a797d/evidence/psycholinguistics) covers the code-readability studies.
+- Readers that are models: the [LLM readers review](https://github.com/Tewf/reader-ergonomics/tree/40cd9fb3ed21a01a8913788edc46ade9562a797d/evidence/llm-readers).
 
 ## Claims
 

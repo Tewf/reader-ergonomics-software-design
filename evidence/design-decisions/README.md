@@ -39,6 +39,6 @@ This is a multivocal literature review (Garousi 2019) by one reviewer, searched 
 
 ## General principles linked, not reviewed again
 
-- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/overview-first.md)
-- [One mode per document](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/one-mode-per-document.md)
-- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/master/principles/document/define-before-use.md)
+- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/overview-first.md)
+- [One mode per document](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/one-mode-per-document.md)
+- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/define-before-use.md)
