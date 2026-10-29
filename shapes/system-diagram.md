@@ -40,9 +40,9 @@ calls whom, what contains what, what runs where. Each diagram it shapes has:
 
 | Part | Principle |
 |---|---|
-| The diagram itself, with text beside it | [draw relations](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/page/draw-relations.md) |
-| Key and explanation next to the picture | [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/page/figure-next-to-its-text.md) |
-| Contrast of 4.5 to 1 | [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/page/sufficient-contrast.md) |
+| The diagram itself, with text beside it | [draw relations](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/principles/page/draw-relations.md) |
+| Key and explanation next to the picture | [figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/principles/page/figure-next-to-its-text.md) |
+| Contrast of 4.5 to 1 | [sufficient contrast](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/principles/page/sufficient-contrast.md) |
 
 ## The skeleton
 
@@ -80,7 +80,7 @@ what each step uses.
 ```mermaid
 flowchart LR
     push["Push to master<br/>(git)"] -->|"triggers"| checks["Checks job<br/>(GitHub Actions)"]
-    standard["reader-ergonomics<br/>at commit 6d4e324"] -->|"its checks, run on this repository"| checks
+    standard["reader-ergonomics<br/>at commit d408349"] -->|"its checks, run on this repository"| checks
     checks -->|"runs the local check tests"| tests["Unit tests<br/>(Python unittest)"]
     push -->|"triggers"| pages["Pages job<br/>(Quarto)"]
     standard -->|"its stylesheet"| pages
@@ -92,5 +92,5 @@ flowchart LR
 | box | an event, a job or a repository, with its technology in brackets |
 | arrow | what one element gives the next, in the direction of the arrow |
 
-Alt text: a push to master triggers two jobs. The checks job takes reader-ergonomics at commit 6d4e324 and runs its
+Alt text: a push to master triggers two jobs. The checks job takes reader-ergonomics at commit d408349 and runs its
 checks; then it runs this repository's own tests. The Pages job uses the same commit's stylesheet and publishes the site.

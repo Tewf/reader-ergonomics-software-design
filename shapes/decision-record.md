@@ -1,60 +1,47 @@
-# Shape: decision record
+# Shape: decision record for a design decision
 
-This shape keeps one design decision after it is taken. Its reader comes later, a maintainer or a model, and asks
-why the system is as it is. The record answers that in a page: what was decided, in what context, which options lost
-and why, and what follows from it. It is the record that a [design document](design-document.md) leads to, and the
-two stay linked.
+reader-ergonomics has a general
+[decision record](https://github.com/Tewf/reader-ergonomics/blob/d408349e4bc0f8e9ac7672645bd2aa393e5e6704/shapes/decision-record.md):
+the parts every record has, with their evidence. This shape extends it, since a decision about the design of
+software adds two parts:
+
+- the options that lost, each with why it lost;
+- a link to the design document where the decision was argued.
 
 ## When to use it
 
 - When a decision about structure, an interface or a dependency is taken, and someone may later ask why.
-- When a design document is accepted or rejected: the record keeps the outcome; the proposal keeps the debate.
+- When a [design document](design-document.md) is accepted or rejected: the record keeps the outcome, and the
+  proposal keeps the debate.
 - Not for a decision anyone can undo in minutes: the commit message is enough.
 - Not to argue a choice before it is made: that is a design document.
 
-## How each part maps to the evidence
+## What this shape adds, and its evidence
 
 | Part | What it does | Evidence | Grade |
 |---|---|---|---|
-| Number and title | a short noun phrase, numbered in order | Nygard 2011 | convention, the most used in open source (Buchgeher 2023, secondary) |
-| Decision first | the decision in one sentence, under the title | a summary that the plain Nygard record lacks; added here after overview first | convention, untested |
-| Status and date | proposed, accepted, rejected or superseded, with a link to what supersedes it | Nygard 2011; supersede rather than rewrite (GOV.UK 2025; Microsoft 2026) | convention, adopted |
-| Context | the situation and forces the decision responds to | Nygard 2011; MADR 2024 calls them drivers | convention, adopted |
-| Options | every option considered, with its consequences and why it lost | MADR 2024 adds them to Nygard; participants found MADR's rationale deeper and slower to write (Nogueira 2026) | convention; one writer-side experiment |
-| Consequences | what follows, good and bad, and what must stay true | Nygard 2011 | convention, adopted |
-| Link to the proposal | where the debate is, so the record stays short | the design-decisions baseline's variant: proposal and record as two linked documents | convention, untested |
+| Options, after Decision | every option considered, the chosen one included, with its consequences and why the others lost | MADR 2024 adds them to Nygard's record; participants found MADR's rationale deeper and slower to write (Nogueira 2026, a preprint, 33 undergraduates) | convention; one writer-side experiment |
+| Proposed in | links the design document where the decision was argued, so the record stays short | the design-decisions baseline's variant: proposal and record as two linked documents | convention, untested |
 
-- Why keep rationale at all: in one laboratory experiment it made later decisions more effective when requirements
-  changed (Falessi 2010, measured, 50 students).
-- Why keep it short: cost of capture is the longest-named barrier to recording rationale (Lee 1997; Tang 2006).
-- How records are used in practice: they are tried more than kept. About half of repositories with records hold one
-  to five (Buchgeher 2023, secondary), and about 63% of 5,800 records were opened already accepted (Santana 2026,
-  secondary).
-- Whether a record helps a maintainer recover why is untested on the maintainer; the
-  [baseline](../evidence/design-decisions/baseline.md) gives the comparison it should face.
-
-## The principles it applies
-
-| Part | Principle |
-|---|---|
-| The decision in one sentence first | [overview first](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/document/overview-first.md) |
-| Record and proposal as two documents | [one mode per document](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/document/one-mode-per-document.md) |
-| The debate linked, not copied | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/collection/one-place-per-fact.md) |
-| Options as a table | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/page/signal-the-structure.md) |
+- How records are used in software projects: they are tried more than kept. About half of repositories with records
+  hold one to five (Buchgeher 2023, secondary), and about 63% of 5,800 records were opened already accepted (Santana
+  2026, secondary).
+- The evidence for the general parts, and its grades, is in the general shape and is not repeated here.
 
 ## The skeleton
 
 ```markdown
-# <NNNN>. <Short noun phrase naming the decision>
+# <NNNN>: <the choice, as a short phrase>
 
-**Decision.** <One sentence: what was decided.>
+**Decision:** <the choice in one sentence>
 
-- **Shape:** [decision record](<path to this shape>).
-- **Status:** <proposed | accepted | rejected | superseded by NNNN>, <date>.
-- **Proposed in:** <link to the design document, if any>.
+**Status:** <proposed | accepted | superseded by NNNN | withdrawn>, <date>. **Shape:** [decision record](<path to this shape>). **Proposed in:** <link to the design document, or "no proposal">.
 
 ## Context
-- <The situation, the forces and constraints the decision responds to.>
+<The situation that made a choice necessary, and the facts it rests on.>
+
+## Decision
+<What was chosen, in full sentences.>
 
 ## Options
 | Option | Consequences | Outcome |
@@ -62,24 +49,31 @@ two stay linked.
 | <option> | <what it would bring, good and bad> | <chosen, or rejected: why> |
 
 ## Consequences
-- Good: <...>
-- Bad: <...>
-- To keep it true: <what must be done, and when>.
+<What follows, good and bad, and what must stay true.>
+
+## See also
+<The decisions folder, and the work the choice concerns.>
 ```
 
-## The rules
+## The rules it adds
 
-1. One decision per record, numbered in order, in a `decisions/` folder beside the code or text it governs.
-2. The decision comes first, in one sentence; a reader who stops there knows what holds.
-3. A line under it names this shape by a link, so a reader, or a check, knows what the record follows.
-4. Every option considered appears, the chosen one included, with why the others lost.
-5. Consequences include the bad ones and what must be done to keep the decision true.
-6. An accepted record is not rewritten. A new record supersedes it, and the old one's status links forward.
-7. Keep it to about a page; the debate belongs to the design document it links.
+1. Options list every option considered, the chosen one included, each with why it won or lost.
+2. A decision that was argued in a design document links it under "Proposed in"; the debate stays there.
+3. The Shape line links this shape, which extends the general one, so a check knows to require Options.
+
+The general shape's rules hold as written. Each record holds one decision, stated first, with its bad consequences;
+an accepted record is superseded, not changed in place.
+
+## Checked by
+
+- `shape-conformance` of reader-ergonomics, declared in this repository's `checks/config.toml`: a record holds
+  Context, Decision, Options, Consequences and See also.
+- `decision-records`, this repository's local check: the record's number in its title, the decision line, the status
+  line and the Shape line.
 
 ## Worked example
 
 - The worked example is this repository's first record:
-  [0001. Pin links to reader-ergonomics at its release commit](../decisions/0001-pin-links-at-the-release-commit.md).
+  [0001: Pin links to reader-ergonomics at its release commit](../decisions/0001-pin-links-at-the-release-commit.md).
 - Its proposal is the worked example of the [design document](design-document.md#worked-example), so both shapes
   can be compared on one decision.

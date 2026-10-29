@@ -19,3 +19,7 @@ stylesheets = []
 
 [sufficient_contrast]
 stylesheets = []   # as above
+
+[shape_conformance]
+# The standard's general decision record, plus the Options this repository's shape adds (decisions/0003).
+shapes = [{ name = "decision record", files = ["decisions/0*.md"], required = ["Context", "Decision", "Options", "Consequences", "See also"] }]

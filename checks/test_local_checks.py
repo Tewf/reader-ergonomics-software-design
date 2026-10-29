@@ -23,8 +23,8 @@ SPEC_RECORDS = importlib.util.spec_from_file_location("decision_records",
 records = importlib.util.module_from_spec(SPEC_RECORDS)
 SPEC_RECORDS.loader.exec_module(records)
 
-GOOD_RECORD = ("# 0001. Pin the links\n\n**Decision.** Links name the commit.\n\n"
-               "- **Shape:** [decision record](../shapes/decision-record.md).\n- **Status:** accepted, 2026-10-29.\n")
+GOOD_RECORD = ("# 0001: Pin the links\n\n**Decision:** Links name the commit.\n\n"
+               "**Status:** accepted, 2026-10-29. **Shape:** [decision record](../shapes/decision-record.md).\n")
 
 
 class DecisionRecords(unittest.TestCase):
@@ -48,15 +48,15 @@ class DecisionRecords(unittest.TestCase):
     def test_a_title_with_another_number_fails(self) -> None:
         found = self.found("0002-pin-the-links.md", GOOD_RECORD)
         self.assertEqual(len(found), 1)
-        self.assertIn("'# 0002. '", found[0])
+        self.assertIn("'# 0002: '", found[0])
 
     def test_a_record_without_its_shape_line_fails(self) -> None:
-        found = self.found("0001-pin-the-links.md", GOOD_RECORD.replace("- **Shape:** [decision record](../shapes/decision-record.md).\n", ""))
+        found = self.found("0001-pin-the-links.md", GOOD_RECORD.replace(" **Shape:** [decision record](../shapes/decision-record.md).", ""))
         self.assertEqual(len(found), 1)
         self.assertIn("names its shape", found[0])
 
     def test_a_record_without_decision_or_status_fails_twice(self) -> None:
-        text = GOOD_RECORD.replace("**Decision.**", "Decision:").replace("**Status:**", "Status:")
+        text = GOOD_RECORD.replace("**Decision:**", "Decision:").replace("**Status:**", "Status:")
         self.assertEqual(len(self.found("0001-pin-the-links.md", text)), 2)
 
     def test_no_decisions_folder_means_nothing_to_check(self) -> None:
