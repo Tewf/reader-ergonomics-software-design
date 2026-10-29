@@ -360,7 +360,7 @@ answer = "Reference: the search record, looked up by step, with the tables under
 check = "co-change"
 path = "README.md"
 question = "changed together with shapes/README.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ca9161b9cdb8"
+file = "e29316b4003c"
 answer = "No: each new shape is listed in both, the front page in one line and the shapes index in full; the front page already links the index, as `[`shapes/`](shapes/)` shows, and the two serve different readers."
 [[answer]]
 check = "co-change"
@@ -372,7 +372,7 @@ answer = "No: the shared commits were passes over every topic at once; the index
 check = "document-mode"
 path = "README.fr.md"
 question = "reads about equally as reference and how-to: one mode per document?"
-file = "b9f2f67f4291"
+file = "857d8e69c818"
 answer = "Reference: the French front page, looked up for what the repository holds, under `## Périmètre` and `## Organisation`. Its how-to parts, `## Utilisation` and `## Vérifier`, are a few short steps, as on the English front page; a front page serves both readers, so it stays one document."
 [[answer]]
 check = "section-cohesion"
@@ -608,12 +608,6 @@ path = "examples/lower-bound-in-a-sorted-array.md"
 question = "reads about equally as tutorial and how-to: one mode per document?"
 file = "6962d1bd8b4a"
 answer = "Reference: a filled specification, which an implementer looks up part by part, from `**Contract.**` to `**Examples.**`. The tutorial and how-to readings come from its `**Steps.**`, the algorithm it specifies, not a lesson or a procedure for the reader."
-[[answer]]
-check = "co-change"
-path = "README.md"
-question = "changed together with shapes/design-document.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "ca9161b9cdb8"
-answer = "No: the front page and the design-document shape changed together when the front page began to describe the shape and its checks; the page links the shape, as `the [design document](shapes/design-document.md)` shows, and the shape stays the one place for its rules."
 [[answer]]
 check = "co-change"
 path = "checks/test_local_checks.py"

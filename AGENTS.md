@@ -12,8 +12,9 @@ interface in that repository's [extending.md](https://github.com/Tewf/reader-erg
    model, who builds from the text.
 3. A document follows a shape when it says so: a `**Shape:**` line that links the shape's file. The local checks find
    their documents by that line.
-4. A choice about this repository itself (its scope, a pin, a check) is a record in [decisions/](decisions/README.md):
-   a new record supersedes an old one, never an edit of its decision.
+4. A choice about this repository itself (its scope, a check) is a record in [decisions/](decisions/README.md): a new
+   record supersedes an old one, never an edit of its decision. A pin move is not a record: from the next one, it goes
+   in `CHANGELOG.md`, in the form reader-ergonomics ships; records 0002 to 0012 stay as they are.
 
 ## Rules for claims
 
@@ -25,7 +26,8 @@ interface in that repository's [extending.md](https://github.com/Tewf/reader-erg
 - A new claim comes from a review in [evidence/](evidence/README.md), written to its protocol and audited against its
   sources. A claim no review holds needs a review strand first.
 - Every link into reader-ergonomics names the commit CI checks against, and moves with the pin
-  ([decision 0001](decisions/0001-pin-links-at-the-release-commit.md)).
+  ([decision 0001](decisions/0001-pin-links-at-the-release-commit.md)). So does the commit in step 1 of the front page's
+  "Use it", in both languages, which no check reads.
 
 ## Before handing back
 

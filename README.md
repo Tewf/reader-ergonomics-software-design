@@ -19,11 +19,31 @@ Start with the [card](standard.md). [En français](README.fr.md).
 
 ## Use it
 
-1. Copy the skeleton of a [shape](shapes/README.md), with its `**Shape:**` line, and fill it in.
-2. Copy [`checks/local/`](checks/local/) into your repository's `checks/local/`, and add a `checks/config.toml` that
-   says `extends = "reader-ergonomics"`.
-3. In CI, run `python3 <reader-ergonomics>/checks/run.py .`. A document is checked against the shape its Shape line
-   links, and every Mermaid diagram against the diagram rules:
+Ten minutes, without reading the reviews:
+
+1. **Pin the standard by commit**, so its checks do not change under you:
+   `git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout 7a76cc6` (v1.13.0).
+2. **Copy what you need, once.** Take the skeleton of a [shape](shapes/README.md), with its `**Shape:**` line, and
+   [`checks/local/`](checks/local/) into your repository's `checks/local/`. The copies are yours: a later change here
+   touches nothing you copied. Note the commit you copied from, to compare later.
+3. **Configure** with a `checks/config.toml`:
+
+   ```toml
+   extends = "reader-ergonomics"
+
+   [readable_measure]
+   stylesheets = []   # no site stylesheet to measure
+
+   [sufficient_contrast]
+   stylesheets = []
+   ```
+
+4. **Fill and check.** Keep the documents in a folder named for what they serve, such as `design/`, and run
+   `python3 reader-ergonomics/checks/run.py .`, in CI too. A document is checked against the shape its Shape line
+   links, and every Mermaid diagram against the diagram rules. A filled [example](examples/README.md) of each shape
+   passes; start from one if you prefer.
+5. **Disagree** by opening an issue on this repository, with the evidence; a rule of the standard itself goes to
+   reader-ergonomics' issues.
 
 | Check | Checks | Fails when |
 |---|---|---|

@@ -20,11 +20,31 @@ Commencer par la [fiche](standard.md), en anglais. [In English](README.md).
 
 ## Utilisation
 
-1. Copier le squelette d'une [forme](shapes/README.md), avec sa ligne `**Shape:**`, et le remplir.
-2. Copier [`checks/local/`](checks/local/) dans le `checks/local/` de son dépôt, et ajouter un `checks/config.toml`
-   qui dit `extends = "reader-ergonomics"`.
-3. En CI, lancer `python3 <reader-ergonomics>/checks/run.py .`. Un document est vérifié contre la forme que lie sa
-   ligne Shape, et chaque schéma Mermaid contre les règles des schémas :
+Dix minutes, sans lire les revues :
+
+1. **Épingler le standard par commit**, pour que ses vérifications ne changent pas sous vos pieds :
+   `git clone https://github.com/Tewf/reader-ergonomics && git -C reader-ergonomics checkout 7a76cc6` (v1.13.0).
+2. **Copier ce qu'il faut, une fois.** Le squelette d'une [forme](shapes/README.md), avec sa ligne `**Shape:**`, et
+   [`checks/local/`](checks/local/) dans le `checks/local/` de son dépôt. Les copies sont à vous : un changement
+   ultérieur ici ne touche rien de ce que vous avez copié. Notez le commit d'où vous copiez, pour comparer plus tard.
+3. **Configurer** avec un `checks/config.toml` :
+
+   ```toml
+   extends = "reader-ergonomics"
+
+   [readable_measure]
+   stylesheets = []   # pas de feuille de style de site à mesurer
+
+   [sufficient_contrast]
+   stylesheets = []
+   ```
+
+4. **Remplir et vérifier.** Ranger les documents dans un dossier nommé d'après ce qu'ils servent, comme `design/`, et
+   lancer `python3 reader-ergonomics/checks/run.py .`, en CI aussi. Un document est vérifié contre la forme que lie sa
+   ligne Shape, et chaque schéma Mermaid contre les règles des schémas. Un [exemple](examples/README.md) rempli de
+   chaque forme passe ; on peut partir de l'un d'eux.
+5. **Contester** en ouvrant une issue sur ce dépôt, avec les preuves ; une règle du standard lui-même va dans les
+   issues de reader-ergonomics.
 
 | Vérification | Vérifie | Échoue quand |
 |---|---|---|
