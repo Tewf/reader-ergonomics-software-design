@@ -9,7 +9,7 @@ A number carries "(secondary)" when it was read in an abstract or a summary, and
 
 - No review of the whole topic was found. Viotti 2016 surveys more than 50 consistency notions; Li 2013p surveys public cloud outage reports (abstracts).
 - Rauf 2019: systematic mapping of API usability evaluation, 47 primary studies (abstract).
-- Machini 2024: mapping of web API usability; 96 metrics, about 40% on learnability, about 14% tied to web APIs; 18 studies (secondary).
+- Machini 2024: mapping of web API usability; 96 metrics, about 40% on learnability, about 14% tied to web APIs (abstract read).
 - Bogli 2024 (full text read): 290 papers in the first pool, 16 high-affinity ones. 81% of those used TLA+ in early design. It opens by citing another work for the scarce adoption of formal methods in industry.
 - Multivocal reviews: Owotogbe 2025 on chaos engineering, 96 sources; Costa 2025 on SRE, 28 studies, 11 formal and 17 grey.
 

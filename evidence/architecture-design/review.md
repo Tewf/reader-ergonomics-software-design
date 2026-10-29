@@ -21,7 +21,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 
 ## 0. Existing reviews
 
-- Zhang 2012 (secondary: the abstract was not reached, the counts come from a listing): 611 candidate papers on the 23 Gang of Four patterns, 10 papers with 11 formal experiments, 7 experience reports.
+- Zhang 2012 (secondary: the abstract was not reached; listings quote it): a mapping of studies on the 23 Gang of Four patterns, to 2009, with 11 formal experiments in 10 papers.
 - Li 2022 (abstract read): 73 studies of architecture erosion; non-technical reasons deserve the same attention as technical ones.
 - Mohanani 2020 (preprint abstract read): 65 articles on 37 cognitive biases in software engineering; few studies of how to mitigate them.
 - Vera-Rivera 2021 (abstract read): 29 of 326 papers on microservice granularity; runtime properties are studied more than maintainability.
@@ -29,7 +29,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - Mumtaz 2021 (abstract read): detection of architecture smells; many smells have no tool and empirical validation is limited.
 - Falessi 2011, de Silva 2012, Besker 2018 (abstracts read in summaries, secondary). Their findings: there is no best decision technique; no single strategy stops erosion; a unified model of architectural debt exists.
 - Babar 2004 (full text, an author copy in a university repository): four scenario-based evaluation methods compared; five common activities form a generic evaluation process.
-- Dobrica 2002 surveys eight analysis methods (summary line, secondary); Baabad 2020, a review of degradation in open source, is located only.
+- Dobrica 2002 surveys architecture analysis methods (summary line, secondary); Baabad 2020, a review of degradation in open source, is located only.
 - Tofan 2014 maps architectural decisions; reviewed in [design-decisions](../design-decisions/review.md), linked here.
 - No tertiary study of software architecture design was found.
 

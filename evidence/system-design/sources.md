@@ -72,7 +72,7 @@ The figure draws the stages of the table for system design.
 | Owotogbe 2025 | formal | search | multivocal review; abstract read, 96 sources | review 0 |
 | Costa 2025 | formal | search | multivocal review; abstract and method read | review 0 |
 | Rauf 2019 | formal | search | systematic mapping, 47 studies; abstract read | review 0, 5 |
-| Machini 2024 | formal | search | mapping study; abstract read, study count secondary | review 0, 5 |
+| Machini 2024 | formal | search | mapping study; abstract read | review 0, 5 |
 | Kotstein 2021 | formal | search | measured, descriptive, 8 experts; abstract read | review 5 |
 | Murphy 2017 | formal | search | guideline analysis; search summary (secondary) | review 5 |
 | Cheng 2026 | formal | search | benchmark, preprint; abstract read | review 11 |
