@@ -1,0 +1,33 @@
+{
+  "title": "System design: how the pool of sources was built",
+  "columns": [
+    "Formal",
+    "Grey"
+  ],
+  "rows": [
+    [
+      "Returned by the strings",
+      10351,
+      "not recorded"
+    ],
+    [
+      "Screened",
+      96,
+      390
+    ],
+    [
+      "Included as new",
+      46,
+      23
+    ],
+    [
+      "Carried from the repository",
+      2,
+      0
+    ]
+  ],
+  "total": [
+    "In the review",
+    71
+  ]
+}

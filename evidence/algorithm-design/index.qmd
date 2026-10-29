@@ -1,0 +1,5 @@
+---
+title: "Algorithm design: how an algorithm is designed and its behaviour stated before it is coded"
+---
+
+{{< include README.md >}}

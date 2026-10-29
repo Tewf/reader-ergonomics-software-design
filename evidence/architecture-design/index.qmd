@@ -1,0 +1,5 @@
+---
+title: "Architecture design: how to choose the structure of one software system before it is built"
+---
+
+{{< include README.md >}}
