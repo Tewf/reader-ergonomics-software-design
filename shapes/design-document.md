@@ -38,10 +38,10 @@ proposal in two forms; the [baseline](../evidence/design-decisions/baseline.md) 
 
 | Part | Principle |
 |---|---|
-| Decision asked and summary first | [overview first](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/overview-first.md) |
-| Proposal and record kept as two documents | [one mode per document](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/one-mode-per-document.md) |
-| Fixed sections, alternatives as a table | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/page/signal-the-structure.md) |
-| An algorithm linked, not restated | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/collection/one-place-per-fact.md) |
+| Decision asked and summary first | [overview first](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/overview-first.md) |
+| Proposal and record kept as two documents | [one mode per document](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/one-mode-per-document.md) |
+| Fixed sections, alternatives as a table | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/page/signal-the-structure.md) |
+| An algorithm linked, not restated | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/collection/one-place-per-fact.md) |
 
 ## The skeleton
 
@@ -139,5 +139,5 @@ same commit.
 
 ## Open questions
 - Should a check of this repository fail on a `master` link into reader-ergonomics, so the rule cannot drift?
-  Answered later: yes. The local check `standard-links` fails a link that names neither the pinned commit nor its
-  release tag.
+  Answered later: yes. The check `standard-links`, written here and now in reader-ergonomics, fails a link that names
+  neither the pinned commit nor its release tag.

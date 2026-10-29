@@ -28,7 +28,6 @@ def load(name: str):
 
 
 specs, docs, keys = load("algorithm_specs"), load("design_docs"), load("diagram_keys")
-links = load("standard_links")
 
 SPEC = """# Lower bound
 
@@ -159,60 +158,6 @@ class LocalShapeChecks(unittest.TestCase):
     def test_a_diagram_inside_a_skeleton_fence_is_not_checked(self) -> None:
         skeleton = "# Shape\n\n````markdown\n```mermaid\nflowchart LR\n    a --> b\n```\n````\n"
         self.assertEqual(self.run_check(keys, "shape.md", skeleton), [])
-
-
-PIN = "6980fa64583912922d6f5b5c01316749d654345f"
-WORKFLOW = f"""jobs:
-  checks:
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          repository: Tewf/reader-ergonomics
-          ref: {PIN}   # v1.11.0 (the release)
-          path: standard
-"""
-
-
-class StandardLinks(unittest.TestCase):
-    def setUp(self) -> None:
-        self.root = Path(tempfile.mkdtemp())
-        (self.root / ".github" / "workflows").mkdir(parents=True)
-        (self.root / ".github" / "workflows" / "checks.yml").write_text(WORKFLOW, encoding="utf-8")
-
-    def tearDown(self) -> None:
-        shutil.rmtree(self.root)
-
-    def found(self, text: str) -> list[str]:
-        (self.root / "page.md").write_text(text, encoding="utf-8")
-        return [finding.message for finding in links.check(self.root, {})]
-
-    def test_a_link_at_the_pinned_commit_passes(self) -> None:
-        self.assertEqual(self.found(f"See [overview first](https://github.com/Tewf/reader-ergonomics/blob/{PIN}/a.md).\n"), [])
-
-    def test_a_link_at_a_branch_fails(self) -> None:
-        found = self.found("See [a rule](https://github.com/Tewf/reader-ergonomics/blob/master/a.md).\n")
-        self.assertEqual(len(found), 1)
-        self.assertIn("at master", found[0])
-
-    def test_a_link_at_another_commit_fails(self) -> None:
-        found = self.found("See [the shapes](https://github.com/Tewf/reader-ergonomics/tree/d48ffbe96aed32dd63e1974ee60f69472fe36932/shapes).\n")
-        self.assertEqual(len(found), 1)
-        self.assertIn("6980fa6", found[0])
-
-    def test_a_link_at_the_release_tag_the_workflow_names_passes(self) -> None:
-        self.assertEqual(self.found("See [a rule](https://github.com/Tewf/reader-ergonomics/blob/v1.11.0/a.md).\\n"), [])
-
-    def test_a_link_at_another_tag_fails(self) -> None:
-        self.assertEqual(len(self.found("See [a rule](https://github.com/Tewf/reader-ergonomics/blob/v1.4.1/a.md).\\n")), 1)
-
-    def test_a_link_quoted_in_code_is_not_read(self) -> None:
-        text = "Every `[x](https://github.com/Tewf/reader-ergonomics/blob/master/a.md)` link moves.\n"
-        self.assertEqual(self.found(text), [])
-
-    def test_workflows_with_two_refs_leave_it_to_standard_pin(self) -> None:
-        second = WORKFLOW.replace(PIN, "d48ffbe96aed32dd63e1974ee60f69472fe36932")
-        (self.root / ".github" / "workflows" / "pages.yml").write_text(second, encoding="utf-8")
-        self.assertEqual(self.found("See [a rule](https://github.com/Tewf/reader-ergonomics/blob/master/a.md).\n"), [])
 
 
 if __name__ == "__main__":

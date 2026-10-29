@@ -54,8 +54,8 @@ Each "not known" below is a statement about this search, not about the world.
 - It reads the problem from the reader's side: two moments, two tasks (frame.md), where the literature mostly measures the writer.
 - It states a named baseline and how to compare against it (baseline.md).
 - It offers candidate rules for the shapes of a proposal and a record, each a hypothesis graded **convention, untested**:
-  - open with the decision asked for, its status and what the reviewer must decide ([overview first](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/overview-first.md));
+  - open with the decision asked for, its status and what the reviewer must decide ([overview first](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/overview-first.md));
   - keep each rejected option with the reason it lost;
   - list consequences for every option, not only the chosen one;
-  - keep proposal and record as two documents of one mode each ([one mode per document](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/one-mode-per-document.md)), linked both ways.
+  - keep proposal and record as two documents of one mode each ([one mode per document](https://github.com/Tewf/reader-ergonomics/blob/7a76cc6a86b7a5c1e451e4416534d113abd0f594/principles/document/one-mode-per-document.md)), linked both ways.
 - It does not claim a new result or the state of the art.
