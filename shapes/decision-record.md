@@ -49,6 +49,7 @@ two stay linked.
 
 **Decision.** <One sentence: what was decided.>
 
+- **Shape:** [decision record](<path to this shape>).
 - **Status:** <proposed | accepted | rejected | superseded by NNNN>, <date>.
 - **Proposed in:** <link to the design document, if any>.
 
@@ -70,10 +71,11 @@ two stay linked.
 
 1. One decision per record, numbered in order, in a `decisions/` folder beside the code or text it governs.
 2. The decision comes first, in one sentence; a reader who stops there knows what holds.
-3. Every option considered appears, the chosen one included, with why the others lost.
-4. Consequences include the bad ones and what must be done to keep the decision true.
-5. An accepted record is not rewritten. A new record supersedes it, and the old one's status links forward.
-6. Keep it to about a page; the debate belongs to the design document it links.
+3. A line under it names this shape by a link, so a reader, or a check, knows what the record follows.
+4. Every option considered appears, the chosen one included, with why the others lost.
+5. Consequences include the bad ones and what must be done to keep the decision true.
+6. An accepted record is not rewritten. A new record supersedes it, and the old one's status links forward.
+7. Keep it to about a page; the debate belongs to the design document it links.
 
 ## Worked example
 
