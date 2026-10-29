@@ -144,7 +144,7 @@ answer = "One role: the reading log of the design-decisions literature, whose op
 check = "logical-lines"
 path = "evidence/design-decisions/sources.md"
 question = "162 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "d209e6b30cd4"
+file = "2f4dfcd6d59e"
 answer = "One role: the pool of the design-decisions review, with `one row for every source in the review: kind, route of discovery, quality score and the places that use it`. The `Result of the scoring` section totals those rows. It stays whole."
 [[answer]]
 check = "logical-lines"
