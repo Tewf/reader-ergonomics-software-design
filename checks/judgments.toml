@@ -449,3 +449,24 @@ path = "evidence/system-design/review.md"
 question = "100 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
 file = "477096955ab6"
 answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "co-change"
+path = "evidence/architecture-design/review.md"
+question = "changed together with evidence/system-design/review.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "845c06921949"
+answer = "No: they changed together because one audit or correction pass touched every topic on the same night; each file keeps one topic's role, and the topics already link each other where they meet."
+
+[[answer]]
+check = "co-change"
+path = "evidence/architecture-design/sources.md"
+question = "changed together with evidence/system-design/review.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "66cf8c3b5bf6"
+answer = "No: they changed together because one audit or correction pass touched every topic on the same night; each file keeps one topic's role, and the topics already link each other where they meet."
+
+[[answer]]
+check = "tree-shape"
+path = "checks"
+question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
+file = ""
+answer = "It stays: checks/ is the extension point reader-ergonomics' extending.md names (config.toml, local/); it holds the judgment answers now, and the config and local checks when they are written."

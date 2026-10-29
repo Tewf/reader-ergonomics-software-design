@@ -20,6 +20,8 @@ website:
     left:
       - text: Evidence
         href: evidence/index.qmd
+      - text: Shapes
+        href: shapes/index.qmd
       - text: Bibliography
         href: evidence/bibliography.md
     right:
