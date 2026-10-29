@@ -95,7 +95,8 @@ A number carries "(secondary)" when it was read in an abstract or a summary, and
 ## 7. Systems engineering standards (Q7)
 
 - ISO 2023b (ISO 15288), edition 2, sets architecture definition (6.4.4) and design definition (6.4.5) processes (publisher listing, secondary).
-- ISO 2019 (ISO 42020) sets architecture processes; INCOSE 2023 elaborates 15288 (listings; none opened); Nuseibeh 2001 is located only.
+- ISO 2019 (ISO 42020) sets architecture processes; INCOSE 2023 elaborates 15288 (listings; none opened); Nuseibeh 2001 (read) proposes the Twin Peaks model.
+- In it, requirements and architecture are specified concurrently and refined in turn, while problem and solution stay separate.
 - Elm 2012: a survey found strong statistical links between systems engineering practices and project performance (abstract).
 - Grade: convention, untested for the standards; supported with caveat for the survey.
 

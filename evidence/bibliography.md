@@ -33,7 +33,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | AWS 2026d | Amazon Web Services (read 2026-10-29). The pillars of the AWS Well-Architected Framework. Documentation page, six pillars | https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html |
 | AWS 2026p | Amazon Web Services (page read 2026-10-29). AWS Well-Architected: framework overview, six pillars (a vendor's account of its own framework) | https://aws.amazon.com/architecture/well-architected/ |
 | Azure Patterns 2026 | Microsoft (page updated 2026-10-23, read 2026-10-29). Cloud design patterns, Azure Architecture Center (44 patterns in the catalog table) | https://learn.microsoft.com/en-us/azure/architecture/patterns/ |
-| Baabad 2020 | Baabad, Zulzalil, Hassan, Baharom (2020). Software architecture degradation in open source software: a systematic literature review. IEEE Access. Located only: no abstract reached | https://doi.org/10.1109/ACCESS.2020.3024671 |
+| Baabad 2020 | Baabad, Zulzalil, Hassan, Baharom (2020). Software architecture degradation in open source software: a systematic literature review. IEEE Access. Full text read (open access) | https://doi.org/10.1109/ACCESS.2020.3024671 |
 | Babar 2004 | Babar, Gorton (2004). Comparison of scenario-based software architecture evaluation methods. APSEC. Full text read (University of Limerick repository copy) | https://doi.org/10.1109/APSEC.2004.38 |
 | Back 1998 | Back, von Wright (1998). Refinement calculus: a systematic introduction. Springer. Book not opened | https://doi.org/10.1007/978-1-4612-1674-2 |
 | Backstage 2020 | Spotify (2020). Announcing TechDocs, the docs-like-code plugin of Backstage. Project blog, 8 September 2020 | https://backstage.io/blog/2020/09/08/announcing-tech-docs |
@@ -47,7 +47,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Bass 2021 | Bass, Clements, Kazman (2021). Software Architecture in Practice, 4th ed. Addison-Wesley. Book, not opened; publisher page read | https://www.informit.com/store/software-architecture-in-practice-9780136886099 |
 | Bauer 2019 | Bauer, Siegmund, Peitek, Hofmeister, Apel (2019). Indentation: simply a matter of style or support for program comprehension? ICPC | https://doi.org/10.1109/ICPC.2019.00033 |
 | Beg 2025 | Beg, O'Donoghue, Monahan (2025). A short survey on formalising software requirements using large language models. Preprint; abstract read | https://arxiv.org/abs/2506.11874 |
-| Bellomo 2015 | Bellomo, Gorton, Kazman (2015). Toward agile architecture: insights from 15 years of ATAM data. IEEE Software. Read in an InfoQ reprint summary (secondary) | https://doi.org/10.1109/ms.2015.35 |
+| Bellomo 2015 | Bellomo, Gorton, Kazman (2015). Toward agile architecture: insights from 15 years of ATAM data. IEEE Software. Abstract read | https://doi.org/10.1109/ms.2015.35 |
 | Bennedsen 2008 | Bennedsen, Caspersen (2008). Abstraction ability as an indicator of success for learning computing science? ICER. Full text read; the finding was first read in Liu 2024 | https://doi.org/10.1145/1404520.1404523 |
 | Berry 2003 | Berry, Tichy (2003). Comments on "Formal methods application: an empirical tale of software development". IEEE Transactions on Software Engineering 29(6), 567-571. Read on an author's university page | http://se.math.uwaterloo.ca/~dberry/FTP_SITE/reprints.journals.conferences/BerryTichy2003CommentsEmpirical.pdf |
 | Bertholf 2000 | Bertholf (2000). Comprehension of literate programs by novice and intermediate programmers. Thesis, Portland State University (not read) | https://doi.org/10.15760/etd.6456 |
@@ -142,7 +142,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Ding 2014a | Ding, Liang, Tang, van Vliet (2014). Knowledge-based approaches in software documentation: a systematic literature review. Information and Software Technology | https://doi.org/10.1016/j.infsof.2014.01.008 |
 | Ding 2014b | Ding, Liang, Tang, van Vliet, Shahin (2014). How do open source communities document software architecture: an exploratory survey. ICECCS | https://doi.org/10.1109/ICECCS.2014.26 |
 | Dobing 2006 | Dobing, Parsons (2006). How UML is used. Communications of the ACM | https://doi.org/10.1145/1125944.1125949 |
-| Dobrica 2002 | Dobrica, Niemela (2002). A survey on software architecture analysis methods. IEEE TSE. Summary line read (secondary) | https://doi.org/10.1109/tse.2002.1019479 |
+| Dobrica 2002 | Dobrica, Niemela (2002). A survey on software architecture analysis methods. IEEE TSE. Abstract read | https://doi.org/10.1109/tse.2002.1019479 |
 | docToolchain 2026 | docToolchain project (undated, read 2026). docToolchain: a documentation toolchain focused on software architecture documentation. Repository page, 872 stars on 2026-10-28 | https://github.com/docToolchain/docToolchain |
 | DORA 2025 | DORA (page updated 2025-10-20). Capability: loosely coupled teams. DORA research programme | https://dora.dev/capabilities/loosely-coupled-teams/ |
 | Dutoit 2006 | Dutoit, McCall, Mistrik, Paech, eds. (2006). Rationale management in software engineering. Springer | https://doi.org/10.1007/3-5403-0998-5 |
@@ -254,7 +254,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Jiang 2023 | Jiang, Dong, Wang, Fang, Shang, Li, Jin, Jiao (2023). Self-planning code generation with large language models. TOSEM (arXiv 2303.06689; abstract read). Linked, not reviewed here | https://doi.org/10.1145/3672456 |
 | Jiang 2024 | Jiang, Wang, Shen, Kim, Kim (2024). A survey on large language models for code generation. Preprint. Abstract read | https://arxiv.org/abs/2406.00515 |
 | Jin 2025 | Jin, Li, Yang, Zhang, Zeng (2025). Understanding chain-of-thought effectiveness in code generation: an empirical and information-theoretic analysis. Preprint; abstract read | https://arxiv.org/abs/2512.09679 |
-| Johnson 2002 | Johnson (2002). A theoretician's guide to the experimental analysis of algorithms. DIMACS Series in Discrete Mathematics and Theoretical Computer Science. Machine summary only | https://doi.org/10.1090/dimacs/059/11 |
+| Johnson 2002 | Johnson (2002). A theoretician's guide to the experimental analysis of algorithms. DIMACS Series in Discrete Mathematics and Theoretical Computer Science. Read in full (the author's copy) | https://doi.org/10.1090/dimacs/059/11 |
 | Jokste 2024 | Jokste, Kampars (2024). Comprehensible software architecture visualization with C4 model for WRM ecosystem members. ITMS | https://doi.org/10.1109/ITMS64072.2024.10741937 |
 | Jongeling 2025 | Jongeling, Strom, Nissen, Kitchen, Carlson (2025). Adopting the C4 model for lightweight architecture modeling: an experience report. SEAA, LNCS | https://doi.org/10.1007/978-3-032-04190-6_24 |
 | Julaihi 2026 | Julaihi, Bohari, Che Md Nor, Abdul Talip (2026). Comparative analysis of pseudocode and flowcharts in algorithm development among first-year computer science students. Voice of Academia 22(1), 225-239 | https://doi.org/10.24191/VoA.v22i1.11473 |
@@ -365,7 +365,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Noonan 2018 | Noonan (2018-07-10). Goodbye microservices: from 100s of problem children to 1 superstar. Segment blog, now at Twilio | https://www.twilio.com/en-us/blog/developers/best-practices/goodbye-microservices/ |
 | Noone 2018 | Noone, Mooney (2018). Visual and textual programming languages: a systematic review of the literature. Journal of Computers in Education 5(2), 149-174 | https://doi.org/10.1007/s40692-018-0101-5 |
 | npm 2026 | npm download counts for mermaid, last month to 2026-10-27 | https://api.npmjs.org/downloads/point/last-month/mermaid |
-| Nuseibeh 2001 | Nuseibeh (2001). Weaving together requirements and architectures. IEEE Computer 34(3), 115-119. Located only: the open copy listed at the author's university returned no readable text; title and a one-line abstract fragment | https://doi.org/10.1109/2.910904 |
+| Nuseibeh 2001 | Nuseibeh (2001). Weaving together requirements and architectures. IEEE Computer 34(3), 115-119. Read in full (the Open University's copy) | https://doi.org/10.1109/2.910904 |
 | Nygard 2011 | Nygard (2011-11-15). Documenting architecture decisions. Cognitect blog | https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions |
 | Obaidellah 2018 | Obaidellah, Al Haek, Cheng (2018). A survey on the usage of eye-tracking in computer programming. ACM Computing Surveys 51(1), 1-58 | https://doi.org/10.1145/3145904 |
 | Obaidellah 2020 | Obaidellah, Blascheck, Guarnera, Maletic (2020). A fine-grained assessment on novice programmers' gaze patterns on pseudocode problems. ETRA | https://doi.org/10.1145/3379156.3391982 |
@@ -568,7 +568,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | SO 2021a | "C4 model in practice". Stack Overflow, question 66633818, asked 2021-03; read 2026-10-28 (8 votes, 4132 views, 2 answers). | https://stackoverflow.com/questions/66633818 |
 | SO 2021b | "Arrow direction for fetching data from database in architecture diagram?". Stack Overflow, question 66695185, asked 2021-03; read 2026-10-28 (20 votes, 18334 views, 3 answers). | https://stackoverflow.com/questions/66695185 |
 | SO 2022a | "When should you write an architecture decision record (ADR)?". Stack Overflow, question 72107691, asked 2022-05; read 2026-10-28 (1 votes, 1844 views, 1 answers). | https://stackoverflow.com/questions/72107691 |
-| Sobel 2002 | Sobel, Clarkson (2002). Formal methods application: an empirical tale of software development. IEEE Transactions on Software Engineering 28(3), 308-320. Paper not read; findings read in Berry 2003 | https://doi.org/10.1109/32.991322 |
+| Sobel 2002 | Sobel, Clarkson (2002). Formal methods application: an empirical tale of software development. IEEE Transactions on Software Engineering 28(3), 308-320. Abstract read; the numbers read in Berry 2003 | https://doi.org/10.1109/32.991322 |
 | Sobel 2003 | Sobel, Clarkson (2003). Response to the comments on formal methods application. IEEE Transactions on Software Engineering 29(6), 572-575. Machine summary only; a journal index lists it under the title of the 2002 paper | https://doi.org/10.1109/TSE.2003.1205184 |
 | Soh 2012 | Soh, Sharafi, Van den Plas, Cepeda Porras, Guéhéneuc, Antoniol (2012). Professional status and expertise for UML class diagram comprehension: an empirical study. ICPC | https://doi.org/10.1109/ICPC.2012.6240484 |
 | Soliman 2025 | Soliman, Albonico, Malavolta, Wortmann (2025). Mining software repositories for software architecture: a systematic mapping study. Information and Software Technology 181, 107677 | https://doi.org/10.1016/j.infsof.2025.107677 |
@@ -596,7 +596,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Sun 2024 | Sun (2024). Why pseudocode? Teaching CS newsletter | https://teachingcs.substack.com/p/why-pseudocode |
 | Swift 2026 | Swift project (undated, read 2026). Swift Evolution: the evolution process | https://github.com/swiftlang/swift-evolution/blob/main/process.md |
 | SysDesign Bench 2026 | SysDesign-Bench (repository). Benchmark of pre-code design decisions; found by search, not read | https://github.com/opheleon/SysDesign-Bench |
-| Taibi 2017 | Taibi, Lenarduzzi, Pahl (2017). Processes, motivations, and issues for migrating to microservices architectures: an empirical investigation. IEEE Cloud Computing. Read in a search summary (secondary) | https://doi.org/10.1109/mcc.2017.4250931 |
+| Taibi 2017 | Taibi, Lenarduzzi, Pahl (2017). Processes, motivations, and issues for migrating to microservices architectures: an empirical investigation. IEEE Cloud Computing. Abstract read | https://doi.org/10.1109/mcc.2017.4250931 |
 | Tang 2006 | Tang, Babar, Gorton, Han (2006). A survey of architecture design rationale. Journal of Systems and Software | https://doi.org/10.1016/j.jss.2006.04.029 |
 | Tang 2010 | Tang, Aleti, Burge, van Vliet (2010). What makes software design effective? Design Studies. Summary line read (secondary); abstract not reached | https://doi.org/10.1016/j.destud.2010.09.004 |
 | Tang 2012 | Tang, van Vliet (2012). Design strategy and software design effectiveness. IEEE Software. Abstract read in a search summary (secondary) | https://doi.org/10.1109/ms.2011.130 |
@@ -657,7 +657,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Zannier 2007 | Zannier, Chiasson, Maurer (2007). A model of design decision making based on empirical results of interviews with software designers. Information and Software Technology. Summary line read (secondary); abstract not reached | https://doi.org/10.1016/j.infsof.2007.02.010 |
 | Zarzycki 2026 | Zarzycki (2026). What open-source projects tell their coding agents: a census of AGENTS.md and CLAUDE.md. Preprint, version 2 | arXiv:2610.31715 |
 | Zdun 2013 | Zdun, Capilla, Tran, Zimmermann (2013). Sustainable architectural design decisions. IEEE Software | https://doi.org/10.1109/ms.2013.97 |
-| Zhang 2012 | Zhang, Budgen (2012). What do we know about the effectiveness of software design patterns? IEEE TSE. Listings that quote it read (secondary) | https://doi.org/10.1109/tse.2011.79 |
+| Zhang 2012 | Zhang, Budgen (2012). What do we know about the effectiveness of software design patterns? IEEE TSE. Abstract read | https://doi.org/10.1109/tse.2011.79 |
 | Zhang 2023 | Zhang, Chen, Shen, Ding, Tenenbaum, Gan (2023). Planning with large language models for code generation. Preprint; abstract read | https://arxiv.org/abs/2303.05510 |
 | Zhi 2015 | Zhi, Garousi-Yusifoğlu, Sun, Garousi, Shahnewaz, Ruhe (2015). Cost, benefits and quality of software development documentation: a systematic mapping. Journal of Systems and Software 99, 175-198 | https://doi.org/10.1016/j.jss.2014.09.042 |
 | Zhou 2021 | Zhou, Xu, Shraer, Namasivayam and others (2021). FoundationDB: a distributed unbundled transactional key value store. SIGMOD, 2653-2666. Author copy read: abstract and the simulation testing section. Open copy: https://www.foundationdb.org/files/fdb-paper.pdf | https://doi.org/10.1145/3448016.3457559 |

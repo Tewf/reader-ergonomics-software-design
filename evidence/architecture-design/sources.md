@@ -66,14 +66,14 @@ The figure draws the stages of the table for architecture design.
 | Nayebi 2019 | formal | found by search summary | longitudinal industrial case; abstract read | review 7 |
 | Prechelt 2001 | formal | found by search summary | controlled experiment, professionals, nine tasks; abstract read on the group's page | review 3; against |
 | Prechelt 2002 | formal | lead | two controlled experiments; draft abstract, secondary | review 3 |
-| Zhang 2012 | formal | lead | systematic mapping; listings that quote it read (secondary) | review 0, 3 |
+| Zhang 2012 | formal | lead | systematic mapping; abstract read | review 0, 3 |
 | Khomh 2008 | formal | F12 neighbourhood | empirical; abstract of the technical report version read in a search summary (secondary) | review 3; against |
 | Vokac 2004 | formal | F12 neighbourhood | industrial case, 500,000 lines over three years; abstract read in a record (secondary) | review 3; against |
 | Ameller 2013 | formal | found by title | interviews; located only, abstract not reached | review 4 |
-| Bellomo 2015 | formal | found by title | descriptive, ATAM data; secondary | review 4 |
+| Bellomo 2015 | formal | found by title | descriptive, ATAM data; abstract read | review 4 |
 | Kazman 2000 | formal | lead | technical report describing the method and one case; full text read | review 4 |
 | Babar 2004 | formal | R6 | comparison of four methods; full text read (university repository copy) | review 0, 4 |
-| Dobrica 2002 | formal | found by title | survey of analysis methods; summary line read (secondary) | review 0, 4 |
+| Dobrica 2002 | formal | found by title | survey of eight analysis methods; abstract read | review 0, 4 |
 | Abrahamsson 2010 | formal | lead | position; introduction read in a search summary, abstract not reached in full | review 5 |
 | Waterman 2015 | formal | lead | grounded theory, 44 participants; abstract read in a listing | review 5 |
 | Boehm 2008 | formal | found by title | measured, 161 projects; abstract read | review 5 |
@@ -84,7 +84,7 @@ The figure draws the stages of the table for architecture design.
 | Verdecchia 2021 | formal | lead | grounded theory and focus groups; abstract read | review 7 |
 | Ernst 2015 | formal | found by title | survey, 1,831 participants; secondary | review 7 |
 | Mumtaz 2021 | formal | R5 | systematic mapping; abstract read | review 0, 7 |
-| Baabad 2020 | formal | R4 | systematic review; located only, abstract not reached | review 0, 7 |
+| Baabad 2020 | formal | R4 | systematic review, 74 primary studies; full text read | review 0, 7 |
 | Taibi 2017 | formal | found by title | interviews; secondary | review 8 |
 | Di Francesco 2018 | formal | found by title | industrial survey; located only, abstract not reached | review 8 |
 | Blinowski 2022 | formal | found by title | measured, controlled experiments; abstract read | review 8 |

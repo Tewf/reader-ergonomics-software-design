@@ -17,7 +17,7 @@ This file separates "nobody has done this" from "this search did not find it". E
 - Whether design review finds the partition flaws the authors say it would; the claim was not tested (Alquraan 2018).
 - Whether an interview primer improves a design; no study (Q8).
 - Whether a model can implement a service from a written design; no measurement found (review.md 11).
-- The content of two works not reached: Ellis 2007 and Nuseibeh 2001.
+- The content of one work not reached: Ellis 2007.
 
 ## Where practice runs ahead of the evidence
 

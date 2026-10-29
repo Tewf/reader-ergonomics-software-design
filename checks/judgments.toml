@@ -48,7 +48,7 @@ answer = "One role: this topic's pool of sources, counted and scored row by row.
 check = "figures-present"
 path = "evidence/algorithm-design/review.md"
 question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "527b9f1b2f3e"
+file = "0e78bb6de8c0"
 answer = "No: the file is a log of sources, one finding per line under its strand. The process that built the pool is drawn in sources.md (flow.svg), and the comparisons are tables in state-of-the-art.md."
 
 [[answer]]
@@ -69,7 +69,7 @@ answer = "No: the file is a log of sources, one finding per line under its stran
 check = "figures-present"
 path = "evidence/architecture-design/review.md"
 question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
-file = "845c06921949"
+file = "e01efe05b097"
 answer = "No: the file is a log of sources, one finding per line under its strand. The process that built the pool is drawn in sources.md (flow.svg), and the comparisons are tables in state-of-the-art.md."
 
 [[answer]]
@@ -139,7 +139,7 @@ answer = "No fact in two places: the shared line is the steps navigation that ev
 check = "paraphrase"
 path = "evidence/architecture-design/README.md"
 question = "says nearly what evidence/pseudocode/README.md (line 5) says, similarity 0.97: one fact in two places?"
-file = "6007c3cd1128"
+file = "ab7116c931b0"
 answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
 
 [[answer]]
@@ -167,7 +167,7 @@ answer = "No fact in two places: the shared line is the steps navigation that ev
 check = "paraphrase"
 path = "evidence/architecture-design/README.md"
 question = "says nearly what evidence/system-diagrams/README.md (line 5) says, similarity 0.97: one fact in two places?"
-file = "6007c3cd1128"
+file = "ab7116c931b0"
 answer = "No fact in two places: the shared line is the steps navigation that every topic README carries, so a reader moves between the same files in every topic."
 
 [[answer]]
@@ -328,14 +328,14 @@ answer = "It stays: checks/ is the extension point reader-ergonomics' extending.
 check = "document-mode"
 path = "evidence/architecture-design/state-of-the-art.md"
 question = "reads about equally as reference and explanation: one mode per document?"
-file = "871be1576178"
+file = "e8c7bc58311d"
 answer = "Reference: the file is looked up by sub-question. The imperative words in it (design, specify, check, decide) are the vocabulary of the methods reviewed, not steps for the reader."
 
 [[answer]]
 check = "logical-lines"
 path = "evidence/algorithm-design/sources.md"
 question = "156 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "a8a2e31263df"
+file = "ae791d6ffd6b"
 answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
 
 [[answer]]
@@ -363,7 +363,7 @@ answer = "One role: how this topic's pool of sources was searched, screened and 
 check = "logical-lines"
 path = "evidence/architecture-design/sources.md"
 question = "141 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "66cf8c3b5bf6"
+file = "97a9ed45d8fe"
 answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
 
 [[answer]]
@@ -405,7 +405,7 @@ answer = "One role: how this topic's pool of sources was searched, screened and 
 check = "logical-lines"
 path = "evidence/system-design/sources.md"
 question = "129 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "dd6035d25bef"
+file = "096b09ee46e2"
 answer = "One role: this topic's pool of sources, counted and scored row by row. It stays whole."
 
 [[answer]]
@@ -433,35 +433,21 @@ answer = "Reference: the file is looked up by sub-question. The imperative words
 check = "logical-lines"
 path = "evidence/algorithm-design/review.md"
 question = "129 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "527b9f1b2f3e"
-answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/architecture-design/review.md"
-question = "109 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "845c06921949"
-answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
-
-[[answer]]
-check = "logical-lines"
-path = "evidence/system-design/review.md"
-question = "100 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
-file = "477096955ab6"
+file = "0e78bb6de8c0"
 answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
 
 [[answer]]
 check = "co-change"
 path = "evidence/architecture-design/review.md"
 question = "changed together with evidence/system-design/review.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "845c06921949"
+file = "e01efe05b097"
 answer = "No: they changed together because one audit or correction pass touched every topic on the same night; each file keeps one topic's role, and the topics already link each other where they meet."
 
 [[answer]]
 check = "co-change"
 path = "evidence/architecture-design/sources.md"
 question = "changed together with evidence/system-design/review.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
-file = "66cf8c3b5bf6"
+file = "97a9ed45d8fe"
 answer = "No: they changed together because one audit or correction pass touched every topic on the same night; each file keeps one topic's role, and the topics already link each other where they meet."
 
 [[answer]]
@@ -470,3 +456,17 @@ path = "checks"
 question = "2 entries: fold into the parent folder, unless this folder is one record of a collection (a job, a chapter, a topic)."
 file = ""
 answer = "It stays: checks/ is the extension point reader-ergonomics' extending.md names (config.toml, local/); it holds the judgment answers now, and the config and local checks when they are written."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/architecture-design/review.md"
+question = "110 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "e01efe05b097"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."
+
+[[answer]]
+check = "logical-lines"
+path = "evidence/system-design/review.md"
+question = "101 logical lines, past the trigger of 80. State this file's role in one sentence. If the sentence needs 'and', split the file; if not, it may stay."
+file = "bf145713db4d"
+answer = "One role: the reading log of this topic's literature, strand by strand. It stays whole."

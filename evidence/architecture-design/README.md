@@ -16,7 +16,7 @@ Method: a multivocal literature review (Garousi 2019, [evidence method](../READM
 
 | Claim | Grade | Where |
 |---|---|---|
-| On the 23 Gang of Four patterns, 10 papers report 11 formal experiments; firm support for the claims made for patterns in general was not found | measured, descriptive (systematic mapping to 2009; secondary) | review.md 0, 3 |
+| Of 611 candidate papers on the 23 Gang of Four patterns, 10 report 11 formal experiments; firm support for the claims made for patterns in general was not found | measured, descriptive (systematic mapping to 2009; secondary) | review.md 0, 3 |
 | Pattern use has mixed effects: professionals on nine maintenance tasks did no worse with a pattern in most and worse in a few; pattern classes' defect rates ranged from 63% to 154% of the average in one product | measured, mixed (abstracts read; one in a record, secondary) | review.md 3 |
 | Documenting patterns helped pattern-relevant maintenance tasks in two experiments, with 74 and 22 students | measured, one study (secondary; draft abstract) | review.md 3 |
 | In eight systems from identical requirements, several object-oriented design metrics predicted fault-prone classes better than traditional code metrics | measured, one setting (abstract read) | review.md 2 |

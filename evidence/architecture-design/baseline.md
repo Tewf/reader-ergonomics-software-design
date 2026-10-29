@@ -8,7 +8,7 @@ The review is finished only when it names the baseline. This file names three, o
 |---|---|---|
 | Method | ADD 3.0 (Cervantes 2016) | a named, repeatable method driven by quality attributes, set out in a practitioner book (publisher page read); it has no controlled test |
 | Principle | information hiding (Parnas 1972) | the oldest stated criterion for decomposition in the leads; one Q/A answer still gives it as the reason for private members (SESE 2011k); the criterion has no controlled test, while the broader modularity measures have observational support (review.md 2) |
-| Check | ATAM (Kazman 2000) | the evaluation most often cited before building; 31 projects of data exist (Bellomo 2015, secondary) |
+| Check | ATAM (Kazman 2000) | the evaluation most often cited before building; 31 projects of data exist (Bellomo 2015, abstract read) |
 
 - ATAM as Kazman 2000 prescribes it (read in full): nine steps in four groups. Presentation: the method, the business drivers, the architecture. Investigation: the architect names the approaches, a utility tree of quality attributes is built down to prioritised scenarios, and the approaches are analysed for risks, sensitivity points and tradeoff points. Testing: stakeholders brainstorm and vote on more scenarios, which are run against the approaches again. Reporting: the findings go back to the stakeholders. The report gives one case and no measure of effect.
 - For a decision about monoliths and services, the practice baseline is Lewis 2014 with Fowler 2015 (monolith first).

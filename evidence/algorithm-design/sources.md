@@ -91,14 +91,14 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Snook 2001 | formal | brief lead | structured interviews, five companies; full text read | review 5 |
 | Finney 1996 | formal | brief lead | measured, old, small, abstract via repository (secondary) | review 4 |
 | Pfleeger 1997 | formal | brief lead | measured, case study of one system; an author copy read once, address not recorded | review 3 |
-| Sobel 2002 | formal | brief lead | measured, quasi-experiment; findings read in Berry 2003 only (secondary) | review 3 |
+| Sobel 2002 | formal | brief lead | measured, quasi-experiment; abstract read, numbers read in Berry 2003 (secondary) | review 3 |
 | Berry 2003 | formal | G7 | published critique of Sobel 2002, read | review 3; against |
 | Sobel 2003 | formal | G7 | authors' reply, machine summary only (secondary) | review 3; against |
 | Rafique 2013 | formal | memory lead | meta-analysis, secondary summary, no numbers | review 3 |
 | Kaufman 2026 | formal | R4 (search result) | measured, controlled, 86 programmers, preprint, abstract read | review 4, 7 |
 | Chakarov 2025 | formal | G5 | industry report on itself, abstract and text read | review 5 |
 | Sanders 2009 | formal | brief lead | definition paper; full text read | review 6 |
-| Johnson 2002 | formal | brief lead | machine summary only (secondary) | review 6 |
+| Johnson 2002 | formal | brief lead | guide from experience; read in full (the author's copy) | review 6 |
 | McGeoch 2012 | formal | brief lead | book not opened | review 6 |
 | Müller-Hannemann 2010 | formal | F11 | edited volume, title only | review 6 |
 | Hooker 1994 | formal | memory lead | title and venue only; the PDF is a scan with no text layer (unreadable here) | review 6 |

@@ -21,7 +21,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 
 ## 0. Existing reviews
 
-- Zhang 2012 (secondary: the abstract was not reached; listings quote it): a mapping of studies on the 23 Gang of Four patterns, to 2009, with 11 formal experiments in 10 papers.
+- Zhang 2012 (abstract read): a mapping of studies on the 23 Gang of Four patterns, to 2009. Of 611 candidate papers, a final set of 10 holds 11 formal experiments; 7 experience reports were added.
 - Li 2022 (abstract read): 73 studies of architecture erosion; non-technical reasons deserve the same attention as technical ones.
 - Mohanani 2020 (preprint abstract read): 65 articles on 37 cognitive biases in software engineering; few studies of how to mitigate them.
 - Vera-Rivera 2021 (abstract read): 29 of 326 papers on microservice granularity; runtime properties are studied more than maintainability.
@@ -29,7 +29,8 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - Mumtaz 2021 (abstract read): detection of architecture smells; many smells have no tool and empirical validation is limited.
 - Falessi 2011, de Silva 2012, Besker 2018 (abstracts read in summaries, secondary). Their findings: there is no best decision technique; no single strategy stops erosion; a unified model of architectural debt exists.
 - Babar 2004 (full text, an author copy in a university repository): four scenario-based evaluation methods compared; five common activities form a generic evaluation process.
-- Dobrica 2002 surveys architecture analysis methods (summary line, secondary); Baabad 2020, a review of degradation in open source, is located only.
+- Dobrica 2002 (abstract read) compares eight representative architecture analysis methods.
+- Baabad 2020 (read): a review of 74 primary studies of architecture degradation in open source; rapid evolution, frequent changes and developers' lack of awareness lead its causes.
 - Tofan 2014 maps architectural decisions; reviewed in [design-decisions](../design-decisions/review.md), linked here.
 - No tertiary study of software architecture design was found.
 
@@ -70,7 +71,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - ISO 2023: the product quality model of ISO/IEC 25010 has nine characteristics (read in a summary of the standard).
 - AWS 2026d: six pillars; the page speaks of none of structure, modularity or coupling.
 - Ameller 2013 (how architects consider non-functional requirements) is located only. Kazman 2000 (ATAM, read in full) is a method report with one case, not a test of effect. Babar 2004 and Dobrica 2002 compare methods (strand 0).
-- Bellomo 2015 (secondary): ATAM data over 31 projects; modifiability, performance, availability, interoperability and deployability dominate.
+- Bellomo 2015 (abstract read): ATAM data over 31 projects; modifiability dominates in every kind of project, followed by performance, availability and interoperability; deployability rises in IT projects.
 - No controlled study that evaluation before building improves the finished system was found.
 
 ## 5. How much up front (Q6)
@@ -106,7 +107,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 
 - Lewis 2014 defines microservices by nine characteristics and says it is too early to judge how they mature.
 - Fowler 2015 advises a monolith first and says the evidence is sparse.
-- Taibi 2017 (secondary): interviews with practitioners who migrated (17 or 21, the listings disagree); maintainability and scalability drove migration; decomposition and data splitting stayed hard.
+- Taibi 2017 (abstract read; it gives no count, and the listings disagree on 17 or 21): interviews with practitioners who migrated; maintainability and scalability drove migration; decomposition and data splitting stayed hard.
 - Blinowski 2022 (abstract read): controlled experiments on one reference application; on one machine the monolith performed better, and vertical scaling was more cost-effective in the Azure cloud.
 - Ghemawat 2023 (abstract read): argues microservices conflate logical and physical boundaries and proposes writing logical monoliths that a runtime distributes. A prototype cut latency up to 15 times and cost up to 9 times against the status quo (a company prototype).
 - Mendonca 2021 (abstract read) and Noonan 2018: two companies moved from services to a monolith, each reporting its own decision; Noonan counts over 140 services merged.

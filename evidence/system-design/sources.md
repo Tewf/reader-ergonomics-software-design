@@ -65,7 +65,7 @@ The figure draws the stages of the table for system design.
 | Liu 2019 | formal | lead | measured, descriptive; abstract read | review 3 |
 | Myers 2016 | formal | lead | summary article; submitted version read | review 5 |
 | Bloch 2006 | formal | lead | talk abstract of design maxims; full text read | review 5 |
-| Nuseibeh 2001 | formal | lead | argument; located only, retrieval failed | review 7 |
+| Nuseibeh 2001 | formal | lead | argument (the Twin Peaks model); read in full | review 7 |
 | Brooker 2025 | formal | lead | practice report; full text read (an owner's report) | review 6 |
 | Bornholt 2021 | formal | lead | practice report with counts; full text read (an owner's report) | review 6 |
 | Li 2013p | formal | search | systematic survey; abstract read | review 0 |

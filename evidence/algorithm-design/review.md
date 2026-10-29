@@ -81,7 +81,7 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
   - It found no quantitative evidence that formally designed code was of higher quality than informally designed code, and no significant difference between the formal methods.
   - Formal specification gave simple, independent components that were easy to unit test; static analysis found latent faults in the delivered code.
   - The authors conclude that specification, static inspection and thorough unit testing are all needed; the system is one product, an observational case study.
-- Sobel 2002 (findings as described in Berry 2003; secondary): a quasi-experiment on an elevator simulation. The 6 teams of the formal methods group passed all six tests, against 45.5% of 11 control teams. The students had volunteered for the formal curriculum.
+- Sobel 2002 (abstract read; the numbers below are as described in Berry 2003, secondary): a quasi-experiment on an elevator simulation. The abstract reports 20 undergraduate teams in two groups, one using first-order logic and one with no formal analysis, and far more correct solutions in the formal group. The 6 teams of the formal methods group passed all six tests, against 45.5% of 11 control teams. The students had volunteered for the formal curriculum.
 - Berry 2003 (read): a published comment on Sobel 2002; assignment to groups was voluntary and not random, confounds were not excluded, and six test cases are a small sample. The authors' reply (Sobel 2003, summary only) says the faults come from a misunderstanding.
 - Rafique 2013 (adjacent): a meta-analysis of test-driven development; a search summary reports a small gain in quality and inconclusive productivity (secondary, no numbers).
 - No controlled experiment that compared a pre and postcondition specification with none, at equal effort, on algorithms people write, was found in the strings run.
@@ -115,7 +115,7 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 ## 6. Algorithm engineering and experiments (Q7)
 
 - Sanders 2009 (read): algorithm engineering is a cycle of design, analysis, implementation and experiment driven by falsifiable hypotheses. Algorithm theory, with its modelling, design and analysis, is an ingredient of it, not a competing approach. It is a definition, not a measurement.
-- Johnson 2002 (machine summary; secondary): an informal discussion of issues in analysing algorithms by experiment, from more than a decade of experience; McGeoch 2012 is the book (publisher listing only).
+- Johnson 2002 (read, the author's copy): an informal discussion of issues in analysing algorithms by experiment, from more than a decade of experience; McGeoch 2012 is the book (publisher listing only).
 - Müller-Hannemann 2010 (an edited volume on bridging theory and practice) and Hooker 1995 (testing heuristics; read) is an essay arguing for controlled experiments over competitive testing. Hooker 1994 (an empirical science of algorithms) is known by title only, as its PDF is a scan that could not be read.
 - Collberg 2016: of 402 papers backed by code, 32.3% could be obtained and built within 30 minutes (a summary of the 2013 technical report; secondary; the article may differ).
 
