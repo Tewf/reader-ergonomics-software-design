@@ -36,7 +36,7 @@ by the questions a reader brings, so each reader reaches their answer without re
 - Why stable facts first: abstract, high-level documentation is trusted more and stays useful when detail goes stale
   (Lethbridge 2003, supported with caveat).
 - Why by readers' questions: organising architectural knowledge that way went with better retrieval, in two case
-  studies (de Graaf 2016, supported with caveat).
+  studies (de Graaf 2016, correlation, read in a summary). The principle is graded convention for that reason.
 - What is not known: a structured description against an essay showed no significant effect on newcomers' scores,
   and prior familiarity with the code dominated (Ernst 2023, measured, 65 students, one system). No trial compares
   arc42, C4 or ARCHITECTURE.md; the [baseline](../evidence/architecture-descriptions/baseline.md) names the

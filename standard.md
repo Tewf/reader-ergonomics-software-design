@@ -77,7 +77,7 @@ convention, not supported. Each principle states its grade and never claims more
 
 | Principle | Claim | Grade |
 |---|---|---|
-| [Order a description by the reader's questions](principles/structure/by-the-readers-questions.md) | an architecture description follows its readers' questions, in order: its readers, the system's surroundings, its parts, its invariants, its runtime and deployment, and its reasons. | supported with caveat |
+| [Order a description by the reader's questions](principles/structure/by-the-readers-questions.md) | an architecture description follows its readers' questions, in order: its readers, the system's surroundings, its parts, its invariants, its runtime and deployment, and its reasons. | convention, untested; the one controlled experiment found no effect of the structure |
 | [Every diagram has a key, every arrow a label](principles/structure/diagram-key-and-labels.md) | every diagram of a system has a key, and every arrow says what it carries, in the direction it points. | convention, untested |
 
 <!-- principles:end -->
