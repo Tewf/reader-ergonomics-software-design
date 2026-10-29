@@ -86,7 +86,7 @@ The figure draws the stages of the table for architecture design.
 | Mumtaz 2021 | formal | R5 | systematic mapping; abstract read | review 0, 7 |
 | Baabad 2020 | formal | R4 | systematic review, 74 primary studies; full text read | review 0, 7 |
 | Taibi 2017 | formal | found by title | interviews; secondary | review 8 |
-| Di Francesco 2018 | formal | found by title | industrial survey; located only, abstract not reached | review 8 |
+| Di Francesco 2018 | formal | found by title | industrial survey, 18 practitioners; full text read (open copy) | review 8 |
 | Blinowski 2022 | formal | found by title | measured, controlled experiments; abstract read | review 8 |
 | Mendonca 2021 | formal | G1 | company report in a peer-reviewed magazine; abstract read | review 8 |
 | Ghemawat 2023 | formal | found by title | prototype and position; abstract read | review 8 |

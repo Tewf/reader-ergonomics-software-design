@@ -31,7 +31,7 @@ Here is the pool of the system-design review: how it narrowed, then one row per 
   - forward-citing records not taken: about 75 of the 100 on the first page (application papers, education, unrelated uses of AWS).
 - Snowballing, second pass (details in [protocol](protocol.md)): backward from Yuan 2014, Alquraan 2018 and Lampson 2020; forward from Newcombe 2015, first 100 citing records.
 - Existing reviews found: 7, in review.md strand 0.
-- Reach of the formal sources: 3 are title and venue only (Ellis 2007, Nuseibeh 2001, Rabkin 2013). 2 of those were tried and could not be retrieved (Ellis 2007, Nuseibeh 2001). Bloch 2006, Brooker 2025, Stylos 2008 and Gill 2011 were later read in full.
+- Reach of the formal sources: 2 are title and venue only (Nuseibeh 2001, Rabkin 2013). Nuseibeh 2001 was tried and could not be retrieved. Bloch 2006, Brooker 2025, Stylos 2008, Gill 2011 and Ellis 2007 were later read in full.
 
 The figure draws the stages of the table for system design.
 
@@ -82,7 +82,7 @@ The figure draws the stages of the table for system design.
 | Dean 2013 | formal | known | argument with one measured table; full text read | review 4 |
 | Zhou 2021 | formal | known | system paper; abstract and simulation section read | review 6 |
 | Hackett 2023 | formal | known | industrial report; abstract read | review 6 |
-| Ellis 2007 | formal | known | user study; located only, no open copy; finding read in Myers 2016 (secondary) | review 5 |
+| Ellis 2007 | formal | known | user study, 12 participants; full text read (the authors' copy) | review 5 |
 | Stylos 2007 | formal | known | user study, 30 programmers, no statistical test; full text read | review 5 |
 | Piccioni 2013 | formal | known | measured, descriptive, 25 programmers; full text read | review 5 |
 | Murphy 2018 | formal | known | measured, descriptive, 24 interviews; abstract read | review 5 |

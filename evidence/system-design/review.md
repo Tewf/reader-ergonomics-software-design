@@ -65,7 +65,7 @@ A number carries "(secondary)" when it was read in an abstract or a summary, and
 
 - Controlled or observational user studies exist, mostly on library APIs:
   - Stylos 2007 (read): a comparative user study, by the authors' own account aimed at trends rather than statistics, with 30 professional programmers. Against the authors' hypothesis they preferred and were more effective with parameterless constructors.
-  - Ellis 2007: factory against constructor; located only, and Myers 2016 reports that avoiding the factory pattern improves usability (secondary).
+  - Ellis 2007 (full text, the authors' copy): 12 programmers, think-aloud. Building an object took a median 7:10 with a factory against 1:20 with a constructor (n = 10, Wilcoxon, p = 0.005); a debugging task showed no difference (n = 9, p = 0.169). Designing the API themselves, all 12 wrote a constructor.
   - Stylos 2008 (read): ten programmers, three tasks on modified library APIs; conditions were assigned per task, so each person met both across the tasks.
     - 2.4 to 11.2 times faster at combining objects when a method on the starting class referred to the other class.
     - Significant at p below 0.05 on each task (rank sum test).
@@ -75,7 +75,7 @@ A number carries "(secondary)" when it was read in an abstract or a summary, and
 - Myers 2016 (read): few empirical studies of API design patterns exist; design guidelines from experienced designers are large and sometimes contradictory.
 - Murphy 2018: 24 designers from 7 companies learned design on the job (abstract). Murphy 2017: 32 company REST guidelines differ on some topics (secondary).
 - Kotstein 2021: 8 experts rated 82 REST rules; 28 high, 17 medium, 37 low importance (abstract).
-- Grade: supported with caveat for Stylos 2007 (a user study with no statistical test). The same for Stylos 2008 (ten participants, tasks of about half an hour, modified APIs) and for Ellis 2007 (reported in Myers 2016, design and sample unknown). All concern library APIs, not network services. The rest are measured, descriptive.
+- Grade: supported with caveat for Stylos 2007 (a user study with no statistical test). The same for Stylos 2008 (ten participants, tasks of about half an hour, modified APIs) and for Ellis 2007 (twelve participants, one significant timed task). All concern library APIs, not network services. The rest are measured, descriptive.
 
 ## 6. Checking a design before building (Q6)
 

@@ -111,6 +111,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - Blinowski 2022 (abstract read): controlled experiments on one reference application; on one machine the monolith performed better, and vertical scaling was more cost-effective in the Azure cloud.
 - Ghemawat 2023 (abstract read): argues microservices conflate logical and physical boundaries and proposes writing logical monoliths that a runtime distributes. A prototype cut latency up to 15 times and cost up to 9 times against the status quo (a company prototype).
 - Mendonca 2021 (abstract read) and Noonan 2018: two companies moved from services to a monolith, each reporting its own decision; Noonan counts over 140 services merged.
+- Di Francesco 2018 (full text): 18 practitioners in 16 companies who had migrated to microservices, after 5 exploratory interviews. The challenge named most was coupling in the old system (9 of 18), then finding service boundaries (7). To understand the old system they used its source code (13) and tests (11), architectural and textual documents (11 each), box-and-line diagrams (9) and UML diagrams (5).
 - Loukides 2020: of 1,502 respondents recruited from mailing lists, over 23% do not use microservices, so at most 77% do; 92% of the respondents report some success.
 - Prime Video's report of a 90% cost fall was read only in secondary write-ups; Su 2024 lists it among four cases.
 

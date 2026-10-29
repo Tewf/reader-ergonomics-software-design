@@ -96,3 +96,11 @@ university's access:
 - 6 were read: 5 correct, and 1 imprecise (a share of impacts reported as a share of outages), now corrected;
 - 1 is in a journal outside the access;
 - 7 sit behind a publisher's bot check that was not bypassed; they stay marked.
+
+The 7 behind the bot check are IEEE papers, and the university has no IEEE subscription. A later lookup of open copies
+found three, and Tang 2006 was read through the university's access:
+
+- Ellis 2007 and Di Francesco 2018 were read in full, from their authors' and their university's pages;
+- the Durham record of Zhang 2012 holds no file, so it stays at its abstract;
+- Tang 2006 does not name the cost of capture: its most cited barrier is lack of time or budget (60.5% of 81), and
+  the principle that cited it was corrected.

@@ -23,4 +23,4 @@
 
 - The one comparison of templates measured the writer, not the reader.
 - Whether the options reduce repeated debate is claimed by PEP 1 and untested.
-- The cost of capture is the barrier named longest for recording rationale (Lee 1997; Tang 2006): keep it short.
+- Recording rationale costs effort: rationale systems were argued to fail on cost (Lee 1997, secondary). Lack of time or budget was the reason practitioners gave most for not documenting it (60.5% of 81; Tang 2006). Keep it short.

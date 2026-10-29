@@ -67,7 +67,7 @@ Grade vocabulary as in the README. "narrative" means found by the earlier readin
 | Tyree 2005 | formal | narrative | template, secondary | review 2 |
 | Jansen 2005 | formal | narrative | position, secondary | review 2 |
 | Zdun 2013 | formal | narrative | position | review 2 |
-| Tang 2006 | formal | narrative | measured, descriptive, 81 answers, secondary | review 3 |
+| Tang 2006 | formal | narrative | measured, descriptive, 81 answers; full text read | review 3 |
 | Weinreich 2015 | formal | narrative | measured, descriptive, 25 interviews, secondary | review 3 |
 | Groher 2015 | formal | narrative | same 25 interviews, secondary | review 3 |
 | Borowa 2023 | formal | narrative | 63 answers, 13 interviews, secondary | review 3 |

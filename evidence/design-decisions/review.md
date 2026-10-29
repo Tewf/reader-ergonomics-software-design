@@ -44,7 +44,7 @@ In the literature above, "(secondary)" marks a number read in an abstract or sum
 
 ## 3. Practitioner surveys and interviews
 
-- Tang 2006: survey, 81 valid responses; practitioners value rationale and report barriers to documenting it (secondary).
+- Tang 2006 (full text): survey, 81 valid responses of 127; practitioners value rationale. Their reasons for not documenting it: no time or budget 60.5%, no standards 42%, no suitable tool 29.6% (Table 8).
 - Weinreich 2015: 25 architects, leads and senior developers from 22 companies in 10 countries (secondary).
 - Groher 2015: the same 25 interviews; individual and cultural factors weigh as much as business ones (secondary).
 - Borowa 2023: questionnaire of 63 and 13 interviews; architects favour known or fast-to-build solutions (secondary).
