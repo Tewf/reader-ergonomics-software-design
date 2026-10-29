@@ -9,3 +9,4 @@ why, and the consequences. A record is not rewritten once accepted: a later reco
 | Record | Decision | Status |
 |---|---|---|
 | [0001](0001-pin-links-at-the-release-commit.md) | links into reader-ergonomics name the release's commit, as CI does | accepted, 2026-10-29 |
+| [0002](0002-move-to-reader-ergonomics-1-2-0.md) | check against reader-ergonomics v1.2.0, whose judgment-quotes replaces the local check | accepted, 2026-10-29 |

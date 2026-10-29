@@ -91,7 +91,7 @@ The figure draws the stages of the table for system design.
 | Rabkin 2013 | formal | snowball | failure study; title and venue only | review 3 |
 | Gill 2011 | formal | snowball | failure study, one year of logs; full text read | review 3 |
 | Fonseca 2017 | formal | snowball | measured, descriptive; abstract read | against |
-| Beek 2024 | formal | snowball | survey; abstract read | review 6 |
+| ter Beek 2024 | formal | snowball | survey; abstract read | review 6 |
 | Cirstea 2024 | formal | snowball | method paper; abstract read | review 6 |
 | Tang 2024 | formal | snowball | method paper; abstract read | review 6 |
 | Newcombe 2015 | formal | carried | owner's report; preprint read, re-read for design content | review 6 |

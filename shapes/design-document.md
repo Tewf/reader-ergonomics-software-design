@@ -38,10 +38,10 @@ proposal in two forms; the [baseline](../evidence/design-decisions/baseline.md) 
 
 | Part | Principle |
 |---|---|
-| Decision asked and summary first | [overview first](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/overview-first.md) |
-| Proposal and record kept as two documents | [one mode per document](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/document/one-mode-per-document.md) |
-| Fixed sections, alternatives as a table | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/page/signal-the-structure.md) |
-| An algorithm linked, not restated | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/40cd9fb3ed21a01a8913788edc46ade9562a797d/principles/collection/one-place-per-fact.md) |
+| Decision asked and summary first | [overview first](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/document/overview-first.md) |
+| Proposal and record kept as two documents | [one mode per document](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/document/one-mode-per-document.md) |
+| Fixed sections, alternatives as a table | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/page/signal-the-structure.md) |
+| An algorithm linked, not restated | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/6d4e324157b17862aa5c5158fde0ba02db992729/principles/collection/one-place-per-fact.md) |
 
 ## The skeleton
 

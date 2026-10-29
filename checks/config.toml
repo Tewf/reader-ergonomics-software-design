@@ -6,3 +6,16 @@ extends = "reader-ergonomics"
 # The judgment answers change with every file they answer for, as the bibliography changes with every review;
 # asking whether they belong beside each of those files cannot settle, since answering changes the file again.
 exempt = ["standard.md", "llms.txt", "evidence/bibliography.md", "checks/judgments.toml"]
+
+[judgment_quotes]
+# Every answer quotes its file, path questions included: this repository's answers already do, and a path answer
+# with no quote is how answers turned into templates on 2026-10-29 (decisions/0002).
+optional = []
+
+[readable_measure]
+# The site loads reader-ergonomics' own site.css at build time (pages.yml); it is measured in that repository, and
+# this one has no stylesheet of its own.
+stylesheets = []
+
+[sufficient_contrast]
+stylesheets = []   # as above
