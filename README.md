@@ -1,7 +1,7 @@
-# Software design writing
+# Software design
 
-[![Checks against reader-ergonomics](https://github.com/Tewf/software-design-writing/actions/workflows/checks.yml/badge.svg)](https://github.com/Tewf/software-design-writing/actions/workflows/checks.yml)
-[![Site](https://github.com/Tewf/software-design-writing/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/software-design-writing/)
+[![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml?query=branch%3Amaster)
+[![Site](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-software-design/)
 
 How to design software at the abstract layer just before the code: its architecture, the running system, its
 algorithms and their specifications. And how to write about it (architecture descriptions, decision records, design
@@ -46,10 +46,10 @@ git clone https://github.com/Tewf/reader-ergonomics
 python3 reader-ergonomics/checks/run.py path/to/this/repository
 ```
 
-CI runs the same checks on every push, and a run fails on any error ([checks.yml](https://github.com/Tewf/software-design-writing/blob/master/.github/workflows/checks.yml)). The
+CI runs the same checks on every push, and a run fails on any error ([checks.yml](https://github.com/Tewf/reader-ergonomics-software-design/blob/master/.github/workflows/checks.yml)). The
 badge at the top is its last result: the proof that this repository obeys the standard it extends.
-Every push to master also renders the site, [tewf.github.io/software-design-writing](https://tewf.github.io/software-design-writing/)
-([pages.yml](https://github.com/Tewf/software-design-writing/blob/master/.github/workflows/pages.yml)).
+Every push to master also renders the site, [tewf.github.io/reader-ergonomics-software-design](https://tewf.github.io/reader-ergonomics-software-design/)
+([pages.yml](https://github.com/Tewf/reader-ergonomics-software-design/blob/master/.github/workflows/pages.yml)).
 
 ## Licence
 

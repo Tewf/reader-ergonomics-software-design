@@ -1,5 +1,5 @@
 ---
-title: "Software design writing"
+title: "Software design"
 ---
 
 {{< include README.md >}}

@@ -4,7 +4,7 @@ message: >-
   work-in-progress synthesis of published research, written with Claude, an AI
   assistant by Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
-title: "software-design-writing (work in progress)"
+title: "reader-ergonomics-software-design (work in progress)"
 abstract: >-
   How to design software at the abstract layer before the code (its
   architecture, the running system, its algorithms and their specifications)
@@ -16,7 +16,7 @@ abstract: >-
 type: software
 authors:
   - name: "Tewf"
-repository-code: "https://github.com/Tewf/software-design-writing"
+repository-code: "https://github.com/Tewf/reader-ergonomics-software-design"
 license:
   - Apache-2.0
   - CC-BY-4.0
