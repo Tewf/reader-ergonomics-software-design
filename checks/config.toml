@@ -28,7 +28,7 @@ ask_costs = true   # every record here labels its Consequences Good, Bad and To 
 
 [bibliography_keys]
 # A key names one work across the family (reader-ergonomics decision 0003); CI clones each name beside this repository.
-family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-learning",
+family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-blueprint", "reader-ergonomics-learning",
           "reader-ergonomics-presentations", "reader-ergonomics-topic"]
 shared_links = [
   "https://web.stanford.edu/~ouster/cgi-bin/book.php",   # two editions, one author page: Ousterhout 2021 here, 2018 in reader-ergonomics
