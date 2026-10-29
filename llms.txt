@@ -1,6 +1,6 @@
 # Software design
 
-> How to design software before the code, and write it down, by what research has measured: rules for specifications, design documents, decision records, architecture descriptions and diagrams, each with its grade of evidence.
+> How to write the documents that design software before the code, by what research has measured: shapes and rules for specifications, design documents, decision records, architecture descriptions and diagrams, each with its grade of evidence, and checks to run in CI.
 
 Each page's markdown source is served at the same path with a .md extension.
 

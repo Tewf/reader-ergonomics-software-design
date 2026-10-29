@@ -63,6 +63,7 @@ La même que reader-ergonomics, pour qu'un lecteur de l'un s'oriente dans l'autr
   écrites la [spécification d'algorithme](shapes/algorithm-specification.md), le
   [document de conception](shapes/design-document.md), le [registre de décision](shapes/decision-record.md), la
   [description d'architecture](shapes/architecture-description.md) et le [schéma de système](shapes/system-diagram.md) ;
+- [`examples/`](examples/README.md) : un document rempli de chaque forme, vérifié en CI comme un autre ;
 - [`decisions/`](decisions/) : les registres des choix de conception de ce dépôt ;
 - [`principles/`](principles/README.md) : seulement là où la conception logicielle diffère du standard général, huit
   principes en trois groupes (spécification, décision, structure), réunis sur la [fiche](standard.md) ;

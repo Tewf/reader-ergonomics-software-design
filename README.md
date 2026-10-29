@@ -61,6 +61,7 @@ The same as reader-ergonomics, so a reader of one can find their way in the othe
   [algorithm specification](shapes/algorithm-specification.md), the [design document](shapes/design-document.md), the
   [decision record](shapes/decision-record.md), the [architecture description](shapes/architecture-description.md) and the
   [system diagram](shapes/system-diagram.md);
+- [`examples/`](examples/README.md): a filled document of each shape, checked in CI like any other;
 - [`decisions/`](decisions/): the records of this repository's own design choices;
 - [`principles/`](principles/README.md): only where software design differs from the general standard, eight in three
   groups (specification, decision, structure), gathered on the [card](standard.md);

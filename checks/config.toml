@@ -20,7 +20,7 @@ stylesheets = []   # as above
 shapes = [
   { name = "decision record", files = ["decisions/0*.md"], required = ["Context", "Decision", "Options", "Consequences", "See also"] },
   # An architecture description, where a repository keeps one (principle: order a description by the reader's questions).
-  { name = "architecture description", files = ["ARCHITECTURE.md", "docs/architecture.md"], required = ["Purpose and context", "Parts", "Invariants", "Runtime", "Deployment", "Decisions"] },
+  { name = "architecture description", files = ["ARCHITECTURE.md", "docs/architecture.md", "examples/architecture-*.md"], required = ["Purpose and context", "Parts", "Invariants", "Runtime", "Deployment", "Decisions"] },
 ]
 
 [decision_records]

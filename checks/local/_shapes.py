@@ -1,13 +1,16 @@
 """Shared by the local checks: which documents declare which shape, and where a document's labelled parts start.
 
 A document follows a shape of this repository when it carries a line `**Shape:**` linking the shape's file, as the
-decision records do. The checks below find their documents that way, so they apply wherever the shapes are used.
+decision records do. The checks below find their documents that way, so they apply wherever the shapes are used. A
+Shape line inside fenced code, as in a shape's skeleton, declares nothing.
 This module has no NAME, so the runner loads it and skips it; each check puts its folder on sys.path to import it.
 """
 from __future__ import annotations
 
 import re
 from pathlib import Path
+
+from framework.check_api import prose_only
 
 SHAPE_LINE = re.compile(r"\*\*Shape:\*\*\s*\[[^\]]*\]\(([^)\s]+)\)")
 
@@ -18,7 +21,7 @@ def declared(root: Path, paths: list[str], shape_file: str) -> list[str]:
     for path in paths:
         if not path.endswith((".md", ".qmd")):
             continue
-        text = (root / path).read_text(encoding="utf-8", errors="replace")
+        text = prose_only((root / path).read_text(encoding="utf-8", errors="replace"))  # a skeleton's line is not a declaration
         if any(link.split("#")[0].endswith(f"shapes/{shape_file}") or link.split("#")[0] == shape_file
                for link in SHAPE_LINE.findall(text)):
             found.append(path)

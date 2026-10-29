@@ -12,7 +12,7 @@ project:
 
 website:
   title: "Software design"
-  description: "How to design software before the code, and write it down, by what research has measured: rules for specifications, design documents, decision records, architecture descriptions and diagrams, each with its grade of evidence."
+  description: "How to write the documents that design software before the code, by what research has measured: shapes and rules for specifications, design documents, decision records, architecture descriptions and diagrams, each with its grade of evidence, and checks to run in CI."
   site-url: "https://tewf.github.io/reader-ergonomics-software-design/"
   repo-url: "https://github.com/Tewf/reader-ergonomics-software-design"
   repo-actions: [source, issue]
@@ -27,6 +27,8 @@ website:
         href: principles/index.qmd
       - text: Shapes
         href: shapes/index.qmd
+      - text: Examples
+        href: examples/index.qmd
       - text: Reader styles
         href: reader-styles/index.qmd
       - text: Decisions

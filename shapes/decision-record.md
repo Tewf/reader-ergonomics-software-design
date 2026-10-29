@@ -78,5 +78,5 @@ an accepted record is superseded, not changed in place.
 
 - The worked example is this repository's first record:
   [0001: Pin links to reader-ergonomics at its release commit](../decisions/0001-pin-links-at-the-release-commit.md).
-- Its proposal is the worked example of the [design document](design-document.md#worked-example), so both shapes
+- Its proposal is a [design document](../examples/pin-links-at-the-release-commit.md) in `examples/`, so both shapes
   can be compared on one decision.

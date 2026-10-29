@@ -3,7 +3,7 @@
 **Decision:** Every link from this repository into reader-ergonomics names the commit of the release CI checks
 against, and moves with CI's pin in the same commit.
 
-**Status:** accepted, 2026-10-29, and applied in commit fb7e1f4. **Shape:** [decision record](../shapes/decision-record.md). **Proposed in:** the worked example of the [design document](../shapes/design-document.md#worked-example) shape.
+**Status:** accepted, 2026-10-29, and applied in commit fb7e1f4. **Shape:** [decision record](../shapes/decision-record.md). **Proposed in:** [Pin the links to reader-ergonomics at its release commit](../examples/pin-links-at-the-release-commit.md), a design document.
 
 ## Context
 

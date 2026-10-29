@@ -117,6 +117,10 @@ class LocalShapeChecks(unittest.TestCase):
     def test_a_document_without_the_shape_line_is_not_checked(self) -> None:
         self.assertEqual(self.run_check(specs, "spec.md", SPEC.replace("**Shape:**", "Shape:")), [])
 
+    def test_a_shape_line_inside_a_skeleton_fence_declares_nothing(self) -> None:
+        skeleton = "# Shape: algorithm specification\n\n```markdown\n# <Name>\n\n**Shape:** [algorithm specification](shapes/algorithm-specification.md)\n```\n"
+        self.assertEqual(self.run_check(specs, "shape.md", skeleton), [])
+
     def test_steps_before_the_contract_fail(self) -> None:
         moved = SPEC.replace("**Contract.** Precondition: sorted.\n\n", "").replace("**Plan.**", "**Contract.** Precondition: sorted.\n\n**Plan.**")
         self.assertTrue(any("comes after the Steps" in m for _, m in self.run_check(specs, "spec.md", moved)))
