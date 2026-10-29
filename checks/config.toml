@@ -23,6 +23,17 @@ shapes = [
   { name = "architecture description", files = ["ARCHITECTURE.md", "docs/architecture.md"], required = ["Purpose and context", "Parts", "Invariants", "Runtime", "Deployment", "Decisions"] },
 ]
 
+[decision_records]
+ask_costs = true   # every record here labels its Consequences Good, Bad and To keep it true (shapes/decision-record.md)
+
+[bibliography_keys]
+# A key names one work across the family (reader-ergonomics decision 0003); CI clones each name beside this repository.
+family = ["reader-ergonomics", "reader-ergonomics-academic", "reader-ergonomics-learning",
+          "reader-ergonomics-presentations", "reader-ergonomics-topic"]
+shared_links = [
+  "https://web.stanford.edu/~ouster/cgi-bin/book.php",   # two editions, one author page: Ousterhout 2021 here, 2018 in reader-ergonomics
+]
+
 [standard_card]
 facets = ["specification", "decision", "structure"]   # the principle groups, in the order the card shows them
 

@@ -33,7 +33,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Tewf/reader-ergonomics
-          ref: d48ffbe96aed32dd63e1974ee60f69472fe36932   # v1.4.3 (reader-ergonomics extending.md, Versions)
+          ref: 7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762   # v1.6.0 (reader-ergonomics extending.md, Versions)
           path: standard
       - uses: actions/setup-python@v5
         with:
@@ -47,6 +47,11 @@ jobs:
           key: fastembed-${{ hashFiles('standard/checks/meaning/requirements.txt') }}
       - name: Install the meaning tier
         run: pip install -r standard/checks/meaning/requirements.txt
+      - name: Clone the family beside this repository, for bibliography-keys
+        run: |
+          for name in $(python3 -c "import tomllib; print(*tomllib.load(open('repository/checks/config.toml', 'rb'))['bibliography_keys']['family'])"); do
+            git clone --quiet --depth 1 "https://github.com/Tewf/$name" "$name"
+          done
       - name: Check the repository, tiers program and meaning
         run: python3 standard/checks/run.py repository --tiers program,meaning --judge flag
       - name: Test this repository's own checks
@@ -67,7 +72,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: Tewf/reader-ergonomics
-          ref: d48ffbe96aed32dd63e1974ee60f69472fe36932   # v1.4.3 (reader-ergonomics extending.md, Versions)
+          ref: 7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762   # v1.6.0 (reader-ergonomics extending.md, Versions)
           path: standard
       - uses: actions/setup-python@v5
         with:

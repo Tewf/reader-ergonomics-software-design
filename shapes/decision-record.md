@@ -1,7 +1,7 @@
 # Shape: decision record for a design decision
 
 reader-ergonomics has a general
-[decision record](https://github.com/Tewf/reader-ergonomics/blob/d48ffbe96aed32dd63e1974ee60f69472fe36932/shapes/decision-record.md):
+[decision record](https://github.com/Tewf/reader-ergonomics/blob/7fa4af5d5cf4ddf3cba7076d9d95e3cd96362762/shapes/decision-record.md):
 the parts every record has, with their evidence. This shape extends it, since a decision about the design of
 software adds two parts:
 
@@ -69,10 +69,10 @@ an accepted record is superseded, not changed in place.
 
 - `shape-conformance` of reader-ergonomics, declared in this repository's `checks/config.toml`: a record holds
   Context, Decision, Options, Consequences and See also.
-- `decision-records`, this repository's local check, for the general shape's four rules. The records are numbered in
-  order and linked from the README, and each opens with its decision. Its status has a word and a date, and links
-  forward when superseded, and its Shape line links this shape. A record with no Consequences line labelled Bad
-  becomes a judgment question.
+- `decision-records` of reader-ergonomics, for the general shape's four rules. The records are numbered in order and
+  linked from the README, and each opens with its decision. Its status has a word and a date, and links forward when
+  superseded, and its Shape line links this shape. A record with no Consequences line labelled Bad becomes a judgment
+  question, which this repository turns on with `ask_costs` in `checks/config.toml`.
 
 ## Worked example
 
