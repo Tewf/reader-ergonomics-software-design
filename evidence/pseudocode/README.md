@@ -7,13 +7,13 @@ Question: how should an algorithm be presented (pseudocode, flowchart, structure
 
 Related general principles (not reviewed again here):
 
-- [Draw relations](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/page/draw-relations.md)
-- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/document/define-before-use.md)
-- [Names predict content](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/collection/names-predict-content.md)
-- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/document/worked-examples-with-subgoals.md)
-- [Figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/6980fa64583912922d6f5b5c01316749d654345f/principles/page/figure-next-to-its-text.md)
-- Identifier names: the [psycholinguistics review](https://github.com/Tewf/reader-ergonomics/tree/6980fa64583912922d6f5b5c01316749d654345f/evidence/psycholinguistics) covers the code-readability studies.
-- Readers that are models: the [LLM readers review](https://github.com/Tewf/reader-ergonomics/tree/6980fa64583912922d6f5b5c01316749d654345f/evidence/llm-readers).
+- [Draw relations](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/page/draw-relations.md)
+- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/define-before-use.md)
+- [Names predict content](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/collection/names-predict-content.md)
+- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/document/worked-examples-with-subgoals.md)
+- [Figure next to its text](https://github.com/Tewf/reader-ergonomics/blob/adb53c52fa8eefe0e621e520365157bbbcad1a1a/principles/page/figure-next-to-its-text.md)
+- Identifier names: the [psycholinguistics review](https://github.com/Tewf/reader-ergonomics/tree/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/psycholinguistics) covers the code-readability studies.
+- Readers that are models: the [LLM readers review](https://github.com/Tewf/reader-ergonomics/tree/adb53c52fa8eefe0e621e520365157bbbcad1a1a/evidence/llm-readers).
 
 ## Claims
 
