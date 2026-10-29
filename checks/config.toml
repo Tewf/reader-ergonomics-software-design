@@ -30,3 +30,9 @@ shapes = [
 
 [standard_card]
 facets = ["specification", "decision", "structure"]   # the principle groups, in the order the card shows them
+
+[logical_lines]
+# The judgment answers are a data file, one record per answer, like the bibliography; asking for their role in a
+# sentence inside the same file reopens the question each time it is answered.
+exempt_from_trigger = ["evidence/bibliography.md", "checks/judgments.toml"]
+exempt_from_ceiling = ["evidence/bibliography.md", "checks/judgments.toml"]
