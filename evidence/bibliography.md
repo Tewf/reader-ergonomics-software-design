@@ -225,7 +225,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Hendrix 2002 | Hendrix, Cross, Maghsoodloo (2002). The effectiveness of control structure diagrams in source code comprehension activities. IEEE Transactions on Software Engineering | https://doi.org/10.1109/TSE.2002.1000450 |
 | Herbsleb 1999 | Herbsleb, Grinter (1999). Splitting the organization and integrating the code: Conway's law revisited. ICSE. Abstract read in a search summary (secondary) | https://doi.org/10.1145/302405.302455 |
 | Hoare 1969 | Hoare (1969). An axiomatic basis for computer programming. Communications of the ACM. Title and venue only | https://doi.org/10.1145/363235.363259 |
-| Hofmeister 2007 | Hofmeister, Kruchten, Nord, Obbink, Ran, America (2007). A general model of software architecture design derived from five industrial approaches. Journal of Systems and Software. Abstract read in a search summary (secondary) | https://doi.org/10.1016/j.jss.2006.05.024 |
+| Hofmeister 2007 | Hofmeister, Kruchten, Nord, Obbink, Ran, America (2007). A general model of software architecture design derived from five industrial approaches. Journal of Systems and Software. Full text read through a library | https://doi.org/10.1016/j.jss.2006.05.024 |
 | Hong 2023 | Hong, Zhuge, Chen, Zheng et al. (2023). MetaGPT: meta programming for multi-agent collaborative framework. Preprint, later ICLR 2024. Abstract read | arXiv:2308.00352 |
 | Hooker 1994 | Hooker (1994). Needed: an empirical science of algorithms. Operations Research 42(2). Title and venue only | https://doi.org/10.1287/opre.42.2.201 |
 | Hooker 1995 | Hooker (1995). Testing heuristics: we have it all wrong. Journal of Heuristics. Title and venue only | https://doi.org/10.1007/bf02430364 |
@@ -293,7 +293,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Le 2018 | Le, Link, Shahbazian, Medvidovic (2018). An empirical study of architectural decay in open-source software. ICSA. Located only: opening of the abstract read | https://doi.org/10.1109/icsa.2018.00027 |
 | Lee 1997 | Lee (1997). Design rationale systems: understanding the issues. IEEE Expert | https://doi.org/10.1109/64.592267 |
 | Lethbridge 2003 | Lethbridge, Singer, Forward (2003). How software engineers use documentation: the state of the practice. IEEE Software 20(6), 35-39. Full text read | https://doi.org/10.1109/MS.2003.1241364 |
-| Levitin 1999 | Levitin (1999). Do we teach the right algorithm design techniques? SIGCSE. Abstract read | https://doi.org/10.1145/299649.299747 |
+| Levitin 1999 | Levitin (1999). Do we teach the right algorithm design techniques? SIGCSE. Full text read through a library | https://doi.org/10.1145/299649.299747 |
 | Levitin 2000 | Levitin (2000-04). A new road map of algorithm design techniques. Dr. Dobb's Journal. Read on an archive of the magazine's articles | https://jacobfilipp.com/DrDobbs/articles/DDJ/2000/0004/0004b/0004b.htm |
 | Lewis 2014 | Lewis, Fowler (2014-03-25). Microservices: a definition of this new architectural term. martinfowler.com | https://martinfowler.com/articles/microservices.html |
 | Li 2013 | Li, Liang, Avgeriou (2013). Application of knowledge-based approaches in software architecture: a systematic mapping study. Information and Software Technology 55, 777-794 | https://doi.org/10.1016/j.infsof.2012.11.005 |
@@ -405,7 +405,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Rahmanian 2026 | Rahmanian, Sami, Yu (2026). Large language models for software engineering diagrams: a systematic review of UML and ER modelling. arXiv preprint | https://arxiv.org/abs/2607.26100 |
 | Ramsey 1983 | Ramsey, Atwood, Van Doren (1983). Flowcharts versus program design languages. Communications of the ACM | https://doi.org/10.1145/358141.358149 |
 | Rauf 2019 | Rauf, Troubitsyna, Porres (2019). A systematic mapping study of API usability evaluation methods. Computer Science Review 33, 49-68 | https://doi.org/10.1016/j.cosrev.2019.05.001 |
-| Razavian 2016 | Razavian, Tang, Capilla, Lago (2016). In two minds: how reflections influence software design thinking. Journal of Software: Evolution and Process. Abstract read in a portal summary | https://doi.org/10.1002/smr.1776 |
+| Razavian 2016 | Razavian, Tang, Capilla, Lago (2016). In two minds: how reflections influence software design thinking. Journal of Software: Evolution and Process. Abstract read through a library | https://doi.org/10.1002/smr.1776 |
 | Razavian 2019 | Razavian, Paech, Tang (2019). Empirical research for software architecture decision making: an analysis. Journal of Systems and Software 149, 360-381. Abstract only, partly | https://doi.org/10.1016/j.jss.2018.12.003 |
 | Regli 2000 | Regli, Hu, Atwood, Sun (2000). A survey of design rationale systems: approaches, representation, capture and retrieval. Engineering with Computers | https://doi.org/10.1007/pl00013715 |
 | Rheault 2023 | Rheault, Dougherty, Blanchard (2023). Pseudocode vs. compile-and-run prompts: comparing measures of student programming ability in CS1 and CS2. ITiCSE | https://doi.org/10.1145/3587102.3588834 |
@@ -649,7 +649,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Wirth 1971 | Wirth (1971). Program development by stepwise refinement. Communications of the ACM | https://doi.org/10.1145/362575.362577 |
 | Woodcock 2009 | Woodcock, Larsen, Bicarregui, Fitzgerald (2009). Formal methods: practice and experience. ACM Computing Surveys 41(4), article 19. A preprint copy was read for section 3 | https://doi.org/10.1145/1592434.1592436 |
 | Wyrich 2023 | Wyrich, Bogner, Wagner (2023). 40 years of designing code comprehension experiments: a systematic mapping study. ACM Computing Surveys | https://doi.org/10.1145/3626522 |
-| Xiao 2014 | Xiao, Cai, Kazman (2014). Design rule spaces: a new form of architecture insight. ICSE. Abstract read in a search summary (secondary) | https://doi.org/10.1145/2568225.2568241 |
+| Xiao 2014 | Xiao, Cai, Kazman (2014). Design rule spaces: a new form of architecture insight. ICSE. Abstract read | https://doi.org/10.1145/2568225.2568241 |
 | Yuan 2014 | Yuan, Luo, Zhuang, Rodrigues, Zhao, Zhang, Jain, Stumm (2014). Simple testing can prevent most critical failures: an analysis of production failures in distributed data-intensive systems. OSDI | https://www.usenix.org/conference/osdi14/technical-sessions/presentation/yuan |
 | Yusuf 2007 | Yusuf, Kagdi, Maletic (2007). Assessing the comprehension of UML class diagrams via eye tracking. ICPC | https://doi.org/10.1109/ICPC.2007.10 |
 | Zalando 2026 | Zalando SE API Guild (page read 2026-10-29, first 100,000 characters). Zalando RESTful API and event guidelines | https://opensource.zalando.com/restful-api-guidelines/ |

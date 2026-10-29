@@ -26,7 +26,7 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 ## 1. Design techniques and problem solving (Q1, Q2)
 
 - Polya 1945 (book not opened): the general heuristics of problem solving; the Q/A sites send learners to it for formal methods too (CS 2012a, example only).
-- Levitin 1999 (abstract read; the full text was not reached): points out shortcomings of the existing taxonomy of techniques, re-evaluates some, and proposes a hierarchical classification by generality.
+- Levitin 1999 (full text read): names five shortcomings of the usual flat list of techniques. They are mixed levels of generality, divide and decrease not told apart, brute force and transformation missing, no special cases, and classical algorithms left unclassified. It puts four general techniques at the top (brute force, divide-and-conquer, decrease-and-conquer, transform-and-conquer), chosen by a test of generality, and argues from examples, with no data.
   - Levitin 2000 (read) is a magazine article that restates the argument and cites the 1999 paper. It lists five shortcomings of the usual flat list: unequal generality, brute force and transform-and-conquer missing, divide-and-conquer not told from decrease-and-conquer, no hierarchy, and many classic algorithms unclassified.
   - Its level one is brute force, divide-and-conquer, decrease-and-conquer and transform-and-conquer; its level two is local search (greedy, iterative improvement), dynamic programming and state-space-tree methods.
   - It argues from examples and intuition and reports no data.

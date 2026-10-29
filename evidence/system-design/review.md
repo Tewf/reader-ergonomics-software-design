@@ -46,7 +46,7 @@ A number read in an abstract or a summary, and not in the paper, carries "(secon
   - 83% reproduce on three nodes; 93% could be reproduced by fault injection (Findings 12 and 13).
   - The authors say design reviews would have avoided most; they did not test a review.
 - Gunawi 2016 (read): 597 outages of 32 services from 1,247 public reports, 2009 to 2015.
-  - Shares of known causes: upgrades 16%, network 15%, bugs 15%, configuration 10%. 59% were full outages (secondary: an author copy read once and not re-reached; the population of the 59% is to be checked in the paper).
+  - Shares of known causes (Table 3, full text): upgrades 16%, network 15%, bugs 15%, configuration 10%; 355 of the 597 outages have no known cause. Of the impacts of root causes, 59% were full outages; only 24% of the reports describe the fix.
   - Only 40% of reports reveal a root cause and 24% a fix.
 - Gunawi 2014: 3,655 vital issues of 21,399 in six cloud systems. Gunawi 2018: 101 fail-slow hardware reports from 12 institutions. Liu 2019: bugs are a major cause of Azure incidents. Huang 2017: gray failure, no counts (abstracts).
 - Bailis 2014: the companion post says evidence on partitions is scarce; the article was not reached.

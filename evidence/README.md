@@ -72,5 +72,11 @@ On 2026-10-28, the claims the audit could not verify were checked against the fu
 
 On 2026-10-29 the three design reviews were audited the same way, each by an agent other than its writer (168 lines:
 112 correct, 15 imprecise, 14 unverifiable, 26 repeats, 1 wrong). The wrong line reversed its source and was rewritten;
-every imprecise line was corrected, and every unverifiable one is marked. The unverifiable claims wait for a reading of
-the full texts.
+every imprecise line was corrected, and every unverifiable one is marked.
+
+The same night, the 14 claims left unverified or read second-hand were taken to the full texts through the
+university's access:
+
+- 6 were read: 5 correct, and 1 imprecise (a share of impacts reported as a share of outages), now corrected;
+- 1 is in a journal outside the access;
+- 7 sit behind a publisher's bot check that was not bypassed; they stay marked.

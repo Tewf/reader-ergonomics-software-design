@@ -56,7 +56,7 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Huisman 2020 | formal | memory lead | position and survey paper, abstract read | review 0 |
 | Gleirscher 2019 | formal | memory lead | survey and agenda, abstract read | review 0 |
 | Polya 1945 | formal | brief lead | book not opened | review 1 |
-| Levitin 1999 | formal | brief lead | abstract read; full text not reached | review 1 |
+| Levitin 1999 | formal | brief lead | argument, no data; full text read through a library | review 1 |
 | Kleinberg 2005 | formal | brief lead | book not opened, publisher page read | review 1 |
 | Skiena 2020 | formal | brief lead | book not opened, publisher page read | review 1 |
 | Loksa 2016 | formal | memory lead | measured, small, 48 students, abstract read | review 1 |

@@ -20,7 +20,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 
 ## 1. Design methods (Q1)
 
-- Hofmeister 2007 (abstract read in a summary, secondary): five industrial methods share one general model, though they use different vocabulary; the model gives a grid for comparing methods.
+- Hofmeister 2007 (full text, through a library): five industrial methods share one general model, though they use different vocabulary; the model gives an evaluation grid for comparing methods (Section 5, Table 4).
 - Cervantes 2016: ADD 3.0, a repeatable method around business goals and quality attributes; book not opened.
 - ADD 3.0 iterates over drivers; its steps, from a table of contents, run from reviewing inputs to analysing the current design.
 - Falessi 2011 (secondary): no technique is best; pick one by the difficulties to avoid.
@@ -33,7 +33,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - Basili 1996b (abstract read): in eight systems from identical requirements, several object-oriented design metrics predicted fault-prone classes better than traditional code metrics.
 - Briand 2000 (secondary): coupling, cohesion and inheritance measures in a model that classified over 80% of classes correctly and found over 90% of the faulty ones; size, method invocations and inheritance depth drive fault-proneness.
 - MacCormack 2006 (abstract read): with dependency matrices, Linux was more modular than the first Mozilla; Mozilla's redesign became more modular than both.
-- Xiao 2014 (secondary): in three large open source projects, a few design rule subspaces capture the error-prone files.
+- Xiao 2014 (abstract read): in three large open source projects, a few design rule subspaces capture the error-prone files.
 - Mo 2015 (secondary): hotspot patterns find the most error-prone and change-prone files in nine open source projects and one commercial project.
 - Mo 2016 (secondary): a decoupling level over 108 open source and 21 industrial projects; a larger level means better maintainability, measured by proxies from revision history (change locality), not by effort.
 - These are observational: they show prediction, not that restructuring lowers change cost.
@@ -131,5 +131,5 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 - Tang 2010 (summary line, secondary): design planning, context switching, problem-solution co-evolution and reasoning techniques influence design effectiveness.
 - Tang 2012 (secondary): two teams designing a traffic simulator; design strategy influenced effectiveness and should match problem complexity.
 - Tang 2015 (summary line, secondary): most subjects needed only a few reasons before deciding, a satisficing behaviour.
-- Razavian 2016 (abstract read in a portal): multiple case studies with 12 student groups; external reflection improved the quality of design discourse under preconditions.
+- Razavian 2016 (abstract read, through a library): multiple case studies with 12 student groups; external reflection improved the quality of design discourse under preconditions.
 - Mohanani 2020: cognitive biases are studied more than their mitigation; theory is poor.

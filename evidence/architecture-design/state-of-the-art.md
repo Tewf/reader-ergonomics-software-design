@@ -4,7 +4,7 @@ This file keeps two records apart for each sub-question: the **most adopted** pr
 
 | Sub-question | Most adopted | Best evidence | Measured how |
 |---|---|---|---|
-| Q1 design method | ADD 3.0 and the SEI texts (Cervantes 2016; Bass 2021); no adoption count found | Hofmeister 2007, a common model from five methods (abstract in a summary) | descriptive comparison; no controlled study |
+| Q1 design method | ADD 3.0 and the SEI texts (Cervantes 2016; Bass 2021); no adoption count found | Hofmeister 2007, a common model from five methods, with a grid to compare them (full text) | descriptive comparison; no controlled study |
 | Q2 modularity | information hiding, coupling and cohesion, checked by tools through LCOM4 and instability (SESE 2012k) | Basili 1996b; Briand 2000; Mo 2016 | 8 systems, design metrics against fault-prone classes; 108 open source and 21 industrial projects, decoupling level against change locality (secondary); observational, no intervention |
 | Q3 styles and patterns | layered, microservices, event-driven as listed by vendors (Microsoft 2025); Shaw 1996 names the styles | Zhang 2012; Prechelt 2001; Vokac 2004 | mapping, 11 formal experiments; professionals on nine tasks; one product over three years (secondary) |
 | Q4 quality attributes | ISO/IEC 25010 with nine characteristics (ISO 2023); six cloud pillars (AWS 2026d) | Bellomo 2015 | ATAM data, 31 projects (secondary) |

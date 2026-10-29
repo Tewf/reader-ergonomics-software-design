@@ -38,7 +38,7 @@ Method: a multivocal literature review after Garousi 2019 (see the [evidence met
 
 ## Named baseline
 
-- Design: the hierarchical taxonomy of design techniques (Levitin 2000, read; Levitin 1999, abstract read). Fallback: the technique chapters of Kleinberg 2005 or Skiena 2020, cited from their publishers' pages.
+- Design: the hierarchical taxonomy of design techniques (Levitin 1999 and Levitin 2000, both read in full). Fallback: the technique chapters of Kleinberg 2005 or Skiena 2020, cited from their publishers' pages.
 - Specification: a precondition and a postcondition, plus an invariant for each loop (Hoare 1969; Meyer 1992).
 - Method taught: the design recipe (HtDP 2026).
 - Comparison: tasks for people and for models, crossover designs, effect sizes (baseline.md).

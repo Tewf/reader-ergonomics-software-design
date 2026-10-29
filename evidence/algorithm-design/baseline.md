@@ -6,7 +6,7 @@ This file names what the repository's rules for designing and specifying an algo
 
 | Step | Baseline | Source | Status |
 |---|---|---|---|
-| Design | the hierarchical taxonomy of design techniques (Levitin 2000; Levitin 1999) | named in the commissioning brief | read: the 2000 article in full, the 1999 paper by its abstract; argued, never tested |
+| Design | the hierarchical taxonomy of design techniques (Levitin 2000; Levitin 1999) | named in the commissioning brief | read: both in full; argued from examples, never tested |
 | Specification, minimum | a **precondition and a postcondition**, plus a **loop invariant** for each loop (Hoare 1969; Meyer 1992) | the field's own minimum | convention, untested as a minimum |
 | Method taught | the **design recipe**: six steps from data definition to tests (HtDP 2026) | the most used taught method | convention, untested |
 | Model as implementer | the task statement alone, no plan and no specification | every benchmark in strand 7 | measured, descriptive |

@@ -43,7 +43,7 @@ The figure draws the stages of the table for architecture design.
 | Garousi 2019 | formal | narrative (earlier pass) | method paper | protocol |
 | Tofan 2014 | formal | earlier pass; R1 | systematic mapping; linked, full text read in design-decisions | review 0 |
 | Gloaguen 2026 | formal | earlier pass | preprint; linked only | review 11 |
-| Hofmeister 2007 | formal | lead | comparison of five industrial methods; abstract read in a search summary (secondary) | review 1 |
+| Hofmeister 2007 | formal | lead | comparison of five industrial methods; full text read through a library | review 1 |
 | Falessi 2011 | formal | lead (found by title) | survey of decision-making techniques; abstract read in a search summary (secondary) | review 0, 1 |
 | Shaw 1996 | formal | lead (restored) | book, not opened; library record and table of contents read | review 3 |
 | Parnas 1972 | formal | lead | argument from one worked example; abstract read in a search summary (secondary); full text not reached | review 2 |
@@ -59,7 +59,7 @@ The figure draws the stages of the table for architecture design.
 | Nagappan 2008 | formal | lead (found by title) | measured, one company; abstract read | review 6 |
 | Basili 1996b | formal | found by title | measured, 8 projects; abstract read | review 2 |
 | Briand 2000 | formal | found by title | measured; abstract read in a summary, numbers (secondary) | review 2 |
-| Xiao 2014 | formal | lead (Mo, Cai, Kazman) | measured, three open source projects; abstract read in a search summary (secondary) | review 2, 7 |
+| Xiao 2014 | formal | lead (Mo, Cai, Kazman) | measured, three open source projects; abstract read | review 2, 7 |
 | Mo 2015 | formal | lead (Mo, Cai, Kazman) | measured, nine open source projects and one commercial; abstract read in a search summary (secondary) | review 2, 7 |
 | Mo 2016 | formal | lead (Mo, Cai, Kazman) | measured, 108 open source and 21 industrial projects; abstract read in a search summary (secondary) | review 2, 7 |
 | Kazman 2015 | formal | lead (Kazman) | industrial case study; abstract read in a search summary, no numbers (secondary) | review 7 |
@@ -95,7 +95,7 @@ The figure draws the stages of the table for architecture design.
 | Tang 2010 | formal | lead (Tang) | experiment on design effectiveness; summary line read (secondary); abstract not reached | review 12 |
 | Tang 2012 | formal | lead (Tang) | observation of two design teams; abstract read in a search summary (secondary) | review 12 |
 | Tang 2015 | formal | lead (Tang) | experiment on design decisions; summary line read (secondary); abstract not reached | review 12 |
-| Razavian 2016 | formal | lead | multiple case studies, 12 student groups; abstract read in a portal summary | review 12 |
+| Razavian 2016 | formal | lead | multiple case studies, 12 student groups; abstract read through a library | review 12 |
 | Mohanani 2020 | formal | lead | systematic mapping, 65 articles; preprint abstract read | review 0, 12 |
 | Zannier 2007 | formal | lead | interviews with designers; summary line read (secondary); abstract not reached | review 12 |
 | Forsgren 2018 | formal | lead (restored) | book, not opened; publisher page read | review 6 |

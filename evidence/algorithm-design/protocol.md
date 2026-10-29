@@ -182,7 +182,7 @@ Site names: SESE Software Engineering Stack Exchange; CS Computer Science Stack 
 - One reviewer, no second rater, no inter-rater agreement.
 - OpenAlex counts are missing and the lists are ordered by citations. Forward snowballing was not run; backward covered one review.
 - Sources read by title only support no claim.
-- Levitin 1999 and Sobel 2002 were not read as papers: the first through a machine summary and the author's 2000 article, the second through its published comment.
+- Sobel 2002 was not read as a paper, only through its published comment; Levitin 1999 was read in full later, through a library.
 - The main books (Polya, Gries, Kourie, Abrial, Back, McGeoch, Kleinberg, Skiena) were not opened.
 - Benchmarks of models age within months; the numbers in strand 7 are those of the abstracts.
 - This search did not find a controlled study of specification against none on algorithms people write, nor a test of a taxonomy of design techniques; that is not proof none exists.
