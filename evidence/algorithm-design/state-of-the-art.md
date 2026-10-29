@@ -10,12 +10,12 @@ No lower bound on cost or correctness was found for any method here. Each row th
 
 | Record | Holder | Measured how |
 |---|---|---|
-| Best evidence on teaching | Liu 2024: 94 papers, 17 with controlled trials | systematic review of one database |
+| Best evidence on teaching | Liu 2024b: 94 papers, 17 with controlled trials | systematic review of one database |
 | Best argued taxonomy | Levitin 2000: four general techniques and three less general, by generality | argument from examples; no data |
 | Best evidence on the taxonomy | none found | no test of soundness, completeness or predictive value |
 | Most adopted | the technique chapters of textbooks (Kleinberg 2005; Skiena 2020) | publisher listings, books not opened |
 
-- Students under-use recursion and reduction, and lean on greedy methods against counterexamples (Liu 2024, section 5.1, reading earlier studies).
+- Students under-use recursion and reduction, and lean on greedy methods against counterexamples (Liu 2024b, section 5.1, reading earlier studies).
 - Four words name the category of a technique (CS 2020b, example only).
 
 ## Q2 Problem solving instruction
@@ -88,7 +88,7 @@ No lower bound on cost or correctness was found for any method here. Each row th
 | Record | Holder | Measured how |
 |---|---|---|
 | Planning, best independent evidence | Jin 2025: structured methods 2.5 to 4.4 points of Pass@1 over zero-shot, averaged over six models (its text: 5 to 12%) | benchmarks, preprint, table read |
-| Planning, largest stated gain | Jiang 2023: up to 25.4% relative over direct generation | authors' own method |
+| Planning, largest stated gain | Jiang 2023b: up to 25.4% relative over direct generation | authors' own method |
 | Intent through tests | Lahiri 2022: 22.5 to 54 points with Codex within 5 simulated interactions; Fakhoury 2024's own figures disagree (45.97%, 45.73%, about 33 points) | idealised user |
 | Verified code | Misu 2024: 58% of 178 problems with a strong specification (GPT-4, five attempts); Loughridge 2024: 67.8% of 782 programs, hints only (Claude 3 Opus, ten attempts) | benchmarks, tables read |
 | Most adopted | Spec Kit 2026: 143,670 stars; Kiro 2026 | counts; no effect on the pages |

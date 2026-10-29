@@ -7,7 +7,7 @@ Two records are kept apart: **most adopted** (what people use) and **best eviden
 | What a decision record holds | Nygard 2011 (title, status, context, decision, consequences) | Nogueira 2026, writer-side, 33 students | crossover, weighted score |
 | Whether recorded rationale helps later decisions | ADR practice | Falessi 2010 (the 2006 experiment); van Heesch 2013 | 50 students, effectiveness under changed requirements; four student teams over seven weeks |
 | How a proposal is structured | PEP 12 (Goodger 2002), Rust RFC template (Rust 2026b), KEP template (Kubernetes 2026), Google design doc, Swift proposal template (Swift 2026) | none found | descriptive comparison of templates only |
-| How a proposal is judged | Rust final comment period (Rust 2026a), Steering Council (Warsaw 2000), SIG approvers (KEP template), Go weekly review group (Go 2026), Swift review manager and workgroup (Swift 2026) | Kondo 2025 (Go) | 1,095 classic proposals, coded decline reasons |
+| How a proposal is judged | Rust final comment period (Rust 2026a), Steering Council (Warsaw 2000), SIG approvers (KEP template), Go weekly review group (Go 2026b), Swift review manager and workgroup (Swift 2026) | Kondo 2025 (Go) | 1,095 classic proposals, coded decline reasons |
 | Whether people adopt ADRs | Nygard's template in open source | Buchgeher 2023 | repository mining |
 | Why rationale is not captured | cost, effort | Lee 1997; Tang 2006; Ahmeti 2024; Tofan 2014 asks for the right amount | argument, survey of 81, one action study |
 | How much research exists on documenting decisions | n/a (a research record) | Tofan 2014: 83% of 144 papers propose documentation; 4% use experiments | systematic mapping, 2002-2012 |
@@ -45,7 +45,7 @@ Two records are kept apart: **most adopted** (what people use) and **best eviden
 - "no" means the section is not among those the template or guide lists. The table is read from the templates (Nygard 2011; MADR; PEP 12; Rust RFC template; KEP template; Ubl 2020; HashiCorp 2026, example only).
 - Among these seven, only the Rust RFC template asks for prior art and only the KEP template asks for a production readiness review.
 - Nygard 2011 has no alternatives section; MADR added one, which participants in Nogueira 2026 saw as better for rationale depth and slower to fill in.
-- ADR guidance treats an accepted record as immutable: write a new record that supersedes the old (GDS 2026; Microsoft 2026; AWS 2026c, example only).
+- ADR guidance treats an accepted record as immutable: write a new record that supersedes the old (GDS 2026; Microsoft 2026c; AWS 2026c, example only).
 - PEPs carry a change history (PEP 12) and published RFDs may be updated (Oxide RFD 1, Frazelle 2026).
 
 ## Upper bounds (achieved)

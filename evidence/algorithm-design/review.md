@@ -6,7 +6,7 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 
 ## 0. Existing reviews
 
-- Liu 2024 (read in part: abstract, method, section 5): a systematic review of studies on teaching algorithm design to undergraduates; preprint.
+- Liu 2024b (read in part: abstract, method, section 5): a systematic review of studies on teaching algorithm design to undergraduates; preprint.
   - It searched the ACM Digital Library up to 2023-08 and kept 94 papers.
   - 38 of the 88 papers with quantitative data use statistical tests; 17 report controlled trials.
   - Greedy algorithms have 8 of the 94 papers.
@@ -33,8 +33,8 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
   - The terms technique, strategy, paradigm and pattern name one category, according to a single answer (CS 2020b, example only).
 - Textbooks name their techniques in their chapter lists: Kleinberg 2005 promises "a range of design and analysis techniques" (publisher page); Skiena 2020 has a part called Practical Algorithm Design (publisher page; neither book opened).
 - No study that tests whether a taxonomy of design techniques is sound, complete or predictive was found (this search, strings F1 to F2, G4).
-- Liu 2024 section 5.1 reports what students do:
-  - they under-use recursion and reduction after an algorithms course (Liu 2024's report; this is not in Ginat 2003, and the cited study was not found there);
+- Liu 2024b section 5.1 reports what students do:
+  - they under-use recursion and reduction after an algorithms course (Liu 2024b's report; this is not in Ginat 2003, and the cited study was not found there);
   - they lean on greedy methods and look for few counterexamples (Ginat 2003, read).
     - It is a teaching report on one class of 33.
     - 14 of 33 on one task and 21 of 33 on another devised a greedy rule.
@@ -124,8 +124,8 @@ The mark "(secondary)" flags a number read in an abstract or a summary and not i
 Benchmarks measure the pass rate on small function-level problems, usually with the authors' own method; vendor pages are in strand 5.
 
 - Planning:
-  - Jiang 2023 (abstract; code-davinci-002 on HumanEval and other function-level benchmarks): self-planning raised Pass@1 by up to 25.4% (relative) against direct generation and up to 11.9% against chain of thought.
-  - Li 2023 (Table 2): structured chain of thought beat chain of thought by up to 13.79% relative in Pass@1 (ChatGPT on HumanEval, 53.29 to 60.64, or 7.35 points).
+  - Jiang 2023b (abstract; code-davinci-002 on HumanEval and other function-level benchmarks): self-planning raised Pass@1 by up to 25.4% (relative) against direct generation and up to 11.9% against chain of thought.
+  - Li 2023b (Table 2): structured chain of thought beat chain of thought by up to 13.79% relative in Pass@1 (ChatGPT on HumanEval, 53.29 to 60.64, or 7.35 points).
   - Jin 2025 (abstract; independent): five prompting paradigms, six Python benchmarks, a 12-language benchmark and six models from 7B to 480B parameters.
     - Its text reports 5 to 12% on average. Its Table 3 gives 2.5 to 4.4 points over zero-shot generation, averaged over six models (about 5 to 9% relative), and -0.6 to +11.9 points per model.
     - Naive zero-shot chain of thought could lower accuracy.

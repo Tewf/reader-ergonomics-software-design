@@ -68,7 +68,7 @@ The mark "(secondary)" flags a result read in a summary of an abstract or in ano
 
 ## 4. Quality attributes and evaluation (Q4, Q5)
 
-- ISO 2023: the product quality model of ISO/IEC 25010 has nine characteristics (read in a summary of the standard).
+- ISO 2023c: the product quality model of ISO/IEC 25010 has nine characteristics (read in a summary of the standard).
 - AWS 2026d: six pillars; the page speaks of none of structure, modularity or coupling.
 - Ameller 2013 (how architects consider non-functional requirements) is located only. Kazman 2000 (ATAM, read in full) is a method report with one case, not a test of effect. Babar 2004 and Dobrica 2002 compare methods (strand 0).
 - Bellomo 2015 (abstract read): ATAM data over 31 projects; modifiability dominates in every kind of project, followed by performance, availability and interoperability; deployability rises in IT projects.

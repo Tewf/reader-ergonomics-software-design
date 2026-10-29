@@ -36,7 +36,7 @@ This file collects the evidence against specifying and planning before coding, t
 ## Plans and specifications for a model: results with limits
 
 - Jin 2025 (independent): naive zero-shot chain of thought can lower accuracy; the gain depends on language type system and model size.
-- Jiang 2023 and Li 2023: the largest gains (25.4% and 13.79%, both relative) are the method authors' own, on function-level benchmarks.
+- Jiang 2023b and Li 2023b: the largest gains (25.4% and 13.79%, both relative) are the method authors' own, on function-level benchmarks.
 - Lahiri 2022 and Fakhoury 2024: the gains are with an idealised proxy for the user, and the follow-up's abstract (45.97%), text (45.73%) and table (about 33 points) disagree.
 - Sun 2023: the checker had zero false acceptances on a small hand-made set; that is not a rate on real code.
 - Thoughtworks 2025: the spec-driven workflows are elaborate and opinionated, the spec files can be hard to review, and handwriting detailed rules for a model may not scale (radar page, read).

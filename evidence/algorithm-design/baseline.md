@@ -42,7 +42,7 @@ Reader and implementer tasks, with a crossover design (each participant meets bo
 
 ## Prior numbers for planning a study
 
-- Controlled trials in this field are few: 17 among 94 papers (Liu 2024).
+- Controlled trials in this field are few: 17 among 94 papers (Liu 2024b).
 - A 48-student study found effects of explicit instruction (Loksa 2016); a study of 86 programmers found a gap of 25 points in judging assertions (Kaufman 2026).
 - Pass@1 gains from plans average 2.5 to 4.4 points over six models in an independent study (Jin 2025, Table 3); a model comparison should be powered to detect a gain of a few points.
 

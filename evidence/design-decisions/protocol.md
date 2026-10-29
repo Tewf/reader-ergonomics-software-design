@@ -169,7 +169,7 @@ Strings DD1 to DD18 ran on 2026-10-28, one reviewer, grey tier 2. The stopping p
 
 ## 10. Limits
 
-- A second rater re-scored 7 of this topic's grey sources blind ([method](../README.md#method)): all 7 decisions agree. The second scores were equal or higher, so the scores of exactly 10 (Microsoft 2026, Rust 2026b) sit near the threshold on one side only.
+- A second rater re-scored 7 of this topic's grey sources blind ([method](../README.md#method)): all 7 decisions agree. The second scores were equal or higher, so the scores of exactly 10 (Microsoft 2026c, Rust 2026b) sit near the threshold on one side only.
 - Search engines personalise and change; counts will differ on a repeat.
 - Semantic Scholar and arXiv counts are not phrase-exact; the OpenAlex counts, taken a day after the search, are.
 - Forward snowballing was one page; backward snowballing covered two works.

@@ -123,7 +123,7 @@ The eight subtotals appear as authority, methodology, objectivity, date, positio
 | ThoughtWorks 2017 | grey tier 1 | G2 | 10.5 of 20 (3 / 1.5 / 2 / 1 / 0.5 / 1 / 0.5 / 1) | review 9 |
 | Microsoft 2025 | grey tier 1 | P | 12.5 of 20 (3.5 / 2.5 / 2 / 1 / 0.5 / 1 / 1 / 1) | review 3, 9 |
 | AWS 2026d | grey tier 1 | P | 10.5 of 20 (3.5 / 2 / 2 / 0 / 0.5 / 0.5 / 1 / 1); a blind second rater gave 9.5, so an example of practice only | review 4, 9 |
-| ISO 2023 | grey tier 1 | G6 | 14 of 20 (3.5 / 2 / 3.5 / 1 / 1 / 1 / 1 / 1) | review 4, 9 |
+| ISO 2023c | grey tier 1 | G6 | 14 of 20 (3.5 / 2 / 3.5 / 1 / 1 / 1 / 1 / 1) | review 4, 9 |
 | Team Topologies 2026 | grey tier 2 | P | 8.5 of 20 (3 / 1 / 1.5 / 0 / 0.5 / 1 / 1 / 0.5) | review 6, 9 |
 
 Below the threshold: Team Topologies 2026 (example of practice only).

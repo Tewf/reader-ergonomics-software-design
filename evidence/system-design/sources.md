@@ -140,7 +140,7 @@ Opened only as a listing, or not opened; cited for what the publisher or a listi
 | Saltzer 2009 | textbook, not opened |
 | ByteByteGo 2023 | repository seen only as a star count |
 | SysDesign Bench 2026 | benchmark page found by search, not read |
-| Jiang 2023 | planning before code, linked to algorithm-design; abstract read, not reviewed here |
+| Jiang 2023b | planning before code, linked to algorithm-design; abstract read, not reviewed here |
 | Schmid 2025 | review of architecture design with models, located and left to architecture-design |
 
 ## Result of the scoring

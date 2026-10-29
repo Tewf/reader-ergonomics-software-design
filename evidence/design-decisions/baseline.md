@@ -10,7 +10,7 @@ This file names the baseline that a proposed rule on design documents and decisi
 | Proposal (before adoption) | PEP 12 (Goodger 2002) with PEP 1 (Warsaw 2000): abstract, motivation, specification, rationale, backwards compatibility, rejected ideas, open issues | a long-running proposal process with a public archive of 746 files and two process-mining studies (Keertipati 2016; Sharma 2022) |
 
 - The choice is confirmed from the grey side: 12 of 19 grey sources in Harhio 2022 concern ADR templates. The baseline sources score Nygard 2011 13.5, Warsaw 2000 15 and Goodger 2002 12 of 20 (sources.md).
-- Go proposals (Go 2026) and Swift proposals (Swift 2026) are further proposal processes with a public archive; they were not made baselines because no template comparison with them exists.
+- Go proposals (Go 2026b) and Swift proposals (Swift 2026) are further proposal processes with a public archive; they were not made baselines because no template comparison with them exists.
 - Rust RFC template (Rust 2026b) and KEP template (Kubernetes 2026) are the second baselines for a proposal; both are compared with PEP 12 section by section (state-of-the-art.md).
 - MADR 2024 is the richer record baseline: it adds drivers, considered options, and pros and cons per option.
 - The academic anchor is Falessi 2010 (rationale documentation against none) for what a record is for.

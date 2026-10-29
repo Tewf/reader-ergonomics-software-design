@@ -12,7 +12,7 @@ Choose how one software system is divided into parts and how the parts depend on
 |---|---|
 | choosing the structure | **software architecture design**, **architecting** (Hofmeister 2007; Bass 2021) |
 | a method for it | **attribute-driven design (ADD)**, driven by quality goals (Cervantes 2016) |
-| the quality goals | **quality attributes**, written as scenarios; the standard list is ISO/IEC 25010 (ISO 2023) |
+| the quality goals | **quality attributes**, written as scenarios; the standard list is ISO/IEC 25010 (ISO 2023c) |
 | a way to reach a goal | **architectural tactic**, a design decision made to affect one quality attribute (as the field states it; Bass 2021, book not opened) |
 | the shape chosen | **architectural style** or **pattern**, a family of architectures that share characteristics and constrain elements and relations (Microsoft 2025); the seminal catalogue of styles is Shaw 1996 (book, not opened) |
 | the principle of division | **information hiding**: a module hides a decision likely to change behind an interface (Parnas 1972; as the field states it, the paper was not re-read) |

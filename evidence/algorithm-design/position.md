@@ -4,15 +4,15 @@ This file says what is known, what is not, and where practice and evidence part.
 
 ## Known
 
-- Teaching algorithm design has a thin evidence base: 94 papers in one database, 17 with controlled trials (Liu 2024). Grade: measured, descriptive.
-- Students under-use recursion and reduction and over-use greedy methods, as reported across studies (Liu 2024, section 5.1). Grade: measured, descriptive, secondary to the cited studies.
+- Teaching algorithm design has a thin evidence base: 94 papers in one database, 17 with controlled trials (Liu 2024b). Grade: measured, descriptive.
+- Students under-use recursion and reduction and over-use greedy methods, as reported across studies (Liu 2024b, section 5.1). Grade: measured, descriptive, secondary to the cited studies.
 - Explicit teaching of a problem solving process helped 48 high school students on several outcomes (Loksa 2016). Grade: measured, one study, small.
 - Methods with assertions show fewer defects in observational data, a small effect that a second dataset repeated (Casalnuovo 2015; Kochhar 2017, secondary). Grade: measured, observational.
 - Industrial formal methods users report higher quality, and the sample is self-selected (Woodcock 2009). Grade: measured, descriptive, biased.
 - In one air traffic control system, formal design showed no quantitative quality gain over informal design, and formal specification gave testable components (Pfleeger 1997). A student quasi-experiment favoured the formal group and was criticised for non-random assignment (Sobel 2002; Berry 2003). Grade: measured, one case and one quasi-experiment.
 - Contracts are used less than expected (Dietrich 2017); property-based testing is valued for complex code and costly to write (Goldstein 2024). Grade: measured, descriptive.
 - Programmers misjudge incorrect assertions (Kaufman 2026). Grade: measured, one study, preprint.
-- On benchmarks, a written plan or a test list in the prompt raises the pass rate, by amounts that depend on the model and the method (Jin 2025; Jiang 2023; Lahiri 2022). Grade: measured, benchmarks.
+- On benchmarks, a written plan or a test list in the prompt raises the pass rate, by amounts that depend on the model and the method (Jin 2025; Jiang 2023b; Lahiri 2022). Grade: measured, benchmarks.
 
 ## Not known (not found by this search)
 

@@ -16,7 +16,7 @@ This is the pool of the algorithm-design review: the flow of screening, then one
   - 14,223 records were returned: 12,845 by the Semantic Scholar bulk search (18 strings, F1 to F18) and 1,378 by the arXiv API; repeats across strings are not removed.
   - 180 were screened by title: the 10 most cited of each string's Semantic Scholar list.
   - 16 of the 74 new sources were included from those titles.
-  - 58 came from leads named in the brief or recalled by the reviewer and verified, from the searches for existing reviews (R1 to R8), and from snowballing in Liu 2024.
+  - 58 came from leads named in the brief or recalled by the reviewer and verified, from the searches for existing reviews (R1 to R8), and from snowballing in Liu 2024b.
   - The arXiv hits were not screened; they gave counts and a few leads that were checked directly.
   - Exclusions by title, rounded to tens (164 titles, repeats across strings not removed):
     - 60 off topic by word match (chemistry, physics, economics, electronics, imaging, wireless, linguistics);
@@ -29,7 +29,7 @@ This is the pool of the algorithm-design review: the flow of screening, then one
   - 24 were included: 8 web or repository sources and 16 Q/A threads.
   - Web results excluded: about 50 of the 59, as repeats (language variants and mirrors of one page), shop or marketplace listings, secondary summaries and off-topic hits.
   - Q/A records not included: 398, excluded on the title or after the top answers were read; the split between off topic, how-to and product questions was not counted.
-- Added by snowballing: 2 (Ginat 2003, Bennedsen 2008, from Liu 2024); forward snowballing was not run; Berry 2003 and Sobel 2003 were found by following the comment on Sobel 2002.
+- Added by snowballing: 2 (Ginat 2003, Bennedsen 2008, from Liu 2024b); forward snowballing was not run; Berry 2003 and Sobel 2003 were found by following the comment on Sobel 2002.
 - Existing reviews found: 9, listed in review.md strand 0.
 
 In the review: the rows of the three tables below.
@@ -46,7 +46,7 @@ A brief lead was named in the commissioning brief and verified to exist with its
 
 | Key | Kind | Found via | Quality | Used in |
 |---|---|---|---|---|
-| Liu 2024 | formal | R1 | measured, descriptive; systematic review, preprint, read in part | review 0, 1 |
+| Liu 2024b | formal | R1 | measured, descriptive; systematic review, preprint, read in part | review 0, 1 |
 | Zhumagambetov 2021 | formal | R6 | systematic review, abstract only (secondary) | review 0 |
 | Okumus 2025 | formal | R4 | systematic mapping, abstract read | review 0, 3 |
 | Beg 2025 | formal | R8 | short survey of 35 papers, abstract read | review 0, 7 |
@@ -64,8 +64,8 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Soloway 1986 | formal | brief lead | one-sentence abstract read | review 1 |
 | Spohrer 1985 | formal | memory lead | machine summary only (secondary) | review 1 |
 | Felleisen 2004 | formal | brief lead | educational pearl, an argument from teaching experience; full text read | review 1 |
-| Ginat 2003 | formal | snowball (Liu 2024) | teaching report on one class of 33; full text read | review 1 |
-| Bennedsen 2008 | formal | snowball (Liu 2024) | measured, 145 students over three years; full text read | review 1 |
+| Ginat 2003 | formal | snowball (Liu 2024b) | teaching report on one class of 33; full text read | review 1 |
+| Bennedsen 2008 | formal | snowball (Liu 2024b) | measured, 145 students over three years; full text read | review 1 |
 | Hoare 1969 | formal | brief lead | seminal; full text read | review 2 |
 | Dijkstra 1975 | formal | brief lead | seminal; full text read (the 1976 book was not located) | review 1, 2 |
 | Gries 1981 | formal | brief lead | book not opened | review 2 |
@@ -104,8 +104,8 @@ A brief lead was named in the commissioning brief and verified to exist with its
 | Hooker 1994 | formal | memory lead | title and venue only; the PDF is a scan with no text layer (unreadable here) | review 6 |
 | Hooker 1995 | formal | memory lead | essay, an argument; full text read | review 6 |
 | Collberg 2016 | formal | memory lead | measured, descriptive, secondary | review 6 |
-| Jiang 2023 | formal | brief lead; F14 | benchmark study by the method's authors, abstract read | review 7 |
-| Li 2023 | formal | brief lead | benchmark study by the method's authors, abstract read | review 7 |
+| Jiang 2023b | formal | brief lead; F14 | benchmark study by the method's authors, abstract read | review 7 |
+| Li 2023b | formal | brief lead | benchmark study by the method's authors, abstract read | review 7 |
 | Zhang 2023 | formal | F14 | benchmark study, abstract read | review 7 |
 | Endres 2023 | formal | brief lead | benchmark and metrics, abstract partly read | review 7 |
 | Lahiri 2022 | formal | brief lead; F15 | benchmark study, abstract read | review 7 |

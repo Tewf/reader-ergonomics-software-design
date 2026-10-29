@@ -152,7 +152,7 @@ Counted as the [method](../README.md#method) describes; exact for each query as 
 | G3 | Team Topologies Conway inverse Conway maneuver practitioner experience | summaries only; no new primary |
 | G4 | O'Reilly microservices adoption survey 2020 | Loukides 2020 |
 | G5 | Prime Video monolith 90% cost | primary page moved; secondary write-ups only; not included |
-| G6 | ISO/IEC 25010:2023 characteristics | ISO 2023, secondary summary |
+| G6 | ISO/IEC 25010:2023 characteristics | ISO 2023c, secondary summary |
 | G7 | ADD 3.0 steps | Cervantes 2016 table of contents, by search listing |
 | P | direct visits to named producers: practitioner articles, company blogs, guidance pages, a survey, a research page, an author's page, 6 publisher book pages | 19 pages read; 5 not read (SEI page 404, ISO page refused, Prime Video page moved and its archive blocked, two book pages refused) |
 

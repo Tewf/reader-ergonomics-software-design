@@ -45,7 +45,7 @@ This file collects the evidence against the common rules of architecture design.
 ## Where practice contradicts the evidence
 
 - Vendor guides recommend styles by domain type with no study (Microsoft 2025).
-- The quality model has nine characteristics, while the cloud framework has six pillars; the two lists are not mapped to each other in the pages read (ISO 2023; AWS 2026d).
+- The quality model has nine characteristics, while the cloud framework has six pillars; the two lists are not mapped to each other in the pages read (ISO 2023c; AWS 2026d).
 - Practice moves on without the evidence: the two Radar entries read are no longer on the current edition.
 
 ## Limits of this file

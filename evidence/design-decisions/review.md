@@ -95,13 +95,13 @@ In the literature above, "(secondary)" marks a number read in an abstract or sum
 | Arc42 2026b | undated | decision section, Nygard-style, significant decisions only | project documentation |
 | IBM Watson Discovery | 2018 talk | ADRs in markdown beside the code (Runde 2018) | two years of the speakers' use, no metrics |
 | GitHub mobile team | 2020 | ADRs, argued for the author's future self (Perkins 2020) | no measurement; blog |
-| AWS, Microsoft, Google Cloud | AWS undated; Microsoft 2026; Google Cloud 2024 | ADR process and content guidance | vendor guidance; AWS and Google Cloud example only |
+| AWS, Microsoft, Google Cloud | AWS undated; Microsoft 2026c; Google Cloud 2024 | ADR process and content guidance | vendor guidance; AWS and Google Cloud example only |
 | GOV.UK, GDS Way | 2025; reviewed 2026 | ADR framework; fields, store with code, supersede not rewrite | published guidance |
 | Bitwarden | undated | MADR-based ADRs, pull request review | company page, example only |
 | Python | date not checked | PEP 1 (Warsaw 2000), PEP 12 (Goodger 2002) | 746 PEP files |
 | Rust | 2014 | RFC template, FCP | 652 merged RFCs |
 | Kubernetes | date not checked | KEP template with production readiness review | 643 KEP folders |
-| Go | date not checked | issue, then design doc if concerns arise, weekly review group (Go 2026) | 91 design documents; 1,095 proposals (Kondo 2025) |
+| Go | date not checked | issue, then design doc if concerns arise, weekly review group (Go 2026b) | 91 design documents; 1,095 proposals (Kondo 2025) |
 | Swift | date not checked | pitch, pull request, open review of at least ten days, workgroup decides (Swift 2026) | process page |
 | Google | 2020 | design doc, goals and non-goals | personal account of company practice |
 | Oxide, HashiCorp, Uber | date not checked | RFD, RFC with status | company pages and press; Oxide and HashiCorp example only |

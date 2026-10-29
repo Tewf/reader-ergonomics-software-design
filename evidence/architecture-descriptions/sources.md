@@ -224,7 +224,7 @@ Eight of the 41 grey sources fall below 10 and stay only as examples of practice
 | Muszynski 2022 | formal | prior | measured, descriptive (secondary) | review 5 |
 | Migliorini 2024 | formal | prior | measured, descriptive | review 5 |
 | Jongeling 2025 | formal | prior | supported with caveat (abstract only) | review 6 |
-| Chatlatanagulchai 2025 | formal, preprint | prior | measured, descriptive | review 6 |
+| Chatlatanagulchai 2026 | formal, preprint | prior | measured, descriptive | review 6 |
 | Zarzycki 2026 | formal, preprint | prior | measured, descriptive | review 6 |
 | Gloaguen 2026 | formal, preprint | prior | measured, two settings | review 6 |
 | De Luca 2026 | formal | F12, A1 | supported with caveat (abstract; 22 developers) | review 6 |

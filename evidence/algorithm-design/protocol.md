@@ -9,7 +9,7 @@ Garousi 2019 Table 4 asks seven questions, and one yes is enough to add grey lit
 | # | Question | Answer for this topic |
 |---|---|---|
 | 1 | Complex, not solvable from formal literature alone? | yes: specification styles come from languages and tools |
-| 2 | Lack of volume or quality of evidence? | yes: 17 controlled trials among 94 papers on teaching algorithm design (Liu 2024) |
+| 2 | Lack of volume or quality of evidence? | yes: 17 controlled trials among 94 papers on teaching algorithm design (Liu 2024b) |
 | 3 | Context important? | yes: safety-critical work and a web service ask different things of a specification |
 | 4 | Corroborate research with practice? | yes |
 | 5 | Challenge practice with research, or the reverse? | yes: spec-driven tools run ahead of any effect study (position.md) |
@@ -40,7 +40,7 @@ Garousi 2019 Table 4 asks seven questions, and one yes is enough to add grey lit
   - R6 formal methods education, systematic review.
   - R7 programming problem solving and planning for novices, systematic review (two result lists).
   - R8 language models and formal specification, survey.
-- Found: 9 reviews, maps and surveys; 1 read in part (Liu 2024), 2 by abstract (Okumus 2025, Beg 2025), the rest by abstract summary or title. They are in review.md strand 0.
+- Found: 9 reviews, maps and surveys; 1 read in part (Liu 2024b), 2 by abstract (Okumus 2025, Beg 2025), the rest by abstract summary or title. They are in review.md strand 0.
 - R5 found no review of property-based testing; R7 found no review of planning strategies on novice outcomes.
 
 ## 4. Formal search
@@ -74,7 +74,7 @@ Count sources: the Semantic Scholar bulk title-and-abstract search (no key) and 
 - Leads named in the commissioning brief were looked up one by one in Crossref (no identity sent) or, for a DOI Crossref lacks, in DataCite; an arXiv identifier was checked on its abstract page. A lead whose title, year and first author did not match was dropped or corrected.
   - Dropped: a 1997 workshop paper on why formal methods are not used more widely (no resolvable record).
   - Corrected: the contracts-in-the-wild study is by Dietrich, Pearce, Jezek and Brada, not the authors first recalled.
-- Snowballing, backward: the references of Liu 2024 section 5.1 gave Ginat 2003 and Bennedsen 2008. Forward: not run.
+- Snowballing, backward: the references of Liu 2024b section 5.1 gave Ginat 2003 and Bennedsen 2008. Forward: not run.
 
 ### OpenAlex counts (2026-10-29)
 

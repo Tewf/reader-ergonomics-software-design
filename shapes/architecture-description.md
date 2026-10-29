@@ -42,7 +42,7 @@ by the questions a reader brings, so each reader reaches their answer without re
   arc42, C4 or ARCHITECTURE.md; the [baseline](../evidence/architecture-descriptions/baseline.md) names the
   comparison.
 - For a coding agent as reader: about 7 in 10 agent context files carry an architecture section (Chatlatanagulchai
-  2025), yet repository overviews did not help coding agents in two test settings (Gloaguen 2026, measured). Keep the
+  2026), yet repository overviews did not help coding agents in two test settings (Gloaguen 2026, measured). Keep the
   map short and searchable rather than long.
 
 ## The principles it applies

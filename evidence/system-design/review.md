@@ -134,5 +134,5 @@ Fourteen threads from 380 returned (strings SY1 to SY18; [protocol](protocol.md)
 
 - Cheng 2026: a benchmark of eleven real systems where a model writes a TLA+ model; scored on syntax, running, conformance and invariants (abstract; no results in it).
 - Sahu 2026: models gave plausible network designs that missed constraints and showed stickiness to familiar patterns (abstract; no numbers).
-- Planning before code (Jiang 2023) belongs to [algorithm-design](../algorithm-design/review.md).
+- Planning before code (Jiang 2023b) belongs to [algorithm-design](../algorithm-design/review.md).
 - This search found no measurement of a model implementing a service from a written system design; a vendor benchmark page was located and not read.
