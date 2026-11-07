@@ -640,3 +640,101 @@ path = "checks/test_local_checks.py"
 question = "changed together with shapes/decision-record.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
 file = "2f9dd6debb02"
 answer = "No: the tests changed with the decision-record shape while this repository's decision-records check enforced its rules; that check now lives in the standard, and this file holds the `Tests of the local checks in checks/local/` only, so the two no longer change together."
+
+[[answer]]
+check = "figures-present"
+path = "evidence/design-decisions/position.md"
+question = "a long text with no figure, table or diagram: is a relation, set, quantity or process described only in words?"
+file = "df2355ca3de3"
+answer = "No: it lists what is `## Known` and `## Not known`, one finding per bullet, each from a different study; its few quantities, such as `83% of 144 papers`, stand alone and share no scale a figure would draw. The template comparison it summarises is the table of `state-of-the-art.md`."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with shapes/README.md in 6 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e2740d41e473"
+answer = "No: each new shape is listed in both, the front page in one line and the shapes index in full; the front page already links the index, as `[`shapes/`](shapes/)` shows, and the two serve different readers."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with shapes/algorithm-specification.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "e2740d41e473"
+answer = "No: each new shape is listed in both, the front page in one line and the shapes index in full; the front page already links the index, as `[`shapes/`](shapes/)` shows, and the two serve different readers."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/algorithm-design/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/algorithm-design/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/architecture-descriptions/protocol.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/architecture-design/protocol.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/design-decisions/protocol.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/pseudocode/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/system-design/README.md in 4 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/system-design/protocol.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/README.md"
+question = "changed together with evidence/system-diagrams/protocol.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "3bb6d3b642ec"
+answer = "No: the index changed with these protocols in passes over several topics at once, the latest recording one library round; it holds only what all topics share, such as the paragraph opening `Search counts:`, and each protocol keeps its own search."
+
+[[answer]]
+check = "co-change"
+path = "evidence/algorithm-design/README.md"
+question = "changed together with evidence/system-design/README.md in 3 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "0e1bcd9624e9"
+answer = "No: they changed together because cross-topic passes edited the navigation row `| Steps |` and the reading marks in every topic; each README keeps its own topic's claims table, and the topics link each other where they meet."
+
+[[answer]]
+check = "co-change"
+path = "evidence/architecture-design/README.md"
+question = "changed together with evidence/system-design/README.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "d528a29135d3"
+answer = "No: the topic READMEs changed together in passes over every topic, such as the navigation row `| Steps |`; each keeps its own topic's claims table, and the topics link each other where they meet."

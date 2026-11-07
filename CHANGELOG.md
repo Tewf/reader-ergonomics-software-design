@@ -4,6 +4,12 @@ Every release of this repository, newest first, in the form of [Keep a Changelog
 A move of the pin on reader-ergonomics is an entry here, not a decision record; the earlier moves are records 0002 to
 0012 in [decisions/](decisions/README.md).
 
+## [1.1.1] - 2026-11-07
+
+### Changed
+
+- Pinned reader-ergonomics v1.22.1 (`0206e69`), from v1.18.2 (`bfbe9f7`): front matter skipped and LaTeX maths blanked, a shape's skeleton skipped by duplication, escaped-pipe wikilinks resolved, `run.py --out`, `release-version`, and `standard-pin` moves a pin.
+
 ## [1.1.0] - 2026-11-07
 
 ### Added

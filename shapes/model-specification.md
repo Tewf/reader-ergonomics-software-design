@@ -40,10 +40,10 @@ have none in this repository's reviews. Each key (Author Year) is listed in the
 
 | Part | Principle |
 |---|---|
-| Problem, sets and variables before the constraints | [define before use](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/define-before-use.md) |
-| Fixed parts, each constraint on its own line with its sentence | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/page/signal-the-structure.md) |
-| The problem and the relaxation before the solver | [overview first](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/overview-first.md) |
-| One worked example, then the implementer's own | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/worked-examples-with-subgoals.md) |
+| Problem, sets and variables before the constraints | [define before use](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/define-before-use.md) |
+| Fixed parts, each constraint on its own line with its sentence | [signal the structure](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/page/signal-the-structure.md) |
+| The problem and the relaxation before the solver | [overview first](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/overview-first.md) |
+| One worked example, then the implementer's own | [worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/worked-examples-with-subgoals.md) |
 
 ## The skeleton
 

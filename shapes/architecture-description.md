@@ -49,10 +49,10 @@ by the questions a reader brings, so each reader reaches their answer without re
 
 | Part | Principle |
 |---|---|
-| Readers, purpose and context before the parts | [overview first](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/overview-first.md) |
-| Cross-cutting concepts and decisions linked, not repeated | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/collection/one-place-per-fact.md) |
-| A glossary, terms defined before use | [define before use](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/document/define-before-use.md) |
-| Context, runtime and deployment drawn | [draw relations](https://github.com/Tewf/reader-ergonomics/blob/bfbe9f7ed27bfdca0c6a4922d0b3e302f9e55d3f/principles/page/draw-relations.md) |
+| Readers, purpose and context before the parts | [overview first](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/overview-first.md) |
+| Cross-cutting concepts and decisions linked, not repeated | [one place per fact](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/collection/one-place-per-fact.md) |
+| A glossary, terms defined before use | [define before use](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/define-before-use.md) |
+| Context, runtime and deployment drawn | [draw relations](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/page/draw-relations.md) |
 
 ## The skeleton
 
