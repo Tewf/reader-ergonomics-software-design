@@ -7,7 +7,7 @@ software design changes, since its reader is often an implementer, a person or a
 
 ## How to use it
 
-![What is being designed decides the shape: an algorithm specification, a design document then a decision record, or an architecture description; then write to the principles and run the checks, which report errors, warnings and questions for judgment.](standard-how-to-use.svg)
+![What is being designed decides the shape: an algorithm specification, a model specification, a design document then a decision record, or an architecture description; then write to the principles and run the checks, which report errors, warnings and questions for judgment.](standard-how-to-use.svg)
 
 <details>
 <summary>Graphviz source</summary>
@@ -19,15 +19,18 @@ digraph how_to_use {
   edge  [fontname="Inter", fontsize=11, color="#3D434B", fontcolor="#55575F", penwidth=1.3, arrowsize=0.8];
   Q [label=<<b>what is being designed?</b>>, fillcolor="#FFFFFF", color="#3D434B", shape=diamond, style="filled", margin="0.05,0.05"];
   AL [label=<<b>algorithm specification</b>>, fillcolor="#E6F2EA", color="#2E7D4F"];
+  MS [label=<<b>model specification</b>>, fillcolor="#E6F2EA", color="#2E7D4F"];
   DD [label=<<b>design document,</b><br/><font point-size="11" color="#55575F">then a decision record</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
   AD [label=<<b>architecture description,</b><br/><font point-size="11" color="#55575F">with system diagrams</font>>, fillcolor="#E6F2EA", color="#2E7D4F"];
   PR [label=<<b>write it to the principles</b>>, fillcolor="#FFFFFF", color="#3D434B"];
   RUN [label=<<b>python3 &lt;reader-ergonomics&gt;/checks/run.py .</b>>, fillcolor="#FFFFFF", color="#3D434B"];
   Q -> AL [label=" an algorithm"];
+  Q -> MS [label=" an optimisation model"];
   Q -> DD [label=" a change to agree on"];
   Q -> AD [label=" a whole system"];
-  {rank=same; AL; DD; AD}
+  {rank=same; AL; MS; DD; AD}
   AL -> PR;
+  MS -> PR;
   DD -> PR;
   AD -> PR;
   PR -> RUN;

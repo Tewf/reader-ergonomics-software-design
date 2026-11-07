@@ -21,7 +21,7 @@ that test it, and a plan for whoever implements it.
 | Problem | one sentence: what is computed, from what | define before use (reader-ergonomics) | convention |
 | Interface | each input and output with its type, unit and range | Hoare 1969; Meyer 1992 | convention, untested |
 | Contract | the precondition the caller ensures and the postcondition the code ensures | Hoare 1969; Meyer 1992. In code, methods with assertions had fewer defects, a small effect (Casalnuovo 2015); strong specifications found more bugs (Polikarpova 2013) | convention for the form; measured, observational and one group, for the effect |
-| Technique | names the design technique and says why it fits | the taxonomy of Levitin 1999 (brute force, divide, decrease, transform and conquer); no test of any taxonomy was found | argued, untested |
+| Technique | names the design technique and says why it fits | the taxonomy of Levitin 1999 (brute force, divide, decrease, transform and conquer); reduction to a known model added, since students under-use reduction (Liu 2024b, secondary); no test of any taxonomy was found | argued, untested |
 | Steps | constrained, code-like pseudocode | code-like design text beat prose for coding and debugging time, partly through naming (Boehm-Davis 1983) | measured, old and small |
 | Invariants | one per loop, with the variant that shows it ends | Hoare 1969 (the rule of iteration, without termination); Furia 2014; derived with the program in Dijkstra 1975 | convention, untested |
 | Cost | time and space, worst case, with the size named | textbook convention (Cormen 2003) | convention |
@@ -59,7 +59,7 @@ gives the comparison it should face. Each key (Author Year) is listed in the [bi
 - Precondition: <what the caller ensures; the algorithm may assume it>.
 - Postcondition: <what holds on return, in terms of the inputs>.
 
-**Technique.** <brute force | divide and conquer | decrease and conquer | transform and conquer | other>,
+**Technique.** <brute force | divide and conquer | decrease and conquer | transform and conquer | reduction to a known model | other>,
 because <one reason>.
 
 **Steps.**

@@ -27,7 +27,7 @@ def load(name: str):
     return module
 
 
-specs, docs, keys = load("algorithm_specs"), load("design_docs"), load("diagram_keys")
+specs, docs, keys, models = load("algorithm_specs"), load("design_docs"), load("diagram_keys"), load("model_specs")
 
 SPEC = """# Lower bound
 
@@ -100,6 +100,38 @@ flowchart LR
 """
 
 
+MODEL = """# Students to projects
+
+**Shape:** [model specification](../shapes/model-specification.md)
+
+**Problem.** Place the most students.
+
+**Sets and data.** I, J, w, q.
+
+**Variables.** x[i][j], binary.
+
+**Objective.** maximise the sum of x.
+
+**Constraints.**
+- For each i: sum_j x[i][j] <= 1: "one project per student".
+- For each j: sum_i x[i][j] <= q[j]: "a project takes its places".
+
+**Relaxation.** Exact, a bipartite incidence matrix.
+
+**Examples.**
+
+| Instance | Optimum |
+|---|---|
+| none | 0 |
+| one pair | 1 |
+| four students | 3 |
+
+**Properties.** The optimum is at most the number of students.
+
+**Plan.** Tests, then the LP.
+"""
+
+
 class LocalShapeChecks(unittest.TestCase):
     def setUp(self) -> None:
         self.root = Path(tempfile.mkdtemp())
@@ -132,6 +164,22 @@ class LocalShapeChecks(unittest.TestCase):
     def test_too_few_examples_warn(self) -> None:
         few = SPEC.replace("| [1], 0 | 0 |\n| [1], 2 | 1 |\n", "")
         self.assertIn(("warning", "only 1 example(s): start with the edge cases"), self.run_check(specs, "spec.md", few))
+
+    def test_a_complete_model_specification_passes(self) -> None:
+        self.assertEqual(self.run_check(models, "model.md", MODEL), [])
+
+    def test_a_constraint_without_its_sentence_fails(self) -> None:
+        found = self.run_check(models, "model.md", MODEL.replace(': "one project per student"', ""))
+        self.assertTrue(any("carry no quoted sentence" in message for _, message in found), found)
+
+    def test_a_relaxation_without_a_verdict_fails(self) -> None:
+        found = self.run_check(models, "model.md", MODEL.replace("Exact, a bipartite", "A bipartite"))
+        self.assertTrue(any("neither exact" in message for _, message in found), found)
+
+    def test_constraints_before_the_variables_fail(self) -> None:
+        text = MODEL.replace("**Variables.** x[i][j], binary.\n\n", "").replace("**Relaxation.**", "**Variables.** x[i][j], binary.\n\n**Relaxation.**")
+        found = self.run_check(models, "model.md", text)
+        self.assertTrue(any("define them first" in message for _, message in found), found)
 
     def test_a_complete_design_document_passes(self) -> None:
         self.assertEqual(self.run_check(docs, "doc.md", DOC), [])

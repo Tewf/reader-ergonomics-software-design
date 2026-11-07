@@ -626,3 +626,17 @@ path = "principles/structure/by-the-readers-questions.md"
 question = "the name 'readers questions' and the opening are far apart in meaning (0.17): does the name predict the content?"
 file = "9055afb3ffac"
 answer = "Yes: the title, `Order a description by the reader's questions`, is the name's own words, and the claim says the description follows its readers' questions in order. The distance comes from the opening's grade line, about a controlled experiment, which the embedding reads with the claim."
+
+[[answer]]
+check = "co-change"
+path = "README.md"
+question = "changed together with shapes/README.md in 5 commits (100% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "444981b176f2"
+answer = "No: each new shape is listed in both, the front page in one line and the shapes index in full; the front page already links the index, as `[`shapes/`](shapes/)` shows, and the two serve different readers."
+
+[[answer]]
+check = "co-change"
+path = "checks/test_local_checks.py"
+question = "changed together with shapes/decision-record.md in 3 commits (75% of the rarer one's), from another folder: should they share a folder, or should one link to the other?"
+file = "2f9dd6debb02"
+answer = "No: the tests changed with the decision-record shape while this repository's decision-records check enforced its rules; that check now lives in the standard, and this file holds the `Tests of the local checks in checks/local/` only, so the two no longer change together."

@@ -5,7 +5,7 @@
 
 Comment écrire les documents qui conçoivent un logiciel avant le code : spécifications d'algorithme, documents de
 conception, registres de décisions, descriptions d'architecture et schémas de système. Chacun est écrit au moindre
-coût pour son lecteur, et pour celui qui l'implémente, une personne ou un modèle. Cinq formes donnent à chaque document son squelette, et
+coût pour son lecteur, et pour celui qui l'implémente, une personne ou un modèle. Six formes donnent à chaque document son squelette, et
 des vérifications trouvent un document par sa ligne Shape, si bien qu'elles tournent en CI.
 
 Trois revues lisent aussi les preuves sur la conception elle-même. La conception d'algorithmes nourrit deux principes
@@ -50,13 +50,14 @@ Dix minutes, sans lire les revues. La forme générale de la famille est le
 | Vérification | Vérifie | Échoue quand |
 |---|---|---|
 | `algorithm-specs` | les spécifications d'algorithme | une partie manque, le contrat vient après les étapes, les étapes sont en prose, ou les exemples ne sont pas un tableau |
+| `model-specs` | les spécifications de modèle | une partie manque, les variables viennent après les contraintes, une contrainte n'a pas sa phrase, la relaxation ne tranche pas, ou les exemples ne sont pas un tableau |
 | `design-docs` | les documents de conception | la décision demandée ne vient pas en premier, une partie requise ou le tableau des alternatives manque |
 | `diagram-keys` | chaque schéma Mermaid | un schéma n'a pas de légende, ou une flèche de flowchart pas d'étiquette |
 | `decision-records`, dans reader-ergonomics | les registres de `decisions/` | un registre enfreint l'une des quatre règles de la forme |
 
-> **État :** version 1.0.0, publiée le 2026-10-29. Sept revues de littérature sont écrites dans [evidence/](evidence/), chacune une revue
+> **État :** version 1.1.0, publiée le 2026-11-07. Sept revues de littérature sont écrites dans [evidence/](evidence/), chacune une revue
 > multivocale de la recherche et de la pratique ; leurs chiffres ont été vérifiés contre les sources primaires (quatre
-> le 2026-10-28, trois le 2026-10-29). Les cinq formes sont écrites (spécification d'algorithme, document de
+> le 2026-10-28, trois le 2026-10-29). Les six formes sont écrites (spécification d'algorithme, spécification de modèle, document de
 > conception, registre de décision, description d'architecture, schéma de système), ainsi que huit principes et la
 > [fiche](standard.md). C'est une lecture informelle de la recherche et de la pratique publiées : pas une norme
 > officielle, pas une étude évaluée par des pairs, pas un résultat nouveau, et pas une revendication de l'état de l'art.
@@ -81,7 +82,7 @@ La même que reader-ergonomics, pour qu'un lecteur de l'un s'oriente dans l'autr
 - `evidence/<sujet>/` : une revue de littérature par sujet, un fichier par étape (cadre, revue, état de l'art,
   positionnement, arguments contre, référence de comparaison), plus son protocole et ses sources notées ; sept sujets ;
 - [`shapes/`](shapes/) : le squelette de chaque type de document, avec les preuves derrière chaque partie. Sont
-  écrites la [spécification d'algorithme](shapes/algorithm-specification.md), le
+  écrites la [spécification d'algorithme](shapes/algorithm-specification.md), la [spécification de modèle](shapes/model-specification.md), le
   [document de conception](shapes/design-document.md), le [registre de décision](shapes/decision-record.md), la
   [description d'architecture](shapes/architecture-description.md) et le [schéma de système](shapes/system-diagram.md) ;
 - [`examples/`](examples/README.md) : un document rempli de chaque forme, vérifié en CI comme un autre ;

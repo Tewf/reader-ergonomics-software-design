@@ -20,3 +20,4 @@ in what context, the options that lost and why, and the consequences. A record i
 | [0010](0010-move-to-reader-ergonomics-1-11-0.md) | check against reader-ergonomics v1.11.0, and key two Microsoft pages by a title word | accepted, 2026-10-29 |
 | [0011](0011-move-to-reader-ergonomics-1-12-0.md) | check against reader-ergonomics v1.12.0, whose standard-pin holds the workflows to one commit | accepted, 2026-10-29 |
 | [0012](0012-move-to-reader-ergonomics-1-13-0.md) | check against reader-ergonomics v1.13.0, whose standard-links replaces the local check | accepted, 2026-10-29 |
+| [0013](0013-a-model-specification-beside-the-algorithm-specification.md) | a sixth shape, the model specification, and reduction to a known model among the techniques | accepted, 2026-11-07 |

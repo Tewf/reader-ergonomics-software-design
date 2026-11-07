@@ -3,9 +3,9 @@
 [![Checks against reader-ergonomics](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml/badge.svg?branch=master)](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/checks.yml?query=branch%3Amaster)
 [![Site](https://github.com/Tewf/reader-ergonomics-software-design/actions/workflows/pages.yml/badge.svg)](https://tewf.github.io/reader-ergonomics-software-design/)
 
-How to write the documents that design software before the code: algorithm specifications, design documents,
-decision records, architecture descriptions and system diagrams. Each is written at the least cost to its reader, and
-to whoever implements it, a person or a model. Five shapes give each document its skeleton, and checks find a document by its
+How to write the documents that design software before the code: algorithm specifications, model specifications,
+design documents, decision records, architecture descriptions and system diagrams. Each is written at the least cost to its reader, and
+to whoever implements it, a person or a model. Six shapes give each document its skeleton, and checks find a document by its
 Shape line, so they can run in CI.
 
 Three reviews also read the evidence on designing itself. Algorithm design feeds two principles and the algorithm
@@ -49,13 +49,14 @@ Ten minutes, without reading the reviews. The family's general form is reader-er
 | Check | Checks | Fails when |
 |---|---|---|
 | `algorithm-specs` | algorithm specifications | a part is missing, the contract comes after the steps, the steps are prose, or the examples are no table |
+| `model-specs` | model specifications | a part is missing, the variables come after the constraints, a constraint carries no sentence, the relaxation gives no verdict, or the examples are no table |
 | `design-docs` | design documents | the decision asked is not first, a required part or the table of alternatives is missing |
 | `diagram-keys` | every Mermaid diagram | a diagram has no key, or a flowchart arrow no label |
 | `decision-records`, in reader-ergonomics | the records in `decisions/` | a record breaks one of the shape's four rules |
 
-> **Status:** version 1.0.0, released 2026-10-29. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
-> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). The five shapes are
-> written (algorithm specification, design document, decision record, architecture description, system diagram); eight principles and the [card](standard.md) are written. It is an
+> **Status:** version 1.1.0, released 2026-11-07. Seven literature reviews are written in [evidence/](evidence/), each a multivocal review of
+> research and practice; their numbers were audited against the primary sources (four on 2026-10-28, three on 2026-10-29). The six shapes are
+> written (algorithm specification, model specification, design document, decision record, architecture description, system diagram); eight principles and the [card](standard.md) are written. It is an
 > informal reading of published research and practice: not an official standard, not a peer-reviewed study, not a new result, and not a claim to the
 > state of the art.
 >
@@ -79,7 +80,7 @@ The same as reader-ergonomics, so a reader of one can find their way in the othe
 - `evidence/<topic>/`: one literature review per topic, one file per step (frame, review, state of the art, position,
   the case against, baseline), plus its protocol and its scored sources; written for seven topics;
 - [`shapes/`](shapes/): the skeleton of each kind of document, with the evidence behind each part. Written are the
-  [algorithm specification](shapes/algorithm-specification.md), the [design document](shapes/design-document.md), the
+  [algorithm specification](shapes/algorithm-specification.md), the [model specification](shapes/model-specification.md), the [design document](shapes/design-document.md), the
   [decision record](shapes/decision-record.md), the [architecture description](shapes/architecture-description.md) and the
   [system diagram](shapes/system-diagram.md);
 - [`examples/`](examples/README.md): a filled document of each shape, checked in CI like any other;

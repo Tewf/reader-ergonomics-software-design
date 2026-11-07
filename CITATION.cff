@@ -5,11 +5,11 @@ message: >-
   Anthropic. It is not an official standard, not peer-reviewed,
   and not a new result.
 title: "reader-ergonomics-software-design"
-version: 1.0.1
-date-released: 2026-11-04
+version: 1.1.0
+date-released: 2026-11-07
 abstract: >-
   How to write the documents that design software before the code: algorithm
-  specifications, design documents, decision records, architecture
+  specifications, model specifications, design documents, decision records, architecture
   descriptions and system diagrams, with shapes, graded principles and checks
   to run in CI.
   An extension of reader-ergonomics: the evidence and document shapes

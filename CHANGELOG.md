@@ -4,6 +4,13 @@ Every release of this repository, newest first, in the form of [Keep a Changelog
 A move of the pin on reader-ergonomics is an entry here, not a decision record; the earlier moves are records 0002 to
 0012 in [decisions/](decisions/README.md).
 
+## [1.1.0] - 2026-11-07
+
+### Added
+
+- A sixth shape, the [model specification](shapes/model-specification.md): an optimisation model stated before it is coded for a solver, with the local check `model-specs` and an example ([decision 0013](decisions/0013-a-model-specification-beside-the-algorithm-specification.md)).
+- "Reduction to a known model" among the techniques of the algorithm specification.
+
 ## [1.0.1] - 2026-11-04
 
 ### Changed
