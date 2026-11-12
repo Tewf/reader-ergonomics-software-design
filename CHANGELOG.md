@@ -4,6 +4,12 @@ Every release of this repository, newest first, in the form of [Keep a Changelog
 A move of the pin on reader-ergonomics is an entry here, not a decision record; the earlier moves are records 0002 to
 0012 in [decisions/](decisions/README.md).
 
+## [Unreleased]
+
+### Changed
+
+- Pinned reader-ergonomics v1.24.2 (`65e4247`), from v1.22.1 (`0206e69`): fixes that remove false findings in the sentence, term and figure checks, and `[defined_terms] cues`.
+
 ## [1.1.1] - 2026-11-07
 
 ### Changed

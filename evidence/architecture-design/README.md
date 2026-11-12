@@ -48,10 +48,10 @@ Method: a multivocal literature review (Garousi 2019, [evidence method](../READM
 
 ## General principles linked, not reviewed again
 
-- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/overview-first.md)
-- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/document/define-before-use.md)
-- [Group by what changes together](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/collection/group-by-what-changes-together.md)
-- [Dependencies without cycles](https://github.com/Tewf/reader-ergonomics/blob/0206e6950b4feca4194af419384c217863b7c42e/principles/collection/dependencies-without-cycles.md)
+- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/document/overview-first.md)
+- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/document/define-before-use.md)
+- [Group by what changes together](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/collection/group-by-what-changes-together.md)
+- [Dependencies without cycles](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/collection/dependencies-without-cycles.md)
 
 ## Boundaries
 
