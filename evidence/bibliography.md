@@ -622,7 +622,7 @@ Every work cited anywhere in this repository, once. The text cites `Author Year`
 | Ubl 2020 | Ubl (2020). Design docs at Google. Personal account of company practice | https://www.industrialempathy.com/posts/design-docs-at-google/ |
 | UH 2026 | University of Houston COSC 3320 (undated, read 2026). Pythonic pseudocode guide and tutorial, marked work in progress | https://www2.cs.uh.edu/~panruowu/2024f_cosc3320/pythonic.html |
 | Ulate-Caballero 2021 | Ulate-Caballero, Berrocal-Rojas, Hidalgo-Cespedes (2021). Concurrent and distributed pseudocode: a systematic literature review. CLEI | https://doi.org/10.1109/clei53233.2021.9640222 |
-| UW 2023 | University of Washington CSE 421 (2023). Writing pseudocode. Course handout, author not named | https://courses.cs.washington.edu/courses/cse421/23au/resources/pseudocode.pdf |
+| UW 2023 | University of Washington CSE 421 (2023). Writing pseudocode. Course handout, author not named; the course host answers on IPv6 only, so the Internet Archive's capture of 26 May 2025 is cited | https://web.archive.org/web/20250526034252/https://courses.cs.washington.edu/courses/cse421/23au/resources/pseudocode.pdf |
 | van der Linden 2018 | van der Linden, Hadar, Zamansky (2018). What practitioners really want: requirements for visual notations in conceptual modeling. Software and Systems Modeling 18(3) | https://doi.org/10.1007/s10270-018-0667-4 |
 | van der Linden 2019 | van der Linden, Hadar (2019). A systematic literature review of applications of the Physics of Notations. IEEE TSE | https://doi.org/10.1109/TSE.2018.2802910 |
 | van Heesch 2012 | van Heesch, Avgeriou, Hilliard (2012). Forces on architecture decisions: a viewpoint. WICSA/ECSA | https://doi.org/10.1109/wicsa-ecsa.212.18 |
