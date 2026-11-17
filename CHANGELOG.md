@@ -8,6 +8,7 @@ A move of the pin on reader-ergonomics is an entry here, not a decision record; 
 
 ### Changed
 
+- Pinned reader-ergonomics v1.24.3 (`722cfa4`), from v1.24.2 (`65e4247`): a SICI DOI is read whole and a server error (HTTP 5xx) is a warning, since the weekly online run failed on 16 Nov. on references that the pinned checks misread or could not reach.
 - Pinned reader-ergonomics v1.24.2 (`65e4247`), from v1.22.1 (`0206e69`): fixes that remove false findings in the sentence, term and figure checks, and `[defined_terms] cues`.
 
 ## [1.1.1] - 2026-11-07

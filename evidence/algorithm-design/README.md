@@ -46,7 +46,7 @@ Method: a multivocal literature review after Garousi 2019 (see the [evidence met
 
 ## General principles linked, not reviewed again
 
-- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/document/define-before-use.md)
-- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/document/worked-examples-with-subgoals.md)
-- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/principles/document/overview-first.md)
-- Readers that are models: the [LLM readers review](https://github.com/Tewf/reader-ergonomics/tree/65e42472e2d4cbfd994c2a86e95a47e5dc7301ca/evidence/llm-readers).
+- [Define before use](https://github.com/Tewf/reader-ergonomics/blob/722cfa4b0ad65968e2c7e6fdc07057c9bab0e172/principles/document/define-before-use.md)
+- [Worked examples with subgoals](https://github.com/Tewf/reader-ergonomics/blob/722cfa4b0ad65968e2c7e6fdc07057c9bab0e172/principles/document/worked-examples-with-subgoals.md)
+- [Overview first](https://github.com/Tewf/reader-ergonomics/blob/722cfa4b0ad65968e2c7e6fdc07057c9bab0e172/principles/document/overview-first.md)
+- Readers that are models: the [LLM readers review](https://github.com/Tewf/reader-ergonomics/tree/722cfa4b0ad65968e2c7e6fdc07057c9bab0e172/evidence/llm-readers).
